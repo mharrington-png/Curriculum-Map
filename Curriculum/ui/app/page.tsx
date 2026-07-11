@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
+import type { CSSProperties } from "react";
 
 type Occurrence = {
   skill_id: string; course_id: string; course: string; unit_id: string;
@@ -31,7 +32,7 @@ export default function Home() {
   const [objectiveId, setObjectiveId] = useState<string | null>(null);
   const [skillId, setSkillId] = useState<string | null>(null);
   const [query, setQuery] = useState("");
-  const [overview, setOverview] = useState(false);
+  const [courseIndex, setCourseIndex] = useState(0);
 
   useEffect(() => { fetch(`${import.meta.env.BASE_URL}data/skill_progressions.json`).then(r => r.json()).then(setSkills); }, []);
   const allOccurrences = useMemo(() => skills.flatMap(s => s.occurrences), [skills]);
@@ -47,37 +48,52 @@ export default function Home() {
   const selectedSkill = skills.find(s => s.skill_id === skillId);
   const searchResults = query.length > 1 ? skills.filter(s => `${s.skill_id} ${s.description}`.toLowerCase().includes(query.toLowerCase())).slice(0, 8) : [];
 
-  const openCourse = (id: string) => { setCourseId(id); setObjectiveId(null); setSkillId(null); setOverview(false); };
-  const goHome = () => { setCourseId(null); setObjectiveId(null); setSkillId(null); setOverview(false); };
+  const openCourse = (id: string) => { setCourseId(id); setObjectiveId(null); setSkillId(null); };
+  const goHome = () => { setCourseId(null); setObjectiveId(null); setSkillId(null); };
+  const flipCourse = (direction: number) => setCourseIndex(current => (current + direction + courses.length) % courses.length);
 
   return <main>
     <header className="topbar">
       <button className="brand" onClick={goHome}><span className="brandmark">M</span><span>Middlesex Mathematics<small>Curriculum Map</small></span></button>
-      <nav><button onClick={() => { goHome(); setOverview(true); }}>Curriculum overview</button><button onClick={goHome}>Courses</button></nav>
+      <nav><button onClick={goHome}>Courses</button></nav>
       <div className="searchbox">
         <span>⌕</span><input aria-label="Search skills" placeholder="Search a skill…" value={query} onChange={e => setQuery(e.target.value)} />
-        {searchResults.length > 0 && <div className="searchresults">{searchResults.map(s => <button key={s.skill_id} onClick={() => { setSkillId(s.skill_id); setQuery(""); setOverview(false); }}>{s.description}<small>{s.skill_id}</small></button>)}</div>}
+        {searchResults.length > 0 && <div className="searchresults">{searchResults.map(s => <button key={s.skill_id} onClick={() => { setSkillId(s.skill_id); setQuery(""); }}>{s.description}<small>{s.skill_id}</small></button>)}</div>}
       </div>
     </header>
 
-    {!courseId && !skillId && !overview && <div className="shell">
-      <section className="hero"><p className="eyebrow">Department curriculum</p><h1>Start with a course.<br/><em>See how the learning connects.</em></h1><p>Explore learning objectives, the skills that support them, and how mathematical tools grow across the full course sequence.</p></section>
-      <section className="coursegrid">{courses.map(c => {
-        const occ = allOccurrences.filter(o => o.course_id === c.id);
-        const objectiveCount = new Set(occ.map(o => o.objective_id)).size;
-        const skillCount = new Set(occ.map(o => o.skill_id)).size;
-        return <button className={`coursecard ${c.tone}`} key={c.id} onClick={() => openCourse(c.id)}><span className="coursecode">{c.label}</span><h2>{c.title}</h2><div className="cardstats"><span><b>{objectiveCount || "—"}</b> objectives</span><span><b>{skillCount || "—"}</b> skills</span></div><span className="open">Open course <b>→</b></span></button>;
-      })}</section>
-      <button className="overviewcallout" onClick={() => setOverview(true)}><span><b>Zoom out to the full curriculum</b><small>See explicit progression and the carried-forward student toolkit across all six courses.</small></span><b>View curriculum →</b></button>
+    {!courseId && !skillId && <div className="shell landing">
+      <section className="hero"><p className="eyebrow">Department curriculum</p><h1>Choose a course.<br/><em>Follow the learning.</em></h1><p>Flip through the curriculum, then open a course to explore its topical units, learning objectives, and supporting skills.</p></section>
+      <section className="rolodex" aria-label="Course selector" onKeyDown={e => { if (e.key === "ArrowLeft") flipCourse(-1); if (e.key === "ArrowRight") flipCourse(1); }} tabIndex={0}>
+        <button className="flip prev" onClick={() => flipCourse(-1)} aria-label="Previous course"><span>←</span><small>Previous</small></button>
+        <div className="cardstack">{courses.map((c, i) => {
+          let offset = i - courseIndex;
+          if (offset > courses.length / 2) offset -= courses.length;
+          if (offset < -courses.length / 2) offset += courses.length;
+          const occ = allOccurrences.filter(o => o.course_id === c.id);
+          const objectiveCount = new Set(occ.map(o => o.objective_id)).size;
+          const skillCount = new Set(occ.map(o => o.skill_id)).size;
+          return <article className={`rolocard ${c.tone} ${offset === 0 ? "current" : ""}`} style={{"--offset": offset} as CSSProperties} key={c.id} aria-hidden={offset !== 0}>
+            <span className="coursecode">{c.label}</span><h2>{c.title}</h2><p>Explore this course by topical unit, then trace each objective to the skills students use.</p>
+            <div className="cardstats"><span><b>{objectiveCount || "—"}</b> objectives</span><span><b>{skillCount || "—"}</b> skills</span></div>
+            <button className="opencourse" onClick={() => openCourse(c.id)} tabIndex={offset === 0 ? 0 : -1}>Open {c.label} <b>→</b></button>
+          </article>;
+        })}</div>
+        <button className="flip next" onClick={() => flipCourse(1)} aria-label="Next course"><small>Next</small><span>→</span></button>
+      </section>
+      <div className="coursepicker" aria-label="Select a course">{courses.map((c, i) => <button className={i === courseIndex ? "active" : ""} key={c.id} onClick={() => setCourseIndex(i)} aria-label={`Show ${c.label}`}>{c.label}</button>)}</div>
+      <p className="infinitehint">Keep flipping — the course sequence wraps around in either direction.</p>
     </div>}
 
-    {overview && <div className="shell page"><button className="back" onClick={goHome}>← All courses</button><p className="eyebrow">Curriculum overview</p><h1>The student toolkit grows forward.</h1><p className="lede">Skills remain available after they are introduced, even when a later course does not name them explicitly.</p><div className="sequence">{courses.map((c, i) => <button key={c.id} onClick={() => openCourse(c.id)}><span>{i + 1}</span><b>{c.label}</b><small>{c.title}</small></button>)}</div><div className="legendpanel"><h2>How to read the pathway</h2><div className="legend"><span className="dot introduce">I</span> Introduce <span className="dot reinforce">R</span> Reinforce <span className="dot deepen">D</span> Deepen <span className="dot apply">A</span> Apply <span className="carryline"/> Carried forward</div></div></div>}
-
     {courseId && selectedCourse && !skillId && <div className="shell page">
-      <button className="back" onClick={goHome}>← All courses</button><div className="coursehead"><div><p className="eyebrow">{selectedCourse.label}</p><h1>{selectedCourse.title}</h1><p>{objectives.length} learning objectives · {new Set(courseOccurrences.map(o => o.skill_id)).size} supporting skills</p></div><button onClick={() => { setCourseId(null); setOverview(true); }}>View in curriculum →</button></div>
+      <button className="back" onClick={goHome}>← All courses</button><div className="coursehead"><div><p className="eyebrow">{selectedCourse.label}</p><h1>{selectedCourse.title}</h1><p>{objectives.length} learning objectives · {new Set(courseOccurrences.map(o => o.skill_id)).size} supporting skills</p></div></div>
       <div className="coursebody"><section className="objectiveList">{["review","required","extension"].map(priority => {
         const group = objectives.filter(o => o.priority === priority); if (!group.length) return null;
-        return <div key={priority}><h2 className={`priority ${priority}`}>{priority}</h2>{group.map(o => <button className={objectiveId === o.objective_id ? "objective active" : "objective"} key={o.objective_id} onClick={() => setObjectiveId(o.objective_id)}><small>{o.unit_title}</small><span>{o.objective}</span><b>→</b></button>)}</div>;
+        const units = [...new Map(group.map(o => [o.unit_id, { id: o.unit_id, title: o.unit_title }])).values()];
+        return <div className="priorityGroup" key={priority}><div className="priorityHead"><h2 className={`priority ${priority}`}>{priority}</h2><span>{units.length} {units.length === 1 ? "unit" : "units"} · {group.length} objectives</span></div>{units.map(unit => {
+          const unitObjectives = group.filter(o => o.unit_id === unit.id);
+          return <details className="unit" key={unit.id}><summary><span><small>{priority} unit</small><b>{unit.title}</b></span><span className="unitCount">{unitObjectives.length} objectives</span><span className="chevron">⌄</span></summary><div className="unitObjectives">{unitObjectives.map(o => <button className={objectiveId === o.objective_id ? "objective active" : "objective"} key={o.objective_id} onClick={() => setObjectiveId(o.objective_id)}><small>{o.objective_id}</small><span>{o.objective}</span><b>→</b></button>)}</div></details>;
+        })}</div>;
       })}</section>
       <aside className="detail">{selectedObjective ? <><p className="eyebrow">Objective detail</p><code>{selectedObjective.objective_id}</code><h2>{selectedObjective.objective}</h2><p className="muted">Supporting skills</p>{objectiveSkills.map(s => { const o=s.occurrences.find(x=>x.objective_id===objectiveId)!; return <button className="skillrow" key={s.skill_id} onClick={()=>setSkillId(s.skill_id)}><span className={`dot ${o.progression}`}>{roleLabel[o.progression][0]}</span><span>{s.description}<small>{roleLabel[o.progression]} · {o.relationship}</small></span><b>→</b></button>})}</> : <div className="empty"><span>↳</span><h2>Select an objective</h2><p>See its supporting skills and place in the curriculum progression.</p></div>}</aside></div>
     </div>}
