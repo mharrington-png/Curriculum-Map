@@ -22,6 +22,7 @@ const courses = [
   { id: "M22", label: "Math 22", title: "Geometry", tone: "gold" },
   { id: "M31", label: "Math 31", title: "Advanced Algebra", tone: "violet" },
   { id: "M32", label: "Math 32", title: "Trigonometry", tone: "coral" },
+  { id: "M39", label: "Math 39", title: "Precalculus with Data Analysis", tone: "crimson" },
   { id: "M49", label: "Math 49", title: "Precalculus with Limits", tone: "navy" },
 ];
 const roleLabel = { introduce: "Introduce", reinforce: "Reinforce", deepen: "Deepen", apply: "Apply" };
@@ -30,6 +31,7 @@ const requiredUnitOrder: Record<string, string[]> = {
   M22: ["M22-BAS", "M22-CON", "M22-SIM", "M22-RGT", "M22-QUAD", "M22-CIR"],
   M31: ["M31-LIN", "M31-FUN", "M31-EXP", "M31-LOG", "M31-QUAD"],
   M32: ["M32-FND", "M32-TRI", "M32-IDN", "M32-INV", "M32-GRF", "M32-POL"],
+  M39: ["M39-LIN", "M39-EXP", "M39-POW", "M39-POL", "M39-STA", "M39-PRO"],
   M49: ["M49-OPS", "M49-ALG", "M49-LIM", "M49-SS"],
 };
 

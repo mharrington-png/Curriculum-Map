@@ -1,0 +1,232 @@
+schema_version: 1
+course_id: M39
+status: draft
+evidence:
+  - source: source_documents/Math 39/Unit #1 review - 2025 Spring.pdf
+  - source: source_documents/Math 39/Unit #2 review No LogLinear.pdf
+  - source: source_documents/Math 39/Unit #3 review.pdf
+  - source: source_documents/Math 39/Unit #4 review.pdf
+  - source: source_documents/Math 39/M39 exam Review - part 1.pdf
+  - source: source_documents/Math 39/M39 exam Review Part 2.pdf
+  - source: source_documents/Math 39/M39 exam Review Part 3.pdf
+  - source: https://spot.pcc.edu/math/mathinsociety/chap_three_describing_data.html
+
+mappings:
+  - objective_id: M39-LIN-001
+    skills:
+      - {skill_id: SK-FUNC-AROC, relationship: required, progression: deepen}
+      - {skill_id: SK-FUNC-AROC-INTERPRET, relationship: required, progression: deepen}
+      - {skill_id: SK-REP-UNITS, relationship: required, progression: apply}
+  - objective_id: M39-LIN-002
+    skills:
+      - {skill_id: SK-LIN-SLOPE-POINTS, relationship: required, progression: apply}
+      - {skill_id: SK-LIN-FORM-CONVERT, relationship: required, progression: reinforce}
+      - {skill_id: SK-MODEL-PARAMETER-INTERPRET, relationship: required, progression: apply}
+  - objective_id: M39-LIN-003
+    skills:
+      - {skill_id: SK-REG-LINEAR-FIT, relationship: required, progression: introduce}
+      - {skill_id: SK-MODEL-PARAMETER-INTERPRET, relationship: required, progression: deepen}
+  - objective_id: M39-LIN-004
+    skills:
+      - {skill_id: SK-REG-CORRELATION-INTERPRET, relationship: required, progression: introduce}
+  - objective_id: M39-LIN-005
+    skills:
+      - {skill_id: SK-REG-RESIDUAL-CALCULATE, relationship: required, progression: introduce}
+      - {skill_id: SK-REG-RESIDUAL-PLOT, relationship: required, progression: introduce}
+      - {skill_id: SK-REG-MODEL-ASSESS, relationship: required, progression: introduce}
+  - objective_id: M39-LIN-006
+    skills:
+      - {skill_id: SK-FUNC-INPUT-OUTPUT, relationship: required, progression: apply}
+      - {skill_id: SK-FUNC-SOLVE-INPUT, relationship: required, progression: deepen}
+      - {skill_id: SK-MODEL-VALID-DOMAIN, relationship: required, progression: apply}
+
+  - objective_id: M39-EXP-001
+    skills:
+      - {skill_id: SK-EXP-DIFFERENCE-RATIO, relationship: required, progression: deepen}
+      - {skill_id: SK-FUNC-COMPARE-REP, relationship: required, progression: deepen}
+  - objective_id: M39-EXP-002
+    skills:
+      - {skill_id: SK-EXP-MODEL-TWO-POINTS, relationship: required, progression: deepen}
+      - {skill_id: SK-EXP-MODEL-TABLE, relationship: required, progression: deepen}
+      - {skill_id: SK-EXP-MODEL-CONTEXT, relationship: required, progression: deepen}
+  - objective_id: M39-EXP-003
+    skills:
+      - {skill_id: SK-EXP-PERCENT-FACTOR, relationship: required, progression: deepen}
+      - {skill_id: SK-MODEL-PARAMETER-INTERPRET, relationship: required, progression: deepen}
+  - objective_id: M39-EXP-004
+    skills:
+      - {skill_id: SK-LOG-DOUBLING-HALF, relationship: required, progression: deepen}
+      - {skill_id: SK-EXP-MODEL-CONTEXT, relationship: prerequisite, progression: apply}
+  - objective_id: M39-EXP-005
+    skills:
+      - {skill_id: SK-LOG-SOLVE-EXP, relationship: required, progression: reinforce}
+      - {skill_id: SK-LOG-SOLVE-LOG, relationship: required, progression: reinforce}
+      - {skill_id: SK-LOG-DOMAIN-CHECK, relationship: required, progression: apply}
+  - objective_id: M39-EXP-006
+    skills:
+      - {skill_id: SK-REG-EXPONENTIAL-FIT, relationship: required, progression: introduce}
+      - {skill_id: SK-REG-MODEL-ASSESS, relationship: required, progression: deepen}
+      - {skill_id: SK-REG-CORRELATION-INTERPRET, relationship: method-dependent, progression: apply}
+  - objective_id: M39-EXP-007
+    skills:
+      - {skill_id: SK-MODEL-FAMILY-SELECT, relationship: required, progression: introduce}
+      - {skill_id: SK-REG-MODEL-ASSESS, relationship: required, progression: deepen}
+      - {skill_id: SK-FUNC-COMPARE-REP, relationship: required, progression: apply}
+
+  - objective_id: M39-POW-001
+    skills:
+      - {skill_id: SK-VAR-POWER, relationship: required, progression: introduce}
+      - {skill_id: SK-POWER-PARAMETER-INTERPRET, relationship: required, progression: introduce}
+  - objective_id: M39-POW-002
+    skills:
+      - {skill_id: SK-POWER-CONSTRUCT, relationship: required, progression: introduce}
+      - {skill_id: SK-ALG-VARIABLE-ISOLATE, relationship: prerequisite, progression: apply}
+  - objective_id: M39-POW-003
+    skills:
+      - {skill_id: SK-POWER-SHAPE, relationship: required, progression: introduce}
+      - {skill_id: SK-POWER-END-BEHAVIOR, relationship: required, progression: introduce}
+      - {skill_id: SK-REP-FORMULA-GRAPH, relationship: required, progression: deepen}
+  - objective_id: M39-POW-004
+    skills:
+      - {skill_id: SK-VAR-DIRECT, relationship: required, progression: introduce}
+      - {skill_id: SK-VAR-INVERSE, relationship: required, progression: introduce}
+      - {skill_id: SK-VAR-POWER, relationship: required, progression: deepen}
+  - objective_id: M39-POW-005
+    skills:
+      - {skill_id: SK-EXP-RATIONAL, relationship: required, progression: apply}
+      - {skill_id: SK-ALG-INVERSE-OPERATIONS, relationship: prerequisite, progression: apply}
+  - objective_id: M39-POW-006
+    skills:
+      - {skill_id: SK-FUNC-DOMINANCE, relationship: required, progression: introduce}
+      - {skill_id: SK-FUNC-COMPARE-REP, relationship: required, progression: deepen}
+  - objective_id: M39-POW-007
+    skills:
+      - {skill_id: SK-REG-POWER-FIT, relationship: required, progression: introduce}
+      - {skill_id: SK-POWER-PARAMETER-INTERPRET, relationship: required, progression: deepen}
+      - {skill_id: SK-REG-CORRELATION-INTERPRET, relationship: method-dependent, progression: apply}
+  - objective_id: M39-POW-008
+    skills:
+      - {skill_id: SK-REG-LOG-LINEARIZE, relationship: method-dependent, progression: introduce}
+      - {skill_id: SK-REG-LOGLOG-LINEARIZE, relationship: method-dependent, progression: introduce}
+      - {skill_id: SK-REG-UNLINEARIZE, relationship: required, progression: introduce}
+
+  - objective_id: M39-POL-001
+    skills:
+      - {skill_id: SK-FUNC-OPERATIONS, relationship: required, progression: introduce}
+      - {skill_id: SK-FUNC-INPUT-OUTPUT, relationship: prerequisite, progression: apply}
+  - objective_id: M39-POL-002
+    skills:
+      - {skill_id: SK-FUNC-OPERATIONS, relationship: prerequisite, progression: deepen}
+      - {skill_id: SK-FUNC-DOMAIN-COMBINE, relationship: required, progression: introduce}
+  - objective_id: M39-POL-003
+    skills:
+      - {skill_id: SK-POLY-END-BEHAVIOR, relationship: required, progression: introduce}
+      - {skill_id: SK-POLY-VOCABULARY, relationship: prerequisite, progression: apply}
+  - objective_id: M39-POL-004
+    skills:
+      - {skill_id: SK-POLY-ZEROS, relationship: required, progression: deepen}
+      - {skill_id: SK-POLY-MULTIPLICITY, relationship: required, progression: introduce}
+  - objective_id: M39-POL-005
+    skills:
+      - {skill_id: SK-POLY-END-BEHAVIOR, relationship: required, progression: deepen}
+      - {skill_id: SK-POLY-MULTIPLICITY, relationship: required, progression: deepen}
+  - objective_id: M39-POL-006
+    skills:
+      - {skill_id: SK-POLY-CONSTRUCT, relationship: required, progression: deepen}
+      - {skill_id: SK-POLY-ZEROS, relationship: prerequisite, progression: apply}
+      - {skill_id: SK-POLY-MULTIPLICITY, relationship: prerequisite, progression: apply}
+  - objective_id: M39-POL-007
+    skills:
+      - {skill_id: SK-POLY-END-BEHAVIOR, relationship: required, progression: deepen}
+      - {skill_id: SK-POLY-ZEROS, relationship: required, progression: apply}
+      - {skill_id: SK-POLY-MULTIPLICITY, relationship: required, progression: apply}
+  - objective_id: M39-POL-008
+    skills:
+      - {skill_id: SK-QUAD-MODEL-FEATURES, relationship: required, progression: deepen}
+      - {skill_id: SK-MODEL-PARAMETER-INTERPRET, relationship: required, progression: apply}
+      - {skill_id: SK-MODEL-VALID-DOMAIN, relationship: required, progression: apply}
+
+  - objective_id: M39-STA-001
+    skills:
+      - {skill_id: SK-STAT-DATA-TYPE, relationship: required, progression: introduce}
+  - objective_id: M39-STA-002
+    skills:
+      - {skill_id: SK-STAT-FREQUENCY-TABLE, relationship: required, progression: introduce}
+      - {skill_id: SK-STAT-RELATIVE-FREQUENCY, relationship: required, progression: introduce}
+  - objective_id: M39-STA-003
+    skills:
+      - {skill_id: SK-STAT-CATEGORICAL-DISPLAY, relationship: method-dependent, progression: introduce}
+      - {skill_id: SK-STAT-HISTOGRAM, relationship: required, progression: introduce}
+  - objective_id: M39-STA-004
+    skills:
+      - {skill_id: SK-STAT-GRAPH-CRITIQUE, relationship: required, progression: introduce}
+  - objective_id: M39-STA-005
+    skills:
+      - {skill_id: SK-STAT-DISTRIBUTION-SHAPE, relationship: required, progression: introduce}
+      - {skill_id: SK-STAT-OUTLIER-IDENTIFY, relationship: required, progression: introduce}
+  - objective_id: M39-STA-006
+    skills:
+      - {skill_id: SK-STAT-MEAN, relationship: required, progression: introduce}
+      - {skill_id: SK-STAT-MEDIAN, relationship: required, progression: introduce}
+      - {skill_id: SK-STAT-MODE, relationship: required, progression: introduce}
+      - {skill_id: SK-STAT-CENTER-SELECT, relationship: required, progression: introduce}
+  - objective_id: M39-STA-007
+    skills:
+      - {skill_id: SK-STAT-RANGE, relationship: required, progression: introduce}
+      - {skill_id: SK-STAT-STANDARD-DEVIATION, relationship: required, progression: introduce}
+      - {skill_id: SK-STAT-QUARTILES-IQR, relationship: required, progression: introduce}
+  - objective_id: M39-STA-008
+    skills:
+      - {skill_id: SK-STAT-FIVE-NUMBER, relationship: required, progression: introduce}
+      - {skill_id: SK-STAT-BOXPLOT, relationship: required, progression: introduce}
+  - objective_id: M39-STA-009
+    skills:
+      - {skill_id: SK-STAT-PERCENTILE, relationship: required, progression: introduce}
+      - {skill_id: SK-STAT-ZSCORE, relationship: required, progression: introduce}
+  - objective_id: M39-STA-010
+    skills:
+      - {skill_id: SK-STAT-DISTRIBUTION-COMPARE, relationship: required, progression: introduce}
+      - {skill_id: SK-STAT-DISTRIBUTION-SHAPE, relationship: prerequisite, progression: apply}
+      - {skill_id: SK-STAT-CENTER-SELECT, relationship: prerequisite, progression: apply}
+
+  - objective_id: M39-PRO-001
+    skills:
+      - {skill_id: SK-PROB-CONTINGENCY-TABLE, relationship: required, progression: introduce}
+      - {skill_id: SK-PROB-VENN-DIAGRAM, relationship: method-dependent, progression: introduce}
+  - objective_id: M39-PRO-002
+    skills:
+      - {skill_id: SK-PROB-EMPIRICAL, relationship: required, progression: introduce}
+      - {skill_id: SK-PROB-MARGINAL-JOINT, relationship: required, progression: introduce}
+      - {skill_id: SK-PROB-CONDITIONAL, relationship: required, progression: introduce}
+  - objective_id: M39-PRO-003
+    skills:
+      - {skill_id: SK-PROB-SAMPLE-SPACE, relationship: required, progression: introduce}
+  - objective_id: M39-PRO-004
+    skills:
+      - {skill_id: SK-PROB-THEORETICAL, relationship: required, progression: introduce}
+      - {skill_id: SK-PROB-SAMPLE-SPACE, relationship: prerequisite, progression: apply}
+  - objective_id: M39-PRO-005
+    skills:
+      - {skill_id: SK-PROB-COMPLEMENT, relationship: required, progression: introduce}
+  - objective_id: M39-PRO-006
+    skills:
+      - {skill_id: SK-PROB-AND, relationship: required, progression: introduce}
+      - {skill_id: SK-PROB-INDEPENDENCE, relationship: required, progression: introduce}
+      - {skill_id: SK-PROB-CONDITIONAL, relationship: method-dependent, progression: deepen}
+  - objective_id: M39-PRO-007
+    skills:
+      - {skill_id: SK-PROB-OR, relationship: required, progression: introduce}
+      - {skill_id: SK-PROB-DISJOINT, relationship: required, progression: introduce}
+  - objective_id: M39-PRO-008
+    skills:
+      - {skill_id: SK-PROB-EMPIRICAL, relationship: required, progression: deepen}
+      - {skill_id: SK-PROB-THEORETICAL, relationship: required, progression: deepen}
+      - {skill_id: SK-PROB-LARGE-NUMBERS, relationship: required, progression: introduce}
+
+  - objective_id: M39-EV-001
+    skills:
+      - {skill_id: SK-PROB-EXPECTED-VALUE, relationship: required, progression: introduce}
+  - objective_id: M39-EV-002
+    skills:
+      - {skill_id: SK-PROB-EXPECTED-VALUE, relationship: prerequisite, progression: deepen}
+      - {skill_id: SK-PROB-EXPECTED-INTERPRET, relationship: required, progression: introduce}

@@ -6,10 +6,10 @@ param(
 
 $ErrorActionPreference = 'Stop'
 $root = Split-Path -Parent $PSScriptRoot
-$courseOrder = @('M12', 'M21', 'M22', 'M31', 'M32', 'M49')
+$courseOrder = @('M12', 'M21', 'M22', 'M31', 'M32', 'M39', 'M49')
 $courseLabels = @{
     M12 = 'Math 12'; M21 = 'Math 21'; M22 = 'Math 22'
-    M31 = 'Math 31'; M32 = 'Math 32'; M49 = 'Math 49'
+    M31 = 'Math 31'; M32 = 'Math 32'; M39 = 'Math 39'; M49 = 'Math 49'
 }
 $acceptedIncoming = @{
     'SK-ALG-CROSS-MULTIPLY' = 'Inherited from middle school'
@@ -25,6 +25,11 @@ $acceptedIncoming = @{
     'SK-COORD-DISTANCE-AXIS' = 'Inherited horizontal/vertical coordinate distance'
     'SK-COORD-MIDPOINT' = 'Inherited from earlier mathematics'
 }
+$acceptedAlternateIntroductions = @(
+    'SK-FUNC-DOMAIN-COMBINE', 'SK-FUNC-OPERATIONS', 'SK-MODEL-FAMILY-SELECT',
+    'SK-POLY-END-BEHAVIOR', 'SK-POLY-MULTIPLICITY', 'SK-VAR-DIRECT',
+    'SK-VAR-INVERSE', 'SK-VAR-POWER'
+)
 
 function Resolve-OutputPath([string]$Path) {
     if ([System.IO.Path]::IsPathRooted($Path)) { return $Path }
@@ -177,7 +182,9 @@ foreach ($skill in $progressions) {
             $usedBeforeIntroduction += [pscustomobject]@{ skill = $skill; earlier = $earlierUses }
         }
     }
-    if ($introCourses.Count -gt 1) {
+    $isAcceptedM39M49Route = $acceptedAlternateIntroductions -contains $skill.skill_id -and
+        $introCourses.Count -eq 2 -and $introCourses -contains 'M39' -and $introCourses -contains 'M49'
+    if ($introCourses.Count -gt 1 -and -not $isAcceptedM39M49Route) {
         $duplicateIntroductions += [pscustomobject]@{ skill = $skill; courses = $introCourses }
     }
 
@@ -251,6 +258,14 @@ $auditLines.Add('## Information: Accepted Incoming Skills')
 $auditLines.Add('')
 foreach ($skillId in ($acceptedIncoming.Keys | Sort-Object)) {
     $auditLines.Add("- ``$skillId`` — $($acceptedIncoming[$skillId])")
+}
+$auditLines.Add('')
+$auditLines.Add('## Information: Accepted Alternate-Route Introductions')
+$auditLines.Add('')
+$auditLines.Add('Math 39 is optional between Math 32 and Math 49. These skills may be introduced in Math 39 for students who take it and independently introduced in Math 49 for students who do not.')
+$auditLines.Add('')
+foreach ($skillId in ($acceptedAlternateIntroductions | Sort-Object)) {
+    $auditLines.Add("- ``$skillId`` — introduced in both Math 39 and Math 49")
 }
 $auditLines.Add('')
 $auditLines.Add('## Information: Skills Appearing in Only One Course')

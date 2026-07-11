@@ -485,7 +485,8 @@
       "Math 12",
       "Math 21",
       "Math 22",
-      "Math 31"
+      "Math 31",
+      "Math 39"
     ],
     "occurrences": [
       {
@@ -787,6 +788,18 @@
         "objective": "I can evaluate a function or solve for an input using a graph, table, or formula.",
         "relationship": "method-dependent",
         "progression": "apply"
+      },
+      {
+        "skill_id": "SK-ALG-INVERSE-OPERATIONS",
+        "course_id": "M39",
+        "course": "Math 39",
+        "unit_id": "M39-POW",
+        "unit_title": "Power Functions and Function Comparison",
+        "priority": "required",
+        "objective_id": "M39-POW-005",
+        "objective": "I can solve equations involving integer or rational powers.",
+        "relationship": "prerequisite",
+        "progression": "apply"
       }
     ]
   },
@@ -971,6 +984,7 @@
       "Math 12",
       "Math 31",
       "Math 32",
+      "Math 39",
       "Math 49"
     ],
     "occurrences": [
@@ -1044,6 +1058,18 @@
         "objective_id": "M32-PAR-002",
         "objective": "I can eliminate a parameter to obtain a rectangular equation.",
         "relationship": "required",
+        "progression": "apply"
+      },
+      {
+        "skill_id": "SK-ALG-VARIABLE-ISOLATE",
+        "course_id": "M39",
+        "course": "Math 39",
+        "unit_id": "M39-POW",
+        "unit_title": "Power Functions and Function Comparison",
+        "priority": "required",
+        "objective_id": "M39-POW-002",
+        "objective": "I can construct a power function from two data points or a proportional relationship.",
+        "relationship": "prerequisite",
         "progression": "apply"
       },
       {
@@ -2211,7 +2237,8 @@
     "first_introduced_course": "Math 31",
     "inherited_note": null,
     "courses": [
-      "Math 31"
+      "Math 31",
+      "Math 39"
     ],
     "occurrences": [
       {
@@ -2237,6 +2264,18 @@
         "objective": "I can identify a linear function from a table, graph, or formula.",
         "relationship": "required",
         "progression": "introduce"
+      },
+      {
+        "skill_id": "SK-EXP-DIFFERENCE-RATIO",
+        "course_id": "M39",
+        "course": "Math 39",
+        "unit_id": "M39-EXP",
+        "unit_title": "Exponential Modeling",
+        "priority": "required",
+        "objective_id": "M39-EXP-001",
+        "objective": "I can distinguish linear and exponential change using rates, multipliers, tables, graphs, or contexts.",
+        "relationship": "required",
+        "progression": "deepen"
       }
     ]
   },
@@ -2284,6 +2323,7 @@
     "inherited_note": null,
     "courses": [
       "Math 31",
+      "Math 39",
       "Math 49"
     ],
     "occurrences": [
@@ -2349,6 +2389,30 @@
       },
       {
         "skill_id": "SK-EXP-MODEL-CONTEXT",
+        "course_id": "M39",
+        "course": "Math 39",
+        "unit_id": "M39-EXP",
+        "unit_title": "Exponential Modeling",
+        "priority": "required",
+        "objective_id": "M39-EXP-002",
+        "objective": "I can construct an exponential function from two data points, a table, or a context.",
+        "relationship": "required",
+        "progression": "deepen"
+      },
+      {
+        "skill_id": "SK-EXP-MODEL-CONTEXT",
+        "course_id": "M39",
+        "course": "Math 39",
+        "unit_id": "M39-EXP",
+        "unit_title": "Exponential Modeling",
+        "priority": "required",
+        "objective_id": "M39-EXP-004",
+        "objective": "I can determine and interpret doubling time or half-life from an exponential model.",
+        "relationship": "prerequisite",
+        "progression": "apply"
+      },
+      {
+        "skill_id": "SK-EXP-MODEL-CONTEXT",
         "course_id": "M49",
         "course": "Math 49",
         "unit_id": "M49-FND",
@@ -2368,7 +2432,8 @@
     "first_introduced_course": "Math 31",
     "inherited_note": null,
     "courses": [
-      "Math 31"
+      "Math 31",
+      "Math 39"
     ],
     "occurrences": [
       {
@@ -2382,6 +2447,18 @@
         "objective": "I can write an exponential function from a table, graph, or context.",
         "relationship": "method-dependent",
         "progression": "introduce"
+      },
+      {
+        "skill_id": "SK-EXP-MODEL-TABLE",
+        "course_id": "M39",
+        "course": "Math 39",
+        "unit_id": "M39-EXP",
+        "unit_title": "Exponential Modeling",
+        "priority": "required",
+        "objective_id": "M39-EXP-002",
+        "objective": "I can construct an exponential function from two data points, a table, or a context.",
+        "relationship": "required",
+        "progression": "deepen"
       }
     ]
   },
@@ -2392,7 +2469,8 @@
     "first_introduced_course": "Math 31",
     "inherited_note": null,
     "courses": [
-      "Math 31"
+      "Math 31",
+      "Math 39"
     ],
     "occurrences": [
       {
@@ -2416,6 +2494,18 @@
         "priority": "required",
         "objective_id": "M31-EXP-007",
         "objective": "I can determine an exponential formula from two points or other sufficient data.",
+        "relationship": "required",
+        "progression": "deepen"
+      },
+      {
+        "skill_id": "SK-EXP-MODEL-TWO-POINTS",
+        "course_id": "M39",
+        "course": "Math 39",
+        "unit_id": "M39-EXP",
+        "unit_title": "Exponential Modeling",
+        "priority": "required",
+        "objective_id": "M39-EXP-002",
+        "objective": "I can construct an exponential function from two data points, a table, or a context.",
         "relationship": "required",
         "progression": "deepen"
       }
@@ -2477,7 +2567,8 @@
     "first_introduced_course": "Math 31",
     "inherited_note": null,
     "courses": [
-      "Math 31"
+      "Math 31",
+      "Math 39"
     ],
     "occurrences": [
       {
@@ -2527,6 +2618,18 @@
         "objective": "I can rewrite a discrete exponential model as an equivalent continuous exponential model.",
         "relationship": "prerequisite",
         "progression": "apply"
+      },
+      {
+        "skill_id": "SK-EXP-PERCENT-FACTOR",
+        "course_id": "M39",
+        "course": "Math 39",
+        "unit_id": "M39-EXP",
+        "unit_title": "Exponential Modeling",
+        "priority": "required",
+        "objective_id": "M39-EXP-003",
+        "objective": "I can interpret the initial value, growth or decay factor, and growth or decay rate of an exponential model.",
+        "relationship": "required",
+        "progression": "deepen"
       }
     ]
   },
@@ -2760,7 +2863,8 @@
     "inherited_note": null,
     "courses": [
       "Math 21",
-      "Math 31"
+      "Math 31",
+      "Math 39"
     ],
     "occurrences": [
       {
@@ -2797,6 +2901,18 @@
         "objective_id": "M31-EXP-007",
         "objective": "I can determine an exponential formula from two points or other sufficient data.",
         "relationship": "method-dependent",
+        "progression": "apply"
+      },
+      {
+        "skill_id": "SK-EXP-RATIONAL",
+        "course_id": "M39",
+        "course": "Math 39",
+        "unit_id": "M39-POW",
+        "unit_title": "Power Functions and Function Comparison",
+        "priority": "required",
+        "objective_id": "M39-POW-005",
+        "objective": "I can solve equations involving integer or rational powers.",
+        "relationship": "required",
         "progression": "apply"
       }
     ]
@@ -3250,7 +3366,8 @@
     "inherited_note": null,
     "courses": [
       "Math 21",
-      "Math 31"
+      "Math 31",
+      "Math 39"
     ],
     "occurrences": [
       {
@@ -3300,6 +3417,18 @@
         "objective": "I can determine total change from an average rate of change over an interval.",
         "relationship": "prerequisite",
         "progression": "apply"
+      },
+      {
+        "skill_id": "SK-FUNC-AROC",
+        "course_id": "M39",
+        "course": "Math 39",
+        "unit_id": "M39-LIN",
+        "unit_title": "Linear Modeling and Residuals",
+        "priority": "required",
+        "objective_id": "M39-LIN-001",
+        "objective": "I can calculate and interpret average rate of change with appropriate units.",
+        "relationship": "required",
+        "progression": "deepen"
       }
     ]
   },
@@ -3310,7 +3439,8 @@
     "first_introduced_course": "Math 21",
     "inherited_note": null,
     "courses": [
-      "Math 21"
+      "Math 21",
+      "Math 39"
     ],
     "occurrences": [
       {
@@ -3324,6 +3454,18 @@
         "objective": "I can calculate and interpret average rate of change.",
         "relationship": "required",
         "progression": "introduce"
+      },
+      {
+        "skill_id": "SK-FUNC-AROC-INTERPRET",
+        "course_id": "M39",
+        "course": "Math 39",
+        "unit_id": "M39-LIN",
+        "unit_title": "Linear Modeling and Residuals",
+        "priority": "required",
+        "objective_id": "M39-LIN-001",
+        "objective": "I can calculate and interpret average rate of change with appropriate units.",
+        "relationship": "required",
+        "progression": "deepen"
       }
     ]
   },
@@ -3384,6 +3526,7 @@
     "courses": [
       "Math 21",
       "Math 31",
+      "Math 39",
       "Math 49"
     ],
     "occurrences": [
@@ -3420,6 +3563,42 @@
         "priority": "required",
         "objective_id": "M31-EXP-009",
         "objective": "I can compare the growth rates of two exponential functions.",
+        "relationship": "required",
+        "progression": "deepen"
+      },
+      {
+        "skill_id": "SK-FUNC-COMPARE-REP",
+        "course_id": "M39",
+        "course": "Math 39",
+        "unit_id": "M39-EXP",
+        "unit_title": "Exponential Modeling",
+        "priority": "required",
+        "objective_id": "M39-EXP-001",
+        "objective": "I can distinguish linear and exponential change using rates, multipliers, tables, graphs, or contexts.",
+        "relationship": "required",
+        "progression": "deepen"
+      },
+      {
+        "skill_id": "SK-FUNC-COMPARE-REP",
+        "course_id": "M39",
+        "course": "Math 39",
+        "unit_id": "M39-EXP",
+        "unit_title": "Exponential Modeling",
+        "priority": "required",
+        "objective_id": "M39-EXP-007",
+        "objective": "I can compare linear and exponential models and justify which is more appropriate for a data set or context.",
+        "relationship": "required",
+        "progression": "apply"
+      },
+      {
+        "skill_id": "SK-FUNC-COMPARE-REP",
+        "course_id": "M39",
+        "course": "Math 39",
+        "unit_id": "M39-POW",
+        "unit_title": "Power Functions and Function Comparison",
+        "priority": "required",
+        "objective_id": "M39-POW-006",
+        "objective": "I can compare the long-run dominance of logarithmic, power, polynomial, and exponential functions.",
         "relationship": "required",
         "progression": "deepen"
       },
@@ -3782,12 +3961,25 @@
     "skill_id": "SK-FUNC-DOMAIN-COMBINE",
     "description": "Determine the domain of a sum, difference, product, quotient, or composition.",
     "introduction_status": "mapped",
-    "first_introduced_course": "Math 49",
+    "first_introduced_course": "Math 39",
     "inherited_note": null,
     "courses": [
+      "Math 39",
       "Math 49"
     ],
     "occurrences": [
+      {
+        "skill_id": "SK-FUNC-DOMAIN-COMBINE",
+        "course_id": "M39",
+        "course": "Math 39",
+        "unit_id": "M39-POL",
+        "unit_title": "Function Combinations and Polynomials",
+        "priority": "required",
+        "objective_id": "M39-POL-002",
+        "objective": "I can determine where a combination of functions is positive, zero, or undefined.",
+        "relationship": "required",
+        "progression": "introduce"
+      },
       {
         "skill_id": "SK-FUNC-DOMAIN-COMBINE",
         "course_id": "M49",
@@ -4063,6 +4255,30 @@
     ]
   },
   {
+    "skill_id": "SK-FUNC-DOMINANCE",
+    "description": "Compare the long-run growth or decay of functions from different families.",
+    "introduction_status": "mapped",
+    "first_introduced_course": "Math 39",
+    "inherited_note": null,
+    "courses": [
+      "Math 39"
+    ],
+    "occurrences": [
+      {
+        "skill_id": "SK-FUNC-DOMINANCE",
+        "course_id": "M39",
+        "course": "Math 39",
+        "unit_id": "M39-POW",
+        "unit_title": "Power Functions and Function Comparison",
+        "priority": "required",
+        "objective_id": "M39-POW-006",
+        "objective": "I can compare the long-run dominance of logarithmic, power, polynomial, and exponential functions.",
+        "relationship": "required",
+        "progression": "introduce"
+      }
+    ]
+  },
+  {
     "skill_id": "SK-FUNC-INDEPENDENT-DEPENDENT",
     "description": "Identify independent and dependent variables.",
     "introduction_status": "mapped",
@@ -4097,6 +4313,7 @@
       "Math 21",
       "Math 31",
       "Math 32",
+      "Math 39",
       "Math 49"
     ],
     "occurrences": [
@@ -4302,6 +4519,30 @@
         "objective_id": "M32-PLX-001",
         "objective": "I can graph and interpret basic polar functions.",
         "relationship": "required",
+        "progression": "apply"
+      },
+      {
+        "skill_id": "SK-FUNC-INPUT-OUTPUT",
+        "course_id": "M39",
+        "course": "Math 39",
+        "unit_id": "M39-LIN",
+        "unit_title": "Linear Modeling and Residuals",
+        "priority": "required",
+        "objective_id": "M39-LIN-006",
+        "objective": "I can use a linear model to make and interpret predictions, including solving for either variable.",
+        "relationship": "required",
+        "progression": "apply"
+      },
+      {
+        "skill_id": "SK-FUNC-INPUT-OUTPUT",
+        "course_id": "M39",
+        "course": "Math 39",
+        "unit_id": "M39-POL",
+        "unit_title": "Function Combinations and Polynomials",
+        "priority": "required",
+        "objective_id": "M39-POL-001",
+        "objective": "I can add, subtract, multiply, and divide functions represented by tables, graphs, or formulas.",
+        "relationship": "prerequisite",
         "progression": "apply"
       },
       {
@@ -4887,12 +5128,37 @@
     "skill_id": "SK-FUNC-OPERATIONS",
     "description": "Add, subtract, multiply, and divide function outputs.",
     "introduction_status": "mapped",
-    "first_introduced_course": "Math 49",
+    "first_introduced_course": "Math 39",
     "inherited_note": null,
     "courses": [
+      "Math 39",
       "Math 49"
     ],
     "occurrences": [
+      {
+        "skill_id": "SK-FUNC-OPERATIONS",
+        "course_id": "M39",
+        "course": "Math 39",
+        "unit_id": "M39-POL",
+        "unit_title": "Function Combinations and Polynomials",
+        "priority": "required",
+        "objective_id": "M39-POL-001",
+        "objective": "I can add, subtract, multiply, and divide functions represented by tables, graphs, or formulas.",
+        "relationship": "required",
+        "progression": "introduce"
+      },
+      {
+        "skill_id": "SK-FUNC-OPERATIONS",
+        "course_id": "M39",
+        "course": "Math 39",
+        "unit_id": "M39-POL",
+        "unit_title": "Function Combinations and Polynomials",
+        "priority": "required",
+        "objective_id": "M39-POL-002",
+        "objective": "I can determine where a combination of functions is positive, zero, or undefined.",
+        "relationship": "prerequisite",
+        "progression": "deepen"
+      },
       {
         "skill_id": "SK-FUNC-OPERATIONS",
         "course_id": "M49",
@@ -4987,7 +5253,8 @@
     "inherited_note": null,
     "courses": [
       "Math 21",
-      "Math 31"
+      "Math 31",
+      "Math 39"
     ],
     "occurrences": [
       {
@@ -5023,6 +5290,18 @@
         "priority": "required",
         "objective_id": "M31-LIN-003",
         "objective": "I can evaluate a function or solve for an input using a graph, table, or formula.",
+        "relationship": "required",
+        "progression": "deepen"
+      },
+      {
+        "skill_id": "SK-FUNC-SOLVE-INPUT",
+        "course_id": "M39",
+        "course": "Math 39",
+        "unit_id": "M39-LIN",
+        "unit_title": "Linear Modeling and Residuals",
+        "priority": "required",
+        "objective_id": "M39-LIN-006",
+        "objective": "I can use a linear model to make and interpret predictions, including solving for either variable.",
         "relationship": "required",
         "progression": "deepen"
       }
@@ -6466,7 +6745,8 @@
     "courses": [
       "Math 12",
       "Math 21",
-      "Math 31"
+      "Math 31",
+      "Math 39"
     ],
     "occurrences": [
       {
@@ -6528,6 +6808,18 @@
         "objective": "I can write equations of horizontal, vertical, parallel, and perpendicular lines through a specified point.",
         "relationship": "required",
         "progression": "apply"
+      },
+      {
+        "skill_id": "SK-LIN-FORM-CONVERT",
+        "course_id": "M39",
+        "course": "Math 39",
+        "unit_id": "M39-LIN",
+        "unit_title": "Linear Modeling and Residuals",
+        "priority": "required",
+        "objective_id": "M39-LIN-002",
+        "objective": "I can construct a linear function from two data points, a table, a graph, or a context.",
+        "relationship": "required",
+        "progression": "reinforce"
       }
     ]
   },
@@ -6824,7 +7116,8 @@
       "Math 12",
       "Math 21",
       "Math 22",
-      "Math 31"
+      "Math 31",
+      "Math 39"
     ],
     "occurrences": [
       {
@@ -6897,6 +7190,18 @@
         "objective_id": "M31-LIN-005",
         "objective": "I can calculate average rate of change from two points.",
         "relationship": "prerequisite",
+        "progression": "apply"
+      },
+      {
+        "skill_id": "SK-LIN-SLOPE-POINTS",
+        "course_id": "M39",
+        "course": "Math 39",
+        "unit_id": "M39-LIN",
+        "unit_title": "Linear Modeling and Residuals",
+        "priority": "required",
+        "objective_id": "M39-LIN-002",
+        "objective": "I can construct a linear function from two data points, a table, a graph, or a context.",
+        "relationship": "required",
         "progression": "apply"
       }
     ]
@@ -7055,6 +7360,7 @@
     "inherited_note": null,
     "courses": [
       "Math 31",
+      "Math 39",
       "Math 49"
     ],
     "occurrences": [
@@ -7096,6 +7402,18 @@
       },
       {
         "skill_id": "SK-LOG-DOMAIN-CHECK",
+        "course_id": "M39",
+        "course": "Math 39",
+        "unit_id": "M39-EXP",
+        "unit_title": "Exponential Modeling",
+        "priority": "required",
+        "objective_id": "M39-EXP-005",
+        "objective": "I can solve exponential and logarithmic equations in modeling contexts.",
+        "relationship": "required",
+        "progression": "apply"
+      },
+      {
+        "skill_id": "SK-LOG-DOMAIN-CHECK",
         "course_id": "M49",
         "course": "Math 49",
         "unit_id": "M49-FND",
@@ -7115,7 +7433,8 @@
     "first_introduced_course": "Math 31",
     "inherited_note": null,
     "courses": [
-      "Math 31"
+      "Math 31",
+      "Math 39"
     ],
     "occurrences": [
       {
@@ -7129,6 +7448,18 @@
         "objective": "I can calculate and interpret doubling time or half-life.",
         "relationship": "required",
         "progression": "introduce"
+      },
+      {
+        "skill_id": "SK-LOG-DOUBLING-HALF",
+        "course_id": "M39",
+        "course": "Math 39",
+        "unit_id": "M39-EXP",
+        "unit_title": "Exponential Modeling",
+        "priority": "required",
+        "objective_id": "M39-EXP-004",
+        "objective": "I can determine and interpret doubling time or half-life from an exponential model.",
+        "relationship": "required",
+        "progression": "deepen"
       }
     ]
   },
@@ -7323,6 +7654,7 @@
     "inherited_note": null,
     "courses": [
       "Math 31",
+      "Math 39",
       "Math 49"
     ],
     "occurrences": [
@@ -7400,6 +7732,18 @@
       },
       {
         "skill_id": "SK-LOG-SOLVE-EXP",
+        "course_id": "M39",
+        "course": "Math 39",
+        "unit_id": "M39-EXP",
+        "unit_title": "Exponential Modeling",
+        "priority": "required",
+        "objective_id": "M39-EXP-005",
+        "objective": "I can solve exponential and logarithmic equations in modeling contexts.",
+        "relationship": "required",
+        "progression": "reinforce"
+      },
+      {
+        "skill_id": "SK-LOG-SOLVE-EXP",
         "course_id": "M49",
         "course": "Math 49",
         "unit_id": "M49-FND",
@@ -7420,6 +7764,7 @@
     "inherited_note": null,
     "courses": [
       "Math 31",
+      "Math 39",
       "Math 49"
     ],
     "occurrences": [
@@ -7461,6 +7806,18 @@
       },
       {
         "skill_id": "SK-LOG-SOLVE-LOG",
+        "course_id": "M39",
+        "course": "Math 39",
+        "unit_id": "M39-EXP",
+        "unit_title": "Exponential Modeling",
+        "priority": "required",
+        "objective_id": "M39-EXP-005",
+        "objective": "I can solve exponential and logarithmic equations in modeling contexts.",
+        "relationship": "required",
+        "progression": "reinforce"
+      },
+      {
+        "skill_id": "SK-LOG-SOLVE-LOG",
         "course_id": "M49",
         "course": "Math 49",
         "unit_id": "M49-FND",
@@ -7477,12 +7834,25 @@
     "skill_id": "SK-MODEL-FAMILY-SELECT",
     "description": "Select a function family whose behavior fits a table, graph, or context.",
     "introduction_status": "mapped",
-    "first_introduced_course": "Math 49",
+    "first_introduced_course": "Math 39",
     "inherited_note": null,
     "courses": [
+      "Math 39",
       "Math 49"
     ],
     "occurrences": [
+      {
+        "skill_id": "SK-MODEL-FAMILY-SELECT",
+        "course_id": "M39",
+        "course": "Math 39",
+        "unit_id": "M39-EXP",
+        "unit_title": "Exponential Modeling",
+        "priority": "required",
+        "objective_id": "M39-EXP-007",
+        "objective": "I can compare linear and exponential models and justify which is more appropriate for a data set or context.",
+        "relationship": "required",
+        "progression": "introduce"
+      },
       {
         "skill_id": "SK-MODEL-FAMILY-SELECT",
         "course_id": "M49",
@@ -7507,6 +7877,7 @@
       "Math 21",
       "Math 31",
       "Math 32",
+      "Math 39",
       "Math 49"
     ],
     "occurrences": [
@@ -7656,6 +8027,54 @@
       },
       {
         "skill_id": "SK-MODEL-PARAMETER-INTERPRET",
+        "course_id": "M39",
+        "course": "Math 39",
+        "unit_id": "M39-EXP",
+        "unit_title": "Exponential Modeling",
+        "priority": "required",
+        "objective_id": "M39-EXP-003",
+        "objective": "I can interpret the initial value, growth or decay factor, and growth or decay rate of an exponential model.",
+        "relationship": "required",
+        "progression": "deepen"
+      },
+      {
+        "skill_id": "SK-MODEL-PARAMETER-INTERPRET",
+        "course_id": "M39",
+        "course": "Math 39",
+        "unit_id": "M39-LIN",
+        "unit_title": "Linear Modeling and Residuals",
+        "priority": "required",
+        "objective_id": "M39-LIN-002",
+        "objective": "I can construct a linear function from two data points, a table, a graph, or a context.",
+        "relationship": "required",
+        "progression": "apply"
+      },
+      {
+        "skill_id": "SK-MODEL-PARAMETER-INTERPRET",
+        "course_id": "M39",
+        "course": "Math 39",
+        "unit_id": "M39-LIN",
+        "unit_title": "Linear Modeling and Residuals",
+        "priority": "required",
+        "objective_id": "M39-LIN-003",
+        "objective": "I can fit a linear regression model to data using technology and interpret its parameters.",
+        "relationship": "required",
+        "progression": "deepen"
+      },
+      {
+        "skill_id": "SK-MODEL-PARAMETER-INTERPRET",
+        "course_id": "M39",
+        "course": "Math 39",
+        "unit_id": "M39-POL",
+        "unit_title": "Function Combinations and Polynomials",
+        "priority": "required",
+        "objective_id": "M39-POL-008",
+        "objective": "I can build and optimize a polynomial model in a geometric or economic context.",
+        "relationship": "required",
+        "progression": "apply"
+      },
+      {
+        "skill_id": "SK-MODEL-PARAMETER-INTERPRET",
         "course_id": "M49",
         "course": "Math 49",
         "unit_id": "M49-ALG",
@@ -7716,6 +8135,7 @@
       "Math 22",
       "Math 31",
       "Math 32",
+      "Math 39",
       "Math 49"
     ],
     "occurrences": [
@@ -7824,6 +8244,30 @@
         "priority": "required",
         "objective_id": "M32-GRF-005",
         "objective": "I can construct a sinusoidal model from contextual information or data.",
+        "relationship": "required",
+        "progression": "apply"
+      },
+      {
+        "skill_id": "SK-MODEL-VALID-DOMAIN",
+        "course_id": "M39",
+        "course": "Math 39",
+        "unit_id": "M39-LIN",
+        "unit_title": "Linear Modeling and Residuals",
+        "priority": "required",
+        "objective_id": "M39-LIN-006",
+        "objective": "I can use a linear model to make and interpret predictions, including solving for either variable.",
+        "relationship": "required",
+        "progression": "apply"
+      },
+      {
+        "skill_id": "SK-MODEL-VALID-DOMAIN",
+        "course_id": "M39",
+        "course": "Math 39",
+        "unit_id": "M39-POL",
+        "unit_title": "Function Combinations and Polynomials",
+        "priority": "required",
+        "objective_id": "M39-POL-008",
+        "objective": "I can build and optimize a polynomial model in a geometric or economic context.",
         "relationship": "required",
         "progression": "apply"
       },
@@ -8619,6 +9063,7 @@
     "inherited_note": null,
     "courses": [
       "Math 31",
+      "Math 39",
       "Math 49"
     ],
     "occurrences": [
@@ -8633,6 +9078,18 @@
         "objective": "I can construct a quadratic function from specified zeros, a vertex, or graphical information.",
         "relationship": "required",
         "progression": "introduce"
+      },
+      {
+        "skill_id": "SK-POLY-CONSTRUCT",
+        "course_id": "M39",
+        "course": "Math 39",
+        "unit_id": "M39-POL",
+        "unit_title": "Function Combinations and Polynomials",
+        "priority": "required",
+        "objective_id": "M39-POL-006",
+        "objective": "I can construct a polynomial function from specified zeros, multiplicities, and a point.",
+        "relationship": "required",
+        "progression": "deepen"
       },
       {
         "skill_id": "SK-POLY-CONSTRUCT",
@@ -8713,12 +9170,49 @@
     "skill_id": "SK-POLY-END-BEHAVIOR",
     "description": "Infer polynomial end behavior from degree and leading coefficient.",
     "introduction_status": "mapped",
-    "first_introduced_course": "Math 49",
+    "first_introduced_course": "Math 39",
     "inherited_note": null,
     "courses": [
+      "Math 39",
       "Math 49"
     ],
     "occurrences": [
+      {
+        "skill_id": "SK-POLY-END-BEHAVIOR",
+        "course_id": "M39",
+        "course": "Math 39",
+        "unit_id": "M39-POL",
+        "unit_title": "Function Combinations and Polynomials",
+        "priority": "required",
+        "objective_id": "M39-POL-003",
+        "objective": "I can determine polynomial end behavior from degree and leading coefficient.",
+        "relationship": "required",
+        "progression": "introduce"
+      },
+      {
+        "skill_id": "SK-POLY-END-BEHAVIOR",
+        "course_id": "M39",
+        "course": "Math 39",
+        "unit_id": "M39-POL",
+        "unit_title": "Function Combinations and Polynomials",
+        "priority": "required",
+        "objective_id": "M39-POL-005",
+        "objective": "I can estimate a polynomial's possible degree from its zeros, turning points, inflection points, and end behavior.",
+        "relationship": "required",
+        "progression": "deepen"
+      },
+      {
+        "skill_id": "SK-POLY-END-BEHAVIOR",
+        "course_id": "M39",
+        "course": "Math 39",
+        "unit_id": "M39-POL",
+        "unit_title": "Function Combinations and Polynomials",
+        "priority": "required",
+        "objective_id": "M39-POL-007",
+        "objective": "I can match polynomial formulas and graphs using intercepts, multiplicity, degree, and end behavior.",
+        "relationship": "required",
+        "progression": "deepen"
+      },
       {
         "skill_id": "SK-POLY-END-BEHAVIOR",
         "course_id": "M49",
@@ -8823,12 +9317,61 @@
     "skill_id": "SK-POLY-MULTIPLICITY",
     "description": "Relate zero multiplicity to local graph behavior.",
     "introduction_status": "mapped",
-    "first_introduced_course": "Math 49",
+    "first_introduced_course": "Math 39",
     "inherited_note": null,
     "courses": [
+      "Math 39",
       "Math 49"
     ],
     "occurrences": [
+      {
+        "skill_id": "SK-POLY-MULTIPLICITY",
+        "course_id": "M39",
+        "course": "Math 39",
+        "unit_id": "M39-POL",
+        "unit_title": "Function Combinations and Polynomials",
+        "priority": "required",
+        "objective_id": "M39-POL-004",
+        "objective": "I can identify zeros and multiplicities and relate them to polynomial graph behavior.",
+        "relationship": "required",
+        "progression": "introduce"
+      },
+      {
+        "skill_id": "SK-POLY-MULTIPLICITY",
+        "course_id": "M39",
+        "course": "Math 39",
+        "unit_id": "M39-POL",
+        "unit_title": "Function Combinations and Polynomials",
+        "priority": "required",
+        "objective_id": "M39-POL-005",
+        "objective": "I can estimate a polynomial's possible degree from its zeros, turning points, inflection points, and end behavior.",
+        "relationship": "required",
+        "progression": "deepen"
+      },
+      {
+        "skill_id": "SK-POLY-MULTIPLICITY",
+        "course_id": "M39",
+        "course": "Math 39",
+        "unit_id": "M39-POL",
+        "unit_title": "Function Combinations and Polynomials",
+        "priority": "required",
+        "objective_id": "M39-POL-006",
+        "objective": "I can construct a polynomial function from specified zeros, multiplicities, and a point.",
+        "relationship": "prerequisite",
+        "progression": "apply"
+      },
+      {
+        "skill_id": "SK-POLY-MULTIPLICITY",
+        "course_id": "M39",
+        "course": "Math 39",
+        "unit_id": "M39-POL",
+        "unit_title": "Function Combinations and Polynomials",
+        "priority": "required",
+        "objective_id": "M39-POL-007",
+        "objective": "I can match polynomial formulas and graphs using intercepts, multiplicity, degree, and end behavior.",
+        "relationship": "required",
+        "progression": "apply"
+      },
       {
         "skill_id": "SK-POLY-MULTIPLICITY",
         "course_id": "M49",
@@ -8877,6 +9420,7 @@
       "Math 12",
       "Math 21",
       "Math 31",
+      "Math 39",
       "Math 49"
     ],
     "occurrences": [
@@ -9014,6 +9558,18 @@
       },
       {
         "skill_id": "SK-POLY-VOCABULARY",
+        "course_id": "M39",
+        "course": "Math 39",
+        "unit_id": "M39-POL",
+        "unit_title": "Function Combinations and Polynomials",
+        "priority": "required",
+        "objective_id": "M39-POL-003",
+        "objective": "I can determine polynomial end behavior from degree and leading coefficient.",
+        "relationship": "prerequisite",
+        "progression": "apply"
+      },
+      {
+        "skill_id": "SK-POLY-VOCABULARY",
         "course_id": "M49",
         "course": "Math 49",
         "unit_id": "M49-ALG",
@@ -9034,6 +9590,7 @@
     "inherited_note": null,
     "courses": [
       "Math 21",
+      "Math 39",
       "Math 49"
     ],
     "occurrences": [
@@ -9048,6 +9605,42 @@
         "objective": "I can solve a quadratic equation by factoring.",
         "relationship": "required",
         "progression": "introduce"
+      },
+      {
+        "skill_id": "SK-POLY-ZEROS",
+        "course_id": "M39",
+        "course": "Math 39",
+        "unit_id": "M39-POL",
+        "unit_title": "Function Combinations and Polynomials",
+        "priority": "required",
+        "objective_id": "M39-POL-004",
+        "objective": "I can identify zeros and multiplicities and relate them to polynomial graph behavior.",
+        "relationship": "required",
+        "progression": "deepen"
+      },
+      {
+        "skill_id": "SK-POLY-ZEROS",
+        "course_id": "M39",
+        "course": "Math 39",
+        "unit_id": "M39-POL",
+        "unit_title": "Function Combinations and Polynomials",
+        "priority": "required",
+        "objective_id": "M39-POL-006",
+        "objective": "I can construct a polynomial function from specified zeros, multiplicities, and a point.",
+        "relationship": "prerequisite",
+        "progression": "apply"
+      },
+      {
+        "skill_id": "SK-POLY-ZEROS",
+        "course_id": "M39",
+        "course": "Math 39",
+        "unit_id": "M39-POL",
+        "unit_title": "Function Combinations and Polynomials",
+        "priority": "required",
+        "objective_id": "M39-POL-007",
+        "objective": "I can match polynomial formulas and graphs using intercepts, multiplicity, degree, and end behavior.",
+        "relationship": "required",
+        "progression": "apply"
       },
       {
         "skill_id": "SK-POLY-ZEROS",
@@ -9084,6 +9677,534 @@
         "objective": "I can sketch and analyze a polynomial function using intercepts, multiplicity, and end behavior.",
         "relationship": "required",
         "progression": "apply"
+      }
+    ]
+  },
+  {
+    "skill_id": "SK-POWER-CONSTRUCT",
+    "description": "Determine a power function from two points or a proportional relationship.",
+    "introduction_status": "mapped",
+    "first_introduced_course": "Math 39",
+    "inherited_note": null,
+    "courses": [
+      "Math 39"
+    ],
+    "occurrences": [
+      {
+        "skill_id": "SK-POWER-CONSTRUCT",
+        "course_id": "M39",
+        "course": "Math 39",
+        "unit_id": "M39-POW",
+        "unit_title": "Power Functions and Function Comparison",
+        "priority": "required",
+        "objective_id": "M39-POW-002",
+        "objective": "I can construct a power function from two data points or a proportional relationship.",
+        "relationship": "required",
+        "progression": "introduce"
+      }
+    ]
+  },
+  {
+    "skill_id": "SK-POWER-END-BEHAVIOR",
+    "description": "Determine power-function behavior as the input approaches zero or positive or negative infinity.",
+    "introduction_status": "mapped",
+    "first_introduced_course": "Math 39",
+    "inherited_note": null,
+    "courses": [
+      "Math 39"
+    ],
+    "occurrences": [
+      {
+        "skill_id": "SK-POWER-END-BEHAVIOR",
+        "course_id": "M39",
+        "course": "Math 39",
+        "unit_id": "M39-POW",
+        "unit_title": "Power Functions and Function Comparison",
+        "priority": "required",
+        "objective_id": "M39-POW-003",
+        "objective": "I can relate the sign and size of k and p to the shape, domain behavior, and end behavior of a power function.",
+        "relationship": "required",
+        "progression": "introduce"
+      }
+    ]
+  },
+  {
+    "skill_id": "SK-POWER-PARAMETER-INTERPRET",
+    "description": "Interpret the coefficient and exponent in a power function.",
+    "introduction_status": "mapped",
+    "first_introduced_course": "Math 39",
+    "inherited_note": null,
+    "courses": [
+      "Math 39"
+    ],
+    "occurrences": [
+      {
+        "skill_id": "SK-POWER-PARAMETER-INTERPRET",
+        "course_id": "M39",
+        "course": "Math 39",
+        "unit_id": "M39-POW",
+        "unit_title": "Power Functions and Function Comparison",
+        "priority": "required",
+        "objective_id": "M39-POW-001",
+        "objective": "I can identify a power function and interpret the parameters in y = kx^p.",
+        "relationship": "required",
+        "progression": "introduce"
+      },
+      {
+        "skill_id": "SK-POWER-PARAMETER-INTERPRET",
+        "course_id": "M39",
+        "course": "Math 39",
+        "unit_id": "M39-POW",
+        "unit_title": "Power Functions and Function Comparison",
+        "priority": "required",
+        "objective_id": "M39-POW-007",
+        "objective": "I can fit a power regression model and interpret its parameters and correlation evidence.",
+        "relationship": "required",
+        "progression": "deepen"
+      }
+    ]
+  },
+  {
+    "skill_id": "SK-POWER-SHAPE",
+    "description": "Relate the coefficient and exponent of a power function to its graph shape.",
+    "introduction_status": "mapped",
+    "first_introduced_course": "Math 39",
+    "inherited_note": null,
+    "courses": [
+      "Math 39"
+    ],
+    "occurrences": [
+      {
+        "skill_id": "SK-POWER-SHAPE",
+        "course_id": "M39",
+        "course": "Math 39",
+        "unit_id": "M39-POW",
+        "unit_title": "Power Functions and Function Comparison",
+        "priority": "required",
+        "objective_id": "M39-POW-003",
+        "objective": "I can relate the sign and size of k and p to the shape, domain behavior, and end behavior of a power function.",
+        "relationship": "required",
+        "progression": "introduce"
+      }
+    ]
+  },
+  {
+    "skill_id": "SK-PROB-AND",
+    "description": "Calculate the probability of a compound and event.",
+    "introduction_status": "mapped",
+    "first_introduced_course": "Math 39",
+    "inherited_note": null,
+    "courses": [
+      "Math 39"
+    ],
+    "occurrences": [
+      {
+        "skill_id": "SK-PROB-AND",
+        "course_id": "M39",
+        "course": "Math 39",
+        "unit_id": "M39-PRO",
+        "unit_title": "Probability",
+        "priority": "required",
+        "objective_id": "M39-PRO-006",
+        "objective": "I can calculate probabilities of compound 'and' events and distinguish independent from dependent events.",
+        "relationship": "required",
+        "progression": "introduce"
+      }
+    ]
+  },
+  {
+    "skill_id": "SK-PROB-COMPLEMENT",
+    "description": "Use the complement rule to calculate probability.",
+    "introduction_status": "mapped",
+    "first_introduced_course": "Math 39",
+    "inherited_note": null,
+    "courses": [
+      "Math 39"
+    ],
+    "occurrences": [
+      {
+        "skill_id": "SK-PROB-COMPLEMENT",
+        "course_id": "M39",
+        "course": "Math 39",
+        "unit_id": "M39-PRO",
+        "unit_title": "Probability",
+        "priority": "required",
+        "objective_id": "M39-PRO-005",
+        "objective": "I can use complements to calculate probabilities.",
+        "relationship": "required",
+        "progression": "introduce"
+      }
+    ]
+  },
+  {
+    "skill_id": "SK-PROB-CONDITIONAL",
+    "description": "Calculate and interpret a conditional probability.",
+    "introduction_status": "mapped",
+    "first_introduced_course": "Math 39",
+    "inherited_note": null,
+    "courses": [
+      "Math 39"
+    ],
+    "occurrences": [
+      {
+        "skill_id": "SK-PROB-CONDITIONAL",
+        "course_id": "M39",
+        "course": "Math 39",
+        "unit_id": "M39-PRO",
+        "unit_title": "Probability",
+        "priority": "required",
+        "objective_id": "M39-PRO-002",
+        "objective": "I can calculate and interpret empirical, marginal, joint, and conditional probabilities from a contingency table.",
+        "relationship": "required",
+        "progression": "introduce"
+      },
+      {
+        "skill_id": "SK-PROB-CONDITIONAL",
+        "course_id": "M39",
+        "course": "Math 39",
+        "unit_id": "M39-PRO",
+        "unit_title": "Probability",
+        "priority": "required",
+        "objective_id": "M39-PRO-006",
+        "objective": "I can calculate probabilities of compound 'and' events and distinguish independent from dependent events.",
+        "relationship": "method-dependent",
+        "progression": "deepen"
+      }
+    ]
+  },
+  {
+    "skill_id": "SK-PROB-CONTINGENCY-TABLE",
+    "description": "Construct and interpret a contingency table.",
+    "introduction_status": "mapped",
+    "first_introduced_course": "Math 39",
+    "inherited_note": null,
+    "courses": [
+      "Math 39"
+    ],
+    "occurrences": [
+      {
+        "skill_id": "SK-PROB-CONTINGENCY-TABLE",
+        "course_id": "M39",
+        "course": "Math 39",
+        "unit_id": "M39-PRO",
+        "unit_title": "Probability",
+        "priority": "required",
+        "objective_id": "M39-PRO-001",
+        "objective": "I can organize categorical data in a contingency table or Venn diagram.",
+        "relationship": "required",
+        "progression": "introduce"
+      }
+    ]
+  },
+  {
+    "skill_id": "SK-PROB-DISJOINT",
+    "description": "Determine whether events are overlapping or disjoint.",
+    "introduction_status": "mapped",
+    "first_introduced_course": "Math 39",
+    "inherited_note": null,
+    "courses": [
+      "Math 39"
+    ],
+    "occurrences": [
+      {
+        "skill_id": "SK-PROB-DISJOINT",
+        "course_id": "M39",
+        "course": "Math 39",
+        "unit_id": "M39-PRO",
+        "unit_title": "Probability",
+        "priority": "required",
+        "objective_id": "M39-PRO-007",
+        "objective": "I can calculate probabilities of compound 'or' events and distinguish overlapping from disjoint events.",
+        "relationship": "required",
+        "progression": "introduce"
+      }
+    ]
+  },
+  {
+    "skill_id": "SK-PROB-EMPIRICAL",
+    "description": "Calculate probability from observed relative frequency.",
+    "introduction_status": "mapped",
+    "first_introduced_course": "Math 39",
+    "inherited_note": null,
+    "courses": [
+      "Math 39"
+    ],
+    "occurrences": [
+      {
+        "skill_id": "SK-PROB-EMPIRICAL",
+        "course_id": "M39",
+        "course": "Math 39",
+        "unit_id": "M39-PRO",
+        "unit_title": "Probability",
+        "priority": "required",
+        "objective_id": "M39-PRO-002",
+        "objective": "I can calculate and interpret empirical, marginal, joint, and conditional probabilities from a contingency table.",
+        "relationship": "required",
+        "progression": "introduce"
+      },
+      {
+        "skill_id": "SK-PROB-EMPIRICAL",
+        "course_id": "M39",
+        "course": "Math 39",
+        "unit_id": "M39-PRO",
+        "unit_title": "Probability",
+        "priority": "required",
+        "objective_id": "M39-PRO-008",
+        "objective": "I can compare experimental and theoretical probability and explain the law of large numbers.",
+        "relationship": "required",
+        "progression": "deepen"
+      }
+    ]
+  },
+  {
+    "skill_id": "SK-PROB-EXPECTED-INTERPRET",
+    "description": "Interpret expected value as a long-run average for decision-making.",
+    "introduction_status": "mapped",
+    "first_introduced_course": "Math 39",
+    "inherited_note": null,
+    "courses": [
+      "Math 39"
+    ],
+    "occurrences": [
+      {
+        "skill_id": "SK-PROB-EXPECTED-INTERPRET",
+        "course_id": "M39",
+        "course": "Math 39",
+        "unit_id": "M39-EV",
+        "unit_title": "Expected Value",
+        "priority": "extension",
+        "objective_id": "M39-EV-002",
+        "objective": "I can interpret expected value to evaluate a game, risk, or long-run decision.",
+        "relationship": "required",
+        "progression": "introduce"
+      }
+    ]
+  },
+  {
+    "skill_id": "SK-PROB-EXPECTED-VALUE",
+    "description": "Calculate the expected value of a discrete probability situation.",
+    "introduction_status": "mapped",
+    "first_introduced_course": "Math 39",
+    "inherited_note": null,
+    "courses": [
+      "Math 39"
+    ],
+    "occurrences": [
+      {
+        "skill_id": "SK-PROB-EXPECTED-VALUE",
+        "course_id": "M39",
+        "course": "Math 39",
+        "unit_id": "M39-EV",
+        "unit_title": "Expected Value",
+        "priority": "extension",
+        "objective_id": "M39-EV-001",
+        "objective": "I can calculate the expected value of a discrete probability situation.",
+        "relationship": "required",
+        "progression": "introduce"
+      },
+      {
+        "skill_id": "SK-PROB-EXPECTED-VALUE",
+        "course_id": "M39",
+        "course": "Math 39",
+        "unit_id": "M39-EV",
+        "unit_title": "Expected Value",
+        "priority": "extension",
+        "objective_id": "M39-EV-002",
+        "objective": "I can interpret expected value to evaluate a game, risk, or long-run decision.",
+        "relationship": "prerequisite",
+        "progression": "deepen"
+      }
+    ]
+  },
+  {
+    "skill_id": "SK-PROB-INDEPENDENCE",
+    "description": "Determine whether events are independent or dependent.",
+    "introduction_status": "mapped",
+    "first_introduced_course": "Math 39",
+    "inherited_note": null,
+    "courses": [
+      "Math 39"
+    ],
+    "occurrences": [
+      {
+        "skill_id": "SK-PROB-INDEPENDENCE",
+        "course_id": "M39",
+        "course": "Math 39",
+        "unit_id": "M39-PRO",
+        "unit_title": "Probability",
+        "priority": "required",
+        "objective_id": "M39-PRO-006",
+        "objective": "I can calculate probabilities of compound 'and' events and distinguish independent from dependent events.",
+        "relationship": "required",
+        "progression": "introduce"
+      }
+    ]
+  },
+  {
+    "skill_id": "SK-PROB-LARGE-NUMBERS",
+    "description": "Explain how experimental probability stabilizes with many trials.",
+    "introduction_status": "mapped",
+    "first_introduced_course": "Math 39",
+    "inherited_note": null,
+    "courses": [
+      "Math 39"
+    ],
+    "occurrences": [
+      {
+        "skill_id": "SK-PROB-LARGE-NUMBERS",
+        "course_id": "M39",
+        "course": "Math 39",
+        "unit_id": "M39-PRO",
+        "unit_title": "Probability",
+        "priority": "required",
+        "objective_id": "M39-PRO-008",
+        "objective": "I can compare experimental and theoretical probability and explain the law of large numbers.",
+        "relationship": "required",
+        "progression": "introduce"
+      }
+    ]
+  },
+  {
+    "skill_id": "SK-PROB-MARGINAL-JOINT",
+    "description": "Calculate and interpret marginal and joint probabilities.",
+    "introduction_status": "mapped",
+    "first_introduced_course": "Math 39",
+    "inherited_note": null,
+    "courses": [
+      "Math 39"
+    ],
+    "occurrences": [
+      {
+        "skill_id": "SK-PROB-MARGINAL-JOINT",
+        "course_id": "M39",
+        "course": "Math 39",
+        "unit_id": "M39-PRO",
+        "unit_title": "Probability",
+        "priority": "required",
+        "objective_id": "M39-PRO-002",
+        "objective": "I can calculate and interpret empirical, marginal, joint, and conditional probabilities from a contingency table.",
+        "relationship": "required",
+        "progression": "introduce"
+      }
+    ]
+  },
+  {
+    "skill_id": "SK-PROB-OR",
+    "description": "Calculate the probability of a compound or event.",
+    "introduction_status": "mapped",
+    "first_introduced_course": "Math 39",
+    "inherited_note": null,
+    "courses": [
+      "Math 39"
+    ],
+    "occurrences": [
+      {
+        "skill_id": "SK-PROB-OR",
+        "course_id": "M39",
+        "course": "Math 39",
+        "unit_id": "M39-PRO",
+        "unit_title": "Probability",
+        "priority": "required",
+        "objective_id": "M39-PRO-007",
+        "objective": "I can calculate probabilities of compound 'or' events and distinguish overlapping from disjoint events.",
+        "relationship": "required",
+        "progression": "introduce"
+      }
+    ]
+  },
+  {
+    "skill_id": "SK-PROB-SAMPLE-SPACE",
+    "description": "Identify outcomes, events, and the sample space of an experiment.",
+    "introduction_status": "mapped",
+    "first_introduced_course": "Math 39",
+    "inherited_note": null,
+    "courses": [
+      "Math 39"
+    ],
+    "occurrences": [
+      {
+        "skill_id": "SK-PROB-SAMPLE-SPACE",
+        "course_id": "M39",
+        "course": "Math 39",
+        "unit_id": "M39-PRO",
+        "unit_title": "Probability",
+        "priority": "required",
+        "objective_id": "M39-PRO-003",
+        "objective": "I can identify an experiment, outcomes, events, and a sample space.",
+        "relationship": "required",
+        "progression": "introduce"
+      },
+      {
+        "skill_id": "SK-PROB-SAMPLE-SPACE",
+        "course_id": "M39",
+        "course": "Math 39",
+        "unit_id": "M39-PRO",
+        "unit_title": "Probability",
+        "priority": "required",
+        "objective_id": "M39-PRO-004",
+        "objective": "I can calculate theoretical probabilities when outcomes are equally likely.",
+        "relationship": "prerequisite",
+        "progression": "apply"
+      }
+    ]
+  },
+  {
+    "skill_id": "SK-PROB-THEORETICAL",
+    "description": "Calculate theoretical probability for equally likely outcomes.",
+    "introduction_status": "mapped",
+    "first_introduced_course": "Math 39",
+    "inherited_note": null,
+    "courses": [
+      "Math 39"
+    ],
+    "occurrences": [
+      {
+        "skill_id": "SK-PROB-THEORETICAL",
+        "course_id": "M39",
+        "course": "Math 39",
+        "unit_id": "M39-PRO",
+        "unit_title": "Probability",
+        "priority": "required",
+        "objective_id": "M39-PRO-004",
+        "objective": "I can calculate theoretical probabilities when outcomes are equally likely.",
+        "relationship": "required",
+        "progression": "introduce"
+      },
+      {
+        "skill_id": "SK-PROB-THEORETICAL",
+        "course_id": "M39",
+        "course": "Math 39",
+        "unit_id": "M39-PRO",
+        "unit_title": "Probability",
+        "priority": "required",
+        "objective_id": "M39-PRO-008",
+        "objective": "I can compare experimental and theoretical probability and explain the law of large numbers.",
+        "relationship": "required",
+        "progression": "deepen"
+      }
+    ]
+  },
+  {
+    "skill_id": "SK-PROB-VENN-DIAGRAM",
+    "description": "Represent categorical events and their overlap with a Venn diagram.",
+    "introduction_status": "mapped",
+    "first_introduced_course": "Math 39",
+    "inherited_note": null,
+    "courses": [
+      "Math 39"
+    ],
+    "occurrences": [
+      {
+        "skill_id": "SK-PROB-VENN-DIAGRAM",
+        "course_id": "M39",
+        "course": "Math 39",
+        "unit_id": "M39-PRO",
+        "unit_title": "Probability",
+        "priority": "required",
+        "objective_id": "M39-PRO-001",
+        "objective": "I can organize categorical data in a contingency table or Venn diagram.",
+        "relationship": "method-dependent",
+        "progression": "introduce"
       }
     ]
   },
@@ -10015,7 +11136,8 @@
     "inherited_note": null,
     "courses": [
       "Math 21",
-      "Math 31"
+      "Math 31",
+      "Math 39"
     ],
     "occurrences": [
       {
@@ -10039,6 +11161,18 @@
         "priority": "required",
         "objective_id": "M31-QUAD-007",
         "objective": "I can create and interpret a quadratic trajectory model.",
+        "relationship": "required",
+        "progression": "deepen"
+      },
+      {
+        "skill_id": "SK-QUAD-MODEL-FEATURES",
+        "course_id": "M39",
+        "course": "Math 39",
+        "unit_id": "M39-POL",
+        "unit_title": "Function Combinations and Polynomials",
+        "priority": "required",
+        "objective_id": "M39-POL-008",
+        "objective": "I can build and optimize a polynomial model in a geometric or economic context.",
         "relationship": "required",
         "progression": "deepen"
       }
@@ -10880,6 +12014,294 @@
     ]
   },
   {
+    "skill_id": "SK-REG-CORRELATION-INTERPRET",
+    "description": "Interpret the sign and magnitude of a correlation coefficient in context.",
+    "introduction_status": "mapped",
+    "first_introduced_course": "Math 39",
+    "inherited_note": null,
+    "courses": [
+      "Math 39"
+    ],
+    "occurrences": [
+      {
+        "skill_id": "SK-REG-CORRELATION-INTERPRET",
+        "course_id": "M39",
+        "course": "Math 39",
+        "unit_id": "M39-EXP",
+        "unit_title": "Exponential Modeling",
+        "priority": "required",
+        "objective_id": "M39-EXP-006",
+        "objective": "I can fit an exponential regression model using technology and evaluate its fit.",
+        "relationship": "method-dependent",
+        "progression": "apply"
+      },
+      {
+        "skill_id": "SK-REG-CORRELATION-INTERPRET",
+        "course_id": "M39",
+        "course": "Math 39",
+        "unit_id": "M39-LIN",
+        "unit_title": "Linear Modeling and Residuals",
+        "priority": "required",
+        "objective_id": "M39-LIN-004",
+        "objective": "I can interpret a correlation coefficient as evidence about the direction and strength of a linear relationship.",
+        "relationship": "required",
+        "progression": "introduce"
+      },
+      {
+        "skill_id": "SK-REG-CORRELATION-INTERPRET",
+        "course_id": "M39",
+        "course": "Math 39",
+        "unit_id": "M39-POW",
+        "unit_title": "Power Functions and Function Comparison",
+        "priority": "required",
+        "objective_id": "M39-POW-007",
+        "objective": "I can fit a power regression model and interpret its parameters and correlation evidence.",
+        "relationship": "method-dependent",
+        "progression": "apply"
+      }
+    ]
+  },
+  {
+    "skill_id": "SK-REG-EXPONENTIAL-FIT",
+    "description": "Use technology to determine an exponential regression model.",
+    "introduction_status": "mapped",
+    "first_introduced_course": "Math 39",
+    "inherited_note": null,
+    "courses": [
+      "Math 39"
+    ],
+    "occurrences": [
+      {
+        "skill_id": "SK-REG-EXPONENTIAL-FIT",
+        "course_id": "M39",
+        "course": "Math 39",
+        "unit_id": "M39-EXP",
+        "unit_title": "Exponential Modeling",
+        "priority": "required",
+        "objective_id": "M39-EXP-006",
+        "objective": "I can fit an exponential regression model using technology and evaluate its fit.",
+        "relationship": "required",
+        "progression": "introduce"
+      }
+    ]
+  },
+  {
+    "skill_id": "SK-REG-LINEAR-FIT",
+    "description": "Use technology to determine a least-squares linear regression model.",
+    "introduction_status": "mapped",
+    "first_introduced_course": "Math 39",
+    "inherited_note": null,
+    "courses": [
+      "Math 39"
+    ],
+    "occurrences": [
+      {
+        "skill_id": "SK-REG-LINEAR-FIT",
+        "course_id": "M39",
+        "course": "Math 39",
+        "unit_id": "M39-LIN",
+        "unit_title": "Linear Modeling and Residuals",
+        "priority": "required",
+        "objective_id": "M39-LIN-003",
+        "objective": "I can fit a linear regression model to data using technology and interpret its parameters.",
+        "relationship": "required",
+        "progression": "introduce"
+      }
+    ]
+  },
+  {
+    "skill_id": "SK-REG-LOG-LINEARIZE",
+    "description": "Transform exponential data so that a linear model can be fit to its logarithms.",
+    "introduction_status": "mapped",
+    "first_introduced_course": "Math 39",
+    "inherited_note": null,
+    "courses": [
+      "Math 39"
+    ],
+    "occurrences": [
+      {
+        "skill_id": "SK-REG-LOG-LINEARIZE",
+        "course_id": "M39",
+        "course": "Math 39",
+        "unit_id": "M39-POW",
+        "unit_title": "Power Functions and Function Comparison",
+        "priority": "required",
+        "objective_id": "M39-POW-008",
+        "objective": "I can linearize power or exponential data and translate between the linearized and original models.",
+        "relationship": "method-dependent",
+        "progression": "introduce"
+      }
+    ]
+  },
+  {
+    "skill_id": "SK-REG-LOGLOG-LINEARIZE",
+    "description": "Transform power data so that a linear model can be fit on logarithmic axes.",
+    "introduction_status": "mapped",
+    "first_introduced_course": "Math 39",
+    "inherited_note": null,
+    "courses": [
+      "Math 39"
+    ],
+    "occurrences": [
+      {
+        "skill_id": "SK-REG-LOGLOG-LINEARIZE",
+        "course_id": "M39",
+        "course": "Math 39",
+        "unit_id": "M39-POW",
+        "unit_title": "Power Functions and Function Comparison",
+        "priority": "required",
+        "objective_id": "M39-POW-008",
+        "objective": "I can linearize power or exponential data and translate between the linearized and original models.",
+        "relationship": "method-dependent",
+        "progression": "introduce"
+      }
+    ]
+  },
+  {
+    "skill_id": "SK-REG-MODEL-ASSESS",
+    "description": "Use residual patterns and contextual evidence to judge whether a model is appropriate.",
+    "introduction_status": "mapped",
+    "first_introduced_course": "Math 39",
+    "inherited_note": null,
+    "courses": [
+      "Math 39"
+    ],
+    "occurrences": [
+      {
+        "skill_id": "SK-REG-MODEL-ASSESS",
+        "course_id": "M39",
+        "course": "Math 39",
+        "unit_id": "M39-EXP",
+        "unit_title": "Exponential Modeling",
+        "priority": "required",
+        "objective_id": "M39-EXP-006",
+        "objective": "I can fit an exponential regression model using technology and evaluate its fit.",
+        "relationship": "required",
+        "progression": "deepen"
+      },
+      {
+        "skill_id": "SK-REG-MODEL-ASSESS",
+        "course_id": "M39",
+        "course": "Math 39",
+        "unit_id": "M39-EXP",
+        "unit_title": "Exponential Modeling",
+        "priority": "required",
+        "objective_id": "M39-EXP-007",
+        "objective": "I can compare linear and exponential models and justify which is more appropriate for a data set or context.",
+        "relationship": "required",
+        "progression": "deepen"
+      },
+      {
+        "skill_id": "SK-REG-MODEL-ASSESS",
+        "course_id": "M39",
+        "course": "Math 39",
+        "unit_id": "M39-LIN",
+        "unit_title": "Linear Modeling and Residuals",
+        "priority": "required",
+        "objective_id": "M39-LIN-005",
+        "objective": "I can calculate residuals, construct a residual plot, and use its pattern to evaluate a model.",
+        "relationship": "required",
+        "progression": "introduce"
+      }
+    ]
+  },
+  {
+    "skill_id": "SK-REG-POWER-FIT",
+    "description": "Use technology to determine a power regression model.",
+    "introduction_status": "mapped",
+    "first_introduced_course": "Math 39",
+    "inherited_note": null,
+    "courses": [
+      "Math 39"
+    ],
+    "occurrences": [
+      {
+        "skill_id": "SK-REG-POWER-FIT",
+        "course_id": "M39",
+        "course": "Math 39",
+        "unit_id": "M39-POW",
+        "unit_title": "Power Functions and Function Comparison",
+        "priority": "required",
+        "objective_id": "M39-POW-007",
+        "objective": "I can fit a power regression model and interpret its parameters and correlation evidence.",
+        "relationship": "required",
+        "progression": "introduce"
+      }
+    ]
+  },
+  {
+    "skill_id": "SK-REG-RESIDUAL-CALCULATE",
+    "description": "Calculate an observed value minus its model-predicted value.",
+    "introduction_status": "mapped",
+    "first_introduced_course": "Math 39",
+    "inherited_note": null,
+    "courses": [
+      "Math 39"
+    ],
+    "occurrences": [
+      {
+        "skill_id": "SK-REG-RESIDUAL-CALCULATE",
+        "course_id": "M39",
+        "course": "Math 39",
+        "unit_id": "M39-LIN",
+        "unit_title": "Linear Modeling and Residuals",
+        "priority": "required",
+        "objective_id": "M39-LIN-005",
+        "objective": "I can calculate residuals, construct a residual plot, and use its pattern to evaluate a model.",
+        "relationship": "required",
+        "progression": "introduce"
+      }
+    ]
+  },
+  {
+    "skill_id": "SK-REG-RESIDUAL-PLOT",
+    "description": "Construct and interpret a residual plot.",
+    "introduction_status": "mapped",
+    "first_introduced_course": "Math 39",
+    "inherited_note": null,
+    "courses": [
+      "Math 39"
+    ],
+    "occurrences": [
+      {
+        "skill_id": "SK-REG-RESIDUAL-PLOT",
+        "course_id": "M39",
+        "course": "Math 39",
+        "unit_id": "M39-LIN",
+        "unit_title": "Linear Modeling and Residuals",
+        "priority": "required",
+        "objective_id": "M39-LIN-005",
+        "objective": "I can calculate residuals, construct a residual plot, and use its pattern to evaluate a model.",
+        "relationship": "required",
+        "progression": "introduce"
+      }
+    ]
+  },
+  {
+    "skill_id": "SK-REG-UNLINEARIZE",
+    "description": "Translate a linearized regression equation back to its original nonlinear form.",
+    "introduction_status": "mapped",
+    "first_introduced_course": "Math 39",
+    "inherited_note": null,
+    "courses": [
+      "Math 39"
+    ],
+    "occurrences": [
+      {
+        "skill_id": "SK-REG-UNLINEARIZE",
+        "course_id": "M39",
+        "course": "Math 39",
+        "unit_id": "M39-POW",
+        "unit_title": "Power Functions and Function Comparison",
+        "priority": "required",
+        "objective_id": "M39-POW-008",
+        "objective": "I can linearize power or exponential data and translate between the linearized and original models.",
+        "relationship": "required",
+        "progression": "introduce"
+      }
+    ]
+  },
+  {
     "skill_id": "SK-REP-FORMULA-GRAPH",
     "description": "Connect parameters in a formula to features of its graph.",
     "introduction_status": "mapped",
@@ -10889,6 +12311,7 @@
       "Math 21",
       "Math 31",
       "Math 32",
+      "Math 39",
       "Math 49"
     ],
     "occurrences": [
@@ -11050,6 +12473,18 @@
       },
       {
         "skill_id": "SK-REP-FORMULA-GRAPH",
+        "course_id": "M39",
+        "course": "Math 39",
+        "unit_id": "M39-POW",
+        "unit_title": "Power Functions and Function Comparison",
+        "priority": "required",
+        "objective_id": "M39-POW-003",
+        "objective": "I can relate the sign and size of k and p to the shape, domain behavior, and end behavior of a power function.",
+        "relationship": "required",
+        "progression": "deepen"
+      },
+      {
+        "skill_id": "SK-REP-FORMULA-GRAPH",
         "course_id": "M49",
         "course": "Math 49",
         "unit_id": "M49-FND",
@@ -11147,6 +12582,7 @@
       "Math 21",
       "Math 31",
       "Math 32",
+      "Math 39",
       "Math 49"
     ],
     "occurrences": [
@@ -11351,6 +12787,18 @@
         "priority": "required",
         "objective_id": "M32-TRI-005",
         "objective": "I can select and apply an appropriate method to solve a triangle in context.",
+        "relationship": "required",
+        "progression": "apply"
+      },
+      {
+        "skill_id": "SK-REP-UNITS",
+        "course_id": "M39",
+        "course": "Math 39",
+        "unit_id": "M39-LIN",
+        "unit_title": "Linear Modeling and Residuals",
+        "priority": "required",
+        "objective_id": "M39-LIN-001",
+        "objective": "I can calculate and interpret average rate of change with appropriate units.",
         "relationship": "required",
         "progression": "apply"
       },
@@ -12071,6 +13519,510 @@
         "priority": "required",
         "objective_id": "M22-SIM-007",
         "objective": "I can apply triangle proportionality theorems and their converses.",
+        "relationship": "required",
+        "progression": "introduce"
+      }
+    ]
+  },
+  {
+    "skill_id": "SK-STAT-BOXPLOT",
+    "description": "Construct and interpret a boxplot.",
+    "introduction_status": "mapped",
+    "first_introduced_course": "Math 39",
+    "inherited_note": null,
+    "courses": [
+      "Math 39"
+    ],
+    "occurrences": [
+      {
+        "skill_id": "SK-STAT-BOXPLOT",
+        "course_id": "M39",
+        "course": "Math 39",
+        "unit_id": "M39-STA",
+        "unit_title": "Describing Data",
+        "priority": "required",
+        "objective_id": "M39-STA-008",
+        "objective": "I can construct and interpret a five-number summary and boxplot.",
+        "relationship": "required",
+        "progression": "introduce"
+      }
+    ]
+  },
+  {
+    "skill_id": "SK-STAT-CATEGORICAL-DISPLAY",
+    "description": "Construct and interpret bar charts and pie charts.",
+    "introduction_status": "mapped",
+    "first_introduced_course": "Math 39",
+    "inherited_note": null,
+    "courses": [
+      "Math 39"
+    ],
+    "occurrences": [
+      {
+        "skill_id": "SK-STAT-CATEGORICAL-DISPLAY",
+        "course_id": "M39",
+        "course": "Math 39",
+        "unit_id": "M39-STA",
+        "unit_title": "Describing Data",
+        "priority": "required",
+        "objective_id": "M39-STA-003",
+        "objective": "I can construct and interpret bar charts, pie charts, and histograms using appropriate technology.",
+        "relationship": "method-dependent",
+        "progression": "introduce"
+      }
+    ]
+  },
+  {
+    "skill_id": "SK-STAT-CENTER-SELECT",
+    "description": "Select an appropriate measure of center based on distribution shape and context.",
+    "introduction_status": "mapped",
+    "first_introduced_course": "Math 39",
+    "inherited_note": null,
+    "courses": [
+      "Math 39"
+    ],
+    "occurrences": [
+      {
+        "skill_id": "SK-STAT-CENTER-SELECT",
+        "course_id": "M39",
+        "course": "Math 39",
+        "unit_id": "M39-STA",
+        "unit_title": "Describing Data",
+        "priority": "required",
+        "objective_id": "M39-STA-006",
+        "objective": "I can calculate and interpret mean, median, and mode and select an appropriate measure of center.",
+        "relationship": "required",
+        "progression": "introduce"
+      },
+      {
+        "skill_id": "SK-STAT-CENTER-SELECT",
+        "course_id": "M39",
+        "course": "Math 39",
+        "unit_id": "M39-STA",
+        "unit_title": "Describing Data",
+        "priority": "required",
+        "objective_id": "M39-STA-010",
+        "objective": "I can compare distributions using their shape, center, spread, and unusual features.",
+        "relationship": "prerequisite",
+        "progression": "apply"
+      }
+    ]
+  },
+  {
+    "skill_id": "SK-STAT-DATA-TYPE",
+    "description": "Classify data as categorical or quantitative.",
+    "introduction_status": "mapped",
+    "first_introduced_course": "Math 39",
+    "inherited_note": null,
+    "courses": [
+      "Math 39"
+    ],
+    "occurrences": [
+      {
+        "skill_id": "SK-STAT-DATA-TYPE",
+        "course_id": "M39",
+        "course": "Math 39",
+        "unit_id": "M39-STA",
+        "unit_title": "Describing Data",
+        "priority": "required",
+        "objective_id": "M39-STA-001",
+        "objective": "I can distinguish categorical and quantitative data.",
+        "relationship": "required",
+        "progression": "introduce"
+      }
+    ]
+  },
+  {
+    "skill_id": "SK-STAT-DISTRIBUTION-COMPARE",
+    "description": "Compare distributions using shape, center, spread, and unusual features.",
+    "introduction_status": "mapped",
+    "first_introduced_course": "Math 39",
+    "inherited_note": null,
+    "courses": [
+      "Math 39"
+    ],
+    "occurrences": [
+      {
+        "skill_id": "SK-STAT-DISTRIBUTION-COMPARE",
+        "course_id": "M39",
+        "course": "Math 39",
+        "unit_id": "M39-STA",
+        "unit_title": "Describing Data",
+        "priority": "required",
+        "objective_id": "M39-STA-010",
+        "objective": "I can compare distributions using their shape, center, spread, and unusual features.",
+        "relationship": "required",
+        "progression": "introduce"
+      }
+    ]
+  },
+  {
+    "skill_id": "SK-STAT-DISTRIBUTION-SHAPE",
+    "description": "Describe a distribution by modality, symmetry, and skewness.",
+    "introduction_status": "mapped",
+    "first_introduced_course": "Math 39",
+    "inherited_note": null,
+    "courses": [
+      "Math 39"
+    ],
+    "occurrences": [
+      {
+        "skill_id": "SK-STAT-DISTRIBUTION-SHAPE",
+        "course_id": "M39",
+        "course": "Math 39",
+        "unit_id": "M39-STA",
+        "unit_title": "Describing Data",
+        "priority": "required",
+        "objective_id": "M39-STA-005",
+        "objective": "I can describe a distribution's modality, symmetry, skewness, and outliers.",
+        "relationship": "required",
+        "progression": "introduce"
+      },
+      {
+        "skill_id": "SK-STAT-DISTRIBUTION-SHAPE",
+        "course_id": "M39",
+        "course": "Math 39",
+        "unit_id": "M39-STA",
+        "unit_title": "Describing Data",
+        "priority": "required",
+        "objective_id": "M39-STA-010",
+        "objective": "I can compare distributions using their shape, center, spread, and unusual features.",
+        "relationship": "prerequisite",
+        "progression": "apply"
+      }
+    ]
+  },
+  {
+    "skill_id": "SK-STAT-FIVE-NUMBER",
+    "description": "Determine and interpret a five-number summary.",
+    "introduction_status": "mapped",
+    "first_introduced_course": "Math 39",
+    "inherited_note": null,
+    "courses": [
+      "Math 39"
+    ],
+    "occurrences": [
+      {
+        "skill_id": "SK-STAT-FIVE-NUMBER",
+        "course_id": "M39",
+        "course": "Math 39",
+        "unit_id": "M39-STA",
+        "unit_title": "Describing Data",
+        "priority": "required",
+        "objective_id": "M39-STA-008",
+        "objective": "I can construct and interpret a five-number summary and boxplot.",
+        "relationship": "required",
+        "progression": "introduce"
+      }
+    ]
+  },
+  {
+    "skill_id": "SK-STAT-FREQUENCY-TABLE",
+    "description": "Construct and interpret a frequency table.",
+    "introduction_status": "mapped",
+    "first_introduced_course": "Math 39",
+    "inherited_note": null,
+    "courses": [
+      "Math 39"
+    ],
+    "occurrences": [
+      {
+        "skill_id": "SK-STAT-FREQUENCY-TABLE",
+        "course_id": "M39",
+        "course": "Math 39",
+        "unit_id": "M39-STA",
+        "unit_title": "Describing Data",
+        "priority": "required",
+        "objective_id": "M39-STA-002",
+        "objective": "I can construct and interpret frequency and relative-frequency tables.",
+        "relationship": "required",
+        "progression": "introduce"
+      }
+    ]
+  },
+  {
+    "skill_id": "SK-STAT-GRAPH-CRITIQUE",
+    "description": "Identify perceptual distortion, misleading scales, and other misleading features in data displays.",
+    "introduction_status": "mapped",
+    "first_introduced_course": "Math 39",
+    "inherited_note": null,
+    "courses": [
+      "Math 39"
+    ],
+    "occurrences": [
+      {
+        "skill_id": "SK-STAT-GRAPH-CRITIQUE",
+        "course_id": "M39",
+        "course": "Math 39",
+        "unit_id": "M39-STA",
+        "unit_title": "Describing Data",
+        "priority": "required",
+        "objective_id": "M39-STA-004",
+        "objective": "I can identify misleading features in a data display.",
+        "relationship": "required",
+        "progression": "introduce"
+      }
+    ]
+  },
+  {
+    "skill_id": "SK-STAT-HISTOGRAM",
+    "description": "Construct and interpret a histogram for quantitative data.",
+    "introduction_status": "mapped",
+    "first_introduced_course": "Math 39",
+    "inherited_note": null,
+    "courses": [
+      "Math 39"
+    ],
+    "occurrences": [
+      {
+        "skill_id": "SK-STAT-HISTOGRAM",
+        "course_id": "M39",
+        "course": "Math 39",
+        "unit_id": "M39-STA",
+        "unit_title": "Describing Data",
+        "priority": "required",
+        "objective_id": "M39-STA-003",
+        "objective": "I can construct and interpret bar charts, pie charts, and histograms using appropriate technology.",
+        "relationship": "required",
+        "progression": "introduce"
+      }
+    ]
+  },
+  {
+    "skill_id": "SK-STAT-MEAN",
+    "description": "Calculate and interpret the arithmetic mean.",
+    "introduction_status": "mapped",
+    "first_introduced_course": "Math 39",
+    "inherited_note": null,
+    "courses": [
+      "Math 39"
+    ],
+    "occurrences": [
+      {
+        "skill_id": "SK-STAT-MEAN",
+        "course_id": "M39",
+        "course": "Math 39",
+        "unit_id": "M39-STA",
+        "unit_title": "Describing Data",
+        "priority": "required",
+        "objective_id": "M39-STA-006",
+        "objective": "I can calculate and interpret mean, median, and mode and select an appropriate measure of center.",
+        "relationship": "required",
+        "progression": "introduce"
+      }
+    ]
+  },
+  {
+    "skill_id": "SK-STAT-MEDIAN",
+    "description": "Calculate and interpret the median.",
+    "introduction_status": "mapped",
+    "first_introduced_course": "Math 39",
+    "inherited_note": null,
+    "courses": [
+      "Math 39"
+    ],
+    "occurrences": [
+      {
+        "skill_id": "SK-STAT-MEDIAN",
+        "course_id": "M39",
+        "course": "Math 39",
+        "unit_id": "M39-STA",
+        "unit_title": "Describing Data",
+        "priority": "required",
+        "objective_id": "M39-STA-006",
+        "objective": "I can calculate and interpret mean, median, and mode and select an appropriate measure of center.",
+        "relationship": "required",
+        "progression": "introduce"
+      }
+    ]
+  },
+  {
+    "skill_id": "SK-STAT-MODE",
+    "description": "Identify and interpret the mode or modes.",
+    "introduction_status": "mapped",
+    "first_introduced_course": "Math 39",
+    "inherited_note": null,
+    "courses": [
+      "Math 39"
+    ],
+    "occurrences": [
+      {
+        "skill_id": "SK-STAT-MODE",
+        "course_id": "M39",
+        "course": "Math 39",
+        "unit_id": "M39-STA",
+        "unit_title": "Describing Data",
+        "priority": "required",
+        "objective_id": "M39-STA-006",
+        "objective": "I can calculate and interpret mean, median, and mode and select an appropriate measure of center.",
+        "relationship": "required",
+        "progression": "introduce"
+      }
+    ]
+  },
+  {
+    "skill_id": "SK-STAT-OUTLIER-IDENTIFY",
+    "description": "Identify and interpret unusual observations or outliers.",
+    "introduction_status": "mapped",
+    "first_introduced_course": "Math 39",
+    "inherited_note": null,
+    "courses": [
+      "Math 39"
+    ],
+    "occurrences": [
+      {
+        "skill_id": "SK-STAT-OUTLIER-IDENTIFY",
+        "course_id": "M39",
+        "course": "Math 39",
+        "unit_id": "M39-STA",
+        "unit_title": "Describing Data",
+        "priority": "required",
+        "objective_id": "M39-STA-005",
+        "objective": "I can describe a distribution's modality, symmetry, skewness, and outliers.",
+        "relationship": "required",
+        "progression": "introduce"
+      }
+    ]
+  },
+  {
+    "skill_id": "SK-STAT-PERCENTILE",
+    "description": "Determine and interpret the percentile rank of a value.",
+    "introduction_status": "mapped",
+    "first_introduced_course": "Math 39",
+    "inherited_note": null,
+    "courses": [
+      "Math 39"
+    ],
+    "occurrences": [
+      {
+        "skill_id": "SK-STAT-PERCENTILE",
+        "course_id": "M39",
+        "course": "Math 39",
+        "unit_id": "M39-STA",
+        "unit_title": "Describing Data",
+        "priority": "required",
+        "objective_id": "M39-STA-009",
+        "objective": "I can use percentiles and z-scores to locate and compare values within distributions.",
+        "relationship": "required",
+        "progression": "introduce"
+      }
+    ]
+  },
+  {
+    "skill_id": "SK-STAT-QUARTILES-IQR",
+    "description": "Determine quartiles and calculate and interpret the interquartile range.",
+    "introduction_status": "mapped",
+    "first_introduced_course": "Math 39",
+    "inherited_note": null,
+    "courses": [
+      "Math 39"
+    ],
+    "occurrences": [
+      {
+        "skill_id": "SK-STAT-QUARTILES-IQR",
+        "course_id": "M39",
+        "course": "Math 39",
+        "unit_id": "M39-STA",
+        "unit_title": "Describing Data",
+        "priority": "required",
+        "objective_id": "M39-STA-007",
+        "objective": "I can calculate and interpret range, standard deviation, quartiles, and interquartile range.",
+        "relationship": "required",
+        "progression": "introduce"
+      }
+    ]
+  },
+  {
+    "skill_id": "SK-STAT-RANGE",
+    "description": "Calculate and interpret the range.",
+    "introduction_status": "mapped",
+    "first_introduced_course": "Math 39",
+    "inherited_note": null,
+    "courses": [
+      "Math 39"
+    ],
+    "occurrences": [
+      {
+        "skill_id": "SK-STAT-RANGE",
+        "course_id": "M39",
+        "course": "Math 39",
+        "unit_id": "M39-STA",
+        "unit_title": "Describing Data",
+        "priority": "required",
+        "objective_id": "M39-STA-007",
+        "objective": "I can calculate and interpret range, standard deviation, quartiles, and interquartile range.",
+        "relationship": "required",
+        "progression": "introduce"
+      }
+    ]
+  },
+  {
+    "skill_id": "SK-STAT-RELATIVE-FREQUENCY",
+    "description": "Calculate and interpret relative frequency.",
+    "introduction_status": "mapped",
+    "first_introduced_course": "Math 39",
+    "inherited_note": null,
+    "courses": [
+      "Math 39"
+    ],
+    "occurrences": [
+      {
+        "skill_id": "SK-STAT-RELATIVE-FREQUENCY",
+        "course_id": "M39",
+        "course": "Math 39",
+        "unit_id": "M39-STA",
+        "unit_title": "Describing Data",
+        "priority": "required",
+        "objective_id": "M39-STA-002",
+        "objective": "I can construct and interpret frequency and relative-frequency tables.",
+        "relationship": "required",
+        "progression": "introduce"
+      }
+    ]
+  },
+  {
+    "skill_id": "SK-STAT-STANDARD-DEVIATION",
+    "description": "Calculate and interpret standard deviation as a measure of spread.",
+    "introduction_status": "mapped",
+    "first_introduced_course": "Math 39",
+    "inherited_note": null,
+    "courses": [
+      "Math 39"
+    ],
+    "occurrences": [
+      {
+        "skill_id": "SK-STAT-STANDARD-DEVIATION",
+        "course_id": "M39",
+        "course": "Math 39",
+        "unit_id": "M39-STA",
+        "unit_title": "Describing Data",
+        "priority": "required",
+        "objective_id": "M39-STA-007",
+        "objective": "I can calculate and interpret range, standard deviation, quartiles, and interquartile range.",
+        "relationship": "required",
+        "progression": "introduce"
+      }
+    ]
+  },
+  {
+    "skill_id": "SK-STAT-ZSCORE",
+    "description": "Calculate and interpret a z-score.",
+    "introduction_status": "mapped",
+    "first_introduced_course": "Math 39",
+    "inherited_note": null,
+    "courses": [
+      "Math 39"
+    ],
+    "occurrences": [
+      {
+        "skill_id": "SK-STAT-ZSCORE",
+        "course_id": "M39",
+        "course": "Math 39",
+        "unit_id": "M39-STA",
+        "unit_title": "Describing Data",
+        "priority": "required",
+        "objective_id": "M39-STA-009",
+        "objective": "I can use percentiles and z-scores to locate and compare values within distributions.",
         "relationship": "required",
         "progression": "introduce"
       }
@@ -14592,12 +16544,25 @@
     "skill_id": "SK-VAR-DIRECT",
     "description": "Represent and interpret a direct-variation relationship.",
     "introduction_status": "mapped",
-    "first_introduced_course": "Math 49",
+    "first_introduced_course": "Math 39",
     "inherited_note": null,
     "courses": [
+      "Math 39",
       "Math 49"
     ],
     "occurrences": [
+      {
+        "skill_id": "SK-VAR-DIRECT",
+        "course_id": "M39",
+        "course": "Math 39",
+        "unit_id": "M39-POW",
+        "unit_title": "Power Functions and Function Comparison",
+        "priority": "required",
+        "objective_id": "M39-POW-004",
+        "objective": "I can recognize and model direct, inverse, and other power-variation relationships.",
+        "relationship": "required",
+        "progression": "introduce"
+      },
       {
         "skill_id": "SK-VAR-DIRECT",
         "course_id": "M49",
@@ -14616,12 +16581,25 @@
     "skill_id": "SK-VAR-INVERSE",
     "description": "Represent and interpret an inverse-variation relationship.",
     "introduction_status": "mapped",
-    "first_introduced_course": "Math 49",
+    "first_introduced_course": "Math 39",
     "inherited_note": null,
     "courses": [
+      "Math 39",
       "Math 49"
     ],
     "occurrences": [
+      {
+        "skill_id": "SK-VAR-INVERSE",
+        "course_id": "M39",
+        "course": "Math 39",
+        "unit_id": "M39-POW",
+        "unit_title": "Power Functions and Function Comparison",
+        "priority": "required",
+        "objective_id": "M39-POW-004",
+        "objective": "I can recognize and model direct, inverse, and other power-variation relationships.",
+        "relationship": "required",
+        "progression": "introduce"
+      },
       {
         "skill_id": "SK-VAR-INVERSE",
         "course_id": "M49",
@@ -14640,12 +16618,37 @@
     "skill_id": "SK-VAR-POWER",
     "description": "Represent and interpret a power-variation relationship.",
     "introduction_status": "mapped",
-    "first_introduced_course": "Math 49",
+    "first_introduced_course": "Math 39",
     "inherited_note": null,
     "courses": [
+      "Math 39",
       "Math 49"
     ],
     "occurrences": [
+      {
+        "skill_id": "SK-VAR-POWER",
+        "course_id": "M39",
+        "course": "Math 39",
+        "unit_id": "M39-POW",
+        "unit_title": "Power Functions and Function Comparison",
+        "priority": "required",
+        "objective_id": "M39-POW-001",
+        "objective": "I can identify a power function and interpret the parameters in y = kx^p.",
+        "relationship": "required",
+        "progression": "introduce"
+      },
+      {
+        "skill_id": "SK-VAR-POWER",
+        "course_id": "M39",
+        "course": "Math 39",
+        "unit_id": "M39-POW",
+        "unit_title": "Power Functions and Function Comparison",
+        "priority": "required",
+        "objective_id": "M39-POW-004",
+        "objective": "I can recognize and model direct, inverse, and other power-variation relationships.",
+        "relationship": "required",
+        "progression": "deepen"
+      },
       {
         "skill_id": "SK-VAR-POWER",
         "course_id": "M49",

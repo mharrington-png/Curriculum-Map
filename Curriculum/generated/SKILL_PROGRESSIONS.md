@@ -116,6 +116,7 @@ First introduction: **Math 12**
 | Math 22 | Apply | Required | Required | Quadrilaterals, Perimeter, and Area | `M22-QUAD-007` — I can apply trapezoid and trapezoid-midsegment relationships. |
 | Math 22 | Reinforce | Review | Required | Review Content | `M22-REV-001` — I can solve a linear equation arising from a geometric relationship. |
 | Math 31 | Apply | Required | Method-dependent | Linear Functions and Function Notation | `M31-LIN-003` — I can evaluate a function or solve for an input using a graph, table, or formula. |
+| Math 39 | Apply | Required | Prerequisite | Power Functions and Function Comparison | `M39-POW-005` — I can solve equations involving integer or rational powers. |
 
 ## SK-ALG-LIKE-TERMS: Identify and combine like terms.
 
@@ -155,6 +156,7 @@ First introduction: **Math 12**
 | Math 31 | Apply | Required | Required | Function Behavior and Structure | `M31-FUN-011` — I can find an inverse function algebraically. |
 | Math 31 | Apply | Required | Prerequisite | Logarithmic Functions and Models | `M31-LOG-004` — I can solve an exponential equation using logarithms. |
 | Math 32 | Apply | Extension | Required | Parametric Equations | `M32-PAR-002` — I can eliminate a parameter to obtain a rectangular equation. |
+| Math 39 | Apply | Required | Prerequisite | Power Functions and Function Comparison | `M39-POW-002` — I can construct a power function from two data points or a proportional relationship. |
 | Math 49 | Apply | Extension | Required | Parametric Equations | `M49-PAR-002` — I can eliminate a parameter to obtain a rectangular equation. |
 
 ## SK-ANG-PAIR-IDENTIFY: Identify complementary, supplementary, vertical, and linear-pair relationships.
@@ -476,6 +478,7 @@ First introduction: **Math 31**
 |---|---|---|---|---|---|
 | Math 31 | Deepen | Required | Required | Exponential Functions and Models | `M31-EXP-001` — I can distinguish linear change from exponential change using differences, ratios, or percent change. |
 | Math 31 | Introduce | Required | Required | Linear Functions and Function Notation | `M31-LIN-009` — I can identify a linear function from a table, graph, or formula. |
+| Math 39 | Deepen | Required | Required | Exponential Modeling | `M39-EXP-001` — I can distinguish linear and exponential change using rates, multipliers, tables, graphs, or contexts. |
 
 ## SK-EXP-DISCRETE-CONTINUOUS: Convert between equivalent discrete- and continuous-growth forms.
 
@@ -497,6 +500,8 @@ First introduction: **Math 31**
 | Math 31 | Deepen | Required | Required | Exponential Functions and Models | `M31-EXP-004` — I can evaluate and interpret an exponential model. |
 | Math 31 | Apply | Required | Prerequisite | Exponential Functions and Models | `M31-EXP-006` — I can calculate growth under continuous compounding. |
 | Math 31 | Deepen | Required | Required | Logarithmic Functions and Models | `M31-LOG-012` — I can solve and interpret an exponential or logarithmic modeling problem. |
+| Math 39 | Deepen | Required | Required | Exponential Modeling | `M39-EXP-002` — I can construct an exponential function from two data points, a table, or a context. |
+| Math 39 | Apply | Required | Prerequisite | Exponential Modeling | `M39-EXP-004` — I can determine and interpret doubling time or half-life from an exponential model. |
 | Math 49 | Reinforce | Review | Required | Review Content | `M49-FND-004` — I can analyze exponential functions using their equations, graphs, and contexts. |
 
 ## SK-EXP-MODEL-TABLE: Determine an exponential model from tabular values.
@@ -506,6 +511,7 @@ First introduction: **Math 31**
 | Course | Role | Priority | Relationship | Unit | Objective |
 |---|---|---|---|---|---|
 | Math 31 | Introduce | Required | Method-dependent | Exponential Functions and Models | `M31-EXP-003` — I can write an exponential function from a table, graph, or context. |
+| Math 39 | Deepen | Required | Required | Exponential Modeling | `M39-EXP-002` — I can construct an exponential function from two data points, a table, or a context. |
 
 ## SK-EXP-MODEL-TWO-POINTS: Solve for an exponential model using two points.
 
@@ -515,6 +521,7 @@ First introduction: **Math 31**
 |---|---|---|---|---|---|
 | Math 31 | Introduce | Required | Method-dependent | Exponential Functions and Models | `M31-EXP-003` — I can write an exponential function from a table, graph, or context. |
 | Math 31 | Deepen | Required | Required | Exponential Functions and Models | `M31-EXP-007` — I can determine an exponential formula from two points or other sufficient data. |
+| Math 39 | Deepen | Required | Required | Exponential Modeling | `M39-EXP-002` — I can construct an exponential function from two data points, a table, or a context. |
 
 ## SK-EXP-NEGATIVE: Rewrite a negative exponent using a reciprocal.
 
@@ -536,6 +543,7 @@ First introduction: **Math 31**
 | Math 31 | Apply | Required | Prerequisite | Exponential Functions and Models | `M31-EXP-005` — I can calculate growth under periodic compounding. |
 | Math 31 | Deepen | Required | Required | Exponential Functions and Models | `M31-EXP-010` — I can determine the percent growth or decay represented by a continuous exponential model. |
 | Math 31 | Apply | Required | Prerequisite | Logarithmic Functions and Models | `M31-LOG-011` — I can rewrite a discrete exponential model as an equivalent continuous exponential model. |
+| Math 39 | Deepen | Required | Required | Exponential Modeling | `M39-EXP-003` — I can interpret the initial value, growth or decay factor, and growth or decay rate of an exponential model. |
 
 ## SK-EXP-POWER: Apply the power rule for exponents.
 
@@ -582,6 +590,7 @@ First introduction: **Math 21**
 | Math 21 | Introduce | Required | Required | Exponents and Radicals | `M21-EXP-002` — I can rewrite expressions between radical and rational-exponent forms. |
 | Math 21 | Apply | Required | Required | Exponents and Radicals | `M21-EXP-004` — I can apply exponent rules to expressions with integer and rational exponents. |
 | Math 31 | Apply | Required | Method-dependent | Exponential Functions and Models | `M31-EXP-007` — I can determine an exponential formula from two points or other sufficient data. |
+| Math 39 | Apply | Required | Required | Power Functions and Function Comparison | `M39-POW-005` — I can solve equations involving integer or rational powers. |
 
 ## SK-EXP-REWRITE-BASE: Rewrite exponential expressions using a common base when possible.
 
@@ -677,6 +686,7 @@ First introduction: **Math 21**
 | Math 31 | Apply | Required | Prerequisite | Function Behavior and Structure | `M31-FUN-018` — I can classify a graph or table as concave up or concave down using changes in average rate of change. |
 | Math 31 | Deepen | Required | Required | Linear Functions and Function Notation | `M31-LIN-005` — I can calculate average rate of change from two points. |
 | Math 31 | Apply | Required | Prerequisite | Linear Functions and Function Notation | `M31-LIN-007` — I can determine total change from an average rate of change over an interval. |
+| Math 39 | Deepen | Required | Required | Linear Modeling and Residuals | `M39-LIN-001` — I can calculate and interpret average rate of change with appropriate units. |
 
 ## SK-FUNC-AROC-INTERPRET: Interpret average rate of change with contextual units.
 
@@ -685,6 +695,7 @@ First introduction: **Math 21**
 | Course | Role | Priority | Relationship | Unit | Objective |
 |---|---|---|---|---|---|
 | Math 21 | Introduce | Required | Required | Functions and Function Interpretation | `M21-FUN-006` — I can calculate and interpret average rate of change. |
+| Math 39 | Deepen | Required | Required | Linear Modeling and Residuals | `M39-LIN-001` — I can calculate and interpret average rate of change with appropriate units. |
 
 ## SK-FUNC-AROC-TOTAL-CHANGE: Use average rate of change and interval length to calculate total change.
 
@@ -711,6 +722,9 @@ First introduction: **Math 21**
 | Math 21 | Introduce | Required | Required | Functions and Function Interpretation | `M21-FUN-007` — I can compare functions represented by formulas, graphs, or tables. |
 | Math 31 | Deepen | Required | Required | Exponential Functions and Models | `M31-EXP-001` — I can distinguish linear change from exponential change using differences, ratios, or percent change. |
 | Math 31 | Deepen | Required | Required | Exponential Functions and Models | `M31-EXP-009` — I can compare the growth rates of two exponential functions. |
+| Math 39 | Deepen | Required | Required | Exponential Modeling | `M39-EXP-001` — I can distinguish linear and exponential change using rates, multipliers, tables, graphs, or contexts. |
+| Math 39 | Apply | Required | Required | Exponential Modeling | `M39-EXP-007` — I can compare linear and exponential models and justify which is more appropriate for a data set or context. |
+| Math 39 | Deepen | Required | Required | Power Functions and Function Comparison | `M39-POW-006` — I can compare the long-run dominance of logarithmic, power, polynomial, and exponential functions. |
 | Math 49 | Apply | Required | Prerequisite | Limits and Function Comparison | `M49-LIM-007` — I can compare the long-run growth of polynomial, exponential, logarithmic, and rational functions. |
 | Math 49 | Apply | Required | Required | Sequences and Series | `M49-SEQ-004` — I can distinguish arithmetic, geometric, and other sequences from formulas, tables, or contexts. |
 
@@ -785,10 +799,11 @@ First introduction: **Math 12**
 
 ## SK-FUNC-DOMAIN-COMBINE: Determine the domain of a sum, difference, product, quotient, or composition.
 
-First introduction: **Math 49**
+First introduction: **Math 39**
 
 | Course | Role | Priority | Relationship | Unit | Objective |
 |---|---|---|---|---|---|
+| Math 39 | Introduce | Required | Required | Function Combinations and Polynomials | `M39-POL-002` — I can determine where a combination of functions is positive, zero, or undefined. |
 | Math 49 | Introduce | Required | Required | Function Operations, Composition, and Inverses | `M49-OPS-001` — I can add, subtract, multiply, and divide functions and state the resulting domain. |
 | Math 49 | Deepen | Required | Required | Function Operations, Composition, and Inverses | `M49-OPS-003` — I can write a formula for the composition of two functions and determine its domain. |
 
@@ -836,6 +851,14 @@ First introduction: **Math 12**
 | Math 31 | Deepen | Required | Method-dependent | Function Behavior and Structure | `M31-FUN-003` — I can determine domain and range from a formula, graph, or table. |
 | Math 49 | Reinforce | Review | Required | Review Content | `M49-FND-001` — I can determine the domain and range of a function from a formula, graph, or table. |
 
+## SK-FUNC-DOMINANCE: Compare the long-run growth or decay of functions from different families.
+
+First introduction: **Math 39**
+
+| Course | Role | Priority | Relationship | Unit | Objective |
+|---|---|---|---|---|---|
+| Math 39 | Introduce | Required | Required | Power Functions and Function Comparison | `M39-POW-006` — I can compare the long-run dominance of logarithmic, power, polynomial, and exponential functions. |
+
 ## SK-FUNC-INDEPENDENT-DEPENDENT: Identify independent and dependent variables.
 
 First introduction: **Math 31**
@@ -867,6 +890,8 @@ First introduction: **Math 12**
 | Math 32 | Apply | Required | Required | Periodic Functions and Modeling | `M32-GRF-006` — I can interpret the parameters and outputs of a sinusoidal model in context. |
 | Math 32 | Apply | Extension | Required | Parametric Equations | `M32-PAR-001` — I can graph a plane curve defined by parametric equations with its orientation. |
 | Math 32 | Apply | Extension | Required | Polar Functions | `M32-PLX-001` — I can graph and interpret basic polar functions. |
+| Math 39 | Apply | Required | Required | Linear Modeling and Residuals | `M39-LIN-006` — I can use a linear model to make and interpret predictions, including solving for either variable. |
+| Math 39 | Apply | Required | Prerequisite | Function Combinations and Polynomials | `M39-POL-001` — I can add, subtract, multiply, and divide functions represented by tables, graphs, or formulas. |
 | Math 49 | Apply | Required | Prerequisite | Function Operations, Composition, and Inverses | `M49-OPS-002` — I can evaluate a composition from formulas, graphs, or tables. |
 | Math 49 | Apply | Extension | Required | Parametric Equations | `M49-PAR-001` — I can graph a plane curve defined by parametric equations with its orientation. |
 
@@ -977,10 +1002,12 @@ First introduction: **Math 31**
 
 ## SK-FUNC-OPERATIONS: Add, subtract, multiply, and divide function outputs.
 
-First introduction: **Math 49**
+First introduction: **Math 39**
 
 | Course | Role | Priority | Relationship | Unit | Objective |
 |---|---|---|---|---|---|
+| Math 39 | Introduce | Required | Required | Function Combinations and Polynomials | `M39-POL-001` — I can add, subtract, multiply, and divide functions represented by tables, graphs, or formulas. |
+| Math 39 | Deepen | Required | Prerequisite | Function Combinations and Polynomials | `M39-POL-002` — I can determine where a combination of functions is positive, zero, or undefined. |
 | Math 49 | Introduce | Required | Required | Function Operations, Composition, and Inverses | `M49-OPS-001` — I can add, subtract, multiply, and divide functions and state the resulting domain. |
 
 ## SK-FUNC-PIECEWISE-EVALUATE: Select the correct rule of a piecewise function for a given input.
@@ -1016,6 +1043,7 @@ First introduction: **Math 21**
 | Math 21 | Introduce | Required | Required | Functions and Function Interpretation | `M21-FUN-004` — I can solve for an input that produces a specified output. |
 | Math 31 | Apply | Required | Method-dependent | Function Behavior and Structure | `M31-FUN-002` — I can evaluate a function from a formula, graph, or table. |
 | Math 31 | Deepen | Required | Required | Linear Functions and Function Notation | `M31-LIN-003` — I can evaluate a function or solve for an input using a graph, table, or formula. |
+| Math 39 | Deepen | Required | Required | Linear Modeling and Residuals | `M39-LIN-006` — I can use a linear model to make and interpret predictions, including solving for either variable. |
 
 ## SK-FUNC-SYMMETRY: Test a formula or graph for even or odd symmetry.
 
@@ -1344,6 +1372,7 @@ First introduction: **Math 12**
 | Math 21 | Reinforce | Review | Required | Review Content | `M21-REV-002` — I can graph a line from an equation and write an equation from given information. |
 | Math 31 | Apply | Required | Method-dependent | Function Behavior and Structure | `M31-FUN-006` — I can write a piecewise formula that represents a graph. |
 | Math 31 | Apply | Required | Required | Linear Functions and Function Notation | `M31-LIN-012` — I can write equations of horizontal, vertical, parallel, and perpendicular lines through a specified point. |
+| Math 39 | Reinforce | Required | Required | Linear Modeling and Residuals | `M39-LIN-002` — I can construct a linear function from two data points, a table, a graph, or a context. |
 
 ## SK-LIN-GRAPH-SLOPE: Use slope to generate additional points on a line.
 
@@ -1416,6 +1445,7 @@ First introduction: **Math 12**
 | Math 21 | Apply | Review | Prerequisite | Review Content | `M21-REV-002` — I can graph a line from an equation and write an equation from given information. |
 | Math 22 | Reinforce | Review | Required | Review Content | `M22-REV-004` — I can calculate distance, midpoint, and slope on the coordinate plane. |
 | Math 31 | Apply | Required | Prerequisite | Linear Functions and Function Notation | `M31-LIN-005` — I can calculate average rate of change from two points. |
+| Math 39 | Apply | Required | Required | Linear Modeling and Residuals | `M39-LIN-002` — I can construct a linear function from two data points, a table, a graph, or a context. |
 
 ## SK-LOG-ASYMPTOTE: Identify vertical asymptotic behavior of a logarithmic graph.
 
@@ -1456,6 +1486,7 @@ First introduction: **Math 31**
 | Math 31 | Introduce | Required | Required | Logarithmic Functions and Models | `M31-LOG-005` — I can solve a logarithmic equation using exponential form and check domain restrictions. |
 | Math 31 | Apply | Required | Prerequisite | Logarithmic Functions and Models | `M31-LOG-007` — I can determine domain, range, intercepts, and asymptotes of a logarithmic function. |
 | Math 31 | Apply | Required | Required | Logarithmic Functions and Models | `M31-LOG-009` — I can solve a multi-step exponential or logarithmic equation. |
+| Math 39 | Apply | Required | Required | Exponential Modeling | `M39-EXP-005` — I can solve exponential and logarithmic equations in modeling contexts. |
 | Math 49 | Apply | Review | Required | Review Content | `M49-FND-006` — I can solve exponential and logarithmic equations using equivalent forms and logarithm properties. |
 
 ## SK-LOG-DOUBLING-HALF: Translate a doubling-time or half-life question into an exponential equation.
@@ -1465,6 +1496,7 @@ First introduction: **Math 31**
 | Course | Role | Priority | Relationship | Unit | Objective |
 |---|---|---|---|---|---|
 | Math 31 | Introduce | Required | Required | Logarithmic Functions and Models | `M31-LOG-006` — I can calculate and interpret doubling time or half-life. |
+| Math 39 | Deepen | Required | Required | Exponential Modeling | `M39-EXP-004` — I can determine and interpret doubling time or half-life from an exponential model. |
 
 ## SK-LOG-POWER: Apply the logarithm power property in either direction.
 
@@ -1517,6 +1549,7 @@ First introduction: **Math 31**
 | Math 31 | Deepen | Required | Method-dependent | Logarithmic Functions and Models | `M31-LOG-010` — I can determine an intersection of exponential functions graphically or algebraically. |
 | Math 31 | Apply | Required | Required | Logarithmic Functions and Models | `M31-LOG-011` — I can rewrite a discrete exponential model as an equivalent continuous exponential model. |
 | Math 31 | Apply | Required | Method-dependent | Logarithmic Functions and Models | `M31-LOG-012` — I can solve and interpret an exponential or logarithmic modeling problem. |
+| Math 39 | Reinforce | Required | Required | Exponential Modeling | `M39-EXP-005` — I can solve exponential and logarithmic equations in modeling contexts. |
 | Math 49 | Reinforce | Review | Required | Review Content | `M49-FND-006` — I can solve exponential and logarithmic equations using equivalent forms and logarithm properties. |
 
 ## SK-LOG-SOLVE-LOG: Combine or isolate logarithms before converting to exponential form.
@@ -1528,14 +1561,16 @@ First introduction: **Math 31**
 | Math 31 | Introduce | Required | Required | Logarithmic Functions and Models | `M31-LOG-005` — I can solve a logarithmic equation using exponential form and check domain restrictions. |
 | Math 31 | Deepen | Required | Method-dependent | Logarithmic Functions and Models | `M31-LOG-009` — I can solve a multi-step exponential or logarithmic equation. |
 | Math 31 | Apply | Required | Method-dependent | Logarithmic Functions and Models | `M31-LOG-012` — I can solve and interpret an exponential or logarithmic modeling problem. |
+| Math 39 | Reinforce | Required | Required | Exponential Modeling | `M39-EXP-005` — I can solve exponential and logarithmic equations in modeling contexts. |
 | Math 49 | Reinforce | Review | Required | Review Content | `M49-FND-006` — I can solve exponential and logarithmic equations using equivalent forms and logarithm properties. |
 
 ## SK-MODEL-FAMILY-SELECT: Select a function family whose behavior fits a table, graph, or context.
 
-First introduction: **Math 49**
+First introduction: **Math 39**
 
 | Course | Role | Priority | Relationship | Unit | Objective |
 |---|---|---|---|---|---|
+| Math 39 | Introduce | Required | Required | Exponential Modeling | `M39-EXP-007` — I can compare linear and exponential models and justify which is more appropriate for a data set or context. |
 | Math 49 | Introduce | Required | Required | Power, Polynomial, and Rational Functions | `M49-ALG-008` — I can build or select a power, polynomial, or rational model for a context. |
 
 ## SK-MODEL-PARAMETER-INTERPRET: Explain a model parameter in the language of its context.
@@ -1556,6 +1591,10 @@ First introduction: **Math 21**
 | Math 31 | Deepen | Required | Required | Quadratic Functions and Equations | `M31-QUAD-007` — I can create and interpret a quadratic trajectory model. |
 | Math 32 | Deepen | Required | Required | Periodic Functions and Modeling | `M32-GRF-006` — I can interpret the parameters and outputs of a sinusoidal model in context. |
 | Math 32 | Apply | Extension | Required | Parametric Equations | `M32-PAR-003` — I can create or interpret parametric equations for motion in the plane. |
+| Math 39 | Deepen | Required | Required | Exponential Modeling | `M39-EXP-003` — I can interpret the initial value, growth or decay factor, and growth or decay rate of an exponential model. |
+| Math 39 | Apply | Required | Required | Linear Modeling and Residuals | `M39-LIN-002` — I can construct a linear function from two data points, a table, a graph, or a context. |
+| Math 39 | Deepen | Required | Required | Linear Modeling and Residuals | `M39-LIN-003` — I can fit a linear regression model to data using technology and interpret its parameters. |
+| Math 39 | Apply | Required | Required | Function Combinations and Polynomials | `M39-POL-008` — I can build and optimize a polynomial model in a geometric or economic context. |
 | Math 49 | Apply | Required | Required | Power, Polynomial, and Rational Functions | `M49-ALG-001` — I can identify and model direct, inverse, and power variation. |
 | Math 49 | Deepen | Required | Required | Power, Polynomial, and Rational Functions | `M49-ALG-008` — I can build or select a power, polynomial, or rational model for a context. |
 | Math 49 | Apply | Required | Required | Sequences and Series | `M49-SEQ-005` — I can create and interpret a sequence model for discrete change. |
@@ -1576,6 +1615,8 @@ First introduction: **Math 12**
 | Math 31 | Apply | Required | Required | Quadratic Functions and Equations | `M31-QUAD-007` — I can create and interpret a quadratic trajectory model. |
 | Math 32 | Apply | Required | Required | Trigonometric Foundations | `M32-FND-009` — I can apply right-triangle trigonometry to contextual problems. |
 | Math 32 | Apply | Required | Required | Periodic Functions and Modeling | `M32-GRF-005` — I can construct a sinusoidal model from contextual information or data. |
+| Math 39 | Apply | Required | Required | Linear Modeling and Residuals | `M39-LIN-006` — I can use a linear model to make and interpret predictions, including solving for either variable. |
+| Math 39 | Apply | Required | Required | Function Combinations and Polynomials | `M39-POL-008` — I can build and optimize a polynomial model in a geometric or economic context. |
 | Math 49 | Apply | Required | Required | Power, Polynomial, and Rational Functions | `M49-ALG-008` — I can build or select a power, polynomial, or rational model for a context. |
 
 ## SK-NOT-INTERVAL: Translate between inequality and interval notation.
@@ -1750,6 +1791,7 @@ First introduction: **Math 31**
 | Course | Role | Priority | Relationship | Unit | Objective |
 |---|---|---|---|---|---|
 | Math 31 | Introduce | Required | Required | Quadratic Functions and Equations | `M31-QUAD-006` — I can construct a quadratic function from specified zeros, a vertex, or graphical information. |
+| Math 39 | Deepen | Required | Required | Function Combinations and Polynomials | `M39-POL-006` — I can construct a polynomial function from specified zeros, multiplicities, and a point. |
 | Math 49 | Deepen | Required | Required | Power, Polynomial, and Rational Functions | `M49-ALG-004` — I can construct a polynomial function from specified zeros or graphical features. |
 
 ## SK-POLY-DISTRIBUTE: Multiply a monomial by a polynomial.
@@ -1771,10 +1813,13 @@ First introduction: **Math 12**
 
 ## SK-POLY-END-BEHAVIOR: Infer polynomial end behavior from degree and leading coefficient.
 
-First introduction: **Math 49**
+First introduction: **Math 39**
 
 | Course | Role | Priority | Relationship | Unit | Objective |
 |---|---|---|---|---|---|
+| Math 39 | Introduce | Required | Required | Function Combinations and Polynomials | `M39-POL-003` — I can determine polynomial end behavior from degree and leading coefficient. |
+| Math 39 | Deepen | Required | Required | Function Combinations and Polynomials | `M39-POL-005` — I can estimate a polynomial's possible degree from its zeros, turning points, inflection points, and end behavior. |
+| Math 39 | Deepen | Required | Required | Function Combinations and Polynomials | `M39-POL-007` — I can match polynomial formulas and graphs using intercepts, multiplicity, degree, and end behavior. |
 | Math 49 | Introduce | Required | Required | Power, Polynomial, and Rational Functions | `M49-ALG-002` — I can predict the end behavior of a polynomial from its degree and leading coefficient. |
 | Math 49 | Deepen | Required | Required | Power, Polynomial, and Rational Functions | `M49-ALG-005` — I can sketch and analyze a polynomial function using intercepts, multiplicity, and end behavior. |
 
@@ -1798,10 +1843,14 @@ First introduction: **Math 12**
 
 ## SK-POLY-MULTIPLICITY: Relate zero multiplicity to local graph behavior.
 
-First introduction: **Math 49**
+First introduction: **Math 39**
 
 | Course | Role | Priority | Relationship | Unit | Objective |
 |---|---|---|---|---|---|
+| Math 39 | Introduce | Required | Required | Function Combinations and Polynomials | `M39-POL-004` — I can identify zeros and multiplicities and relate them to polynomial graph behavior. |
+| Math 39 | Deepen | Required | Required | Function Combinations and Polynomials | `M39-POL-005` — I can estimate a polynomial's possible degree from its zeros, turning points, inflection points, and end behavior. |
+| Math 39 | Apply | Required | Prerequisite | Function Combinations and Polynomials | `M39-POL-006` — I can construct a polynomial function from specified zeros, multiplicities, and a point. |
+| Math 39 | Apply | Required | Required | Function Combinations and Polynomials | `M39-POL-007` — I can match polynomial formulas and graphs using intercepts, multiplicity, degree, and end behavior. |
 | Math 49 | Introduce | Required | Required | Power, Polynomial, and Rational Functions | `M49-ALG-003` — I can determine polynomial zeros and their multiplicities. |
 | Math 49 | Apply | Required | Method-dependent | Power, Polynomial, and Rational Functions | `M49-ALG-004` — I can construct a polynomial function from specified zeros or graphical features. |
 | Math 49 | Deepen | Required | Required | Power, Polynomial, and Rational Functions | `M49-ALG-005` — I can sketch and analyze a polynomial function using intercepts, multiplicity, and end behavior. |
@@ -1823,6 +1872,7 @@ First introduction: **Math 12**
 | Math 21 | Apply | Required | Prerequisite | Polynomials and Factoring | `M21-POL-005` — I can factor a difference of squares and other required special cases. |
 | Math 21 | Apply | Required | Prerequisite | Polynomials and Factoring | `M21-POL-006` — I can use factoring to determine the zeros of a polynomial. |
 | Math 31 | Reinforce | Review | Required | Review Content | `M31-REV-003` — I can use polynomial vocabulary to distinguish terms, factors, coefficients, degree, and polynomial structure. |
+| Math 39 | Apply | Required | Prerequisite | Function Combinations and Polynomials | `M39-POL-003` — I can determine polynomial end behavior from degree and leading coefficient. |
 | Math 49 | Apply | Required | Prerequisite | Power, Polynomial, and Rational Functions | `M49-ALG-002` — I can predict the end behavior of a polynomial from its degree and leading coefficient. |
 
 ## SK-POLY-ZEROS: Determine real and complex zeros using an appropriate method.
@@ -1832,9 +1882,170 @@ First introduction: **Math 21**
 | Course | Role | Priority | Relationship | Unit | Objective |
 |---|---|---|---|---|---|
 | Math 21 | Introduce | Required | Required | Quadratic Functions and Equations | `M21-QUAD-003` — I can solve a quadratic equation by factoring. |
+| Math 39 | Deepen | Required | Required | Function Combinations and Polynomials | `M39-POL-004` — I can identify zeros and multiplicities and relate them to polynomial graph behavior. |
+| Math 39 | Apply | Required | Prerequisite | Function Combinations and Polynomials | `M39-POL-006` — I can construct a polynomial function from specified zeros, multiplicities, and a point. |
+| Math 39 | Apply | Required | Required | Function Combinations and Polynomials | `M39-POL-007` — I can match polynomial formulas and graphs using intercepts, multiplicity, degree, and end behavior. |
 | Math 49 | Deepen | Required | Required | Power, Polynomial, and Rational Functions | `M49-ALG-003` — I can determine polynomial zeros and their multiplicities. |
 | Math 49 | Apply | Required | Prerequisite | Power, Polynomial, and Rational Functions | `M49-ALG-004` — I can construct a polynomial function from specified zeros or graphical features. |
 | Math 49 | Apply | Required | Required | Power, Polynomial, and Rational Functions | `M49-ALG-005` — I can sketch and analyze a polynomial function using intercepts, multiplicity, and end behavior. |
+
+## SK-POWER-CONSTRUCT: Determine a power function from two points or a proportional relationship.
+
+First introduction: **Math 39**
+
+| Course | Role | Priority | Relationship | Unit | Objective |
+|---|---|---|---|---|---|
+| Math 39 | Introduce | Required | Required | Power Functions and Function Comparison | `M39-POW-002` — I can construct a power function from two data points or a proportional relationship. |
+
+## SK-POWER-END-BEHAVIOR: Determine power-function behavior as the input approaches zero or positive or negative infinity.
+
+First introduction: **Math 39**
+
+| Course | Role | Priority | Relationship | Unit | Objective |
+|---|---|---|---|---|---|
+| Math 39 | Introduce | Required | Required | Power Functions and Function Comparison | `M39-POW-003` — I can relate the sign and size of k and p to the shape, domain behavior, and end behavior of a power function. |
+
+## SK-POWER-PARAMETER-INTERPRET: Interpret the coefficient and exponent in a power function.
+
+First introduction: **Math 39**
+
+| Course | Role | Priority | Relationship | Unit | Objective |
+|---|---|---|---|---|---|
+| Math 39 | Introduce | Required | Required | Power Functions and Function Comparison | `M39-POW-001` — I can identify a power function and interpret the parameters in y = kx^p. |
+| Math 39 | Deepen | Required | Required | Power Functions and Function Comparison | `M39-POW-007` — I can fit a power regression model and interpret its parameters and correlation evidence. |
+
+## SK-POWER-SHAPE: Relate the coefficient and exponent of a power function to its graph shape.
+
+First introduction: **Math 39**
+
+| Course | Role | Priority | Relationship | Unit | Objective |
+|---|---|---|---|---|---|
+| Math 39 | Introduce | Required | Required | Power Functions and Function Comparison | `M39-POW-003` — I can relate the sign and size of k and p to the shape, domain behavior, and end behavior of a power function. |
+
+## SK-PROB-AND: Calculate the probability of a compound and event.
+
+First introduction: **Math 39**
+
+| Course | Role | Priority | Relationship | Unit | Objective |
+|---|---|---|---|---|---|
+| Math 39 | Introduce | Required | Required | Probability | `M39-PRO-006` — I can calculate probabilities of compound 'and' events and distinguish independent from dependent events. |
+
+## SK-PROB-COMPLEMENT: Use the complement rule to calculate probability.
+
+First introduction: **Math 39**
+
+| Course | Role | Priority | Relationship | Unit | Objective |
+|---|---|---|---|---|---|
+| Math 39 | Introduce | Required | Required | Probability | `M39-PRO-005` — I can use complements to calculate probabilities. |
+
+## SK-PROB-CONDITIONAL: Calculate and interpret a conditional probability.
+
+First introduction: **Math 39**
+
+| Course | Role | Priority | Relationship | Unit | Objective |
+|---|---|---|---|---|---|
+| Math 39 | Introduce | Required | Required | Probability | `M39-PRO-002` — I can calculate and interpret empirical, marginal, joint, and conditional probabilities from a contingency table. |
+| Math 39 | Deepen | Required | Method-dependent | Probability | `M39-PRO-006` — I can calculate probabilities of compound 'and' events and distinguish independent from dependent events. |
+
+## SK-PROB-CONTINGENCY-TABLE: Construct and interpret a contingency table.
+
+First introduction: **Math 39**
+
+| Course | Role | Priority | Relationship | Unit | Objective |
+|---|---|---|---|---|---|
+| Math 39 | Introduce | Required | Required | Probability | `M39-PRO-001` — I can organize categorical data in a contingency table or Venn diagram. |
+
+## SK-PROB-DISJOINT: Determine whether events are overlapping or disjoint.
+
+First introduction: **Math 39**
+
+| Course | Role | Priority | Relationship | Unit | Objective |
+|---|---|---|---|---|---|
+| Math 39 | Introduce | Required | Required | Probability | `M39-PRO-007` — I can calculate probabilities of compound 'or' events and distinguish overlapping from disjoint events. |
+
+## SK-PROB-EMPIRICAL: Calculate probability from observed relative frequency.
+
+First introduction: **Math 39**
+
+| Course | Role | Priority | Relationship | Unit | Objective |
+|---|---|---|---|---|---|
+| Math 39 | Introduce | Required | Required | Probability | `M39-PRO-002` — I can calculate and interpret empirical, marginal, joint, and conditional probabilities from a contingency table. |
+| Math 39 | Deepen | Required | Required | Probability | `M39-PRO-008` — I can compare experimental and theoretical probability and explain the law of large numbers. |
+
+## SK-PROB-EXPECTED-INTERPRET: Interpret expected value as a long-run average for decision-making.
+
+First introduction: **Math 39**
+
+| Course | Role | Priority | Relationship | Unit | Objective |
+|---|---|---|---|---|---|
+| Math 39 | Introduce | Extension | Required | Expected Value | `M39-EV-002` — I can interpret expected value to evaluate a game, risk, or long-run decision. |
+
+## SK-PROB-EXPECTED-VALUE: Calculate the expected value of a discrete probability situation.
+
+First introduction: **Math 39**
+
+| Course | Role | Priority | Relationship | Unit | Objective |
+|---|---|---|---|---|---|
+| Math 39 | Introduce | Extension | Required | Expected Value | `M39-EV-001` — I can calculate the expected value of a discrete probability situation. |
+| Math 39 | Deepen | Extension | Prerequisite | Expected Value | `M39-EV-002` — I can interpret expected value to evaluate a game, risk, or long-run decision. |
+
+## SK-PROB-INDEPENDENCE: Determine whether events are independent or dependent.
+
+First introduction: **Math 39**
+
+| Course | Role | Priority | Relationship | Unit | Objective |
+|---|---|---|---|---|---|
+| Math 39 | Introduce | Required | Required | Probability | `M39-PRO-006` — I can calculate probabilities of compound 'and' events and distinguish independent from dependent events. |
+
+## SK-PROB-LARGE-NUMBERS: Explain how experimental probability stabilizes with many trials.
+
+First introduction: **Math 39**
+
+| Course | Role | Priority | Relationship | Unit | Objective |
+|---|---|---|---|---|---|
+| Math 39 | Introduce | Required | Required | Probability | `M39-PRO-008` — I can compare experimental and theoretical probability and explain the law of large numbers. |
+
+## SK-PROB-MARGINAL-JOINT: Calculate and interpret marginal and joint probabilities.
+
+First introduction: **Math 39**
+
+| Course | Role | Priority | Relationship | Unit | Objective |
+|---|---|---|---|---|---|
+| Math 39 | Introduce | Required | Required | Probability | `M39-PRO-002` — I can calculate and interpret empirical, marginal, joint, and conditional probabilities from a contingency table. |
+
+## SK-PROB-OR: Calculate the probability of a compound or event.
+
+First introduction: **Math 39**
+
+| Course | Role | Priority | Relationship | Unit | Objective |
+|---|---|---|---|---|---|
+| Math 39 | Introduce | Required | Required | Probability | `M39-PRO-007` — I can calculate probabilities of compound 'or' events and distinguish overlapping from disjoint events. |
+
+## SK-PROB-SAMPLE-SPACE: Identify outcomes, events, and the sample space of an experiment.
+
+First introduction: **Math 39**
+
+| Course | Role | Priority | Relationship | Unit | Objective |
+|---|---|---|---|---|---|
+| Math 39 | Introduce | Required | Required | Probability | `M39-PRO-003` — I can identify an experiment, outcomes, events, and a sample space. |
+| Math 39 | Apply | Required | Prerequisite | Probability | `M39-PRO-004` — I can calculate theoretical probabilities when outcomes are equally likely. |
+
+## SK-PROB-THEORETICAL: Calculate theoretical probability for equally likely outcomes.
+
+First introduction: **Math 39**
+
+| Course | Role | Priority | Relationship | Unit | Objective |
+|---|---|---|---|---|---|
+| Math 39 | Introduce | Required | Required | Probability | `M39-PRO-004` — I can calculate theoretical probabilities when outcomes are equally likely. |
+| Math 39 | Deepen | Required | Required | Probability | `M39-PRO-008` — I can compare experimental and theoretical probability and explain the law of large numbers. |
+
+## SK-PROB-VENN-DIAGRAM: Represent categorical events and their overlap with a Venn diagram.
+
+First introduction: **Math 39**
+
+| Course | Role | Priority | Relationship | Unit | Objective |
+|---|---|---|---|---|---|
+| Math 39 | Introduce | Required | Method-dependent | Probability | `M39-PRO-001` — I can organize categorical data in a contingency table or Venn diagram. |
 
 ## SK-PROOF-CONGRUENCE-ORDER: Write congruence statements in corresponding order.
 
@@ -2028,6 +2239,7 @@ First introduction: **Math 21**
 |---|---|---|---|---|---|
 | Math 21 | Introduce | Required | Required | Quadratic Functions and Equations | `M21-QUAD-009` — I can create and interpret a quadratic model for a projectile, area, or optimization problem. |
 | Math 31 | Deepen | Required | Required | Quadratic Functions and Equations | `M31-QUAD-007` — I can create and interpret a quadratic trajectory model. |
+| Math 39 | Deepen | Required | Required | Function Combinations and Polynomials | `M39-POL-008` — I can build and optimize a polynomial model in a geometric or economic context. |
 
 ## SK-QUAD-PARALLELOGRAM: Apply parallelogram properties and tests.
 
@@ -2218,6 +2430,90 @@ First introduction: **Math 49**
 | Math 49 | Deepen | Required | Required | Power, Polynomial, and Rational Functions | `M49-ALG-007` — I can sketch and analyze a rational function using its algebraic and asymptotic features. |
 | Math 49 | Deepen | Required | Required | Limits and Function Comparison | `M49-LIM-005` — I can interpret an infinite limit as vertical-asymptotic behavior. |
 
+## SK-REG-CORRELATION-INTERPRET: Interpret the sign and magnitude of a correlation coefficient in context.
+
+First introduction: **Math 39**
+
+| Course | Role | Priority | Relationship | Unit | Objective |
+|---|---|---|---|---|---|
+| Math 39 | Apply | Required | Method-dependent | Exponential Modeling | `M39-EXP-006` — I can fit an exponential regression model using technology and evaluate its fit. |
+| Math 39 | Introduce | Required | Required | Linear Modeling and Residuals | `M39-LIN-004` — I can interpret a correlation coefficient as evidence about the direction and strength of a linear relationship. |
+| Math 39 | Apply | Required | Method-dependent | Power Functions and Function Comparison | `M39-POW-007` — I can fit a power regression model and interpret its parameters and correlation evidence. |
+
+## SK-REG-EXPONENTIAL-FIT: Use technology to determine an exponential regression model.
+
+First introduction: **Math 39**
+
+| Course | Role | Priority | Relationship | Unit | Objective |
+|---|---|---|---|---|---|
+| Math 39 | Introduce | Required | Required | Exponential Modeling | `M39-EXP-006` — I can fit an exponential regression model using technology and evaluate its fit. |
+
+## SK-REG-LINEAR-FIT: Use technology to determine a least-squares linear regression model.
+
+First introduction: **Math 39**
+
+| Course | Role | Priority | Relationship | Unit | Objective |
+|---|---|---|---|---|---|
+| Math 39 | Introduce | Required | Required | Linear Modeling and Residuals | `M39-LIN-003` — I can fit a linear regression model to data using technology and interpret its parameters. |
+
+## SK-REG-LOG-LINEARIZE: Transform exponential data so that a linear model can be fit to its logarithms.
+
+First introduction: **Math 39**
+
+| Course | Role | Priority | Relationship | Unit | Objective |
+|---|---|---|---|---|---|
+| Math 39 | Introduce | Required | Method-dependent | Power Functions and Function Comparison | `M39-POW-008` — I can linearize power or exponential data and translate between the linearized and original models. |
+
+## SK-REG-LOGLOG-LINEARIZE: Transform power data so that a linear model can be fit on logarithmic axes.
+
+First introduction: **Math 39**
+
+| Course | Role | Priority | Relationship | Unit | Objective |
+|---|---|---|---|---|---|
+| Math 39 | Introduce | Required | Method-dependent | Power Functions and Function Comparison | `M39-POW-008` — I can linearize power or exponential data and translate between the linearized and original models. |
+
+## SK-REG-MODEL-ASSESS: Use residual patterns and contextual evidence to judge whether a model is appropriate.
+
+First introduction: **Math 39**
+
+| Course | Role | Priority | Relationship | Unit | Objective |
+|---|---|---|---|---|---|
+| Math 39 | Deepen | Required | Required | Exponential Modeling | `M39-EXP-006` — I can fit an exponential regression model using technology and evaluate its fit. |
+| Math 39 | Deepen | Required | Required | Exponential Modeling | `M39-EXP-007` — I can compare linear and exponential models and justify which is more appropriate for a data set or context. |
+| Math 39 | Introduce | Required | Required | Linear Modeling and Residuals | `M39-LIN-005` — I can calculate residuals, construct a residual plot, and use its pattern to evaluate a model. |
+
+## SK-REG-POWER-FIT: Use technology to determine a power regression model.
+
+First introduction: **Math 39**
+
+| Course | Role | Priority | Relationship | Unit | Objective |
+|---|---|---|---|---|---|
+| Math 39 | Introduce | Required | Required | Power Functions and Function Comparison | `M39-POW-007` — I can fit a power regression model and interpret its parameters and correlation evidence. |
+
+## SK-REG-RESIDUAL-CALCULATE: Calculate an observed value minus its model-predicted value.
+
+First introduction: **Math 39**
+
+| Course | Role | Priority | Relationship | Unit | Objective |
+|---|---|---|---|---|---|
+| Math 39 | Introduce | Required | Required | Linear Modeling and Residuals | `M39-LIN-005` — I can calculate residuals, construct a residual plot, and use its pattern to evaluate a model. |
+
+## SK-REG-RESIDUAL-PLOT: Construct and interpret a residual plot.
+
+First introduction: **Math 39**
+
+| Course | Role | Priority | Relationship | Unit | Objective |
+|---|---|---|---|---|---|
+| Math 39 | Introduce | Required | Required | Linear Modeling and Residuals | `M39-LIN-005` — I can calculate residuals, construct a residual plot, and use its pattern to evaluate a model. |
+
+## SK-REG-UNLINEARIZE: Translate a linearized regression equation back to its original nonlinear form.
+
+First introduction: **Math 39**
+
+| Course | Role | Priority | Relationship | Unit | Objective |
+|---|---|---|---|---|---|
+| Math 39 | Introduce | Required | Required | Power Functions and Function Comparison | `M39-POW-008` — I can linearize power or exponential data and translate between the linearized and original models. |
+
 ## SK-REP-FORMULA-GRAPH: Connect parameters in a formula to features of its graph.
 
 First introduction: **Math 21**
@@ -2237,6 +2533,7 @@ First introduction: **Math 21**
 | Math 31 | Deepen | Required | Required | Quadratic Functions and Equations | `M31-QUAD-002` — I can connect standard, factored, and vertex forms to features of a quadratic graph. |
 | Math 31 | Deepen | Required | Required | Quadratic Functions and Equations | `M31-QUAD-005` — I can graph a quadratic function using its algebraic structure and key features. |
 | Math 32 | Deepen | Required | Required | Periodic Functions and Modeling | `M32-GRF-004` — I can write sine and cosine equations that represent a periodic graph. |
+| Math 39 | Deepen | Required | Required | Power Functions and Function Comparison | `M39-POW-003` — I can relate the sign and size of k and p to the shape, domain behavior, and end behavior of a power function. |
 | Math 49 | Apply | Review | Required | Review Content | `M49-FND-004` — I can analyze exponential functions using their equations, graphs, and contexts. |
 | Math 49 | Apply | Review | Required | Review Content | `M49-FND-005` — I can analyze logarithmic functions using their equations, graphs, and contexts. |
 
@@ -2274,6 +2571,7 @@ First introduction: **Math 12**
 | Math 32 | Apply | Required | Required | Periodic Functions and Modeling | `M32-GRF-006` — I can interpret the parameters and outputs of a sinusoidal model in context. |
 | Math 32 | Apply | Extension | Required | Parametric Equations | `M32-PAR-003` — I can create or interpret parametric equations for motion in the plane. |
 | Math 32 | Apply | Required | Required | Non-Right Triangles | `M32-TRI-005` — I can select and apply an appropriate method to solve a triangle in context. |
+| Math 39 | Apply | Required | Required | Linear Modeling and Residuals | `M39-LIN-001` — I can calculate and interpret average rate of change with appropriate units. |
 | Math 49 | Apply | Extension | Required | Parametric Equations | `M49-PAR-003` — I can create or interpret parametric equations for motion in the plane. |
 
 ## SK-SEQ-DIFFERENCE: Recognize constant difference in an arithmetic sequence.
@@ -2442,6 +2740,168 @@ First introduction: **Math 22**
 | Course | Role | Priority | Relationship | Unit | Objective |
 |---|---|---|---|---|---|
 | Math 22 | Introduce | Required | Required | Similarity and Proportional Reasoning | `M22-SIM-007` — I can apply triangle proportionality theorems and their converses. |
+
+## SK-STAT-BOXPLOT: Construct and interpret a boxplot.
+
+First introduction: **Math 39**
+
+| Course | Role | Priority | Relationship | Unit | Objective |
+|---|---|---|---|---|---|
+| Math 39 | Introduce | Required | Required | Describing Data | `M39-STA-008` — I can construct and interpret a five-number summary and boxplot. |
+
+## SK-STAT-CATEGORICAL-DISPLAY: Construct and interpret bar charts and pie charts.
+
+First introduction: **Math 39**
+
+| Course | Role | Priority | Relationship | Unit | Objective |
+|---|---|---|---|---|---|
+| Math 39 | Introduce | Required | Method-dependent | Describing Data | `M39-STA-003` — I can construct and interpret bar charts, pie charts, and histograms using appropriate technology. |
+
+## SK-STAT-CENTER-SELECT: Select an appropriate measure of center based on distribution shape and context.
+
+First introduction: **Math 39**
+
+| Course | Role | Priority | Relationship | Unit | Objective |
+|---|---|---|---|---|---|
+| Math 39 | Introduce | Required | Required | Describing Data | `M39-STA-006` — I can calculate and interpret mean, median, and mode and select an appropriate measure of center. |
+| Math 39 | Apply | Required | Prerequisite | Describing Data | `M39-STA-010` — I can compare distributions using their shape, center, spread, and unusual features. |
+
+## SK-STAT-DATA-TYPE: Classify data as categorical or quantitative.
+
+First introduction: **Math 39**
+
+| Course | Role | Priority | Relationship | Unit | Objective |
+|---|---|---|---|---|---|
+| Math 39 | Introduce | Required | Required | Describing Data | `M39-STA-001` — I can distinguish categorical and quantitative data. |
+
+## SK-STAT-DISTRIBUTION-COMPARE: Compare distributions using shape, center, spread, and unusual features.
+
+First introduction: **Math 39**
+
+| Course | Role | Priority | Relationship | Unit | Objective |
+|---|---|---|---|---|---|
+| Math 39 | Introduce | Required | Required | Describing Data | `M39-STA-010` — I can compare distributions using their shape, center, spread, and unusual features. |
+
+## SK-STAT-DISTRIBUTION-SHAPE: Describe a distribution by modality, symmetry, and skewness.
+
+First introduction: **Math 39**
+
+| Course | Role | Priority | Relationship | Unit | Objective |
+|---|---|---|---|---|---|
+| Math 39 | Introduce | Required | Required | Describing Data | `M39-STA-005` — I can describe a distribution's modality, symmetry, skewness, and outliers. |
+| Math 39 | Apply | Required | Prerequisite | Describing Data | `M39-STA-010` — I can compare distributions using their shape, center, spread, and unusual features. |
+
+## SK-STAT-FIVE-NUMBER: Determine and interpret a five-number summary.
+
+First introduction: **Math 39**
+
+| Course | Role | Priority | Relationship | Unit | Objective |
+|---|---|---|---|---|---|
+| Math 39 | Introduce | Required | Required | Describing Data | `M39-STA-008` — I can construct and interpret a five-number summary and boxplot. |
+
+## SK-STAT-FREQUENCY-TABLE: Construct and interpret a frequency table.
+
+First introduction: **Math 39**
+
+| Course | Role | Priority | Relationship | Unit | Objective |
+|---|---|---|---|---|---|
+| Math 39 | Introduce | Required | Required | Describing Data | `M39-STA-002` — I can construct and interpret frequency and relative-frequency tables. |
+
+## SK-STAT-GRAPH-CRITIQUE: Identify perceptual distortion, misleading scales, and other misleading features in data displays.
+
+First introduction: **Math 39**
+
+| Course | Role | Priority | Relationship | Unit | Objective |
+|---|---|---|---|---|---|
+| Math 39 | Introduce | Required | Required | Describing Data | `M39-STA-004` — I can identify misleading features in a data display. |
+
+## SK-STAT-HISTOGRAM: Construct and interpret a histogram for quantitative data.
+
+First introduction: **Math 39**
+
+| Course | Role | Priority | Relationship | Unit | Objective |
+|---|---|---|---|---|---|
+| Math 39 | Introduce | Required | Required | Describing Data | `M39-STA-003` — I can construct and interpret bar charts, pie charts, and histograms using appropriate technology. |
+
+## SK-STAT-MEAN: Calculate and interpret the arithmetic mean.
+
+First introduction: **Math 39**
+
+| Course | Role | Priority | Relationship | Unit | Objective |
+|---|---|---|---|---|---|
+| Math 39 | Introduce | Required | Required | Describing Data | `M39-STA-006` — I can calculate and interpret mean, median, and mode and select an appropriate measure of center. |
+
+## SK-STAT-MEDIAN: Calculate and interpret the median.
+
+First introduction: **Math 39**
+
+| Course | Role | Priority | Relationship | Unit | Objective |
+|---|---|---|---|---|---|
+| Math 39 | Introduce | Required | Required | Describing Data | `M39-STA-006` — I can calculate and interpret mean, median, and mode and select an appropriate measure of center. |
+
+## SK-STAT-MODE: Identify and interpret the mode or modes.
+
+First introduction: **Math 39**
+
+| Course | Role | Priority | Relationship | Unit | Objective |
+|---|---|---|---|---|---|
+| Math 39 | Introduce | Required | Required | Describing Data | `M39-STA-006` — I can calculate and interpret mean, median, and mode and select an appropriate measure of center. |
+
+## SK-STAT-OUTLIER-IDENTIFY: Identify and interpret unusual observations or outliers.
+
+First introduction: **Math 39**
+
+| Course | Role | Priority | Relationship | Unit | Objective |
+|---|---|---|---|---|---|
+| Math 39 | Introduce | Required | Required | Describing Data | `M39-STA-005` — I can describe a distribution's modality, symmetry, skewness, and outliers. |
+
+## SK-STAT-PERCENTILE: Determine and interpret the percentile rank of a value.
+
+First introduction: **Math 39**
+
+| Course | Role | Priority | Relationship | Unit | Objective |
+|---|---|---|---|---|---|
+| Math 39 | Introduce | Required | Required | Describing Data | `M39-STA-009` — I can use percentiles and z-scores to locate and compare values within distributions. |
+
+## SK-STAT-QUARTILES-IQR: Determine quartiles and calculate and interpret the interquartile range.
+
+First introduction: **Math 39**
+
+| Course | Role | Priority | Relationship | Unit | Objective |
+|---|---|---|---|---|---|
+| Math 39 | Introduce | Required | Required | Describing Data | `M39-STA-007` — I can calculate and interpret range, standard deviation, quartiles, and interquartile range. |
+
+## SK-STAT-RANGE: Calculate and interpret the range.
+
+First introduction: **Math 39**
+
+| Course | Role | Priority | Relationship | Unit | Objective |
+|---|---|---|---|---|---|
+| Math 39 | Introduce | Required | Required | Describing Data | `M39-STA-007` — I can calculate and interpret range, standard deviation, quartiles, and interquartile range. |
+
+## SK-STAT-RELATIVE-FREQUENCY: Calculate and interpret relative frequency.
+
+First introduction: **Math 39**
+
+| Course | Role | Priority | Relationship | Unit | Objective |
+|---|---|---|---|---|---|
+| Math 39 | Introduce | Required | Required | Describing Data | `M39-STA-002` — I can construct and interpret frequency and relative-frequency tables. |
+
+## SK-STAT-STANDARD-DEVIATION: Calculate and interpret standard deviation as a measure of spread.
+
+First introduction: **Math 39**
+
+| Course | Role | Priority | Relationship | Unit | Objective |
+|---|---|---|---|---|---|
+| Math 39 | Introduce | Required | Required | Describing Data | `M39-STA-007` — I can calculate and interpret range, standard deviation, quartiles, and interquartile range. |
+
+## SK-STAT-ZSCORE: Calculate and interpret a z-score.
+
+First introduction: **Math 39**
+
+| Course | Role | Priority | Relationship | Unit | Objective |
+|---|---|---|---|---|---|
+| Math 39 | Introduce | Required | Required | Describing Data | `M39-STA-009` — I can use percentiles and z-scores to locate and compare values within distributions. |
 
 ## SK-SYS-CHECK: Check an ordered pair in both equations of a system.
 
@@ -2971,26 +3431,30 @@ First introduction: **Math 32**
 
 ## SK-VAR-DIRECT: Represent and interpret a direct-variation relationship.
 
-First introduction: **Math 49**
+First introduction: **Math 39**
 
 | Course | Role | Priority | Relationship | Unit | Objective |
 |---|---|---|---|---|---|
+| Math 39 | Introduce | Required | Required | Power Functions and Function Comparison | `M39-POW-004` — I can recognize and model direct, inverse, and other power-variation relationships. |
 | Math 49 | Introduce | Required | Required | Power, Polynomial, and Rational Functions | `M49-ALG-001` — I can identify and model direct, inverse, and power variation. |
 
 ## SK-VAR-INVERSE: Represent and interpret an inverse-variation relationship.
 
-First introduction: **Math 49**
+First introduction: **Math 39**
 
 | Course | Role | Priority | Relationship | Unit | Objective |
 |---|---|---|---|---|---|
+| Math 39 | Introduce | Required | Required | Power Functions and Function Comparison | `M39-POW-004` — I can recognize and model direct, inverse, and other power-variation relationships. |
 | Math 49 | Introduce | Required | Required | Power, Polynomial, and Rational Functions | `M49-ALG-001` — I can identify and model direct, inverse, and power variation. |
 
 ## SK-VAR-POWER: Represent and interpret a power-variation relationship.
 
-First introduction: **Math 49**
+First introduction: **Math 39**
 
 | Course | Role | Priority | Relationship | Unit | Objective |
 |---|---|---|---|---|---|
+| Math 39 | Introduce | Required | Required | Power Functions and Function Comparison | `M39-POW-001` — I can identify a power function and interpret the parameters in y = kx^p. |
+| Math 39 | Deepen | Required | Required | Power Functions and Function Comparison | `M39-POW-004` — I can recognize and model direct, inverse, and other power-variation relationships. |
 | Math 49 | Introduce | Required | Required | Power, Polynomial, and Rational Functions | `M49-ALG-001` — I can identify and model direct, inverse, and power variation. |
 
 ## SK-VEC-3D: Represent and operate on vectors with three components.
