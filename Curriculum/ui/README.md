@@ -12,8 +12,15 @@ The prototype reads `public/data/skill_progressions.json`. Running `../tools/gen
 
 ## Local Development
 
-- Install dependencies with the package manager appropriate to the development environment.
-- Run `npm run dev` or `pnpm dev`.
-- Run `npm run build` or `pnpm build` for production validation.
+- Run `npm install`.
+- Run `npm run dev` for a local development server.
+- Run `npm run build` for production validation.
+- Run `npm run preview` to inspect the production build locally.
 
-The Sites starter includes a Cloudflare `workerd` dependency. Its pinned version does not provide a Windows ARM64 binary, so production build validation must run on a supported platform or CI environment.
+## GitHub Pages
+
+The repository workflow at `.github/workflows/pages.yml` regenerates curriculum data, builds this static site, and deploys `dist/` to GitHub Pages whenever `main` changes.
+
+In the GitHub repository, choose **Settings → Pages → Source: GitHub Actions**. After the workflow succeeds, the site is available at:
+
+`https://mharrington-png.github.io/Curriculum-Map/`

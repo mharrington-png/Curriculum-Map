@@ -33,7 +33,7 @@ export default function Home() {
   const [query, setQuery] = useState("");
   const [overview, setOverview] = useState(false);
 
-  useEffect(() => { fetch("/data/skill_progressions.json").then(r => r.json()).then(setSkills); }, []);
+  useEffect(() => { fetch(`${import.meta.env.BASE_URL}data/skill_progressions.json`).then(r => r.json()).then(setSkills); }, []);
   const allOccurrences = useMemo(() => skills.flatMap(s => s.occurrences), [skills]);
   const selectedCourse = courses.find(c => c.id === courseId);
   const courseOccurrences = allOccurrences.filter(o => o.course_id === courseId);
