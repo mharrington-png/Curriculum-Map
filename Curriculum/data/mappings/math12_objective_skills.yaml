@@ -1,0 +1,220 @@
+schema_version: 1
+course_id: M12
+status: approved
+evidence:
+  - source: source_documents/Math 12 Course Map.docx
+  - source: objectives/MATH12_OBJECTIVES.md
+
+mappings:
+  - objective_id: M12-REV-001
+    skills:
+      - {skill_id: SK-NUM-ORDER-OPERATIONS, relationship: required, progression: reinforce}
+
+  - objective_id: M12-REV-002
+    skills:
+      - {skill_id: SK-NUM-INTEGER-OPERATE, relationship: required, progression: reinforce}
+      - {skill_id: SK-NUM-FRACTION-OPERATE, relationship: required, progression: reinforce}
+
+  - objective_id: M12-REV-003
+    skills:
+      - {skill_id: SK-ALG-LIKE-TERMS, relationship: required, progression: reinforce}
+      - {skill_id: SK-ALG-EXPRESSION-SIMPLIFY, relationship: required, progression: reinforce}
+
+  - objective_id: M12-REV-004
+    skills:
+      - {skill_id: SK-ALG-DISTRIBUTE, relationship: required, progression: reinforce}
+
+  - objective_id: M12-REV-005
+    skills:
+      - {skill_id: SK-NUM-PRIME-FACTOR, relationship: required, progression: reinforce}
+
+  - objective_id: M12-EQN-001
+    skills:
+      - {skill_id: SK-ALG-INVERSE-OPERATIONS, relationship: required, progression: introduce}
+      - {skill_id: SK-ALG-LIKE-TERMS, relationship: prerequisite, progression: apply}
+      - {skill_id: SK-ALG-DISTRIBUTE, relationship: prerequisite, progression: apply}
+      - {skill_id: SK-ALG-CHECK-SOLUTION, relationship: required, progression: introduce}
+
+  - objective_id: M12-EQN-002
+    skills:
+      - {skill_id: SK-NUM-FRACTION-OPERATE, relationship: prerequisite, progression: apply}
+      - {skill_id: SK-ALG-CLEAR-FRACTIONS, relationship: required, progression: introduce}
+      - {skill_id: SK-ALG-INVERSE-OPERATIONS, relationship: required, progression: apply}
+      - {skill_id: SK-ALG-CHECK-SOLUTION, relationship: required, progression: apply}
+
+  - objective_id: M12-EQN-003
+    skills:
+      - {skill_id: SK-ALG-VARIABLE-ISOLATE, relationship: required, progression: introduce}
+      - {skill_id: SK-ALG-INVERSE-OPERATIONS, relationship: required, progression: apply}
+
+  - objective_id: M12-EQN-004
+    skills:
+      - {skill_id: SK-ALG-TRANSLATE-EQUATION, relationship: required, progression: introduce}
+      - {skill_id: SK-ALG-EXPRESSION-SIMPLIFY, relationship: prerequisite, progression: apply}
+
+  - objective_id: M12-EQN-005
+    skills:
+      - {skill_id: SK-ALG-TRANSLATE-EQUATION, relationship: required, progression: deepen}
+      - {skill_id: SK-ALG-INVERSE-OPERATIONS, relationship: required, progression: apply}
+      - {skill_id: SK-ALG-CHECK-SOLUTION, relationship: required, progression: apply}
+
+  - objective_id: M12-INE-001
+    skills:
+      - {skill_id: SK-ALG-INVERSE-OPERATIONS, relationship: required, progression: apply}
+      - {skill_id: SK-INE-REVERSE-SIGN, relationship: required, progression: introduce}
+      - {skill_id: SK-INE-NUMBER-LINE, relationship: required, progression: introduce}
+
+  - objective_id: M12-INE-002
+    skills:
+      - {skill_id: SK-ALG-INVERSE-OPERATIONS, relationship: required, progression: apply}
+      - {skill_id: SK-INE-REVERSE-SIGN, relationship: required, progression: apply}
+      - {skill_id: SK-INE-COMPOUND-AND, relationship: required, progression: introduce}
+      - {skill_id: SK-INE-NUMBER-LINE, relationship: required, progression: apply}
+
+  - objective_id: M12-INE-003
+    skills:
+      - {skill_id: SK-ALG-INVERSE-OPERATIONS, relationship: required, progression: apply}
+      - {skill_id: SK-INE-REVERSE-SIGN, relationship: required, progression: apply}
+      - {skill_id: SK-INE-COMPOUND-OR, relationship: required, progression: introduce}
+      - {skill_id: SK-INE-NUMBER-LINE, relationship: required, progression: apply}
+
+  - objective_id: M12-INE-004
+    skills:
+      - {skill_id: SK-NOT-INTERVAL, relationship: required, progression: introduce}
+      - {skill_id: SK-INE-NUMBER-LINE, relationship: prerequisite, progression: apply}
+
+  - objective_id: M12-INE-005
+    skills:
+      - {skill_id: SK-ABS-SPLIT-EQUATION, relationship: required, progression: introduce}
+      - {skill_id: SK-ALG-INVERSE-OPERATIONS, relationship: required, progression: apply}
+      - {skill_id: SK-ALG-CHECK-SOLUTION, relationship: required, progression: apply}
+
+  - objective_id: M12-LIN-001
+    skills:
+      - {skill_id: SK-LIN-SLOPE-POINTS, relationship: required, progression: introduce}
+      - {skill_id: SK-LIN-SLOPE-GRAPH, relationship: required, progression: introduce}
+      - {skill_id: SK-REP-UNITS, relationship: required, progression: introduce}
+
+  - objective_id: M12-LIN-002
+    skills:
+      - {skill_id: SK-LIN-FORM-CONVERT, relationship: method-dependent, progression: introduce}
+      - {skill_id: SK-LIN-PLOT-INTERCEPT, relationship: required, progression: introduce}
+      - {skill_id: SK-LIN-GRAPH-SLOPE, relationship: required, progression: introduce}
+
+  - objective_id: M12-LIN-003
+    skills:
+      - {skill_id: SK-LIN-SLOPE-POINTS, relationship: prerequisite, progression: apply}
+      - {skill_id: SK-LIN-FORM-CONVERT, relationship: required, progression: deepen}
+      - {skill_id: SK-ALG-VARIABLE-ISOLATE, relationship: method-dependent, progression: apply}
+
+  - objective_id: M12-LIN-004
+    skills:
+      - {skill_id: SK-LIN-PARALLEL-SLOPE, relationship: required, progression: introduce}
+      - {skill_id: SK-LIN-PERPENDICULAR-SLOPE, relationship: required, progression: introduce}
+
+  - objective_id: M12-LIN-005
+    skills:
+      - {skill_id: SK-FUNC-NOTATION-READ, relationship: required, progression: introduce}
+      - {skill_id: SK-FUNC-INPUT-OUTPUT, relationship: required, progression: introduce}
+      - {skill_id: SK-ALG-EXPRESSION-SIMPLIFY, relationship: prerequisite, progression: apply}
+
+  - objective_id: M12-LIN-006
+    skills:
+      - {skill_id: SK-FUNC-VERTICAL-LINE, relationship: required, progression: introduce}
+      - {skill_id: SK-FUNC-INPUT-OUTPUT, relationship: required, progression: deepen}
+
+  - objective_id: M12-LIN-008
+    skills:
+      - {skill_id: SK-FUNC-DOMAIN-RANGE-GRAPH, relationship: required, progression: introduce}
+      - {skill_id: SK-FUNC-DOMAIN-RANGE-TABLE, relationship: required, progression: introduce}
+
+  - objective_id: M12-LIN-009
+    skills:
+      - {skill_id: SK-FUNC-CONTEXT-DOMAIN, relationship: required, progression: introduce}
+      - {skill_id: SK-FUNC-CONTEXT-RANGE, relationship: required, progression: introduce}
+      - {skill_id: SK-MODEL-VALID-DOMAIN, relationship: required, progression: introduce}
+
+  - objective_id: M12-SYS-001
+    skills:
+      - {skill_id: SK-SYS-GRAPH-INTERSECTION, relationship: required, progression: introduce}
+
+  - objective_id: M12-SYS-002
+    skills:
+      - {skill_id: SK-LIN-PLOT-INTERCEPT, relationship: prerequisite, progression: apply}
+      - {skill_id: SK-LIN-GRAPH-SLOPE, relationship: prerequisite, progression: apply}
+      - {skill_id: SK-SYS-GRAPH-INTERSECTION, relationship: required, progression: deepen}
+      - {skill_id: SK-SYS-CHECK, relationship: required, progression: introduce}
+
+  - objective_id: M12-SYS-003
+    skills:
+      - {skill_id: SK-SYS-SUBSTITUTE, relationship: required, progression: introduce}
+      - {skill_id: SK-ALG-INVERSE-OPERATIONS, relationship: prerequisite, progression: apply}
+      - {skill_id: SK-SYS-CHECK, relationship: required, progression: apply}
+
+  - objective_id: M12-SYS-004
+    skills:
+      - {skill_id: SK-SYS-ELIMINATE, relationship: required, progression: introduce}
+      - {skill_id: SK-ALG-INVERSE-OPERATIONS, relationship: prerequisite, progression: apply}
+      - {skill_id: SK-SYS-CHECK, relationship: required, progression: apply}
+
+  - objective_id: M12-SYS-005
+    skills:
+      - {skill_id: SK-SYS-MODEL, relationship: required, progression: introduce}
+      - {skill_id: SK-SYS-SUBSTITUTE, relationship: method-dependent, progression: apply}
+      - {skill_id: SK-SYS-ELIMINATE, relationship: method-dependent, progression: apply}
+      - {skill_id: SK-SYS-CHECK, relationship: required, progression: apply}
+
+  - objective_id: M12-POL-001
+    skills:
+      - {skill_id: SK-EXP-PRODUCT, relationship: required, progression: introduce}
+      - {skill_id: SK-EXP-QUOTIENT, relationship: required, progression: introduce}
+      - {skill_id: SK-EXP-POWER, relationship: required, progression: introduce}
+
+  - objective_id: M12-POL-002
+    skills:
+      - {skill_id: SK-POLY-VOCABULARY, relationship: prerequisite, progression: introduce}
+      - {skill_id: SK-POLY-LIKE-TERMS, relationship: required, progression: introduce}
+      - {skill_id: SK-ALG-LIKE-TERMS, relationship: prerequisite, progression: apply}
+
+  - objective_id: M12-POL-003
+    skills:
+      - {skill_id: SK-POLY-VOCABULARY, relationship: prerequisite, progression: apply}
+      - {skill_id: SK-POLY-DISTRIBUTE, relationship: required, progression: introduce}
+      - {skill_id: SK-POLY-BINOMIAL-MULTIPLY, relationship: required, progression: introduce}
+      - {skill_id: SK-ALG-DISTRIBUTE, relationship: prerequisite, progression: apply}
+
+  - objective_id: M12-POL-004
+    skills:
+      - {skill_id: SK-POLY-VOCABULARY, relationship: prerequisite, progression: apply}
+      - {skill_id: SK-POLY-DIVIDE-MONOMIAL, relationship: required, progression: introduce}
+      - {skill_id: SK-EXP-QUOTIENT, relationship: prerequisite, progression: apply}
+
+  - objective_id: M12-POL-005
+    skills:
+      - {skill_id: SK-POLY-VOCABULARY, relationship: prerequisite, progression: apply}
+      - {skill_id: SK-POLY-GCF, relationship: prerequisite, progression: introduce}
+      - {skill_id: SK-FACTOR-GCF, relationship: required, progression: introduce}
+      - {skill_id: SK-ALG-DISTRIBUTE, relationship: prerequisite, progression: apply}
+
+  - objective_id: M12-EXT-001
+    skills:
+      - {skill_id: SK-ABS-SPLIT-INEQUALITY, relationship: required, progression: introduce}
+      - {skill_id: SK-INE-COMPOUND-AND, relationship: method-dependent, progression: apply}
+      - {skill_id: SK-INE-COMPOUND-OR, relationship: method-dependent, progression: apply}
+      - {skill_id: SK-INE-NUMBER-LINE, relationship: required, progression: apply}
+
+  - objective_id: M12-EXT-002
+    skills:
+      - {skill_id: SK-INE-GRAPH-BOUNDARY, relationship: required, progression: introduce}
+      - {skill_id: SK-INE-SYSTEM-REGION, relationship: required, progression: introduce}
+      - {skill_id: SK-LIN-GRAPH-SLOPE, relationship: prerequisite, progression: apply}
+
+  - objective_id: M12-EXT-003
+    skills:
+      - {skill_id: SK-FACTOR-TRINOMIAL-MONIC, relationship: required, progression: introduce}
+      - {skill_id: SK-FACTOR-TRINOMIAL-GENERAL, relationship: method-dependent, progression: introduce}
+      - {skill_id: SK-FACTOR-CHECK, relationship: required, progression: introduce}
+
+  - objective_id: M12-EXT-004
+    skills:
+      - {skill_id: SK-FUNC-DISCRETE-CONTINUOUS, relationship: required, progression: introduce}

@@ -1,0 +1,83 @@
+schema_version: 1
+course:
+  id: M21
+  number: Math 21
+  title: Algebra and Its Functions
+  status: draft
+  source: source_documents/Math 21 Course Map.docx
+
+units:
+  - id: M21-REV
+    title: Review Content
+    priority: review
+    objectives:
+      - {id: M21-REV-001, statement: "I can determine and interpret the slope of a line."}
+      - {id: M21-REV-002, statement: "I can graph a line from an equation and write an equation from given information."}
+      - {id: M21-REV-003, statement: "I can apply a linear function to a context."}
+      - {id: M21-REV-004, statement: "I can identify the solution of a linear system as an intersection point."}
+      - {id: M21-REV-005, statement: "I can solve a simple two-variable linear system using an appropriate method."}
+      - {id: M21-REV-006, statement: "I can simplify an expression using basic positive-integer exponent rules."}
+
+  - id: M21-FUN
+    title: Functions and Function Interpretation
+    priority: required
+    objectives:
+      - {id: M21-FUN-001, statement: "I can evaluate a function from a formula, graph, or table."}
+      - {id: M21-FUN-002, statement: "I can determine whether a relation is a function."}
+      - {id: M21-FUN-003, statement: "I can determine domain and range from a graph or table."}
+      - {id: M21-FUN-004, statement: "I can solve for an input that produces a specified output."}
+      - {id: M21-FUN-005, statement: "I can interpret inputs, outputs, domain, and range in context."}
+      - {id: M21-FUN-006, statement: "I can calculate and interpret average rate of change."}
+      - {id: M21-FUN-007, statement: "I can compare functions represented by formulas, graphs, or tables."}
+
+  - id: M21-POL
+    title: Polynomials and Factoring
+    priority: required
+    objectives:
+      - {id: M21-POL-001, statement: "I can add and subtract polynomials."}
+      - {id: M21-POL-002, statement: "I can multiply polynomials."}
+      - {id: M21-POL-003, statement: "I can factor out a greatest common factor."}
+      - {id: M21-POL-004, statement: "I can factor a quadratic trinomial."}
+      - {id: M21-POL-005, statement: "I can factor a difference of squares and other required special cases."}
+      - {id: M21-POL-006, statement: "I can use factoring to determine the zeros of a polynomial."}
+
+  - id: M21-RAT
+    title: Rational Expressions and Equations
+    priority: required
+    objectives:
+      - {id: M21-RAT-001, statement: "I can state excluded values for a rational expression."}
+      - {id: M21-RAT-002, statement: "I can simplify a rational expression while preserving its restrictions."}
+      - {id: M21-RAT-003, statement: "I can multiply and divide rational expressions."}
+      - {id: M21-RAT-004, statement: "I can add and subtract rational expressions using a common denominator."}
+      - {id: M21-RAT-005, statement: "I can solve a rational equation and reject extraneous solutions."}
+
+  - id: M21-EXP
+    title: Exponents and Radicals
+    priority: required
+    objectives:
+      - {id: M21-EXP-001, statement: "I can simplify expressions containing negative exponents."}
+      - {id: M21-EXP-002, statement: "I can rewrite expressions between radical and rational-exponent forms."}
+      - {id: M21-EXP-003, statement: "I can simplify radical expressions."}
+      - {id: M21-EXP-004, statement: "I can apply exponent rules to expressions with integer and rational exponents."}
+      - {id: M21-EXP-005, statement: "I can solve a basic equation involving a radical or rational exponent and check for extraneous solutions."}
+
+  - id: M21-QUAD
+    title: Quadratic Functions and Equations
+    priority: required
+    objectives:
+      - {id: M21-QUAD-001, statement: "I can identify key features of a quadratic function from its graph or equation."}
+      - {id: M21-QUAD-002, statement: "I can connect standard, factored, and vertex forms to features of a parabola."}
+      - {id: M21-QUAD-003, statement: "I can solve a quadratic equation by factoring."}
+      - {id: M21-QUAD-004, statement: "I can solve a quadratic equation using the square-root property."}
+      - {id: M21-QUAD-005, statement: "I can solve a quadratic equation by completing the square."}
+      - {id: M21-QUAD-006, statement: "I can solve a quadratic equation using the quadratic formula."}
+      - {id: M21-QUAD-007, statement: "I can choose an efficient method for solving a quadratic equation."}
+      - {id: M21-QUAD-008, statement: "I can graph a quadratic function using its vertex, intercepts, and symmetry."}
+      - {id: M21-QUAD-009, statement: "I can create and interpret a quadratic model for a projectile, area, or optimization problem."}
+
+  - id: M21-EXT
+    title: Extension Content
+    priority: extension
+    objectives:
+      - {id: M21-EXT-001, statement: "I can perform basic arithmetic with complex numbers."}
+      - {id: M21-EXT-002, statement: "I can express the nonreal solutions of a quadratic equation using complex numbers."}

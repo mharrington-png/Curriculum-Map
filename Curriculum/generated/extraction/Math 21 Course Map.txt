@@ -1,0 +1,28 @@
+[P:Title] Middlesex Math Course Overview
+[P:Heading 1] Math 21
+[P:normal] Algebra and Its Functions
+[P:Heading 1] Critical Content (Covered Every Semester)
+[P:Heading 1] 2. Extension Material (Optional/Time-Permitting)
+[P:normal] Complex Numbers
+[P:normal] More Practice with Exponents, Radicals, and Rational expressions
+[P:Heading 1] 3. Depth, Emphasis, and Pedagogical Notes
+[P:normal] Sections are listed below in the OpenStax order. If taking out of order, be careful about textbook questions that assume earlier knowledge (for instance quadratics will often involve complex numbers).
+[P:normal] Systems of Equations is hit-and-miss for new students. Expose students to them in Math 21 to identify gaps but don’t cover from scratch. (Likely during Linear Functions and Graphs unit)
+[P:Heading 1] 4. Mapping to New Textbook
+[P:Heading 1] 5. List of Supplemental Materials (workbooks, documents, etc.)
+[P:normal] 21 workbook may offer support and supplements where needed.
+
+[TABLE 1]
+The intention is to better align the Fall 21 and Spring 21, with the primary goal of having each course finish in the roughly the same place. | The intention is to better align the Fall 21 and Spring 21, with the primary goal of having each course finish in the roughly the same place.
+Fall | Spring
+General Functions / Input and Output / Vertical Line Test / Domain and Range (From graph or table primarily) / Interpretations of input and output in context / Evaluating Function outputs and solving for inputs / Review of Lines and Linear Functions / Average Rate of Change / Graphs of lines / Applications of Linear Functions / Systems of Linear Equations / Exponent Rules / Basic Rules / Negative exponents / Fractional exponents and radicals / Quadratic Functions / Factoring including Special Cases / Completing the Square / Quadratic Formula / Solving quadratic equations / Applications of Quadratic Functions (projectiles, area problems, max/min) / Rational Expressions / Simplifying Fractions involving algebraic symbols (ex. ) / Combining algebraic fractions / Solving Equations with fractions / | Factoring / Factoring GCF / Factoring Trinomials
+
+[TABLE 2]
+ | Topic | Weeks? | OpenStax Sections
+Math 21 | Linear functions and Graphing | 2 | 3.1 to 3.4
+ | Functions | 3 | 3.5 to 3.6 (with supplementing)
+ | Polynomials and factoring | 3 | 5.1 to 5.4 and 6.1 to 6.3
+ | Rational Expressions | 2 | 7.1 to 7.5
+ | Exponents and Radicals | 2 | 8.1 to 8.4
+ | Quadratics | 5 | 9.1 to 9.7
+ |  |  | 

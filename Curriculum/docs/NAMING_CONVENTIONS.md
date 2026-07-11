@@ -1,0 +1,16 @@
+# Naming Conventions
+
+Learning Objectives
+M12-LIN-001
+M21-QUAD-004
+M31-FUNC-006
+M32-TRIG-012
+M49-LIMIT-003
+
+Skills
+SK-ALG-FACTOR
+SK-GRAPH-DOMAIN
+SK-NOT-INTERVAL
+SK-FUNC-EVALUATE
+
+IDs never change after assignment.

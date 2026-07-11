@@ -1,0 +1,92 @@
+[P:Title] Middlesex Math Course Overview
+[P:Normal] Course  Number: 31
+[P:Normal] Course Title: Advanced Algebra
+[P:Heading 1] 1. Critical Content (Covered Every Semester)
+[P:Normal] Function Basics and Linear Functions ( no linear inequalities)
+[P:Normal] Definition of a function: Every input can only have one output
+[P:Normal] How to tell if something is a function: i.e. Vertical Line Test
+[P:Normal] Inputs and outputs from equations, charts or graphs
+[P:Normal] Average Rate of Change
+[P:Normal] Linear Functions
+[P:Normal] Constant Average Rate of Change = slope
+[P:Normal] Two Forms of Lines
+[P:Normal] Slope intercept:
+[P:Normal] Point slope:
+[P:Normal] Parallel vs. Perpendicular Lines
+[P:Normal] Vertical vs. Horizontal Lines
+[P:Normal] Function Characteristics
+[P:Normal] Inputs and Outputs and using an equation, chart or graph to evaluate.
+[P:Normal] Domain and Range
+[P:Normal] No zeros in denominator
+[P:Normal] No negatives under square roots
+[P:Normal] To find Range algebraically, find the domain of the inverse
+[P:Normal] Piecewise functions: graph by hand and/or come up with an equation given a graph
+[P:Normal] Transformations
+[P:Normal] Vertical and Horizontal Shifts
+[P:Normal] H = horizontal shift left or right: affects inputs, domain and vertical asymptote
+[P:Normal] K = vertical shift up or down: affects outputs, range and horizontal asymptote
+[P:Normal] Vertical and Horizontal stretches, compressions, and reflections
+[P:Normal] Composite functions:  [This is revisited in Math 49 in greater depth.Emphasis here on evaluating and writing formulas, less on domain and range and decomposition]
+[P:Normal] Inverse Functions:
+[P:Normal] Inputs and outputs flip which means domain and range flip
+[P:Normal] Finding and inverse algebraically
+[P:Normal] Evaluating an inverse using a chart or a graph
+[P:Normal] Inverses undo each other so
+[P:Normal] Concavity:
+[P:Normal] Concave up: AROC is increasing (looks like an upwards parabola)
+[P:Normal] Concave down: AROC is decreasing (looks like a downwards parabola)
+[P:Normal] Exponential Functions
+[P:Normal] Percentage Basics (you leave a 12% tip, your shirt is 35% off) [prerequisite knowledge]
+[P:Normal] How to tell the difference between exponentials and linear functions
+[P:Normal] Linear : change by a constant number so difference between consecutive y-values is equal.
+[P:Normal] Exponential: change by a constant percent so ratio between consecutive y values is equal.
+[P:Normal] Basic Form:
+[P:Normal] a = initial amount
+[P:Normal] b = growth factor ()
+[P:Normal] Compounding
+[P:Normal] By a finite amount (quarterly, monthly, daily, etc):
+[P:Normal] Continuously:
+[P:Normal] Finding nominal and effective rates
+[P:Normal] Graphs of exponentials: domain, range, asymptote
+[P:Normal] Logarithmic Functions
+[P:Normal] Basic Log Definition
+[P:Normal] Converting between logs and exponentials
+[P:Normal] 3 properties of logs
+[P:Normal] Product:
+[P:Normal] Quotient:
+[P:Normal] Power:
+[P:Normal] Using logs to solve exponential equations or using exponents to solve logs
+[P:Normal] Doubling Time and Half-life
+[P:Normal] Converting between
+[P:Normal] Graphs of logarithmic functions: domain, range, asymptote
+[P:Normal] Quadratics:
+[P:Normal] The three forms of quadratics and other vocabulary terms.
+[P:Normal] Standard form:
+[P:Normal] Factored form:
+[P:Normal] Vertex form:
+[P:Normal] Finding the y-intercept
+[P:Normal] Finding the vertex
+[P:Normal] Finding the zeros (solving quadratic equations)
+[P:Heading 1] 2. Extension Material (Optional/Time-Permitting)
+[P:Normal] More work with Quadratics
+[P:Normal] Transformations and symmetry
+[P:Normal] Applications of logarithmic scales
+[P:Heading 1] 3. Depth, Emphasis, and Pedagogical Notes
+[P:Normal] Lines and Quadratics should be review, move quickly here but try to address lingering misconceptions. Use the full variety of common forms of these functions.
+[P:Normal] Be on the lookout for non-real answers to quadratic equations – the book covers complex numbers early.
+[P:Normal] General Function behavior, including Domain, Range, compositions, inverses will all be revisited in Math 49. Emphasize the concept here rather than choosing the most algebraically intense examples for assessment.
+[P:Heading 1] 4. Mapping to New Textbook
+[P:Normal] OpenStax College Algebra
+[P:Normal] (Original Notes below)
+[P:Normal] Start in Chapter 3 (which is similar to chapter 1 & 2 in Wiley but without lines)
+[P:Normal] -Section 3.2 covers piecewise functions. It is safe to assume students have graphed lines and worked with linear functions in both common forms. Piecewise Linear Functions should be fair game.
+[P:Normal] -Do we want to include 3.6 which is an absolute value? We normally don’t in Math 31but it would be a nice way to include/reinforce transformations.
+[P:Normal] -Note this would mean we would move transformations to this time of the year.
+[P:Normal] Then go to Chapter 4.1-4.2 which is lines (would only take 1.5 weeks) -- we don’t need 4.3.
+[P:Normal] - Should we do 2 days revisiting piecewise with more challenging line equations? That may be a timing thing?
+[P:Normal] Chapter 6 which is exponential and logs
+[P:Normal] -6.1 -6.2 is essentially Chapter 4 from Wiley (2-3 weeks)
+[P:Normal] -6.3-6.7 is essentially Chapter 5 from Wiley (3+ weeks)
+[P:Normal] Quadratics to end
+[P:Normal] -2.5 solving quadratics
+[P:Normal] -5.1 vertex & factored form

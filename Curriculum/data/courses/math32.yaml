@@ -1,0 +1,113 @@
+schema_version: 1
+course:
+  id: M32
+  number: Math 32
+  title: Trigonometry Fundamentals
+  status: approved
+  source: source_documents/MATH 32 TRIG PACKET to be printed 2025.pdf
+
+units:
+  - id: M32-FND
+    title: Trigonometric Foundations
+    priority: required
+    objectives:
+      - {id: M32-FND-001, statement: "I can use the Pythagorean theorem to determine an unknown side of a right triangle."}
+      - {id: M32-FND-002, statement: "I can determine exact side lengths in 30-60-90 and 45-45-90 triangles."}
+      - {id: M32-FND-003, statement: "I can convert angle measures between degrees and radians."}
+      - {id: M32-FND-004, statement: "I can determine coterminal and reference angles for a given angle."}
+      - {id: M32-FND-005, statement: "I can calculate arc length from a central angle and radius."}
+      - {id: M32-FND-006, statement: "I can determine exact coordinates on the unit circle."}
+      - {id: M32-FND-007, statement: "I can evaluate all six trigonometric functions exactly for common angles."}
+      - {id: M32-FND-008, statement: "I can solve right triangles using trigonometric ratios."}
+      - {id: M32-FND-009, statement: "I can apply right-triangle trigonometry to contextual problems."}
+      - {id: M32-FND-010, statement: "I can evaluate trigonometric functions from a point on a circle or terminal side."}
+      - {id: M32-FND-011, statement: "I can solve a basic trigonometric equation for all angles in a specified interval."}
+
+  - id: M32-GRF
+    title: Periodic Functions and Modeling
+    priority: required
+    objectives:
+      - {id: M32-GRF-001, statement: "I can graph basic sine and cosine functions using key features."}
+      - {id: M32-GRF-002, statement: "I can identify amplitude, midline, period, and phase shift from an equation or graph."}
+      - {id: M32-GRF-003, statement: "I can graph transformed sine and cosine functions."}
+      - {id: M32-GRF-004, statement: "I can write sine and cosine equations that represent a periodic graph."}
+      - {id: M32-GRF-005, statement: "I can construct a sinusoidal model from contextual information or data."}
+      - {id: M32-GRF-006, statement: "I can interpret the parameters and outputs of a sinusoidal model in context."}
+      - {id: M32-GRF-007, statement: "I can graph tangent, secant, and cosecant functions with their asymptotes."}
+
+  - id: M32-INV
+    title: Inverse Functions and Trigonometric Equations
+    priority: required
+    objectives:
+      - {id: M32-INV-001, statement: "I can evaluate inverse sine, inverse cosine, and inverse tangent expressions."}
+      - {id: M32-INV-002, statement: "I can explain how restricted domains make inverse trigonometric functions possible."}
+      - {id: M32-INV-003, statement: "I can solve trigonometric equations exactly or approximately on a specified interval."}
+      - {id: M32-INV-004, statement: "I can express all solutions of a trigonometric equation in general form."}
+      - {id: M32-INV-005, statement: "I can evaluate compositions of trigonometric and inverse trigonometric functions."}
+
+  - id: M32-TRI
+    title: Non-Right Triangles
+    priority: required
+    objectives:
+      - {id: M32-TRI-002, statement: "I can solve a non-right triangle using the Law of Sines."}
+      - {id: M32-TRI-003, statement: "I can determine the number of possible triangles in the ambiguous SSA case."}
+      - {id: M32-TRI-004, statement: "I can solve a non-right triangle using the Law of Cosines."}
+      - {id: M32-TRI-005, statement: "I can select and apply an appropriate method to solve a triangle in context."}
+
+  - id: M32-IDN
+    title: Trigonometric Identities
+    priority: required
+    objectives:
+      - {id: M32-IDN-001, statement: "I can rewrite trigonometric expressions using reciprocal and quotient identities, including `tan(theta) = sin(theta)/cos(theta)`."}
+      - {id: M32-IDN-002, statement: "I can rewrite trigonometric expressions using the Pythagorean identities."}
+      - {id: M32-IDN-003, statement: "I can use even/odd and cofunction identities to rewrite trigonometric expressions."}
+      - {id: M32-IDN-004, statement: "I can verify a trigonometric identity using the required identity families."}
+
+  - id: M32-IDX
+    title: Additional Trigonometric Identities
+    priority: extension
+    objectives:
+      - {id: M32-IDX-001, statement: "I can apply double-angle identities."}
+      - {id: M32-IDX-002, statement: "I can apply half-angle identities."}
+      - {id: M32-IDX-003, statement: "I can apply angle sum and difference identities."}
+      - {id: M32-IDX-004, statement: "I can determine exact trigonometric values using extension identities."}
+
+  - id: M32-TRX
+    title: Triangle Area from SAS
+    priority: extension
+    objectives:
+      - {id: M32-TRX-001, statement: "I can calculate the area of a triangle from two sides and the included angle."}
+
+  - id: M32-POL
+    title: Polar Coordinates
+    priority: required
+    objectives:
+      - {id: M32-POL-001, statement: "I can plot and identify points in polar coordinates."}
+      - {id: M32-POL-002, statement: "I can represent a polar point using equivalent coordinate pairs."}
+      - {id: M32-POL-003, statement: "I can convert points between polar and rectangular coordinates."}
+
+  - id: M32-PLX
+    title: Polar Functions
+    priority: extension
+    objectives:
+      - {id: M32-PLX-001, statement: "I can graph and interpret basic polar functions."}
+      - {id: M32-PLX-002, statement: "I can convert equations between polar and rectangular forms."}
+
+  - id: M32-VEC
+    title: Vectors
+    priority: extension
+    objectives:
+      - {id: M32-VEC-001, statement: "I can represent a vector geometrically and in component form."}
+      - {id: M32-VEC-002, statement: "I can add, subtract, and multiply vectors by scalars."}
+      - {id: M32-VEC-003, statement: "I can determine vector magnitude, direction, and unit vector."}
+      - {id: M32-VEC-004, statement: "I can resolve a vector into horizontal and vertical components."}
+      - {id: M32-VEC-005, statement: "I can perform basic operations with vectors in three dimensions."}
+
+  - id: M32-PAR
+    title: Parametric Equations
+    priority: extension
+    objectives:
+      - {id: M32-PAR-001, statement: "I can graph a plane curve defined by parametric equations with its orientation."}
+      - {id: M32-PAR-002, statement: "I can eliminate a parameter to obtain a rectangular equation."}
+      - {id: M32-PAR-003, statement: "I can create or interpret parametric equations for motion in the plane."}
+

@@ -1,0 +1,304 @@
+schema_version: 1
+course_id: M49
+status: approved
+evidence:
+  - source: source_documents/Math 49 Course Map.docx
+  - source: objectives/MATH49_OBJECTIVES.md
+
+mappings:
+  - objective_id: M49-FND-001
+    skills:
+      - {skill_id: SK-FUNC-DOMAIN-FORMULA, relationship: required, progression: deepen}
+      - {skill_id: SK-FUNC-DOMAIN-RANGE-GRAPH, relationship: required, progression: reinforce}
+      - {skill_id: SK-FUNC-DOMAIN-RANGE-TABLE, relationship: required, progression: reinforce}
+
+  - objective_id: M49-FND-002
+    skills:
+      - {skill_id: SK-FUNC-TRANSFORM-HORIZONTAL, relationship: required, progression: reinforce}
+      - {skill_id: SK-FUNC-TRANSFORM-VERTICAL, relationship: required, progression: reinforce}
+      - {skill_id: SK-FUNC-TRANSFORM-SCALE, relationship: required, progression: reinforce}
+
+  - objective_id: M49-FND-004
+    skills:
+      - {skill_id: SK-EXP-MODEL-CONTEXT, relationship: required, progression: reinforce}
+      - {skill_id: SK-EXP-ASYMPTOTE, relationship: required, progression: reinforce}
+      - {skill_id: SK-REP-FORMULA-GRAPH, relationship: required, progression: apply}
+
+  - objective_id: M49-FND-005
+    skills:
+      - {skill_id: SK-LOG-DEFINITION, relationship: required, progression: reinforce}
+      - {skill_id: SK-LOG-ASYMPTOTE, relationship: required, progression: reinforce}
+      - {skill_id: SK-REP-FORMULA-GRAPH, relationship: required, progression: apply}
+
+  - objective_id: M49-FND-006
+    skills:
+      - {skill_id: SK-EXP-REWRITE-BASE, relationship: method-dependent, progression: reinforce}
+      - {skill_id: SK-LOG-SOLVE-EXP, relationship: required, progression: reinforce}
+      - {skill_id: SK-LOG-SOLVE-LOG, relationship: required, progression: reinforce}
+      - {skill_id: SK-LOG-PRODUCT, relationship: method-dependent, progression: apply}
+      - {skill_id: SK-LOG-QUOTIENT, relationship: method-dependent, progression: apply}
+      - {skill_id: SK-LOG-POWER, relationship: method-dependent, progression: apply}
+      - {skill_id: SK-LOG-DOMAIN-CHECK, relationship: required, progression: apply}
+
+  - objective_id: M49-FND-003
+    skills:
+      - {skill_id: SK-FUNC-SYMMETRY, relationship: required, progression: deepen}
+
+  - objective_id: M49-OPS-001
+    skills:
+      - {skill_id: SK-FUNC-OPERATIONS, relationship: required, progression: introduce}
+      - {skill_id: SK-FUNC-DOMAIN-COMBINE, relationship: required, progression: introduce}
+      - {skill_id: SK-ALG-EXPRESSION-SIMPLIFY, relationship: prerequisite, progression: apply}
+
+  - objective_id: M49-OPS-002
+    skills:
+      - {skill_id: SK-FUNC-COMPOSE-FORMULA, relationship: required, progression: deepen}
+      - {skill_id: SK-FUNC-COMPOSE-TABLE, relationship: required, progression: deepen}
+      - {skill_id: SK-FUNC-INPUT-OUTPUT, relationship: prerequisite, progression: apply}
+
+  - objective_id: M49-OPS-003
+    skills:
+      - {skill_id: SK-FUNC-COMPOSE-FORMULA, relationship: required, progression: deepen}
+      - {skill_id: SK-FUNC-DOMAIN-COMBINE, relationship: required, progression: deepen}
+
+  - objective_id: M49-OPS-004
+    skills:
+      - {skill_id: SK-FUNC-DECOMPOSE, relationship: required, progression: introduce}
+      - {skill_id: SK-FUNC-COMPOSE-FORMULA, relationship: prerequisite, progression: apply}
+
+  - objective_id: M49-OPS-005
+    skills:
+      - {skill_id: SK-FUNC-ONE-TO-ONE, relationship: required, progression: reinforce}
+      - {skill_id: SK-FUNC-INVERSE-HLT, relationship: required, progression: deepen}
+
+  - objective_id: M49-OPS-006
+    skills:
+      - {skill_id: SK-FUNC-INVERSE-ALGEBRA, relationship: required, progression: deepen}
+      - {skill_id: SK-FUNC-INVERSE-VERIFY, relationship: required, progression: deepen}
+      - {skill_id: SK-FUNC-COMPOSE-FORMULA, relationship: prerequisite, progression: apply}
+
+  - objective_id: M49-OPS-007
+    skills:
+      - {skill_id: SK-FUNC-INVERSE-SWAP, relationship: required, progression: deepen}
+      - {skill_id: SK-FUNC-INVERSE-DOMAIN-RANGE, relationship: required, progression: deepen}
+      - {skill_id: SK-FUNC-INVERSE-UNITS, relationship: method-dependent, progression: deepen}
+
+  - objective_id: M49-ALG-001
+    skills:
+      - {skill_id: SK-VAR-DIRECT, relationship: required, progression: introduce}
+      - {skill_id: SK-VAR-INVERSE, relationship: required, progression: introduce}
+      - {skill_id: SK-VAR-POWER, relationship: required, progression: introduce}
+      - {skill_id: SK-MODEL-PARAMETER-INTERPRET, relationship: required, progression: apply}
+
+  - objective_id: M49-ALG-002
+    skills:
+      - {skill_id: SK-POLY-END-BEHAVIOR, relationship: required, progression: introduce}
+      - {skill_id: SK-POLY-VOCABULARY, relationship: prerequisite, progression: apply}
+
+  - objective_id: M49-ALG-003
+    skills:
+      - {skill_id: SK-POLY-ZEROS, relationship: required, progression: deepen}
+      - {skill_id: SK-POLY-MULTIPLICITY, relationship: required, progression: introduce}
+
+  - objective_id: M49-ALG-004
+    skills:
+      - {skill_id: SK-POLY-CONSTRUCT, relationship: required, progression: deepen}
+      - {skill_id: SK-POLY-ZEROS, relationship: prerequisite, progression: apply}
+      - {skill_id: SK-POLY-MULTIPLICITY, relationship: method-dependent, progression: apply}
+
+  - objective_id: M49-ALG-005
+    skills:
+      - {skill_id: SK-POLY-END-BEHAVIOR, relationship: required, progression: deepen}
+      - {skill_id: SK-POLY-ZEROS, relationship: required, progression: apply}
+      - {skill_id: SK-POLY-MULTIPLICITY, relationship: required, progression: deepen}
+
+  - objective_id: M49-ALG-006
+    skills:
+      - {skill_id: SK-RAT-HOLE, relationship: required, progression: introduce}
+      - {skill_id: SK-RAT-VERTICAL-ASYMPTOTE, relationship: required, progression: introduce}
+      - {skill_id: SK-RAT-END-BEHAVIOR, relationship: required, progression: introduce}
+      - {skill_id: SK-RAT-FACTOR, relationship: prerequisite, progression: apply}
+      - {skill_id: SK-RAT-CANCEL-FACTORS, relationship: prerequisite, progression: apply}
+
+  - objective_id: M49-ALG-007
+    skills:
+      - {skill_id: SK-RAT-HOLE, relationship: required, progression: deepen}
+      - {skill_id: SK-RAT-VERTICAL-ASYMPTOTE, relationship: required, progression: deepen}
+      - {skill_id: SK-RAT-END-BEHAVIOR, relationship: required, progression: deepen}
+      - {skill_id: SK-RAT-SIGN-INTERVAL, relationship: required, progression: introduce}
+      - {skill_id: SK-RAT-RESTRICTIONS, relationship: prerequisite, progression: apply}
+
+  - objective_id: M49-ALG-008
+    skills:
+      - {skill_id: SK-MODEL-FAMILY-SELECT, relationship: required, progression: introduce}
+      - {skill_id: SK-MODEL-PARAMETER-INTERPRET, relationship: required, progression: deepen}
+      - {skill_id: SK-MODEL-VALID-DOMAIN, relationship: required, progression: apply}
+
+  - objective_id: M49-LIM-001
+    skills:
+      - {skill_id: SK-LIM-NOTATION, relationship: required, progression: introduce}
+
+  - objective_id: M49-LIM-002
+    skills:
+      - {skill_id: SK-LIM-GRAPH, relationship: required, progression: introduce}
+      - {skill_id: SK-LIM-TABLE, relationship: required, progression: introduce}
+
+  - objective_id: M49-LIM-003
+    skills:
+      - {skill_id: SK-LIM-SUBSTITUTE, relationship: required, progression: introduce}
+      - {skill_id: SK-LIM-SIMPLIFY, relationship: method-dependent, progression: introduce}
+      - {skill_id: SK-RAT-FACTOR, relationship: method-dependent, progression: apply}
+
+  - objective_id: M49-LIM-004
+    skills:
+      - {skill_id: SK-LIM-NOTATION, relationship: required, progression: deepen}
+      - {skill_id: SK-LIM-GRAPH, relationship: required, progression: deepen}
+      - {skill_id: SK-LIM-TABLE, relationship: method-dependent, progression: apply}
+
+  - objective_id: M49-LIM-005
+    skills:
+      - {skill_id: SK-LIM-INFINITE, relationship: required, progression: introduce}
+      - {skill_id: SK-RAT-VERTICAL-ASYMPTOTE, relationship: required, progression: deepen}
+
+  - objective_id: M49-LIM-006
+    skills:
+      - {skill_id: SK-LIM-INFINITY, relationship: required, progression: introduce}
+      - {skill_id: SK-RAT-END-BEHAVIOR, relationship: method-dependent, progression: deepen}
+
+  - objective_id: M49-LIM-007
+    skills:
+      - {skill_id: SK-LIM-GROWTH-ORDER, relationship: required, progression: introduce}
+      - {skill_id: SK-FUNC-COMPARE-REP, relationship: prerequisite, progression: apply}
+
+  - objective_id: M49-LIM-008
+    skills:
+      - {skill_id: SK-LIM-CONTINUITY, relationship: required, progression: introduce}
+      - {skill_id: SK-LIM-SUBSTITUTE, relationship: required, progression: deepen}
+      - {skill_id: SK-LIM-GRAPH, relationship: method-dependent, progression: apply}
+
+  - objective_id: M49-SEQ-001
+    skills:
+      - {skill_id: SK-SEQ-NOTATION, relationship: required, progression: introduce}
+      - {skill_id: SK-SEQ-EXPLICIT, relationship: required, progression: introduce}
+      - {skill_id: SK-SEQ-RECURSIVE, relationship: required, progression: introduce}
+      - {skill_id: SK-SEQ-GRAPH, relationship: required, progression: introduce}
+
+  - objective_id: M49-SEQ-002
+    skills:
+      - {skill_id: SK-SEQ-DIFFERENCE, relationship: required, progression: introduce}
+      - {skill_id: SK-SEQ-EXPLICIT, relationship: required, progression: deepen}
+      - {skill_id: SK-SEQ-RECURSIVE, relationship: required, progression: deepen}
+
+  - objective_id: M49-SEQ-003
+    skills:
+      - {skill_id: SK-SEQ-RATIO, relationship: required, progression: introduce}
+      - {skill_id: SK-SEQ-EXPLICIT, relationship: required, progression: deepen}
+      - {skill_id: SK-SEQ-RECURSIVE, relationship: required, progression: deepen}
+
+  - objective_id: M49-SEQ-004
+    skills:
+      - {skill_id: SK-SEQ-DIFFERENCE, relationship: required, progression: deepen}
+      - {skill_id: SK-SEQ-RATIO, relationship: required, progression: deepen}
+      - {skill_id: SK-FUNC-COMPARE-REP, relationship: required, progression: apply}
+
+  - objective_id: M49-SEQ-005
+    skills:
+      - {skill_id: SK-SEQ-MODEL, relationship: required, progression: introduce}
+      - {skill_id: SK-SEQ-EXPLICIT, relationship: method-dependent, progression: apply}
+      - {skill_id: SK-SEQ-RECURSIVE, relationship: method-dependent, progression: apply}
+      - {skill_id: SK-MODEL-PARAMETER-INTERPRET, relationship: required, progression: apply}
+
+  - objective_id: M49-SER-001
+    skills:
+      - {skill_id: SK-SER-SIGMA, relationship: required, progression: introduce}
+      - {skill_id: SK-SEQ-NOTATION, relationship: prerequisite, progression: apply}
+
+  - objective_id: M49-SER-002
+    skills:
+      - {skill_id: SK-SER-ARITHMETIC, relationship: required, progression: introduce}
+      - {skill_id: SK-SEQ-DIFFERENCE, relationship: prerequisite, progression: apply}
+
+  - objective_id: M49-SER-003
+    skills:
+      - {skill_id: SK-SER-GEOMETRIC-FINITE, relationship: required, progression: introduce}
+      - {skill_id: SK-SEQ-RATIO, relationship: prerequisite, progression: apply}
+
+  - objective_id: M49-SER-004
+    skills:
+      - {skill_id: SK-SER-GEOMETRIC-INFINITE, relationship: required, progression: introduce}
+      - {skill_id: SK-SEQ-RATIO, relationship: prerequisite, progression: apply}
+
+  - objective_id: M49-SER-005
+    skills:
+      - {skill_id: SK-SER-MODEL, relationship: required, progression: introduce}
+      - {skill_id: SK-SER-ARITHMETIC, relationship: method-dependent, progression: apply}
+      - {skill_id: SK-SER-GEOMETRIC-FINITE, relationship: method-dependent, progression: apply}
+      - {skill_id: SK-SER-GEOMETRIC-INFINITE, relationship: method-dependent, progression: apply}
+      - {skill_id: SK-MODEL-PARAMETER-INTERPRET, relationship: required, progression: apply}
+
+  - objective_id: M49-PAR-001
+    skills:
+      - {skill_id: SK-PAR-TABLE, relationship: prerequisite, progression: deepen}
+      - {skill_id: SK-PAR-GRAPH, relationship: required, progression: deepen}
+      - {skill_id: SK-FUNC-INPUT-OUTPUT, relationship: required, progression: apply}
+
+  - objective_id: M49-PAR-002
+    skills:
+      - {skill_id: SK-PAR-ELIMINATE, relationship: required, progression: deepen}
+      - {skill_id: SK-ALG-VARIABLE-ISOLATE, relationship: required, progression: apply}
+      - {skill_id: SK-SYS-SUBSTITUTE, relationship: required, progression: apply}
+
+  - objective_id: M49-PAR-003
+    skills:
+      - {skill_id: SK-PAR-MODEL, relationship: required, progression: deepen}
+      - {skill_id: SK-PAR-TABLE, relationship: required, progression: apply}
+      - {skill_id: SK-REP-UNITS, relationship: required, progression: apply}
+
+  - objective_id: M49-CON-001
+    skills:
+      - {skill_id: SK-CONIC-CLASSIFY, relationship: required, progression: introduce}
+      - {skill_id: SK-CONIC-DISTANCE-DEFINITION, relationship: method-dependent, progression: introduce}
+
+  - objective_id: M49-CON-002
+    skills:
+      - {skill_id: SK-CONIC-GENERAL-STANDARD, relationship: required, progression: introduce}
+      - {skill_id: SK-QUAD-COMPLETE-SQUARE, relationship: required, progression: deepen}
+      - {skill_id: SK-ALG-EXPRESSION-SIMPLIFY, relationship: prerequisite, progression: apply}
+
+  - objective_id: M49-CON-003
+    skills:
+      - {skill_id: SK-CONIC-CIRCLE-EQUATIONS, relationship: required, progression: introduce}
+      - {skill_id: SK-CONIC-CIRCLE-FEATURES, relationship: required, progression: introduce}
+      - {skill_id: SK-PAR-TABLE, relationship: method-dependent, progression: apply}
+      - {skill_id: SK-PAR-GRAPH, relationship: method-dependent, progression: apply}
+
+  - objective_id: M49-CON-004
+    skills:
+      - {skill_id: SK-CONIC-ELLIPSE-EQUATIONS, relationship: required, progression: introduce}
+      - {skill_id: SK-CONIC-ELLIPSE-FEATURES, relationship: required, progression: introduce}
+      - {skill_id: SK-PAR-TABLE, relationship: method-dependent, progression: apply}
+      - {skill_id: SK-PAR-GRAPH, relationship: method-dependent, progression: apply}
+
+  - objective_id: M49-CON-005
+    skills:
+      - {skill_id: SK-CONIC-HYPERBOLA-EQUATIONS, relationship: required, progression: introduce}
+      - {skill_id: SK-CONIC-HYPERBOLA-FEATURES, relationship: required, progression: introduce}
+      - {skill_id: SK-PAR-TABLE, relationship: method-dependent, progression: apply}
+      - {skill_id: SK-PAR-GRAPH, relationship: method-dependent, progression: apply}
+
+  - objective_id: M49-CON-006
+    skills:
+      - {skill_id: SK-CONIC-CIRCLE-FEATURES, relationship: method-dependent, progression: deepen}
+      - {skill_id: SK-CONIC-ELLIPSE-FEATURES, relationship: method-dependent, progression: deepen}
+      - {skill_id: SK-CONIC-HYPERBOLA-FEATURES, relationship: method-dependent, progression: deepen}
+      - {skill_id: SK-CONIC-CLASSIFY, relationship: prerequisite, progression: apply}
+
+  - objective_id: M49-CON-007
+    skills:
+      - {skill_id: SK-CONIC-DISTANCE-DEFINITION, relationship: required, progression: deepen}
+      - {skill_id: SK-COORD-DISTANCE-PYTHAGOREAN, relationship: required, progression: apply}
+
+  - objective_id: M49-CON-008
+    skills:
+      - {skill_id: SK-CONIC-PARABOLA-DEFINITION, relationship: required, progression: introduce}
+      - {skill_id: SK-COORD-DISTANCE-PYTHAGOREAN, relationship: required, progression: apply}

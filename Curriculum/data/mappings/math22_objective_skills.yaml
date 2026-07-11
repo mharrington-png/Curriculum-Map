@@ -1,0 +1,367 @@
+schema_version: 1
+course_id: M22
+status: approved
+evidence:
+  - source: source_documents/Math 22 Geometry PRINT Fall 2025.pdf
+  - source: objectives/MATH22_OBJECTIVES.md
+
+mappings:
+  - objective_id: M22-REV-001
+    skills:
+      - {skill_id: SK-ALG-TRANSLATE-EQUATION, relationship: required, progression: apply}
+      - {skill_id: SK-ALG-INVERSE-OPERATIONS, relationship: required, progression: reinforce}
+      - {skill_id: SK-ALG-CHECK-SOLUTION, relationship: required, progression: apply}
+
+  - objective_id: M22-REV-002
+    skills:
+      - {skill_id: SK-ALG-CROSS-MULTIPLY, relationship: required, progression: reinforce}
+      - {skill_id: SK-SIM-SCALE-FACTOR, relationship: required, progression: introduce}
+
+  - objective_id: M22-REV-003
+    skills:
+      - {skill_id: SK-RAD-FACTOR-PERFECT, relationship: required, progression: reinforce}
+      - {skill_id: SK-GEO-EXACT-APPROX, relationship: required, progression: introduce}
+
+  - objective_id: M22-REV-004
+    skills:
+      - {skill_id: SK-COORD-DISTANCE-AXIS, relationship: prerequisite, progression: reinforce}
+      - {skill_id: SK-COORD-DISTANCE-PYTHAGOREAN, relationship: required, progression: introduce}
+      - {skill_id: SK-COORD-MIDPOINT, relationship: required, progression: reinforce}
+      - {skill_id: SK-LIN-SLOPE-POINTS, relationship: required, progression: reinforce}
+
+  - objective_id: M22-REV-005
+    skills:
+      - {skill_id: SK-NUM-ORDER-OPERATIONS, relationship: prerequisite, progression: apply}
+      - {skill_id: SK-GEO-UNITS, relationship: required, progression: introduce}
+
+  - objective_id: M22-BAS-001
+    skills:
+      - {skill_id: SK-GEO-NOTATION, relationship: required, progression: introduce}
+      - {skill_id: SK-GEO-DIAGRAM-MARK, relationship: required, progression: introduce}
+
+  - objective_id: M22-BAS-002
+    skills:
+      - {skill_id: SK-GEO-NOTATION, relationship: required, progression: apply}
+      - {skill_id: SK-GEO-DIAGRAM-INFER, relationship: required, progression: introduce}
+
+  - objective_id: M22-BAS-003
+    skills:
+      - {skill_id: SK-GEO-SEGMENT-ADDITION, relationship: required, progression: introduce}
+      - {skill_id: SK-ALG-TRANSLATE-EQUATION, relationship: required, progression: apply}
+      - {skill_id: SK-ALG-INVERSE-OPERATIONS, relationship: required, progression: apply}
+
+  - objective_id: M22-BAS-004
+    skills:
+      - {skill_id: SK-GEO-MIDPOINT, relationship: required, progression: introduce}
+      - {skill_id: SK-GEO-BISECTOR, relationship: required, progression: introduce}
+      - {skill_id: SK-GEO-SEGMENT-ADDITION, relationship: prerequisite, progression: apply}
+
+  - objective_id: M22-BAS-005
+    skills:
+      - {skill_id: SK-GEO-ANGLE-MEASURE, relationship: required, progression: introduce}
+      - {skill_id: SK-ANG-PAIR-IDENTIFY, relationship: required, progression: introduce}
+
+  - objective_id: M22-BAS-006
+    skills:
+      - {skill_id: SK-GEO-ANGLE-ADDITION, relationship: required, progression: introduce}
+      - {skill_id: SK-GEO-BISECTOR, relationship: required, progression: apply}
+      - {skill_id: SK-ALG-INVERSE-OPERATIONS, relationship: required, progression: apply}
+
+  - objective_id: M22-BAS-007
+    skills:
+      - {skill_id: SK-ANG-PAIR-IDENTIFY, relationship: required, progression: deepen}
+      - {skill_id: SK-ALG-TRANSLATE-EQUATION, relationship: required, progression: apply}
+      - {skill_id: SK-ALG-INVERSE-OPERATIONS, relationship: required, progression: apply}
+
+  - objective_id: M22-BAS-008
+    skills:
+      - {skill_id: SK-PROOF-DEFINITION, relationship: required, progression: introduce}
+      - {skill_id: SK-PROOF-CONVERSE, relationship: required, progression: introduce}
+      - {skill_id: SK-PROOF-COUNTEREXAMPLE, relationship: required, progression: introduce}
+      - {skill_id: SK-PROOF-THEOREM-SELECT, relationship: required, progression: introduce}
+
+  - objective_id: M22-BAS-009
+    skills:
+      - {skill_id: SK-ANG-TRANSVERSAL-IDENTIFY, relationship: required, progression: introduce}
+      - {skill_id: SK-ANG-PARALLEL-APPLY, relationship: required, progression: introduce}
+
+  - objective_id: M22-BAS-010
+    skills:
+      - {skill_id: SK-ANG-TRANSVERSAL-IDENTIFY, relationship: prerequisite, progression: apply}
+      - {skill_id: SK-ANG-PARALLEL-CONVERSE, relationship: required, progression: introduce}
+
+  - objective_id: M22-BAS-011
+    skills:
+      - {skill_id: SK-ANG-PARALLEL-APPLY, relationship: method-dependent, progression: apply}
+      - {skill_id: SK-LIN-PERPENDICULAR-ANGLE, relationship: required, progression: introduce}
+      - {skill_id: SK-ALG-INVERSE-OPERATIONS, relationship: required, progression: apply}
+
+  - objective_id: M22-BAS-012
+    skills:
+      - {skill_id: SK-PROOF-GIVEN, relationship: required, progression: introduce}
+      - {skill_id: SK-PROOF-THEOREM-SELECT, relationship: required, progression: apply}
+      - {skill_id: SK-PROOF-STRUCTURE, relationship: required, progression: introduce}
+
+  - objective_id: M22-CON-001
+    skills:
+      - {skill_id: SK-TRI-CLASSIFY, relationship: required, progression: introduce}
+      - {skill_id: SK-GEO-DIAGRAM-MARK, relationship: required, progression: apply}
+
+  - objective_id: M22-CON-002
+    skills:
+      - {skill_id: SK-TRI-ANGLE-SUM, relationship: required, progression: introduce}
+      - {skill_id: SK-TRI-EXTERIOR-ANGLE, relationship: required, progression: introduce}
+      - {skill_id: SK-ALG-INVERSE-OPERATIONS, relationship: required, progression: apply}
+
+  - objective_id: M22-CON-003
+    skills:
+      - {skill_id: SK-GEO-CORRESPONDENCE, relationship: required, progression: introduce}
+      - {skill_id: SK-PROOF-CONGRUENCE-ORDER, relationship: required, progression: introduce}
+
+  - objective_id: M22-CON-004
+    skills:
+      - {skill_id: SK-TRI-CONGRUENCE-SELECT, relationship: required, progression: introduce}
+      - {skill_id: SK-GEO-CORRESPONDENCE, relationship: prerequisite, progression: apply}
+      - {skill_id: SK-PROOF-THEOREM-SELECT, relationship: required, progression: deepen}
+
+  - objective_id: M22-CON-005
+    skills:
+      - {skill_id: SK-TRI-CONGRUENCE-SELECT, relationship: required, progression: deepen}
+      - {skill_id: SK-GEO-CORRESPONDENCE, relationship: prerequisite, progression: apply}
+
+  - objective_id: M22-CON-006
+    skills:
+      - {skill_id: SK-TRI-CONGRUENCE-SELECT, relationship: required, progression: deepen}
+      - {skill_id: SK-LIN-PERPENDICULAR-ANGLE, relationship: prerequisite, progression: apply}
+
+  - objective_id: M22-CON-007
+    skills:
+      - {skill_id: SK-TRI-CONGRUENCE-SELECT, relationship: required, progression: deepen}
+      - {skill_id: SK-TRI-ANGLE-SUM, relationship: prerequisite, progression: apply}
+
+  - objective_id: M22-CON-008
+    skills:
+      - {skill_id: SK-TRI-ISOSCELES, relationship: required, progression: introduce}
+      - {skill_id: SK-PROOF-CONVERSE, relationship: required, progression: deepen}
+
+  - objective_id: M22-CON-009
+    skills:
+      - {skill_id: SK-PROOF-CPCTC, relationship: required, progression: introduce}
+      - {skill_id: SK-PROOF-CONGRUENCE-ORDER, relationship: prerequisite, progression: apply}
+
+  - objective_id: M22-CON-010
+    skills:
+      - {skill_id: SK-PROOF-GIVEN, relationship: required, progression: apply}
+      - {skill_id: SK-TRI-CONGRUENCE-SELECT, relationship: required, progression: apply}
+      - {skill_id: SK-PROOF-CPCTC, relationship: method-dependent, progression: apply}
+      - {skill_id: SK-PROOF-STRUCTURE, relationship: required, progression: deepen}
+
+  - objective_id: M22-QUAD-001
+    skills:
+      - {skill_id: SK-POLY-ANGLE-SUM, relationship: required, progression: introduce}
+      - {skill_id: SK-ALG-INVERSE-OPERATIONS, relationship: required, progression: apply}
+
+  - objective_id: M22-QUAD-002
+    skills:
+      - {skill_id: SK-GEO-PERIMETER, relationship: required, progression: introduce}
+      - {skill_id: SK-GEO-UNITS, relationship: required, progression: deepen}
+      - {skill_id: SK-NUM-ORDER-OPERATIONS, relationship: prerequisite, progression: apply}
+
+  - objective_id: M22-QUAD-003
+    skills:
+      - {skill_id: SK-QUAD-PARALLELOGRAM, relationship: required, progression: introduce}
+      - {skill_id: SK-ALG-TRANSLATE-EQUATION, relationship: required, progression: apply}
+
+  - objective_id: M22-QUAD-004
+    skills:
+      - {skill_id: SK-QUAD-PARALLELOGRAM, relationship: required, progression: deepen}
+      - {skill_id: SK-PROOF-CONVERSE, relationship: required, progression: apply}
+
+  - objective_id: M22-QUAD-005
+    skills:
+      - {skill_id: SK-QUAD-RECT-RHOM-SQUARE, relationship: required, progression: introduce}
+      - {skill_id: SK-QUAD-HIERARCHY, relationship: prerequisite, progression: introduce}
+
+  - objective_id: M22-QUAD-006
+    skills:
+      - {skill_id: SK-QUAD-HIERARCHY, relationship: required, progression: deepen}
+      - {skill_id: SK-GEO-DIAGRAM-INFER, relationship: required, progression: apply}
+
+  - objective_id: M22-QUAD-007
+    skills:
+      - {skill_id: SK-QUAD-TRAPEZOID, relationship: required, progression: introduce}
+      - {skill_id: SK-ALG-INVERSE-OPERATIONS, relationship: required, progression: apply}
+
+  - objective_id: M22-QUAD-008
+    skills:
+      - {skill_id: SK-QUAD-KITE, relationship: required, progression: introduce}
+
+  - objective_id: M22-QUAD-009
+    skills:
+      - {skill_id: SK-GEO-AREA-DECOMPOSE, relationship: required, progression: introduce}
+      - {skill_id: SK-GEO-PERIMETER, relationship: required, progression: deepen}
+      - {skill_id: SK-GEO-UNITS, relationship: required, progression: apply}
+
+  - objective_id: M22-QUAD-010
+    skills:
+      - {skill_id: SK-PROOF-DEFINITION, relationship: required, progression: deepen}
+      - {skill_id: SK-PROOF-THEOREM-SELECT, relationship: required, progression: deepen}
+      - {skill_id: SK-PROOF-STRUCTURE, relationship: required, progression: apply}
+
+  - objective_id: M22-SIM-001
+    skills:
+      - {skill_id: SK-SIM-SCALE-FACTOR, relationship: required, progression: deepen}
+      - {skill_id: SK-GEO-CORRESPONDENCE, relationship: prerequisite, progression: apply}
+
+  - objective_id: M22-SIM-002
+    skills:
+      - {skill_id: SK-SIM-SCALE-FACTOR, relationship: required, progression: deepen}
+      - {skill_id: SK-ALG-CROSS-MULTIPLY, relationship: method-dependent, progression: apply}
+
+  - objective_id: M22-SIM-003
+    skills:
+      - {skill_id: SK-GEO-CORRESPONDENCE, relationship: required, progression: deepen}
+      - {skill_id: SK-PROOF-SIMILARITY-ORDER, relationship: required, progression: introduce}
+
+  - objective_id: M22-SIM-004
+    skills:
+      - {skill_id: SK-SIM-PROPORTION, relationship: required, progression: introduce}
+      - {skill_id: SK-ALG-CROSS-MULTIPLY, relationship: required, progression: apply}
+      - {skill_id: SK-GEO-CORRESPONDENCE, relationship: prerequisite, progression: apply}
+
+  - objective_id: M22-SIM-005
+    skills:
+      - {skill_id: SK-SIM-PERIMETER-AREA, relationship: required, progression: introduce}
+      - {skill_id: SK-SIM-SCALE-FACTOR, relationship: prerequisite, progression: apply}
+
+  - objective_id: M22-SIM-006
+    skills:
+      - {skill_id: SK-SIM-AA, relationship: method-dependent, progression: introduce}
+      - {skill_id: SK-SIM-SSS-SAS, relationship: method-dependent, progression: introduce}
+      - {skill_id: SK-PROOF-SIMILARITY-ORDER, relationship: required, progression: apply}
+      - {skill_id: SK-PROOF-STRUCTURE, relationship: required, progression: deepen}
+
+  - objective_id: M22-SIM-007
+    skills:
+      - {skill_id: SK-SIM-TRI-PROPORTIONALITY, relationship: required, progression: introduce}
+      - {skill_id: SK-PROOF-CONVERSE, relationship: required, progression: apply}
+
+  - objective_id: M22-SIM-008
+    skills:
+      - {skill_id: SK-SIM-PROPORTION, relationship: required, progression: deepen}
+      - {skill_id: SK-SIM-SCALE-FACTOR, relationship: required, progression: apply}
+      - {skill_id: SK-PROOF-THEOREM-SELECT, relationship: required, progression: apply}
+
+  - objective_id: M22-RGT-001
+    skills:
+      - {skill_id: SK-TRI-PYTHAGOREAN, relationship: required, progression: introduce}
+      - {skill_id: SK-RAD-FACTOR-PERFECT, relationship: prerequisite, progression: apply}
+
+  - objective_id: M22-RGT-002
+    skills:
+      - {skill_id: SK-TRI-PYTHAGOREAN, relationship: required, progression: deepen}
+      - {skill_id: SK-PROOF-CONVERSE, relationship: required, progression: apply}
+
+  - objective_id: M22-RGT-003
+    skills:
+      - {skill_id: SK-TRI-CLASSIFY, relationship: prerequisite, progression: apply}
+      - {skill_id: SK-PROOF-THEOREM-SELECT, relationship: required, progression: apply}
+
+  - objective_id: M22-RGT-004
+    skills:
+      - {skill_id: SK-TRI-SPECIAL-RATIOS, relationship: required, progression: introduce}
+      - {skill_id: SK-RAD-FACTOR-PERFECT, relationship: required, progression: reinforce}
+      - {skill_id: SK-GEO-EXACT-APPROX, relationship: required, progression: apply}
+
+  - objective_id: M22-RGT-005
+    skills:
+      - {skill_id: SK-SIM-AA, relationship: prerequisite, progression: apply}
+      - {skill_id: SK-SIM-PROPORTION, relationship: required, progression: deepen}
+
+  - objective_id: M22-RGT-006
+    skills:
+      - {skill_id: SK-TRI-GEOMETRIC-MEAN, relationship: required, progression: introduce}
+      - {skill_id: SK-SIM-PROPORTION, relationship: prerequisite, progression: apply}
+
+  - objective_id: M22-RGT-007
+    skills:
+      - {skill_id: SK-TRIG-TRIANGLE-LABEL, relationship: required, progression: introduce}
+      - {skill_id: SK-TRI-TRIG-RATIO, relationship: required, progression: introduce}
+      - {skill_id: SK-GEO-DIAGRAM-MARK, relationship: prerequisite, progression: apply}
+
+  - objective_id: M22-RGT-008
+    skills:
+      - {skill_id: SK-TRI-TRIG-SOLVE-SIDE, relationship: method-dependent, progression: introduce}
+      - {skill_id: SK-TRI-TRIG-SOLVE-ANGLE, relationship: method-dependent, progression: introduce}
+      - {skill_id: SK-TRI-TRIG-RATIO, relationship: required, progression: apply}
+
+  - objective_id: M22-RGT-009
+    skills:
+      - {skill_id: SK-TRI-TRIG-RATIO, relationship: required, progression: deepen}
+      - {skill_id: SK-TRI-TRIG-SOLVE-SIDE, relationship: method-dependent, progression: apply}
+      - {skill_id: SK-TRI-TRIG-SOLVE-ANGLE, relationship: method-dependent, progression: apply}
+      - {skill_id: SK-MODEL-VALID-DOMAIN, relationship: required, progression: apply}
+
+  - objective_id: M22-RGT-010
+    skills:
+      - {skill_id: SK-PROOF-THEOREM-SELECT, relationship: required, progression: deepen}
+      - {skill_id: SK-TRI-PYTHAGOREAN, relationship: method-dependent, progression: apply}
+      - {skill_id: SK-TRI-SPECIAL-RATIOS, relationship: method-dependent, progression: apply}
+      - {skill_id: SK-TRI-TRIG-RATIO, relationship: method-dependent, progression: apply}
+
+  - objective_id: M22-CIR-001
+    skills:
+      - {skill_id: SK-CIR-VOCAB, relationship: required, progression: introduce}
+      - {skill_id: SK-GEO-NOTATION, relationship: required, progression: apply}
+
+  - objective_id: M22-CIR-002
+    skills:
+      - {skill_id: SK-CIR-CIRCUMFERENCE, relationship: method-dependent, progression: introduce}
+      - {skill_id: SK-CIR-ARC-LENGTH, relationship: method-dependent, progression: introduce}
+      - {skill_id: SK-CIR-ARC-FRACTION, relationship: required, progression: introduce}
+      - {skill_id: SK-GEO-UNITS, relationship: required, progression: apply}
+
+  - objective_id: M22-CIR-003
+    skills:
+      - {skill_id: SK-CIR-AREA, relationship: method-dependent, progression: introduce}
+      - {skill_id: SK-CIR-SECTOR-AREA, relationship: method-dependent, progression: introduce}
+      - {skill_id: SK-CIR-SEGMENT-AREA, relationship: method-dependent, progression: introduce}
+      - {skill_id: SK-GEO-UNITS, relationship: required, progression: apply}
+
+  - objective_id: M22-CIR-004
+    skills:
+      - {skill_id: SK-CIR-ARC-FRACTION, relationship: required, progression: deepen}
+      - {skill_id: SK-CIR-INSCRIBED-ANGLE, relationship: required, progression: introduce}
+      - {skill_id: SK-ALG-INVERSE-OPERATIONS, relationship: required, progression: apply}
+
+  - objective_id: M22-CIR-005
+    skills:
+      - {skill_id: SK-CIR-CHORD-RELATION, relationship: required, progression: introduce}
+      - {skill_id: SK-CIR-VOCAB, relationship: prerequisite, progression: apply}
+
+  - objective_id: M22-CIR-006
+    skills:
+      - {skill_id: SK-CIR-TANGENT-RADIUS, relationship: required, progression: introduce}
+      - {skill_id: SK-CIR-SEGMENT-PRODUCT, relationship: method-dependent, progression: introduce}
+
+  - objective_id: M22-CIR-007
+    skills:
+      - {skill_id: SK-CIR-ANGLE-RELATION, relationship: required, progression: introduce}
+      - {skill_id: SK-CIR-VOCAB, relationship: prerequisite, progression: apply}
+
+  - objective_id: M22-CIR-008
+    skills:
+      - {skill_id: SK-CIR-SEGMENT-PRODUCT, relationship: required, progression: introduce}
+      - {skill_id: SK-ALG-INVERSE-OPERATIONS, relationship: required, progression: apply}
+
+  - objective_id: M22-CIR-009
+    skills:
+      - {skill_id: SK-CIR-SEGMENT-PRODUCT, relationship: required, progression: deepen}
+      - {skill_id: SK-ALG-INVERSE-OPERATIONS, relationship: required, progression: apply}
+
+  - objective_id: M22-CIR-010
+    skills:
+      - {skill_id: SK-CIR-VOCAB, relationship: prerequisite, progression: apply}
+      - {skill_id: SK-CIR-ANGLE-RELATION, relationship: method-dependent, progression: apply}
+      - {skill_id: SK-CIR-SEGMENT-PRODUCT, relationship: method-dependent, progression: apply}
+      - {skill_id: SK-PROOF-THEOREM-SELECT, relationship: required, progression: deepen}

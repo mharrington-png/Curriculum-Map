@@ -1,0 +1,2257 @@
+
+===== PAGE 1 =====
+Trigonometry Fundamentals
+Math 32
+
+===== PAGE 2 =====
+Cover: r =−tan(13θ)
+25
+Document updated: 10/9/23 1:02:00 PM
+
+===== PAGE 3 =====
+Part I: Trigonometry Basics .......................................................................................................................... 3
+The Pythagorean Theorem ........................................................................................................................................ 3
+Special Right Triangles ............................................................................................................................................... 4
+Introduction to Radians ............................................................................................................................................. 7
+Related Angles ......................................................................................................................................................... 10
+Practice: Radians and Degrees ............................................................................................................................... 12
+Application: Arc Length .......................................................................................................................................... 13
+Unit Circle Coordinates ........................................................................................................................................... 15
+Sine, Cosine, Tangent .............................................................................................................................................. 17
+I. Sine .................................................................................................................................................................. 17
+II. Cosine ............................................................................................................................................................. 18
+III. Tangent .......................................................................................................................................................... 19
+SOH CAH TOA – a helpful mnemonic device. .......................................................................................................... 20
+Right Triangle Applications, Examples ..................................................................................................................... 22
+Trig Functions Beyond Acute Angles ....................................................................................................................... 24
+“All Students Take Calculus” (not really) ................................................................................................................. 25
+More Practice: ......................................................................................................................................................... 26
+Coordinates on Non-Unit Circles ............................................................................................................................. 27
+Review Questions .................................................................................................................................................... 29
+Trig Equations Part 1: Multiple Angle Solutions ..................................................................................................... 34
+Reciprocal Trig Functions ........................................................................................................................................ 40
+Reciprocal Functions in Four Quadrants ................................................................................................................. 41
+Practice: Multiple Solutions and Reciprocal Functions ........................................................................................... 43
+PART II: Graphing Periodic Functions .................................................................................................... 46
+Graphing Sine and Cosine – Part 1 .......................................................................................................................... 46
+Graphing Sine and Cosine – Part 2 .......................................................................................................................... 48
+Vertical Transformations ......................................................................................................................................... 50
+Stretches, Compressions, and Reflections (Changes to the Amplitude) ............................................................... 50
+Vertical Shifting ................................................................................................................................................... 52
+Vertical Transformations: Combined ................................................................................................................... 54
+Horizontal Transformations .................................................................................................................................... 56
+Horizontal Stretches and Compressions (Changes to the Period) ........................................................................ 56
+Horizontal Shifting ............................................................................................................................................... 58
+Combining Transformations .................................................................................................................................... 60
+Graphing All Transformations ................................................................................................................................. 63
+Modeling Problems ................................................................................................................................................. 69
+Graphing Cosecant, Secant, and Tangent ................................................................................................................ 77
+Cosecant .............................................................................................................................................................. 77
+Secant .................................................................................................................................................................. 78
+Tangent ............................................................................................................................................................... 82
+PART III: Inverse Functions and Solving Trig Equations .................................................................. 86
+Calculating Angle Measures .................................................................................................................................... 86
+................................................................................................................................................................................. 86
+Arcsine Function ...................................................................................................................................................... 88
+The Pythagorean Theorem
+1
+
+===== PAGE 4 =====
+Arccosine and Arctangent ....................................................................................................................................... 90
+Practice with Inverse Trig Functions ....................................................................................................................... 91
+Solving Trig Equations (Part 2) ................................................................................................................................ 92
+Compositions of Trig Functions and Inverse Trig Functions .................................................................................... 99
+PART IV: Non-Right Triangles .................................................................................................................. 101
+A New Area Formula ............................................................................................................................................. 101
+The Law of Sines .................................................................................................................................................... 102
+The Ambiguous Case ............................................................................................................................................. 105
+The First Pythagorean Identity .............................................................................................................................. 110
+The Law of Cosines ................................................................................................................................................ 111
+More Practice with the Laws of Sines and Cosines ............................................................................................... 113
+PART V: Trigonometric Identities .......................................................................................................... 116
+The Pythagorean Identities ................................................................................................................................... 116
+Double Angle Formulas ......................................................................................................................................... 117
+Even / Odd Identities ............................................................................................................................................. 119
+Identities Practice .................................................................................................................................................. 120
+The Cofunction Identities for Sin and Cos ............................................................................................................. 123
+Angle Sum and Difference Formulas ..................................................................................................................... 124
+PART VI: Polar Coordinates and Polar Functions ............................................................................. 127
+Polar Coordinates .................................................................................................................................................. 127
+Converting Polar and Rectangular Coordinates .................................................................................................... 128
+Polar Functions ...................................................................................................................................................... 129
+Converting Polar and Rectangular Functions ........................................................................................................ 133
+PART VII: Vectors ......................................................................................................................................... 136
+Understanding Vectors .......................................................................................................................................... 136
+Vector Addition ..................................................................................................................................................... 137
+Scalar Multiplication of Vectors ............................................................................................................................ 138
+Vector Subtraction ................................................................................................................................................ 139
+Unit Vectors ........................................................................................................................................................... 140
+Vector Components .............................................................................................................................................. 141
+Magnitude and Direction ...................................................................................................................................... 142
+Vectors in 3-Dimensions ........................................................................................................................................ 144
+PART VIII: Parametrics .............................................................................................................................. 145
+Intro to Parametrics .............................................................................................................................................. 145
+“Additional Problems” in this packet references “Functions Modeling Change, A Preparation for Calculus,” 5th edition, by
+Connally et al. (softcover)
+The Pythagorean Theorem
+2
+
+===== PAGE 5 =====
+Part I: Trigonometry Basics
+The Pythagorean Theorem
+PROOF:
+Total Area Total Area
+The Pythagorean Theorem
+3
+
+===== PAGE 6 =====
+Special Right Triangles
+Two kinds of right triangles to know: 45o−45o−90o and 30! -60! -90!
+.
+Special Right Triangles
+4
+
+===== PAGE 7 =====
+Given one side, find the exact length of the other two sides of each triangle.
+45! -45! -90! 30! -60! -90!
+1
+1
+1
+2
+2
+3
+Special Right Triangles
+5
+
+===== PAGE 8 =====
+Fill in the lengths of the remaining two sides, assuming each triangle is 45o−45o−90o or 30o−60o−90o
+as indicated. Give answers in terms of “a” when appropriate.
+45o−45o−90o 30! -60! -90!
+2
+a
+a
+Special Right Triangles
+6
+
+===== PAGE 9 =====
+Introduction to Radians
+On the circle below, sketch an angle that measures 1 radian. Label everything you need to indicate
+that the angle is 1 radian.
+What is a radian? Be specific.
+Consider the following portions of a circle. Fill in the number of degrees and radians in each portion.
+Degrees Radians
+one full circle ______ ______
+one half circle ______ ______
+one quarter circle ______ ______
+one eighth circle ______ ______
+one sixth circle ______ ______
+one twelfth circle ______ ______
+What is the conversion factor for changing from degrees into radians?
+⎛ number ⎞ ⎛ ⎞ ⎛ number ⎞
+⋅ =
+⎝ ⎜ of degrees ⎠ ⎟ ⎝ ⎜ ⎠ ⎟ ⎝ ⎜ of radians ⎠ ⎟
+What is the conversion factor for changing from radians into degrees?
+⎛ number ⎞ ⎛ ⎞ ⎛ number ⎞
+⋅ =
+⎝ ⎜ of radians ⎠ ⎟ ⎝ ⎜ ⎠ ⎟ ⎝ ⎜ of degrees ⎠ ⎟
+Introduction to Radians
+7
+
+===== PAGE 10 =====
+Convert the following angles from degrees to radians:
+30! = 90! = 150! =
+45! = 120! = 180! =
+60! = 135! = 12! =
+Convert the following angles from radians to degrees:
+4p 7p
+prad = rad = rad =
+3 4
+7p 3p 11p
+rad = rad = rad =
+6 2 6
+5p 5p 3π
+rad = rad = rad =
+4 3 5
+Label the diagrams with the special angles, one with degrees and the other with radians.
+Introduction to Radians
+8
+
+===== PAGE 11 =====
+More practice: Without looking at the previous pages, fill in all of the angles in radians.
+Identify any patterns you see in the unit circle angles. Explain them below:
+Introduction to Radians
+9
+
+===== PAGE 12 =====
+Related Angles
+Negative Angles: Coterminal Angles:
+Reference Angles:
+Reference Angles always have one ray that is on the ___________________
+Reference Angles are always _____________________ and ______________________.
+Related Angles
+10
+
+===== PAGE 13 =====
+Practice
+Provide answers using the same unit (radians or degress) as the given angles.
+List the reference angle for each of the following.
+7π π
+− 400!
+6 4
+2π 5π
+− 75!
+3 4
+Provide one positive and one negative coterminal angle for each angle given below. If the angle is
+given in degrees, provide your answer in degrees. If it is given in radians, provide your answer in
+radians.
+Positive Negative Positive Negative
+Original Angle Original Angle
+Coterminal Coterminal Coterminal Coterminal
+3π
+0
+4
+p 7π
+6 6
+p
+15!
+4
+p
+100!
+3
+p
+−180!
+2
+Related Angles
+11
+
+===== PAGE 14 =====
+Practice: Radians and Degrees
+1. Find the radian measure associated with 375o. Leave your answer as a simplified fraction.
+2. Find the degree measure associated with −3.4π radians. Round to the nearest tenth of a degree.
+3. The four quadrants of the unit circle are labeled below. In which quadrant are the following angles
+(meaning in which quadrant is the terminal ray for each angle)? (Assume all angles are given in
+radians.)
+5p π
+a. b. −
+4 3
+5p 9π II I
+c. d. −
+6 4
+III IV
+29π 8π
+e. f. −
+6 3
+g. 3 h. 14
+17π
+4. Identify one positive and one negative coterminal angle for radians.
+3
+5. Identify the reference angle for each of the following angles.
+a. 217° b. −131° c. 819°
+8p 7p 13p
+d. e. f. -
+9 5 24
+Practice: Radians and Degrees
+12
+
+===== PAGE 15 =====
+Application: Arc Length
+Terminology
+∠EAB is a central angle because the point A is the center of the circle.
+!
+The arc EB is said to subtend angle EAB.
+!
+The angle∠EAB is said to intercept the arc EB.
+Considering an arc is a portion of the circumference of a circle, determine a formula for the arc length
+(often denoted by s) based on the radius r and the central angle θ. Do this for both degrees and
+radians.
+Application: Arc Length
+13
+
+===== PAGE 16 =====
+Practice
+1. Find the length of an arc that subtends a central angle of 120oin a circle of
+radius 10 centimeters. s=arc length
+q
+r
+2. What is the measure of the central angle (in radians and degrees) of a circle that is subtended by an
+arc of .843 meters if the circle has a radius of .358 meters?
+3. What is the radius of a circle if a central angle of 53osubtends an arc of 2.3126 inches?
+4. The radius of the earth is 3959 miles. What is the central angle subtended by a distance of 100
+miles along the equator?
+5. The earth is 149.6 million kilometers from the sun. Given that a revolution takes 365.256 days, find
+the distance travelled (arc length) and the angle subtended by the earth in 1 day.
+Additional Practice: p.284 (21,36-38,55,56)
+Application: Arc Length
+14
+
+===== PAGE 17 =====
+Unit Circle Coordinates
+Unit Circle Coordinates
+15
+
+===== PAGE 18 =====
+Fill in all of the coordinates of this unit circle.
+Look at the sign of the x- and y- coordinates in each quadrant. Fill in the table below with a “+” or a “-”
+in each spot.
+Quadrant x-coordinate y-coordinate
+First
+Second
+Third
+Fourth
+16
+
+===== PAGE 19 =====
+Sine, Cosine, Tangent
+I. Sine
+Assume the triangles below are 30o−60o−90o triangles; fill in the two remaining sides of each triangle.
+Then find the ratio of the opposite side (that is, the side opposite the angle θ) to the hypotenuse.
+opposite
+Write each ratio as a fraction, .
+hypotenuse
+opp opp opp opp
+= = = =
+hyp hyp hyp hyp
+In the example above, you found that the ratio does not depend on the size of the right triangle. The
+ratio of the side opposite the 30oangle to the hypotenuse will always be:
+opposite
+= ________
+hypotenuse
+Definition: The ratio of a side opposite an angle to the hypotenuse is called the “sine” of the angle. The
+mathematical notation for the expression “the sine of an angle” is written as sinq.
+In the example above, you showed that sin30o= ________.
+Using what you know about right triangles, degrees, and radians, find the following values. Start with a
+sketch.
+p p p
+sin sin sin
+6 4 3
+Sine, Cosine, Tangent
+17
+
+===== PAGE 20 =====
+II. Cosine
+Given the same four 30! -60! -90! triangles as above, fill in the two remaining sides of each triangle.
+Then find the ratio of the adjacent side (adjacent to q) to the hypotenuse.
+adjacent
+Write each ratio as a fraction, .
+hypotenuse
+adj adj adj adj
+= = = =
+hyp hyp hyp hyp
+Again, the ratio does not depend on the size of the right triangle. The ratio of the side adjacent the 30!
+angle to the hypotenuse will always be:
+adjacent
+= _________
+hypotenuse
+Definition: The ratio of a side adjacent an angle to the hypotenuse is called the “cosine” of an angle.
+The mathematical notation for the expression “the cosine of an angle” is cosq.
+In the example above, you showed that cos30o= ______.
+Using what you know about right triangle, degrees, and radians, find the following values. Start with a
+sketch.
+π π π
+cos cos cos
+6 4 3
+Sine, Cosine, Tangent
+18
+
+===== PAGE 21 =====
+III. Tangent
+Given the same four 30! -60! -90! triangles as above, fill in the two remaining sides of each triangle.
+Then find the ratio of the opposite side (opposite q) to the adjacent side. Write each ratio as a
+opposite
+fraction, .
+adjacent
+opp opp opp opp
+= = = =
+adj adj adj adj
+Again, the ratio does not depend on the size of the right triangle. The ratio of the side opposite the 30!
+angle to the adjacent side will always be:
+opposite
+=________
+adjacent
+Definition: The ratio of a side opposite an angle to the side adjacent the angle is called the “tangent”
+of an angle. The mathematical notation for the expression “the tangent of an angle” is tanq.
+In the example above, you showed that tan30o =_______.
+Using what you know about right triangles, degrees, and radians, find the following values. Start with a
+sketch.
+π π π
+tan tan tan
+6 4 3
+Sine, Cosine, Tangent
+19
+
+===== PAGE 22 =====
+SOH CAH TOA – a helpful mnemonic device.
+• Sine is Opposite over Hypotenuse.
+• Cosine is Adjacent over Hypotenuse.
+• Tangent is Opposite over Adjacent.
+Given one angle and the length of one side of a right triangle, you can find the length of the other two
+sides. Round your answers to the nearest tenth.
+SOH CAH TOA – a helpful mnemonic device.
+20
+
+===== PAGE 23 =====
+More Practice:
+SOH CAH TOA – a helpful mnemonic device.
+21
+
+===== PAGE 24 =====
+Right Triangle Applications, Examples
+Note: When you take the triangle out of the unit circle, you typically use degrees to measure the angles.
+1. Mr. Banay wants to know the height of the oak tree that is outside the chapel. He stands 15 ft away
+from the base of the trunk and looks at the top of the tree. Using a clinometer, he measures the
+angle of elevation from the ground to the top of the tree to be 80o. How tall is the tree?
+2. A 12-foot ladder will slide out from under you if it makes an angle less than 75owith the ground
+when you lean it against a wall. How high up on a wall can this ladder reach without it falling out
+from under you? And how far away from the wall can the base of the ladder be?
+3. (p. 283 #22) A kite flier wondered how high her kite was flying. She used a protractor to measure an
+angle of 38°from level ground to her kite string. If she used a full 100-yard spool of string, how
+high, in feet, was the kite?
+Right Triangle Applications, Examples
+22
+
+===== PAGE 25 =====
+4. Determine exact values for m, n, and p in the diagram below. Assume the angle included by sides n
+and m is a right angle.
+5
+s = 4
+n
+p
+m
+Right Triangle Applications, Examples
+23
+
+===== PAGE 26 =====
+Trig Functions Beyond Acute Angles
+Consider the reference triangle for each angle inside the unit circle:
+• The opposite side is the same as the ___ - coordinate.
+• The adjacent side is the same as the ___ - coordinate.
+• The hypotenuse is always ___.
+Using the coordinates of the unit circle, fill out the table below.
+q sinq cosq tanq q sinq cosq tanq
+0 p
+p 7p
+6 6
+p 5p
+4 4
+p 4p
+3 3
+p 3p
+2 2
+2p 5p
+3 3
+3p 7p
+4 4
+5p 11π
+6 6
+Trig Functions Beyond Acute Angles
+24
+
+===== PAGE 27 =====
+“All Students Take Calculus” (not really)
+Shade the quadrants where sinqmust be positive. Why must sinqbe positive in these quadrants?
+Explain in terms of coordinates.
+sinq>0
+Shade the quadrants where cosqmust be positive. Why must cosqbe positive in these quadrants?
+Explain in terms of coordinates.
+cosq>0
+Shade the quadrants where tanqmust be positive. Why must tanqbe positive in these quadrants?
+Explain in terms of coordinates.
+tanq>0
+General Rule: All Students Take Calculus
+“All Students Take Calculus” (not really)
+25
+
+===== PAGE 28 =====
+More Practice:
+1. Find the exact values of the given trigonometric functions. Do not look back at the previous pages.
+⎛π⎞ ⎛11π⎞
+a. sin b. sin
+⎜ ⎟ ⎜ ⎟
+⎝ 6⎠ ⎝ 6 ⎠
+æpö æ 5pö
+c. cos ç ÷ d. cos ç - ÷
+è 4 ø è 4 ø
+e. tan(60°) f. tan(240°)
+2. For each set, rank the three trig values in order from least to greatest. Do not use a calculator.
+⎛π⎞ ⎛π⎞ ⎛π⎞
+a. sin , cos ,tan
+⎜ ⎟ ⎜ ⎟ ⎜ ⎟
+⎝ 6⎠ ⎝ 6⎠ ⎝ 6⎠
+⎛7π⎞ ⎛7π⎞ ⎛7π⎞
+b. sin , cos ,tan
+⎜ ⎟ ⎜ ⎟ ⎜ ⎟
+⎝ 4 ⎠ ⎝ 4 ⎠ ⎝ 4 ⎠
+⎛13π⎞ ⎛13π⎞ ⎛13π⎞
+c. sin , cos ,tan
+⎜ ⎟ ⎜ ⎟ ⎜ ⎟
+⎝ 24 ⎠ ⎝ 24 ⎠ ⎝ 24 ⎠
+“All Students Take Calculus” (not really)
+26
+
+===== PAGE 29 =====
+Coordinates on Non-Unit Circles
+Round the following coordinates to the nearest thousandth:
+1. Determine the coordinates of the point at 85! on a circle with radius 1,
+centered at the origin.
+2. Determine the coordinates of the point at 85! on a circle with radius 3, centered at the origin.
+3. Determine the coordinates of the point at 85! on a circle with radius 3, centered at the point (1,4).
+-5p
+4. Determine the coordinates of a circle at with radius 3, centered at (-2, 1).
+6
+Coordinates on Non-Unit Circles
+27
+
+===== PAGE 30 =====
+5. On your ride home from school, your car ran over a small pebble that got lodged in the tread of the
+tire. When the car is finally parked in the driveway, the pebble’s position corresponds to the angle
+4p
+. If the center of the wheel has coordinates (0,12)and the diameter of the tire is 24 inches,
+3
+How high off the ground is the pebble?
+6. Circle c lies in the first quadrant, as shown in the diagram below. The circle lies tangent to the
+coordinate axes at the points (3,0) and (0,3). The line l intersects each axis at a 45-degree angle.
+Find the coordinates of the intersection of l and C.
+Challenge:
+Suppose the line intersected the x-axis at a 60-degree angle and the y-axis at a 30-degree angle. Find the
+coordinates of the intersection.
+Coordinates on Non-Unit Circles
+28
+
+===== PAGE 31 =====
+Review Questions
+1. What is a radian? Explain in words and draw a picture to accompany your explanation.
+2. Fill in the common angles in the circle. Write the angles in radians.
+3. Define the terms positive angle and negative angle in your own words.
+4. Explain how to convert the measure of an angle from degrees to radians and from radians to
+degrees.
+Review Questions
+29
+
+===== PAGE 32 =====
+5. Determine which quadrant the following angles are in. Assume all angles are given in degrees.
+Write I, II, III, or IV.
+a) 15! b) 800!
+c) -30! d) 265!
+e) -780! f) 30p!
+6. Determine which quadrant the following angles are in. Assume all angles are given in radians.
+Write I, II, III, or IV.
+-8p -2p
+g) h)
+3 3
+13p 19p
+i) j)
+4 6
+k) 2 l) 11
+7. Change each degree measure to a radian measure in terms ofp.
+a) 18! b) 240! c) 1! d) -3.5p!
+8. Change each radian measure to degree measure.
+-3p 13p
+a) 7p b) c) 4 d) -
+2 6
+9. Find one positive angle and one negative angle that are each coterminal with the angle given.
+5π
+a) -60!
+b)
+radians
+12
+11p
+c) radians d) -310!
+6
+Review Questions
+30
+
+===== PAGE 33 =====
+10. Express the values of the trigonometric functions in terms of a, b, and c in the right triangle below.
+sinq=
+cosq=
+a
+c
+tanq=
+q
+b
+11. In the circle below, fill in the coordinates of each point, assuming this to be a unit circle.
+(1,0)
+12. What is the radius of a circle in which an angle of 3 radians intercepts an arc of 30 cm?
+Review Questions
+31
+
+===== PAGE 34 =====
+13. Find the exact values:
+5π
+π b) cos =
+a) sin =
+4
+3
+c) tan
+−5π
+=
+d) sin5π=
+3
+3π
+f) tan =
+e) cos0=
+2
+−7π
+25π h) cos =
+g) sin =
+2
+6
+14. Suppose q is an angle in standard position with the given conditions. State the quadrant or
+quadrants in whichq must lie.
+a) sinθ>0 b) tanq<0
+c) sinq>0 and cosq<0 d) tanq>0 and cosq<0
+15. Earth rotates on its axis every 24 hours. Through how many radians does a point on the equator
+travel in one hour? In one week?
+Review Questions
+32
+
+===== PAGE 35 =====
+16. Find the coordinates of point B on the unit circle. Round to the nearest hundredth.
+B ( , )
+65°
+(0,0) (1,0)
+17. Find the radius of the circle and the x-coordinate of the point P. The circle is centered at the origin.
+P ( , 7 )
+25°
+14p
+18. Find the x- and y-coordinates of a point Q that is at an angle of radians on a circle with radius
+11
+seven (centered at the origin). Draw a diagram to accompany your answer.
+What would be the coordinates of Q if the same circle is centered at the point (4,-3)?
+Review Questions
+33
+
+===== PAGE 36 =====
+Trig Equations Part 1: Multiple Angle Solutions
+3
+Find two angles such that sinq= . Show them on the unit circle below.
+2
+- 2
+Find two angles such that cosq= . Show them on the unit circle below.
+2
+Find all values of q from 0 to2p for which:
+2
+sinq= q= and q=
+2
+- 3
+cosq= q= and q=
+2
+3
+tanq= q= and q=
+1
+1
+sinq= q= and q=
+2
+1
+cosq= q= and q=
+2
+Trig Equations Part 1: Multiple Angle Solutions
+34
+
+===== PAGE 37 =====
+Using what you know about co-terminal angles, determine all the angles between 0 and 6π that
+satisfy the following equations. (How many should there be?)
+3 - 2
+sinq= cosq=
+2 2
+It would be nice to have a way to express ALL solutions (from −∞ to ∞). Since listing them all is
+impossible, we need to try something else.
+First, let’s try some easier examples.
+1. Consider the collection of numbers represented by the expression “2k” where the variablek
+represents any positive integer.
+Write the first 10 such numbers (beginning with k = 1): ________________________________
+Now, what if k could be any integer (positive or negative)? Use ellipses (…) to indicate that the
+list continues forever.
+2. Expand this collection of numbers: 0.5+5k such that kcan be any integer. Expand in both
+directions (positive and negative).
+π
+3. Try this one: +2πk
+2
+5π 2π π 4π 7π 10π
+4. Work backwards and describe the following list using k: ...− ,− , , , , ,...
+3 3 3 3 3 3
+Trig Equations Part 1: Multiple Angle Solutions
+35
+
+===== PAGE 38 =====
+For each of the following equations, determine an expression (using k) that describes ALL the solutions.
+Make sketches on the unit circles to help you recognize the solutions.
+tanθ=1 q=
+_________________________________
+tanθ=−1 θ=
+_________________________________
+sinq=0 q=
+_________________________________
+sinq=1 q=
+_________________________________
+cosq=0 q=
+_________________________________
+cosq=-1 q=
+_________________________________
+tanq=0 q=
+_________________________________
+tanq=undefined q=
+_________________________________
+q
+Now return to the earlier problems, using k to describeall solutions for (you may need to use more
+than one expression involving k):
+3 2
+sinq= cosθ=−
+2 2
+Trig Equations Part 1: Multiple Angle Solutions
+36
+
+===== PAGE 39 =====
+Practice
+1. Write an expression for the measures of all angles that are coterminal with an angle whose
+measure is q. Write your expression in terms of q and π.
+2. Determine expressions that represent ALL solutions to the following equations.
+1
+a) tanθ=1 b) sinθ= c) cosθ=0
+2
+3. Find all the values of θ between 0 and 4π meeting the following conditions:
+1
+a) sinθ=− b) cosq=1 c) tan𝜃 is undefined
+2
+Trig Equations Part 1: Multiple Angle Solutions
+37
+
+===== PAGE 40 =====
+4. Determine all values of q between -p and p meeting the following conditions:
+1 1
+a) sinθ=− b) tan(q)= c) cos(q)=- 2
+2 3 2
+5. Challenge problems: Determine all angles q between 0 and 2p meeting the following conditions:
+a) sin(q)=cos(q) b) tan(2q)=0 c) sin(q)cos(q)=0
+Trig Equations Part 1: Multiple Angle Solutions
+38
+
+===== PAGE 41 =====
+Review
+6. Simplify the following expressions without a calculator.
+æpö æpö
+a) sin ç ÷ +6cos ç ÷
+è 2ø è 3ø
+p p
+b) 4sin cos
+3 3
+5p 5p
+c) sin2 cos2
+6 6
+7. Use your calculator to evaluate the following. Assume the angle is given in radians unless
+otherwise indicated. Round to two decimal places.
+p
+a) sin =
+7
+b) cos136!=
+c) tan(-2.5p)=
+Trig Equations Part 1: Multiple Angle Solutions
+39
+
+===== PAGE 42 =====
+Reciprocal Trig Functions
+Cosecant: cscθ=
+Secant: secq=
+Cotangent: cotq=
+1. Find numeric ratios for the 6 trigonometric functions of the angle shown below:
+sinq= cscq=
+5
+3
+cosq= secq=
+q
+4 tanq= cotq=
+1
+2. Assuming θ is in the first quadrant and cosq= , what is tanθ? secθ? cscθ?
+2
+1
+3. Assuming θ is in the first quadrant and sinθ= , what is secθ? cotθ?
+3
+Reciprocal Trig Functions
+40
+
+===== PAGE 43 =====
+Reciprocal Functions in Four Quadrants
+Suppose θ is an angle in standard position whose terminal side lies in the given quadrant. For each
+function, find the values of the remaining five trigonometric functions of θ.
+1. Quadrant III… 2. Quadrant IV…
+4
+sinθ=− cscθ=
+sinθ= cscθ= 5
+1 cosθ= secθ=
+cosθ=− secθ=
+2
+tanθ= cotθ=
+tanθ= cotθ=
+3. Quadrant II… 4. Quadrant III…
+53
+sinθ= cscθ=−
+sinθ= cscθ=
+45
+cosθ= secθ=
+cosθ= secθ=
+5 tanθ= cotθ=
+tanθ=− cotθ=
+12
+Reciprocal Functions in Four Quadrants
+41
+
+===== PAGE 44 =====
+Determine exact values for the following:
+π π 5π
+sec = csc = cot =
+4 3 6
+3π ⎛ 5π⎞ ⎛ 3π⎞
+sec = cot ⎜− ⎟ = csc ⎜− ⎟ =
+2 ⎝ 2 ⎠ ⎝ 4 ⎠
+cot(−11π)= sec5π= csc6π=
+Round the following to the nearest thousandth:
+sec100! csc3! cot(−10!)
+Reciprocal Functions in Four Quadrants
+42
+
+===== PAGE 45 =====
+Practice: Multiple Solutions and Reciprocal Functions
+1. List all the solutions between −2π and 2π radians for the following:
+3 - 3
+a) sinθ= b) cosq=
+2 2
+d) secθ=−1
+c) cotθ=− 3
+2. Determine ALL solutions (inradians) for the following:
+e) sinθ=−1
+2
+f) cosθ=−
+2
+g) cotθ=−1 h) secθ=1
+Practice: Multiple Solutions and Reciprocal Functions
+43
+
+===== PAGE 46 =====
+3. Determine all solutions 0£<q 2p for the following. If there are no solutions, say so.
+a) sin(q)=1 b) csc(q)=-1
+c) cot(q)= 3 d) 2cos(q)= 2
+1
+2 3
+e) sec(q)= f) csc(q)=
+3 2
+1 h) sec(θ)=−2
+g) cot(θ)=−
+3
+Practice: Multiple Solutions and Reciprocal Functions
+44
+
+===== PAGE 47 =====
+4. Determine ALL solutions for the following equations. Hint: begin by isolating the trig function.
+a) 2sin𝑥+4 = 5 b) 3tan𝑥 = 3 c) 3sec𝑥−4 = 2
+Practice: Multiple Solutions and Reciprocal Functions
+45
+
+===== PAGE 48 =====
+PART II: Graphing Periodic Functions
+Graphing Sine and Cosine – Part 1
+Fill out the table below. Round to two decimal places. Then use the values to plot points on the axes
+below. Use what you know about coterminal angles to fill in values from -2p to 0 as well.
+q sinq q sinq q sinq q sinq
+p 3p
+0 p
+2 2
+p 2p 7p 5p
+6 3 6 3
+p 3p 5p 7p
+4 4 4 4
+p 5p 4p 11p
+3 6 3 6
+Characteristics of f(q)=sinq:
+Domain: Period:
+Range: Amplitude:
+Zeroes: Maxima/Minima:
+Graphing Sine and Cosine – Part 1
+46
+
+===== PAGE 49 =====
+Fill out the table below. Round to two decimal places. Then use the values to plot points on the axes
+below. Use what you know about coterminal angles to fill in values from -2pto 0 as well.
+q cosq q cosq q cosq q cosq
+p 3p
+0 p
+2 2
+p 2p 7p 5p
+6 3 6 3
+p 3p 5p 7p
+4 4 4 4
+p 5p 4p 11p
+3 6 3 6
+Characteristics of f(q)=cosq:
+Domain: Period:
+Range: Amplitude:
+Zeroes: Maxima/Minima:
+Graphing Sine and Cosine – Part 1
+47
+
+===== PAGE 50 =====
+Graphing Sine and Cosine – Part 2
+Sketch the graph f(q)=sinq and f(q)=cosqon the same set of axes but use different colors. Label
+the axes.
+Recall the definition of an even function is f(-=x) f(x)and the definition of an odd function is
+f(--=x) f(x). Determine whether sine and cosine are even and/or odd functions, and explain your
+reasoning below. Use specific input/output pairs and/or symmetry as part of your explanation.
+f(q)=sinqis an __________ function because:
+f(q)=cosqis an __________ function because:
+List other similarities and differences between the graphs in the space below.
+Similarities Differences
+Graphing Sine and Cosine – Part 2
+48
+
+===== PAGE 51 =====
+For each graph below, state whether it best described as a graph of sinθor a graph of cosθ and write
+an expression for the zeroes. Then state the amplitude and period.
+sinθ or cosθ ?
+Zeroes: q=
+Amplitude:
+Period:
+sinθ or cosθ ?
+Zeroes: q=
+Amplitude:
+Period:
+sinθ or cosθ ?
+Zeroes: q=
+Amplitude:
+Period:
+sinθ or cosθ ?
+Zeroes: q=
+Amplitude:
+Period:
+Graphing Sine and Cosine – Part 2
+49
+
+===== PAGE 52 =====
+Vertical Transformations
+Stretches, Compressions, and Reflections (Changes to the Amplitude)
+For each graph below, write the equation for f(q).
+Vertical Transformations
+50
+
+===== PAGE 53 =====
+Graph each equation on the axes provided.
+f(q)=2sinq
+f(q)=1.5cosq
+f(q)=-.5sinq
+f(q)=-2cosq
+Vertical Transformations
+51
+
+===== PAGE 54 =====
+Vertical Shifting
+For each graph below, write the equation for f(θ).
+Vertical Transformations
+52
+
+===== PAGE 55 =====
+Graph each equation on the axes provided.
+y
+f(q)=-sinq 1 4
+3
+2
+1
+x
+-2p -3p/2 -p -p/2 p/2 p 3p/2 2p
+-1
+-2
+-3
+-4
+y
+f(q)=cosq+1.5 4
+3
+2
+1
+x
+-2p -3p/2 -p -p/2 p/2 p 3p/2 2p
+-1
+-2
+-3
+-4
+y
+4
+f(q)=- sinq+ 2
+3
+2
+1
+x
+-2p -3p/2 -p -p/2 p/2 p 3p/2 2p
+-1
+-2
+-3
+-4
+y
+4
+f(q)=- cosq- 2 3
+2
+1
+x
+-2p -3p/2 -p -p/2 p/2 p 3p/2 2p
+-1
+-2
+-3
+-4
+Vertical Transformations
+53
+
+===== PAGE 56 =====
+Vertical Transformations: Combined
+For each graph below, write the equation for f(q).
+Vertical Transformations
+54
+
+===== PAGE 57 =====
+Graph each of the following functions on the axes provided. Label the y-axis accordingly.
+y
+f(q)=-3sinq+ 2
+x
+-2p -3p/2 -p -p/2 p/2 p 3p/2 2p
+y
+f(q)=-4cosq 3
+x
+-2p -3p/2 -p -p/2 p/2 p 3p/2 2p
+y
+f(q)=-3sinq 4
+x
+-2p -3p/2 -p -p/2 p/2 p 3p/2 2p
+y
+f(q)=2cosq+1
+x
+-2p -3p/2 -p -p/2 p/2 p 3p/2 2p
+Vertical Transformations
+55
+
+===== PAGE 58 =====
+Horizontal Transformations
+Horizontal Stretches and Compressions (Changes to the Period)
+For each graph below, write the equation for f(θ).
+Horizontal Transformations
+56
+
+===== PAGE 59 =====
+Graph each equation on the axes provided. Pay attention to the zeros as well as the maximum and
+minimum values.
+f(θ)=−cos(2θ)
+⎛1 ⎞
+f(θ)=−2sin ⎜ θ⎟
+⎝2 ⎠
+3 ⎛ 4θ⎞
+f(θ)= cos
+⎜ ⎟
+2 ⎝ 3 ⎠
+⎛2π ⎞
+f(θ)=sin ⎜ θ⎟
+⎝ 3 ⎠
+Additional problems: p. 298 (5,7,9,13,15,17,19)
+Horizontal Transformations
+57
+
+===== PAGE 60 =====
+Horizontal Shifting
+For each graph below, write two equations for f(θ): one in terms of sin and one in terms of cos.
+Horizontal Transformations
+58
+
+===== PAGE 61 =====
+Graph each equation on the axes provided.
+⎛ π⎞
+f(θ)=2sin ⎜θ+ ⎟
+⎝ 6⎠
+⎛ π⎞
+f(θ)=−3cos ⎜θ− ⎟
+⎝ 3⎠
+⎛ π⎞
+f(θ)=−sin ⎜θ− ⎟ +2
+⎝ 4⎠
+Horizontal Transformations
+59
+
+===== PAGE 62 =====
+Combining Transformations
+Determine an equation for each function.
+Combining Transformations
+60
+
+===== PAGE 63 =====
+Combining Transformations
+61
+
+===== PAGE 64 =====
+Write the equation for the graph below. The maximum is 3.5 and the minimum is -2.5.
+Combining Transformations
+62
+
+===== PAGE 65 =====
+Graphing All Transformations
+æp ö
+f(x)=-2sin
+ç
+(x- 3)
+÷
++ 4
+è 4 ø
+Amplitude: Midline:
+Period: Horizontal Shift:
+f(x)=−5cos
+( 6x+120o)
+−3 (Note that this function is in degrees. Hint: convert to standard form.)
+Amplitude: Midline:
+Period: Horizontal Shift:
+Graphing All Transformations
+63
+
+===== PAGE 66 =====
+æ æ pöö
+f(x)=3sin
+ç
+4-
+ç
+x+
+÷÷
+2
+è è 4øø
+Amplitude: Midline:
+Period: Horizontal Shift:
+⎛ 2π⎞
+f(x)=−3cos 4x− +2 (Hint: convert to standard form.)
+⎜ ⎟
+⎝ 3 ⎠
+Amplitude: Midline:
+Period: Horizontal Shift:
+Graphing All Transformations
+64
+
+===== PAGE 67 =====
+Write an equation using the sine or cosine function for each graph below. Hint: first find the
+amplitude, midline, and period, then decide whether to use sine or cosine based on which occurs first:
+a max, min, or midline crossing. Also, be sure to pay attention to the scale.
+x-axis scale:
+1 tick = 1 radian
+y-axis scale:
+1 tick = 1
+x-axis scale:
+p
+1 tick = radians
+6
+y-axis scale:
+1 tick = 1
+Graphing All Transformations
+65
+
+===== PAGE 68 =====
+Find TWO equations for each of the following graphs: a cosine function and a sine function. Determine
+the x- and y- intercepts for each.
+x-axis scale:
+p
+1 tick = radians
+6
+y-axis scale:
+1 tick = 1
+x-axis scale:
+1 tick = 1 radian
+y-axis scale:
+1 tick = 5
+Additional practice problems: p.298 (1-25)
+Graphing All Transformations
+66
+
+===== PAGE 69 =====
+Sketch the function y=2sin(4x)− 2 and identify five points: the y-intercept, two zeroes, a maximum, and a
+minimum. Provide exact values.
+y-intercept: _________
+zeros: _______ _______
+maximum: __________
+minimum: __________
+Determine the equation of the graph below. Then find the first two positive zeros (give exact values).
+Graphing All Transformations
+67
+
+===== PAGE 70 =====
+Determine the y-intercept and the first two zeros of each function.
+Graphing All Transformations
+68
+
+===== PAGE 71 =====
+Modeling Problems
+1. The number of daylight hours on a particular day in Boston is a periodic function of time. Days are
+longest in the summer time, and shortest in winter, and the cycle repeats each year. Suppose we
+modeled this function with the formula
++ D=-3.1sin(0.017t 1.35) 12.12
+where D is the number of hours of daylight on a particular day, and t is the number of the day of the
+year, beginning with January 1st (so t = 32 on Feb 1).
+a) What is the period of this function?
+b) Based on this formula, how many hours of daylight should you expect on June 21st?
+c) How many hours of sunlight should you expect on your birthday?
+d) When was the first day after January 1st that Boston experienced more than 13 hours of daylight?
+Modeling Problems
+69
+
+===== PAGE 72 =====
+2. The depth of water in a particular bay changes sinusoidally over time. The depth changes with a
+period of 4p hours. At high tide, the water is 8.5 meters deep, and at low tide, the water is 3.5
+meters deep. At midnight (t=0) the bay is at high tide.
+a) Sketch a graph representing the water’s depth as a function of time on the axes below. Label the
+axes clearly and appropriately.
+b) Find a formula for this function using sine or cosine.
+c) A lobster fisherman has placed traps near the outlet of the bay, with floating lines marking their
+location. If the lines are visible only when the water is shallower than 4.5 meters, when is the first
+time in the morning that the fisherman will be able to spot them?
+d) How long does the fisherman have to raise his traps before the floating lines are under water
+again?
+Modeling Problems
+70
+
+===== PAGE 73 =====
+3. Tarzan is swinging back and forth on his grapevine. As he swings, he goes back and forth across a
+riverbank, going alternately over land and water. Jane decides to mathematically model his motion
+and starts her stopwatch. Let y be the number of meters Tarzan is from the riverbank (think of y as
+a measure of the horizontal distance from the water’s edge). Assume that y varies sinusoidally with
+t, time, and that y is positive when Tarzan is over water and negative when he is over land. Jane
+finds that when t =2, Tarzan is at one end of his swing, where y = -18. She finds that when t = 5 he
+reaches the other end of his swing and y = 14.
+a) Sketch a diagram of Tarzan swinging out across the river. Label everything you can on your
+diagram.
+b) Sketch a graph of this sinusoidal function. Show at least two full swings.
+c) Write the equation of Tarzan’s distance from the riverbank in terms of t. Use a sinusoidal
+function for your equation.
+d) Use your graph to estimate Tarzan’s distance from the river bank when
+a. t = 2.8
+b. t = 6.3
+e) Where was Tarzan when Jane started the stopwatch?
+f) How many meters from the riverbank is Tarzan when his grapevine is perpendicular to the
+ground?
+Modeling Problems
+71
+
+===== PAGE 74 =====
+4. (Foerster p. 762 #5) As you stop your car at a traffic light, a pebble becomes wedged in your tire treads.
+When you start off, the distance of the pebble from the pavement varies sinusoidally with the
+distance you have traveled. The function f(d) gives the pebble’s distance off the ground as a
+function of total distance traveled by the car. The period of this function is the circumference of the
+wheel. The diameter of the wheel is 24 inches.
+a. Determine the period of this function, in inches.
+b. What are the maximum, minimum, and midline values for f(d)? Include units.
+c. Sketch a graph of f(d). Label important values on each axis.
+d. Write a formula for f(d) that involves no horizontal shift.
+e. Suppose g(t) is the function that gives the distance of the pebble from the pavement as a
+function of time instead of distance travelled. Is g(t)also sinusoidal? Why or why not?
+Modeling Problems
+72
+
+===== PAGE 75 =====
+5. (Foerster p. 762 #6) When a satellite is fired into orbit from a site such as Cape Canaveral, which is not
+on the equator, it goes into an orbit that takes it alternately north and south of the equator. Its
+distance from the equator can be modeled with a sinusoidal function.
+Suppose that a satellite is launched into orbit at 12pm. Ten minutes later, it reaches its farthest
+distance north of the equator, 4000 km. Half an orbit later, it reaches its farthest distance south of the
+equator, also 4000 km. The satellite completes a full orbit every 90 minutes.
+a. Let y be the number of kilometers the satellite is north of the equator, so y is positive when the
+satellite is over the northern hemisphere and negative when the satellite is over the southern
+hemisphere. Sketch a complete cycle of the graph of y vs. t below. Label important values on each
+axis.
+b. Write a formula for y(t).
+Modeling Problems
+73
+
+===== PAGE 76 =====
+5 (cont.)
+c. Using your equation from (b), predict the distance of the satellite from the equator when
+i. t =25
+ii. t =40
+iii. t =150
+d. Predict the first 3 times that the satellite passes over the equator.
+e. Calculate the distance of Cape Canaveral from the equator by calculating y when t =0. How does
+this compare to the actual value?
+Modeling Problems
+74
+
+===== PAGE 77 =====
+d
+Apogee, 1000km Perigee, 100km
+6. A satellite is an in elliptical orbit around the Earth, as shown in the figure above. At t =0 hours, it is
+at its apogee (highest point), with d =1000km above the surface. Fifty minutes later, it is at its
+perigee, d =100 km above the surface.
+a. Find the period of this orbit.
+b. Assuming d varies sinusoidally with time, write an equation for the function d(t).
+c. Using your calculator’s graphing utility, predict the first three positive values of t for which the
+satellite is 250 km above the Earth’s surface.
+d. In order to transmit information back to Earth, the satellite must be within 700 kilometers of the
+surface. When is the first time this will happen, and for how many consecutive minutes will the
+satellite be able to transmit?
+Modeling Problems
+75
+
+===== PAGE 78 =====
+7. A ball is tied to a long string and suspended from the ceiling. After being pulled to the right and
+released, it begins to swing back and forth. As it swings, its displacement from center is given by
+y=5(0.8)t cos(pt)
+where y is displacement from center, in inches, and t, is the number of seconds since the ball was
+released. Graph this function on your calculator for the first 10 seconds after release.
+a) Describe the motion of the ball in as much detail as possible. Is this function periodic? How is this
+different from the functions we have used in earlier models?
+b) How far to the right was the ball when it was initially released?
+c) Where was the ball after 1 second?
+d) …after 2 seconds?
+e) …after 5 seconds?
+f) This function has two ‘parts.’ One part is a cosine function, and the other is an exponential
+function. Explain how each of these parts contributes to the shape of the overall graph.
+Additional Modeling Practice: p.299 (26-28,30,38), p.357 (39-40), p.271 (23-29), p.292 (31-33,38-40)
+Modeling Problems
+76
+
+===== PAGE 79 =====
+Graphing Cosecant, Secant, and Tangent
+Cosecant
+The graph of y=sinθ is shown below.
+1
+Considering that cscq= , draw in the vertical asymptotes where y=cscθ is undefined.
+sinq
+When sinθ=1, cscθ=____________. As sinθgets smaller, cscθ gets __________________.
+Describe the following characteristics of the graph of cscq:
+Domain:
+Range:
+Period:
+Vertical Asymptotes:
+Zeroes:
+Graphing Cosecant, Secant, and Tangent
+77
+
+===== PAGE 80 =====
+Secant
+The graph of y=cosθ is shown below.
+1
+Considering that secq= , draw in the vertical asymptotes where y=cscθ is undefined.
+cosq
+When cosθ=1, secθ=_________. As cosθ gets smaller, secθ gets __________________.
+Describe the following characteristics of the graph of secq:
+Domain:
+Range:
+Period:
+Vertical Asymptotes:
+Zeroes:
+Graphing Cosecant, Secant, and Tangent
+78
+
+===== PAGE 81 =====
+Graph the following functions. In each case, begin by graphing its reciprocal function.
+1. y=2sec2θ (Begin by sketching y=2cos2θ)
+2. y=2sec3θ+1
+Graphing Cosecant, Secant, and Tangent
+79
+
+===== PAGE 82 =====
+⎛ π⎞
+3. y=1.5csc ⎜ x+ ⎟ −3
+⎝ 6⎠
+⎛ π⎞
+4. y= 3csc2 ⎜θ+ ⎟ −1.
+⎝ 4⎠
+Graphing Cosecant, Secant, and Tangent
+80
+
+===== PAGE 83 =====
+5. Determine an equation for the following function:
+⎛ π⎞
+6. Graphy=2sec ⎜ x− ⎟ −1
+⎝ 3⎠
+Graphing Cosecant, Secant, and Tangent
+81
+
+===== PAGE 84 =====
+Tangent
+Recall the unit circle. In which quadrants is tangent positive?
+…in which quadrants is tangent negative? _______________
+For what values of q between -2pand 2pdoestanq=0? ________________________
+For what values of q between -2pand 2p is tanqundefined? ________________________
+Wherever tanqis undefined, there is a ____________ ____________ on the graph.
+Domain: _____________
+Range: _____________
+Period: ____________
+Important
+distinction
+for tangent!
+Graphing Cosecant, Secant, and Tangent
+82
+
+===== PAGE 85 =====
+For each graph below, write the equation for f(θ).
+Graphing Cosecant, Secant, and Tangent
+83
+
+===== PAGE 86 =====
+Graph each equation on the axes provided.
+⎛ π⎞
+f(θ)= tan ⎜θ+ ⎟
+⎝ 4⎠
+f(θ)= tan(4θ) (be sure to label the x-axis)
+Graphing Cosecant, Secant, and Tangent
+84
+
+===== PAGE 87 =====
+Write the equation for each graph:
+Graphing Cosecant, Secant, and Tangent
+85
+
+===== PAGE 88 =====
+Additional tangent problems: p.304 (24-30)
+PART III: Inverse Functions and Solving Trig Equations
+Calculating Angle Measures
+We have seen how to use the trig functions to calculate missing side lengths in a right triangle (using
+SohCahToa). Now we look at determining the angle measures given the side lengths. Find the indicated angles
+in degrees.
+Calculating Angle Measures
+86
+
+===== PAGE 89 =====
+Practice
+1. Suppose that when you lean a 6-foot ladder against a house, the top of the ladder is 4.8 feet from the
+ground. What angle does the ladder make with the ground? What angle does the ladder make with the
+house?
+2. Suppose your cat is stuck in a tree 3 meters above the ground. Your ladder is 4 meters long. If you place the
+top of your ladder on the same branch your cat is stuck on, what angle will the ladder make with the
+ground?
+3. (Foerster p. 869 #15) Commercial airliners fly at an altitude of roughly 35,000 ft. They start descending toward
+the airport while they are still far away so that they will not have to dive at a steep angle to reach the
+runway.
+a. If the pilot wants the plane’s path to make a 3-degree angle with the ground, how far, in miles, from the
+airport must she start descending?
+b. If she starts descending 300 miles from the airport, what angle will the plane’s path make with the
+horizontal?
+87
+
+===== PAGE 90 =====
+Arcsine Function
+The graph of y=sin(x) is provided on the left. Use this graph to sketch the graph of x=sin(y) on the
+right.
+Your graph represents the inverse relation to the sine function. Does your graph pass the vertical line
+test?
+The sine function is not invertible on its entire domain; however, it is useful to define a function that
+inverts the sine function over only part of its domain.
+Definition: The arcsine function takes a value, y, on the interval [-1, 1] as its input, and outputs the
+angle on the interval [-p ,p ] whose sine is equal to the input, y. In other words,
+2 2
+q=arcsin(y) if y£=si£n(q) and -p q p
+2 2
+It is worth noting that the arcsine function is not defined for any inputs less than -1 or greater than 1.
+Evaluate the following (or explain why the expression is undefined):
+arcsin( 1 )= arcsin ( -=3 ) arcsin(2)=
+2 2
+Arcsine Function
+88
+
+===== PAGE 91 =====
+You will often see the arcsine function abbreviated as sin−1 (pronounced “sine-inverse”). This is not
+1
+the same as (which we know to be cosecant). You will see sin−1 on your calculator above the sin
+sin
+key (press ).
+π
+Example:
+sin−1(
+3
+)
+= ≈1.047
+2 3
+Determine θ in the following equations.
+θ=sin−1(−1)=________ θ=sin−1(− 1 )= _______
+2
+It is particularly important to remember the restricted domain and range of the arcsine function
+when using your calculator to solve trigonometric equations. Your calculator will only give you one
+solution when you use the function. You can use your understanding of reference
+angles and coterminal angles to find the rest!
+Find all solutions between 0 and 2π for the following equations:
+(Look back at the activities from the section entitled “Trig Equations Part 1: Multiple Angle Solutions”
+for a reminder.)
+2sin(q)= 2 5sin(θ)−1=1 3sin(q)=0.9
+Arcsine Function
+89
+
+===== PAGE 92 =====
+Arccosine and Arctangent
+We define the arccosine and arctangent functions similarly to the arcsine function by restricting their
+ranges.
+Definition: The arccosine function takes a value, x, on the interval [-1, 1] as its input, and outputs the
+angle on the interval [0,p] whose cosine is equal to the input, y. In other words,
+θ=arccos(x)=cos−1(x) if x=cos(θ) and 0≤θ≤π
+The range of the arccosine function includes all angles in the first and second quadrant, whereas the
+range of the arcsine function covers all angles in the first and fourth quadrants. Why do you think this
+is?
+Definition: The arctangent function takes any real number r as its input, and outputs the angle on the
+⎛ π π⎞
+interval − , whose tangent is equal to the input, r. In other words,
+⎜ ⎟
+⎝ 2 2⎠
+θ=arctan(r)=tan−1(r) if r=tan(θ) and −π <θ<π
+2 2
+Determine exact values for the following (evaluate without a calculator):
+tan−1(1)
+=
+sin−1( −1)
+=
+cos−1(0)
+=
+tan−1 ( − 3 ) = sin−1( 3 ) = tan−1( 1 ) =
+2 3
+sin−1(
+− 1
+)
+=
+cos−1(
+1
+)
+=
+tan−1(0)
+=
+2 2
+Arccosine and Arctangent
+90
+
+===== PAGE 93 =====
+Practice with Inverse Trig Functions
+Use your calculator to determine solutions to the problems on this page. Provide answers in radians, rounded
+to two decimal places.
+⎛1⎞ ⎛ 3⎞ ⎛ 3⎞
+sin−1 ⎜ ⎟ = sin−1 ⎜ ⎟ = cos−1 ⎜− ⎟ =
+⎝2⎠ ⎝ 4⎠ ⎝ 7⎠
+⎛ 1⎞
+tan−1 ⎜− ⎟ = sin−1(4)= tan−1(4)=
+⎝ 2⎠
+Find all solutions between 0 and 2π for the following equations:
+3 5
+cosθ= tanθ=− sinθ=.25
+5 7
+Express ALL solutions for the following equations.
+cosθ=−0.8 3sinθ=2 4tanθ+2=17
+Practice with Inverse Trig Functions
+91
+
+===== PAGE 94 =====
+Solving Trig Equations (Part 2)
+We spent time studying graphs of sinusoidal functions, now we can use inverse trig to help us work
+with transformed sines and cosines to solve equations algebraically. There are several different
+techniques for solving the equations on the following pages. With practice, you will learn when to use
+each technique. Pay attention to the different sets of instructions.
+Find all solutions of x. Your answer should involve k (use radian measure).
+1. 2sinx+3= 4 2. 3tanx+5=8
+3. 4sin2x+4= 7 4. sec2x−1= 3
+5. cos2x=0 6. 2sin3x−1=0
+Solving Trig Equations (Part 2)
+92
+
+===== PAGE 95 =====
+Find all solutions for x in the interval [0,360o). Express your answers in degrees.
+7. 2sin2x−3sinx+1=0 8. 2sin2x−5sinx+2=0
+9. secx(cosx−2)= 4 (round to three decimal places) 10. 3tanx−1=2
+11. 3sinx= 7cosx (round to three decimal places) 12. csc(4x)=1
+Solving Trig Equations (Part 2)
+93
+
+===== PAGE 96 =====
+Express answers in exact form when possible, but otherwise, use your calculator to find one solution to
+each of the following equations in radians on the interval [0,2π). Then, after finding one solution, find
+the others (in the same interval) using reference or coterminal angles.
+13. 10=4+8sin(θ) (Round to three decimal places.) 14. 3sin(x−2)=1 (Round to three decimal places.)
+15. 0=2cos(2t) 16. 1=2cos(2t)
+17. 6−4sin(t+1)=4 18. 3=2cos(8t−8)
+Solving Trig Equations (Part 2)
+94
+
+===== PAGE 97 =====
+Find all solutions within the given interval for each of the following equations:
+1
+19. cos(t)=−
+2
+on the interval π≤t ≤2π 20. csc(2x)=1 on the interval π
+2
+≤ x≤ 3
+2
+π
+Find all solutions for x in the interval [0, 360!). Express your answers in degrees.
+21. 2sin2x+1= 3sinx 22. sec(3x)=2
+Solving Trig Equations (Part 2)
+95
+
+===== PAGE 98 =====
+Find all solutions of x (use radian measure). Express as exact answers.
+23. csc4x−2=0 24. 2cos2x+1=0
+25. 3tanx−1=2 26. 2tan5x=0
+27. sinx⋅secx=1 sin2x
+28. −sinx=0
+cosx
+Solving Trig Equations (Part 2)
+96
+
+===== PAGE 99 =====
+Find all solutions in the interval 0≤t ≤2π to the following equations exactly if possible, or accurate to
+three decimals.
+29. tan(t)= 3 30. 5−3sin(t)=4
+1
+31. 1+tan(2t)=2 32. sin2(t)=
+4
+33. tan2(t)+1=4 34. sin(t)(cos(t)+1) =0
+Solving Trig Equations (Part 2)
+97
+
+===== PAGE 100 =====
+Find all solutions within the interval 0£t £2p for each of the following equations:
+35. 2cos2(t)+cos(t)−1=0 36. 2sin(t
+2
+)= 3
+1 ⎛1⎛ π⎞⎞
+37. cos(2t)= 2 38. 2sin
+⎝
+⎜
+2⎝
+⎜ t−
+4⎠
+⎟
+⎠
+⎟ = 3
+Solving Trig Equations (Part 2)
+98
+
+===== PAGE 101 =====
+Compositions of Trig Functions and Inverse Trig Functions
+Simplify the following compositions. You should be able to complete these without a calculator.
+Compositions of Trig Functions and Inverse Trig Functions
+99
+
+===== PAGE 102 =====
+Compositions of Trig Functions and Inverse Trig Functions
+100
+
+===== PAGE 103 =====
+PART IV: Non-Right Triangles
+A New Area Formula
+Determine the area of triangle ABC:
+Using the same technique, determine the area of this triangle ABC:
+Area of Triangle ABC =
+A New Area Formula
+101
+
+===== PAGE 104 =====
+Use your new formula to determine the areas of the following triangles. Round to three decimal
+places.
+B A
+C
+P
+Q
+D
+R
+T
+S
+The Law of Sines
+102
+
+===== PAGE 105 =====
+The Law of Sines
+Begin by determining three different expressions for the area of triangle ABC.
+The Law of Sines:
+The Law of Sines
+103
+
+===== PAGE 106 =====
+If possible, determine the values for the remaining sides and angles of the given triangles. Round to
+the nearest tenth.
+Additional Practice: p.339 (1,7,33-35)
+The Law of Sines
+104
+
+===== PAGE 107 =====
+The Ambiguous Case
+Sketch triangle ABC with the characteristics below by placing point C appropriately somewhere on the
+dotted line. You do not need to solve the triangle.
+∠A= 30o
+c=10
+a= 7
+What about these conditions?
+∠A= 30o
+c=10
+a=12
+∠A= 30o
+c=10
+a=2
+∠A= 30o
+c=10
+a=5
+The Ambiguous Case
+105
+
+===== PAGE 108 =====
+Determine the measures of the remaining sides and angles in each case and mark them into your
+diagrams.
+∠A= 30o
+c=10
+a= 7
+There is a relationship between the two possibilities for Angle C. What is it? What are the steps for
+finding the two possibilities for angle B?
+The Ambiguous Case
+106
+
+===== PAGE 109 =====
+Determine the possibilities for the remaining sides and angles of ΔABC. Sketch the triangles to help
+you visualize them.
+∠A= 30!
+b = 14
+a = 10
+∠B= 41!
+b = 20
+c = 17
+The Ambiguous Case
+107
+
+===== PAGE 110 =====
+Determine the number of triangles that can be formed with the given information using ΔABC. Make
+a sketch to help you decide. You do not need to solve each triangle.
+1. A = 70° 2. a = 5
+c = 9 b = 7
+a = 8.5 c = 9
+3. C = 55° 4. C = 110°
+b = 7 a = 9
+c = 9 c = 11
+5. a = 8 (careful!) 6. A = 130°
+b = 3 B = 70°
+c = 12 c = 10
+The Ambiguous Case
+108
+
+===== PAGE 111 =====
+7. A = 100° 8. A = 40°
+a = 11 b = 12
+c = 8 a = 11
+9. B = 120° 10. B = 30°
+a = 10 b = 5
+b = 6 c = 10
+11. A = 33° 12. C = 50°
+b = 10 a = 7
+a = 8 c = 5
+Additional Practice: p.339 (17-24,29,30)
+The Ambiguous Case
+109
+
+===== PAGE 112 =====
+The First Pythagorean Identity
+Consider the right triangle with sides a, b, c, and angle θ as shown (recall SohCahToa):
+sinθ= ________ cosθ= ________
+sin2θ= ________ cos2θ= ________
+sin2θ+cos2θ=
+The First Pythagorean Identity:
+The First Pythagorean Identity
+110
+
+===== PAGE 113 =====
+The Law of Cosines
+Consider the triangle ABC with side lengths a, b, and c.
+• What are the coordinates of point A? Label
+them in the diagram.
+• What are the coordinates of point B? (without
+using x and y – too easy!)
+• Now use the distance formula to determine the
+length of segment c.
+• Square both sides and do some algebra to
+determine a simplified expression for c2.
+The Law of Cosines:
+Two other ways to write the Law of Cosines:
+The Law of Cosines
+111
+
+===== PAGE 114 =====
+Determine the indicated value. Round to the nearest hundredth:
+Additional Practice: p.339 (2,6,8,9-15,28-31)
+The Law of Cosines
+112
+
+===== PAGE 115 =====
+More Practice with the Laws of Sines and Cosines
+If possible, determine the value of the indicated variables. Round to the nearest hundredth.
+More Practice with the Laws of Sines and Cosines
+113
+
+===== PAGE 116 =====
+Assuming the diagram below is drawn to scale, determine the value of x. (Round to the nearest
+thousandth).
+More Practice with the Laws of Sines and Cosines
+114
+
+===== PAGE 117 =====
+More Practice:
+1. After soccer practice, you and your teammates decide to jump in the Pond for a swim. As you swim, you spot an
+alligator in the water 10 meters away from you. Looking for safety, you spot the dock 15 meters away, and you notice
+that the angle between the alligator and the dock (measured at your location) is 120 degrees. How far from the dock is
+the alligator?
+120!
+2. Moments later, with you and the alligator in the same positions, you spot a duck floating on the water nearby. You
+measure a 40-degree angle between the alligator and the duck, and there is a 55-degree angle between you and the
+duck measured at the alligator’s position (see diagram). Luckily, the alligator is just as partial to duck meat as to human
+meat, so he will go after whoever is closest. Does the alligator come hunting you or go after the duck?
+Additional Practice: p.340 (42-44,46-48)
+More Practice with the Laws of Sines and Cosines
+115
+
+===== PAGE 118 =====
+PART V: Trigonometric Identities
+The Pythagorean Identities
+Recall the first Pythagorean Identity:
+Divide both sides by cos2θ and simplify.
+Another Pythagorean Identity:
+Now divide both sides of the first identity by sin2θ and simplify.
+Another Pythagorean Identity:
+The Pythagorean Identities
+116
+
+===== PAGE 119 =====
+Double Angle Formulas
+BD = _________ BC = _________
+AD = _________
+Considering ΔADB, sinα = _________
+Apply the Law of Sines to triangle ABC.
+Double Angle Formula for Sin:
+Now apply the Law of Cosines to triangle ABC.
+Double Angle Formula for Cos (three versions):
+Double Angle Formulas
+117
+
+===== PAGE 120 =====
+Example:
+2
+If cosθ= and θ is in Quadrant IV…
+3
+a) find the value of sin2θ
+b) find the value of cos2θ
+Double Angle Formulas
+118
+
+===== PAGE 121 =====
+Even / Odd Identities
+Recall that the graph of an even function is symmetric across the __________________.
+Algebraically, this means that f(−x)= ________.
+An odd function is symmetric across the __________________.
+Algebraically, this means that f(−x)= ________.
+Below are the graphs of sine and cosine. Identify which one is which, and determine whether they are
+even, odd, or neither.
+What about tangent? Consider it graphically and algebraically.
+Even / Odd Identities:
+Even / Odd Identities
+119
+
+===== PAGE 122 =====
+Identities Practice
+Express the following in terms of a positive angle x:
+sin(-x) = ___________ cos(-x) = ___________
+csc(-x) = ___________ sec(-x) = ___________
+tan(-x) = ___________ cot(-x) = ___________
+3
+Ex: If tanθ= and θ is in Quadrant III, find the value of sin(−θ).
+4
+sin2θ+cos2θ
+Ex: Express as a single trig function:
+secθ
+Ex: Verify the identity: sin2θ⋅sec2θ+1=sec2θ
+Identities Practice
+120
+
+===== PAGE 123 =====
+5
+1. If tanθ=− and θ is in quadrant II, find the values of:
+3
+a) secθ b) sinθ c) cot(−θ)
+7
+2. Given cscθ=− , and θ is in quadrant III, find
+3
+a) cotθ b) cosθ c) tan(−θ)
+4
+3. Given cosθ= , and θ is in quadrant IV, find
+5
+a) sin2θ b) cos2θ c) tan2θ
+Identities Practice
+121
+
+===== PAGE 124 =====
+4. Simplify the following expressions:
+1+cot2θ
+a) b) csc(−θ)tan(−θ)cos(−θ)
+1+tan2θ
+tanθ
+c) d) cos2(−θ)⋅(tan2θ+1)
+secθ
+Additional Practice: p.363 (5-19,28-31,34,35,46,61)
+Identities Practice
+122
+
+===== PAGE 125 =====
+The Cofunction Identities for Sin and Cos
+Consider the right triangle with sides a, b, c, and angles θ and φ.
+• What is sinθ?
+• What is cosφ?
+• Express φ in terms of θ
+Cofunction Identities:
+The Cofunction Identities for Sin and Cos
+123
+
+===== PAGE 126 =====
+Angle Sum and Difference Formulas
+Use the diagram to determine a formula for cos(α−β).
+• Note that ∠PAQ=α−β
+• Determine the coordinates of points P and Q
+• Express the length PQ in two different ways – use the
+distance formula and the law of cosines (actually,
+what we really want in both cases is PQ2)
+• Set them equal to each other and solve for cos(α−β)
+[To obtain the other sum and difference formulas, we apply
+the Cofunction identities and the Even / Odd identities.]
+Angle Sum and Difference Formulas
+124
+
+===== PAGE 127 =====
+Examples
+We can arrive at exact values (without a calculator) for a variety of angles:
+1. Evaluate: sin75!
+(Method 1): sin(45o+30o) (Method 2): sin(120o−45o)
+2. Evaluate: cos345o
+⎛11π⎞
+3. Evaluate: tan ⎜ ⎟
+⎝ 12 ⎠
+Angle Sum and Difference Formulas
+125
+
+===== PAGE 128 =====
+Simplify the following:
+4. cos(270o−x)
+⎛ π⎞
+5. sin ⎜ x+ ⎟
+⎝ 2⎠
+6. cos(x+π)
+Additional Practice: p.368 (1-12,18,19), p.393 (1,3,5,9,11,27-34,40,41)
+Angle Sum and Difference Formulas
+126
+
+===== PAGE 129 =====
+PART VI: Polar Coordinates and Polar Functions
+Polar Coordinates
+Polar coordinates are an ordered pair that describes the distance to the point from the origin (the
+radius) and the angle to the point in standard position, written (r,θ).
+Provide the polar coordinates for the following points:
+A:
+B:
+C:
+D:
+E:
+F:
+G:
+H:
+I:
+Plot the following points on the polar grid provided:
+A: (3,π)
+⎛ 3π⎞
+B: ⎜ 1, ⎟
+⎝ 2 ⎠
+⎛ 5π⎞
+C: ⎜ 2, ⎟
+⎝ 6 ⎠
+⎛ 3π⎞
+D: ⎜ 4,− ⎟
+⎝ 4 ⎠
+⎛ 2π⎞
+E: ⎜−2, ⎟
+⎝ 3 ⎠
+F: (−3,π)
+Polar Coordinates
+127
+
+===== PAGE 130 =====
+Converting Polar and Rectangular Coordinates
+Make the appropriate conversions to complete the table below. You may wish to make sketches to
+help you visualize the points. Problems 1-10 should be done without a calculator, while 11 and 12
+require a calculator.
+Rectangular (x,y) Polar (r,θ)
+1. (2,0)
+2. (0,3)
+3. (−1,0)
+⎛ π⎞
+4. ⎜ 3 2, ⎟
+⎝ 4⎠
+⎛ 5π⎞
+5. ⎜ 8, ⎟
+⎝ 6 ⎠
+6. (−2,2 3)
+⎛ 3π⎞
+7. ⎜−5, ⎟
+⎝ 2 ⎠
+⎛ π⎞
+8. ⎜ 2,− ⎟
+⎝ 4⎠
+9. (4,−4)
+⎛ π⎞
+10. ⎜−10, ⎟
+⎝ 6⎠
+11. (15,72!)
+12. (−7,11)
+Additional Practice: p.347 (14-22)
+Converting Polar and Rectangular Coordinates
+128
+
+===== PAGE 131 =====
+Polar Functions
+In polar functions, r is expressed as a function of θ.
+Consider the function r =sinθ. Generate the following outputs (r) for each input (θ).
+θ r
+0
+π
+6
+π
+4
+π
+3
+π
+2
+2π
+3
+3π
+4
+5π
+6
+π
+7π
+6
+5π
+4
+4π
+3
+3π
+2
+5π
+3
+7π
+4
+11π
+6
+2π
+Polar Functions
+129
+
+===== PAGE 132 =====
+More polar functions:
+θ
+r =
+r =2 2
+r = 3sin2θ r =1+2cosθ
+Polar Functions
+130
+
+===== PAGE 133 =====
+The function graphed below is r(θ)=6sin(θ)+2. Determine the coordinates of each point as it is
+determined by the function.
+AA
+B
+C
+D E
+F
+H I
+G J
+K
+M
+L N O
+A = __________ B = __________ C = __________
+D = __________ E = __________ F = __________
+G = __________ H = __________ I = __________
+J = __________ K = __________ L = __________
+M = __________ N = __________ O = __________
+Polar Functions
+131
+
+===== PAGE 134 =====
+Come up with your own interesting polar function. Provide the equation and sketch it neatly. Include
+the coordinates of at least five points.
+Function: ____________________________________
+Polar Functions
+132
+
+===== PAGE 135 =====
+Converting Polar and Rectangular Functions
+What is the relationship between x, y, and r?
+What other relationships do you see? (Recall
+SohCahToa.) Define x and y in terms of θ and r.
+Examples:
+Express as a polar function in the form r= f(θ).
+1
+y= x+1
+3
+Express as a rectangular function in the form y= f(x).
+1
+r =
+sinθ⋅cosθ
+Converting Polar and Rectangular Functions
+133
+
+===== PAGE 136 =====
+Express as polar equations. When possible, solve for r.
+1. x2 +y2 =9 2. y= 3
+3. x=5 4. 3x−4y=2
+5. y= x 3 6. y= x2
+Converting Polar and Rectangular Functions
+134
+
+===== PAGE 137 =====
+Express as rectangular equations. When possible, solve for y.
+π 8. r = 7
+7. θ=
+4
+9. r=6cosθ 10. tanθ=rcosθ−1
+cosθ 1
+11. r = 12. r =
+sin2θ sinθ−cosθ
+Additional Practice: p.348 (30,42,48) p.352 (13-18)
+Converting Polar and Rectangular Functions
+135
+
+===== PAGE 138 =====
+PART VII: Vectors
+Understanding Vectors
+A vector can be thought of as something that moves a point in a specified direction for a specified
+distance. It is represented by an arrow. Notice that the arrow has a length and a direction.
+In the diagram at the right, the vector u moves
+Point A to Point B.
+Where would the vector u move Point C?
+Note that vectors themselves do not have a
+location.
+Vector notation
+! !!!"
+u, u, AB
+Understanding Vectors
+136
+
+===== PAGE 139 =====
+Vector Addition
+Vector addition is achieved by placing the vectors “tip to tail.” A resultant vector is like taking a short
+cut.
+Sketch the resultant vectors A + B.
+Remember, vectors are not fixed to a location. In each case, move vector B, then sketch the resultant
+vector A + B.
+Vector Addition
+137
+
+===== PAGE 140 =====
+Scalar Multiplication of Vectors
+Observe that 3u = u + u + u
+Given the vectors above, sketch the following resultant vectors:
+2u 3v
+u + 5v 2u + 4v + w
+Scalar Multiplication of Vectors
+138
+
+===== PAGE 141 =====
+Vector Subtraction
+Negative vector: At the right, v = -u
+Subtracting a vector is like adding a negative vector.
+Sketch the resultant vectors B - A.
+Did you notice another way to arrive at the same resultant vector?
+More practice: p.502 (9-15)
+Vector Subtraction
+139
+
+===== PAGE 142 =====
+Unit Vectors
+By convention, the horizontal unit vector is called i, and
+the vertical unit vector is called j.
+r r
+Also: i and j.
+Sketch the following:
+r r r r
+i+ j 2i+3j
+r r r r
+3i− j −2i+4j
+Note that any two-dimensional vector can be broken down into a combination of unit vectors.
+Unit Vectors
+140
+
+===== PAGE 143 =====
+Vector Components
+Describe the following vectors in terms of unit vectors:
+More practice: p.508 (1,2,4,5,6,8,13,14a-e)
+Vector Components
+141
+
+===== PAGE 144 =====
+Magnitude and Direction
+Another way to describe vectors is in terms of their magnitude and direction.
+The magnitude represents the length of a vector, usually denoted with double bars around the vector:
+r
+u = 7
+The direction of the vector is the measure of the angle that the
+vector forms with the positive horizontal.
+(Does this remind you of anything?)
+Determine the magnitude and direction of the following vectors:
+r r r ! ! !
+u= 3i−4j v=−6i+6 3j
+ur r r ! ! "!
+w=−5i−2j r =2u+w
+Magnitude and Direction
+142
+
+===== PAGE 145 =====
+Vector u has a magnitude of 12 units and a direction of 60!. Vector v has a magnitude of 8 units and
+direction of −45!. Determine the magnitude and direction of the resultant vector u + v.
+More practice: p.509 (21,23,25) p.503 (23)
+Magnitude and Direction
+143
+
+===== PAGE 146 =====
+Vectors in 3-Dimensions
+!
+We now introduce a third unit vector, k .
+! ! ! "!
+Determine the magnitude of the resultant vector r =u+v+w
+! !
+u = 4i
+! !
+v =6j
+! !
+w= 3k
+More practice: p.508 (7,9-12,19,24,28-31)
+Vectors in 3-Dimensions
+144
+
+===== PAGE 147 =====
+PART VIII: Parametrics
+Intro to Parametrics
+Use the table of values to create x- and y-coordinates, and then plot the points (x,y).
+x=t−3
+y=2t+1
+t x y
+-3
+-2
+-1
+0
+1
+2
+3
+Express the relationship between x and y without using t.
+Intro to Parametrics
+145
+
+===== PAGE 148 =====
+Graph the parametrically defined function below.
+x = −1, y=t+1 for 0≤t <2
+x=t−1, y=5−t for 2≤t <4
+x=t−6, y=t−2 for 4≤t <5
+x = −3, y=t−4 for 5≤t ≤7
+x=t−11, y=11−t for 8≤t <9
+x=t−8, y=t−8 for 9≤t ≤11
+Intro to Parametrics
+146
+
+===== PAGE 149 =====
+Practice
+Determine the parametric equations for the following lines:
+1. The straight line between (1,3) and (3,4) 2. The straight line between (1,3) and (-3,5)
+3. The straight line from (0,0) to (1,1) and then to (2,0).
+In problems 4-8, eliminate the parameter t from the following parametric equations to obtain an
+equation for y as a function of x. Confirm your results by graphing. Indicate the direction of the curve.
+4. x=5−2t y=1+4t 5. x= t y= 3t−2
+6. x=t−3 y=t2 +2t+1 7. x=e2t y=e3t
+8. Graph the following equations using a calculator.
+x=cos3t y=sin7t
+Intro to Parametrics
+147

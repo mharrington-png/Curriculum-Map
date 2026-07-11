@@ -1,0 +1,256 @@
+schema_version: 1
+course_id: M21
+status: approved
+evidence:
+  - source: source_documents/Math 21 Course Map.docx
+  - source: objectives/MATH21_OBJECTIVES.md
+
+mappings:
+  - objective_id: M21-REV-001
+    skills:
+      - {skill_id: SK-LIN-SLOPE-POINTS, relationship: required, progression: reinforce}
+      - {skill_id: SK-LIN-SLOPE-GRAPH, relationship: required, progression: reinforce}
+      - {skill_id: SK-REP-UNITS, relationship: required, progression: reinforce}
+
+  - objective_id: M21-REV-002
+    skills:
+      - {skill_id: SK-LIN-FORM-CONVERT, relationship: required, progression: reinforce}
+      - {skill_id: SK-LIN-PLOT-INTERCEPT, relationship: required, progression: reinforce}
+      - {skill_id: SK-LIN-GRAPH-SLOPE, relationship: required, progression: reinforce}
+      - {skill_id: SK-LIN-SLOPE-POINTS, relationship: prerequisite, progression: apply}
+
+  - objective_id: M21-REV-003
+    skills:
+      - {skill_id: SK-MODEL-PARAMETER-INTERPRET, relationship: required, progression: introduce}
+      - {skill_id: SK-MODEL-VALID-DOMAIN, relationship: required, progression: reinforce}
+      - {skill_id: SK-REP-UNITS, relationship: required, progression: apply}
+
+  - objective_id: M21-REV-004
+    skills:
+      - {skill_id: SK-SYS-GRAPH-INTERSECTION, relationship: required, progression: reinforce}
+
+  - objective_id: M21-REV-005
+    skills:
+      - {skill_id: SK-SYS-GRAPH-INTERSECTION, relationship: method-dependent, progression: reinforce}
+      - {skill_id: SK-SYS-SUBSTITUTE, relationship: method-dependent, progression: reinforce}
+      - {skill_id: SK-SYS-ELIMINATE, relationship: method-dependent, progression: reinforce}
+      - {skill_id: SK-SYS-CHECK, relationship: required, progression: reinforce}
+
+  - objective_id: M21-REV-006
+    skills:
+      - {skill_id: SK-EXP-PRODUCT, relationship: required, progression: reinforce}
+      - {skill_id: SK-EXP-QUOTIENT, relationship: required, progression: reinforce}
+      - {skill_id: SK-EXP-POWER, relationship: required, progression: reinforce}
+
+  - objective_id: M21-FUN-001
+    skills:
+      - {skill_id: SK-FUNC-NOTATION-READ, relationship: prerequisite, progression: apply}
+      - {skill_id: SK-FUNC-INPUT-OUTPUT, relationship: required, progression: deepen}
+      - {skill_id: SK-ALG-EXPRESSION-SIMPLIFY, relationship: prerequisite, progression: apply}
+
+  - objective_id: M21-FUN-002
+    skills:
+      - {skill_id: SK-FUNC-VERTICAL-LINE, relationship: required, progression: deepen}
+      - {skill_id: SK-FUNC-INPUT-OUTPUT, relationship: required, progression: deepen}
+
+  - objective_id: M21-FUN-003
+    skills:
+      - {skill_id: SK-FUNC-DOMAIN-RANGE-GRAPH, relationship: required, progression: deepen}
+      - {skill_id: SK-FUNC-DOMAIN-RANGE-TABLE, relationship: required, progression: deepen}
+
+  - objective_id: M21-FUN-004
+    skills:
+      - {skill_id: SK-FUNC-SOLVE-INPUT, relationship: required, progression: introduce}
+      - {skill_id: SK-ALG-INVERSE-OPERATIONS, relationship: method-dependent, progression: apply}
+
+  - objective_id: M21-FUN-005
+    skills:
+      - {skill_id: SK-FUNC-INPUT-OUTPUT, relationship: required, progression: deepen}
+      - {skill_id: SK-FUNC-CONTEXT-DOMAIN, relationship: required, progression: deepen}
+      - {skill_id: SK-FUNC-CONTEXT-RANGE, relationship: required, progression: deepen}
+      - {skill_id: SK-MODEL-VALID-DOMAIN, relationship: required, progression: deepen}
+
+  - objective_id: M21-FUN-006
+    skills:
+      - {skill_id: SK-FUNC-AROC, relationship: required, progression: introduce}
+      - {skill_id: SK-FUNC-AROC-INTERPRET, relationship: required, progression: introduce}
+      - {skill_id: SK-REP-UNITS, relationship: required, progression: deepen}
+
+  - objective_id: M21-FUN-007
+    skills:
+      - {skill_id: SK-FUNC-COMPARE-REP, relationship: required, progression: introduce}
+      - {skill_id: SK-REP-FORMULA-GRAPH, relationship: required, progression: introduce}
+      - {skill_id: SK-REP-TABLE-GRAPH, relationship: required, progression: introduce}
+
+  - objective_id: M21-POL-001
+    skills:
+      - {skill_id: SK-POLY-VOCABULARY, relationship: prerequisite, progression: reinforce}
+      - {skill_id: SK-POLY-LIKE-TERMS, relationship: required, progression: deepen}
+      - {skill_id: SK-ALG-LIKE-TERMS, relationship: prerequisite, progression: apply}
+
+  - objective_id: M21-POL-002
+    skills:
+      - {skill_id: SK-POLY-VOCABULARY, relationship: prerequisite, progression: apply}
+      - {skill_id: SK-POLY-DISTRIBUTE, relationship: required, progression: deepen}
+      - {skill_id: SK-POLY-BINOMIAL-MULTIPLY, relationship: required, progression: deepen}
+      - {skill_id: SK-ALG-DISTRIBUTE, relationship: prerequisite, progression: apply}
+
+  - objective_id: M21-POL-003
+    skills:
+      - {skill_id: SK-POLY-VOCABULARY, relationship: prerequisite, progression: apply}
+      - {skill_id: SK-POLY-GCF, relationship: prerequisite, progression: apply}
+      - {skill_id: SK-FACTOR-GCF, relationship: required, progression: deepen}
+      - {skill_id: SK-FACTOR-CHECK, relationship: required, progression: reinforce}
+
+  - objective_id: M21-POL-004
+    skills:
+      - {skill_id: SK-POLY-VOCABULARY, relationship: prerequisite, progression: apply}
+      - {skill_id: SK-FACTOR-TRINOMIAL-MONIC, relationship: required, progression: reinforce}
+      - {skill_id: SK-FACTOR-TRINOMIAL-GENERAL, relationship: required, progression: reinforce}
+      - {skill_id: SK-FACTOR-CHECK, relationship: required, progression: apply}
+
+  - objective_id: M21-POL-005
+    skills:
+      - {skill_id: SK-POLY-VOCABULARY, relationship: prerequisite, progression: apply}
+      - {skill_id: SK-FACTOR-DIFF-SQUARES, relationship: required, progression: introduce}
+      - {skill_id: SK-FACTOR-CHECK, relationship: required, progression: apply}
+
+  - objective_id: M21-POL-006
+    skills:
+      - {skill_id: SK-POLY-VOCABULARY, relationship: prerequisite, progression: apply}
+      - {skill_id: SK-FACTOR-ZERO-PRODUCT, relationship: required, progression: introduce}
+      - {skill_id: SK-FACTOR-TRINOMIAL-MONIC, relationship: method-dependent, progression: apply}
+      - {skill_id: SK-FACTOR-TRINOMIAL-GENERAL, relationship: method-dependent, progression: apply}
+      - {skill_id: SK-FACTOR-DIFF-SQUARES, relationship: method-dependent, progression: apply}
+
+  - objective_id: M21-RAT-001
+    skills:
+      - {skill_id: SK-RAT-RESTRICTIONS, relationship: required, progression: introduce}
+
+  - objective_id: M21-RAT-002
+    skills:
+      - {skill_id: SK-RAT-RESTRICTIONS, relationship: required, progression: apply}
+      - {skill_id: SK-RAT-FACTOR, relationship: required, progression: introduce}
+      - {skill_id: SK-RAT-CANCEL-FACTORS, relationship: required, progression: introduce}
+
+  - objective_id: M21-RAT-003
+    skills:
+      - {skill_id: SK-RAT-RESTRICTIONS, relationship: required, progression: apply}
+      - {skill_id: SK-RAT-FACTOR, relationship: required, progression: apply}
+      - {skill_id: SK-RAT-CANCEL-FACTORS, relationship: required, progression: apply}
+      - {skill_id: SK-NUM-FRACTION-OPERATE, relationship: prerequisite, progression: apply}
+
+  - objective_id: M21-RAT-004
+    skills:
+      - {skill_id: SK-RAT-LCD, relationship: required, progression: introduce}
+      - {skill_id: SK-RAT-COMBINE, relationship: required, progression: introduce}
+      - {skill_id: SK-NUM-FRACTION-OPERATE, relationship: prerequisite, progression: apply}
+
+  - objective_id: M21-RAT-005
+    skills:
+      - {skill_id: SK-RAT-RESTRICTIONS, relationship: required, progression: apply}
+      - {skill_id: SK-RAT-CLEAR-DENOMINATORS, relationship: required, progression: introduce}
+      - {skill_id: SK-ALG-INVERSE-OPERATIONS, relationship: prerequisite, progression: apply}
+      - {skill_id: SK-RAT-EXTRANEOUS, relationship: required, progression: introduce}
+
+  - objective_id: M21-EXP-001
+    skills:
+      - {skill_id: SK-EXP-NEGATIVE, relationship: required, progression: introduce}
+      - {skill_id: SK-EXP-PRODUCT, relationship: prerequisite, progression: apply}
+      - {skill_id: SK-EXP-QUOTIENT, relationship: prerequisite, progression: apply}
+
+  - objective_id: M21-EXP-002
+    skills:
+      - {skill_id: SK-EXP-RATIONAL, relationship: required, progression: introduce}
+      - {skill_id: SK-RAD-CONVERT, relationship: required, progression: introduce}
+
+  - objective_id: M21-EXP-003
+    skills:
+      - {skill_id: SK-RAD-FACTOR-PERFECT, relationship: required, progression: introduce}
+      - {skill_id: SK-NUM-PRIME-FACTOR, relationship: prerequisite, progression: apply}
+
+  - objective_id: M21-EXP-004
+    skills:
+      - {skill_id: SK-EXP-PRODUCT, relationship: required, progression: deepen}
+      - {skill_id: SK-EXP-QUOTIENT, relationship: required, progression: deepen}
+      - {skill_id: SK-EXP-POWER, relationship: required, progression: deepen}
+      - {skill_id: SK-EXP-ZERO, relationship: required, progression: introduce}
+      - {skill_id: SK-EXP-NEGATIVE, relationship: required, progression: apply}
+      - {skill_id: SK-EXP-RATIONAL, relationship: required, progression: apply}
+
+  - objective_id: M21-EXP-005
+    skills:
+      - {skill_id: SK-FUNC-DOMAIN-EVEN-ROOT, relationship: required, progression: introduce}
+      - {skill_id: SK-RAD-ISOLATE, relationship: required, progression: introduce}
+      - {skill_id: SK-ALG-INVERSE-OPERATIONS, relationship: required, progression: apply}
+      - {skill_id: SK-RAD-CHECK, relationship: required, progression: introduce}
+
+  - objective_id: M21-QUAD-001
+    skills:
+      - {skill_id: SK-QUAD-FORM-IDENTIFY, relationship: required, progression: introduce}
+      - {skill_id: SK-QUAD-VERTEX, relationship: required, progression: introduce}
+      - {skill_id: SK-QUAD-INTERCEPTS, relationship: required, progression: introduce}
+
+  - objective_id: M21-QUAD-002
+    skills:
+      - {skill_id: SK-QUAD-FORM-CONVERT, relationship: required, progression: introduce}
+      - {skill_id: SK-QUAD-FORM-IDENTIFY, relationship: required, progression: deepen}
+      - {skill_id: SK-QUAD-VERTEX, relationship: required, progression: apply}
+      - {skill_id: SK-QUAD-INTERCEPTS, relationship: required, progression: apply}
+      - {skill_id: SK-REP-FORMULA-GRAPH, relationship: required, progression: deepen}
+
+  - objective_id: M21-QUAD-003
+    skills:
+      - {skill_id: SK-POLY-ZEROS, relationship: required, progression: introduce}
+      - {skill_id: SK-FACTOR-ZERO-PRODUCT, relationship: required, progression: deepen}
+      - {skill_id: SK-FACTOR-TRINOMIAL-MONIC, relationship: method-dependent, progression: apply}
+      - {skill_id: SK-FACTOR-TRINOMIAL-GENERAL, relationship: method-dependent, progression: apply}
+
+  - objective_id: M21-QUAD-004
+    skills:
+      - {skill_id: SK-QUAD-SQUARE-ROOT, relationship: required, progression: introduce}
+      - {skill_id: SK-RAD-FACTOR-PERFECT, relationship: prerequisite, progression: apply}
+
+  - objective_id: M21-QUAD-005
+    skills:
+      - {skill_id: SK-QUAD-COMPLETE-SQUARE, relationship: required, progression: introduce}
+      - {skill_id: SK-ALG-EXPRESSION-SIMPLIFY, relationship: prerequisite, progression: apply}
+
+  - objective_id: M21-QUAD-006
+    skills:
+      - {skill_id: SK-QUAD-FORMULA, relationship: required, progression: introduce}
+      - {skill_id: SK-QUAD-DISCRIMINANT, relationship: required, progression: introduce}
+      - {skill_id: SK-RAD-FACTOR-PERFECT, relationship: prerequisite, progression: apply}
+
+  - objective_id: M21-QUAD-007
+    skills:
+      - {skill_id: SK-QUAD-METHOD-SELECT, relationship: required, progression: introduce}
+      - {skill_id: SK-FACTOR-ZERO-PRODUCT, relationship: method-dependent, progression: apply}
+      - {skill_id: SK-QUAD-SQUARE-ROOT, relationship: method-dependent, progression: apply}
+      - {skill_id: SK-QUAD-COMPLETE-SQUARE, relationship: method-dependent, progression: apply}
+      - {skill_id: SK-QUAD-FORMULA, relationship: method-dependent, progression: apply}
+
+  - objective_id: M21-QUAD-008
+    skills:
+      - {skill_id: SK-QUAD-FORM-CONVERT, relationship: method-dependent, progression: apply}
+      - {skill_id: SK-QUAD-VERTEX, relationship: required, progression: deepen}
+      - {skill_id: SK-QUAD-INTERCEPTS, relationship: required, progression: deepen}
+      - {skill_id: SK-REP-FORMULA-GRAPH, relationship: required, progression: deepen}
+
+  - objective_id: M21-QUAD-009
+    skills:
+      - {skill_id: SK-QUAD-MODEL-FEATURES, relationship: required, progression: introduce}
+      - {skill_id: SK-MODEL-PARAMETER-INTERPRET, relationship: required, progression: deepen}
+      - {skill_id: SK-MODEL-VALID-DOMAIN, relationship: required, progression: apply}
+      - {skill_id: SK-REP-UNITS, relationship: required, progression: apply}
+
+  - objective_id: M21-EXT-001
+    skills:
+      - {skill_id: SK-CPLX-I-POWERS, relationship: prerequisite, progression: introduce}
+      - {skill_id: SK-CPLX-OPERATE, relationship: required, progression: introduce}
+
+  - objective_id: M21-EXT-002
+    skills:
+      - {skill_id: SK-QUAD-DISCRIMINANT, relationship: prerequisite, progression: apply}
+      - {skill_id: SK-CPLX-I-POWERS, relationship: prerequisite, progression: apply}
+      - {skill_id: SK-CPLX-QUAD-SOLUTION, relationship: required, progression: introduce}

@@ -1,0 +1,72 @@
+[P:Title] Middlesex Math Course Overview
+[P:Heading 1] MATH 12
+[P:Normal] Intermediate Algebra
+[P:Heading 1] 1. Critical Content (Covered Every Semester)
+[P:Normal] (Prereq – Chapter 1 content.  Students should be told to review prior to semester start)
+[P:List Paragraph] Prime factors
+[P:List Paragraph] Order of Operations
+[P:List Paragraph] Like Terms
+[P:List Paragraph] Operations on Integers
+[P:List Paragraph] Fractions
+[P:List Paragraph] Distributive Prop
+[P:Normal] Day 1 – After introduction, practice Distributive Property problems
+[P:Normal] Solving Linear Equations (emphasis on good presentation)
+[P:List Paragraph] Simplifying and solving linear equations in different forms
+[P:List Paragraph] Clearing fractions; cross-multiply
+[P:List Paragraph] Isolating a variable
+[P:List Paragraph] Equations with letters representing constants
+[P:Normal] Problem Solving  (emphasis on organization, presentation)
+[P:List Paragraph] Number problems
+[P:List Paragraph] Mixture Problems
+[P:List Paragraph] Motion Problems
+[P:Normal] Inequalities, compound inequalities with AND/OR
+[P:List Paragraph] Interval notation is emphasized
+[P:List Paragraph] OpenStax is rather limited on compound inequalities – see Caspar Folder for supplemental materials
+[P:List Paragraph] Skip application problems in this unit
+[P:List Paragraph] Skip absolute value inequalities (for now)(?)
+[P:Normal] Lines
+[P:List Paragraph] Graphing Lines from three forms
+[P:List Paragraph] Slope, Parallel and Perpendicular
+[P:List Paragraph] Determining Equations
+[P:Normal] Basic Functions
+[P:List Paragraph] Notation
+[P:List Paragraph] Vertical Line Test
+[P:List Paragraph] Input/output
+[P:List Paragraph] Discrete v Continuous (not in text)
+[P:List Paragraph] Domain/Range (primarily from graphs or tables rather than formulas)
+[P:List Paragraph] Domain and Range in Contextual Problems (not in text; use supplementary materials)
+[P:Normal] Systems (linear) and applications
+[P:List Paragraph] Graphing (emphasize connection to intersection point)
+[P:List Paragraph] Solve by substitution
+[P:List Paragraph] Solve by elimination
+[P:List Paragraph] application problems (mixture problems, motion problems, etc)
+[P:List Paragraph] only cover systems with two variables.
+[P:Normal] Polynomial arithmetic
+[P:List Paragraph] Add, subtract like terms
+[P:List Paragraph] Properties of Exponents (got this far in 2025-2026)
+[P:List Paragraph] multiply, divide by monomial
+[P:List Paragraph] FOIL
+[P:Normal] Factoring (basic)
+[P:List Paragraph] GCF, Trinomials if time
+[P:Heading 1] 2. Extension Material (Optional/Time-Permitting)
+[P:List Paragraph] Linear inequalities and systems of inequalities
+[P:List Paragraph] Absolute value inequalities
+[P:List Paragraph] Factoring Trinomials
+[P:Heading 1] 3. Depth, Emphasis, and Pedagogical Notes
+[P:Normal] Factoring and function stuff – basic level to support a higher starting point in 21.
+[P:Normal] Functions are treated at a VERY basic level in OpenStax Intermediate Algebra and might need supplementing. 21 Workbook might help.
+[P:Normal] Application problems in OpenStax are very similar across linear equations, systems
+[P:Heading 1] 4. Mapping to New Textbook
+[P:Heading 1] 5. List of Supplemental Materials (workbooks, documents, etc.)
+[P:Normal] 21 workbook may offer support
+
+[TABLE 1]
+ | Topic | Estimated Weeks | OpenStax Sections
+Math 12 | Prealgebra Review | 1 | 1.1 to 1.5
+ | Solving Equations | 3 | 2.1 to 2.4
+ | Inequalities | 1 | 2.5 and 2.6
+ | Absolute Value Equations (and Inequalities if time) | 1 | 2.7
+ | Lines and Graphing | 3 | 3.1 to 3.4
+ | Linear Systems | 1 | 4.1 to 4.3
+ | Functions (emphasis on Linear) | 2 | 3.5 and 3.6
+ | Polynomials (+,-,x,/) and Basic Factoring | 3 | 5.1 to 5.4 and 6.1
