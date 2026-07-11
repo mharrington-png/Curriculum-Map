@@ -1,0 +1,35 @@
+# Private/local curriculum sources
+Curriculum/source_documents/
+
+# Dependencies and local package-manager data
+node_modules/
+.pnpm-store/
+
+# Generated framework/build output
+dist/
+.next/
+.vinext/
+.wrangler/
+coverage/
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+
+# Temporary workspace files
+tmp/
+*.tmp
+*.temp
+*.log
+
+# Editor and operating-system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+.vscode/
+.idea/
+
+# Codex-local metadata
+.agents/
+.codex/
