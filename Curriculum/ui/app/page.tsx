@@ -75,7 +75,7 @@ export default function Home() {
     </header>
 
     {!courseId && !skillId && <div className="shell landing">
-      <section className="hero"><p className="eyebrow">Department curriculum</p><h1>Choose a course.<br/><em>Follow the learning.</em></h1><p>Flip through the curriculum, then open a course to explore its topical units, learning objectives, and supporting skills.</p></section>
+      <section className="hero"><p className="eyebrow">Department curriculum</p><h1>Overview<br/><em>Choose a course.</em></h1><p>Flip through the curriculum, then open a course to explore its topical units, learning objectives, and supporting skills.</p></section>
       <section className="rolodex" aria-label="Course selector" onKeyDown={e => { if (e.key === "ArrowLeft") flipCourse(-1); if (e.key === "ArrowRight") flipCourse(1); }} tabIndex={0}>
         <button className="flip prev" onClick={() => flipCourse(-1)} aria-label="Previous course"><span>←</span><small>Previous</small></button>
         <div className="cardstack">{courses.map((c, i) => {
@@ -88,7 +88,7 @@ export default function Home() {
           return <article className={`rolocard ${c.tone} ${offset === 0 ? "current" : ""}`} style={{"--offset": offset} as CSSProperties} key={c.id} aria-hidden={offset !== 0}>
             <span className="coursecode">{c.label}</span><h2>{c.title}</h2><p>Explore this course by topical unit, then trace each objective to the skills students use.</p>
             <div className="cardstats"><span><b>{objectiveCount || "—"}</b> objectives</span><span><b>{skillCount || "—"}</b> skills</span></div>
-            <button className="opencourse" onClick={() => openCourse(c.id)} tabIndex={offset === 0 ? 0 : -1}>Open {c.label} <b>→</b></button>
+            <button className="opencourse" onClick={() => openCourse(c.id)} tabIndex={offset === 0 ? 0 : -1}>Explore {c.label} <b>→</b></button>
           </article>;
         })}</div>
         <button className="flip next" onClick={() => flipCourse(1)} aria-label="Next course"><small>Next</small><span>→</span></button>
