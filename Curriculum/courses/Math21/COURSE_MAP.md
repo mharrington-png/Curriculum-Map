@@ -2,7 +2,7 @@
 
 ## MATH 21
 
-**Course title:** Algebra and Its Functions
+**Course title:** Algebra and its Functions
 
 **Status:** Draft normalized from the existing Math 21 course map; requires faculty review.
 

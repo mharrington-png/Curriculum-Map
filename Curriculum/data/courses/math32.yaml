@@ -2,7 +2,7 @@ schema_version: 1
 course:
   id: M32
   number: Math 32
-  title: Trigonometry Fundamentals
+  title: "Precalculus: Trigonometry"
   status: approved
   source: source_documents/MATH 32 TRIG PACKET to be printed 2025.pdf
 

@@ -2,7 +2,7 @@ schema_version: 1
 course:
   id: M21
   number: Math 21
-  title: Algebra and Its Functions
+  title: Algebra and its Functions
   status: draft
   source: source_documents/Math 21 Course Map.docx
 

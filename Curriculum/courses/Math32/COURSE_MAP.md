@@ -2,7 +2,7 @@
 
 ## MATH 32
 
-**Course title:** Trigonometry Fundamentals
+**Course title:** Precalculus: Trigonometry
 
 **Status:** Draft extracted from the 2025 Math 32 workbook; requires faculty review.
 

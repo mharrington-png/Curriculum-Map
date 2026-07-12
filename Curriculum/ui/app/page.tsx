@@ -21,7 +21,7 @@ const courses = [
   { id: "M21", label: "Math 21", title: "Algebra and its Functions", tone: "mint" },
   { id: "M22", label: "Math 22", title: "Geometry", tone: "gold" },
   { id: "M31", label: "Math 31", title: "Advanced Algebra", tone: "violet" },
-  { id: "M32", label: "Math 32", title: "Trigonometry", tone: "coral" },
+  { id: "M32", label: "Math 32", title: "Precalculus: Trigonometry", tone: "coral" },
   { id: "M39", label: "Math 39", title: "Precalculus with Data Analysis", tone: "crimson" },
   { id: "M49", label: "Math 49", title: "Precalculus with Limits", tone: "navy" },
 ];
@@ -100,7 +100,7 @@ export default function Home() {
     </div>}
 
     {courseId && selectedCourse && !skillId && <div className="shell page">
-      <button className="back" onClick={goHome}>← All courses</button><div className="coursehead"><div><p className="eyebrow">{selectedCourse.label}</p><h1>{selectedCourse.title}</h1><p>{objectives.length} learning objectives · {new Set(courseOccurrences.map(o => o.skill_id)).size} supporting skills</p></div><a className="pdfDownload" href={`${import.meta.env.BASE_URL}downloads/${selectedCourse.id.toLowerCase()}-course-at-a-glance-landscape.pdf`} download><span>↓</span><span>Download PDF<small>Course at a glance</small></span></a></div>
+      <button className="back" onClick={goHome}>← All courses</button><div className="coursehead"><div><p className="eyebrow">{selectedCourse.label}</p><h1>{selectedCourse.title}</h1><p>{objectives.length} learning objectives · {new Set(courseOccurrences.map(o => o.skill_id)).size} supporting skills</p></div><a className="pdfDownload" href={`${import.meta.env.BASE_URL}downloads/${selectedCourse.id.toLowerCase()}-course-report.pdf`} download><span>↓</span><span>Download report<small>At a glance + in depth</small></span></a></div>
       <div className="coursebody"><section className="objectiveList">{["review","required","extension"].map(priority => {
         const group = objectives.filter(o => o.priority === priority); if (!group.length) return null;
         const units = [...new Map(group.map(o => [o.unit_id, { id: o.unit_id, title: o.unit_title }])).values()];
