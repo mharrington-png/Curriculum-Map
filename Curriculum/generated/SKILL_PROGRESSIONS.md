@@ -117,6 +117,7 @@ First introduction: **Math 12**
 | Math 22 | Reinforce | Review | Required | Review Content | `M22-REV-001` — I can solve a linear equation arising from a geometric relationship. |
 | Math 31 | Apply | Required | Method-dependent | Linear Functions and Function Notation | `M31-LIN-003` — I can evaluate a function or solve for an input using a graph, table, or formula. |
 | Math 39 | Apply | Required | Prerequisite | Power Functions and Function Comparison | `M39-POW-005` — I can solve equations involving integer or rational powers. |
+| Math 49 | Apply | Required | Prerequisite | Power, Polynomial, and Rational Functions | `M49-PWR-005` — I can solve equations involving integer or rational powers. |
 
 ## SK-ALG-LIKE-TERMS: Identify and combine like terms.
 
@@ -158,6 +159,7 @@ First introduction: **Math 12**
 | Math 32 | Apply | Extension | Required | Parametric Equations | `M32-PAR-002` — I can eliminate a parameter to obtain a rectangular equation. |
 | Math 39 | Apply | Required | Prerequisite | Power Functions and Function Comparison | `M39-POW-002` — I can construct a power function from two data points or a proportional relationship. |
 | Math 49 | Apply | Extension | Required | Parametric Equations | `M49-PAR-002` — I can eliminate a parameter to obtain a rectangular equation. |
+| Math 49 | Apply | Required | Prerequisite | Power, Polynomial, and Rational Functions | `M49-PWR-002` — I can construct a power function from two data points or a proportional relationship. |
 
 ## SK-ANG-PAIR-IDENTIFY: Identify complementary, supplementary, vertical, and linear-pair relationships.
 
@@ -591,6 +593,8 @@ First introduction: **Math 21**
 | Math 21 | Apply | Required | Required | Exponents and Radicals | `M21-EXP-004` — I can apply exponent rules to expressions with integer and rational exponents. |
 | Math 31 | Apply | Required | Method-dependent | Exponential Functions and Models | `M31-EXP-007` — I can determine an exponential formula from two points or other sufficient data. |
 | Math 39 | Apply | Required | Required | Power Functions and Function Comparison | `M39-POW-005` — I can solve equations involving integer or rational powers. |
+| Math 49 | Deepen | Required | Required | Power, Polynomial, and Rational Functions | `M49-PWR-005` — I can solve equations involving integer or rational powers. |
+| Math 49 | Apply | Required | Prerequisite | Power, Polynomial, and Rational Functions | `M49-PWR-008` — I can analyze power functions with fractional exponents, including their domains, graph shapes, and behavior near zero. |
 
 ## SK-EXP-REWRITE-BASE: Rewrite exponential expressions using a common base when possible.
 
@@ -726,6 +730,7 @@ First introduction: **Math 21**
 | Math 39 | Apply | Required | Required | Exponential Modeling | `M39-EXP-007` — I can compare linear and exponential models and justify which is more appropriate for a data set or context. |
 | Math 39 | Deepen | Required | Required | Power Functions and Function Comparison | `M39-POW-006` — I can compare the long-run dominance of logarithmic, power, polynomial, and exponential functions. |
 | Math 49 | Apply | Required | Prerequisite | Limits and Function Comparison | `M49-LIM-007` — I can compare the long-run growth of polynomial, exponential, logarithmic, and rational functions. |
+| Math 49 | Apply | Required | Required | Power, Polynomial, and Rational Functions | `M49-PWR-006` — I can compare the long-run dominance of logarithmic, power, polynomial, and exponential functions. |
 | Math 49 | Apply | Required | Required | Sequences and Series | `M49-SEQ-004` — I can distinguish arithmetic, geometric, and other sequences from formulas, tables, or contexts. |
 
 ## SK-FUNC-COMPOSE-FORMULA: Substitute one function formula into another.
@@ -815,6 +820,7 @@ First introduction: **Math 21**
 |---|---|---|---|---|---|
 | Math 21 | Introduce | Required | Required | Exponents and Radicals | `M21-EXP-005` — I can solve a basic equation involving a radical or rational exponent and check for extraneous solutions. |
 | Math 31 | Deepen | Required | Required | Function Behavior and Structure | `M31-FUN-004` — I can determine algebraic domain restrictions caused by denominators and even roots. |
+| Math 49 | Apply | Required | Method-dependent | Power, Polynomial, and Rational Functions | `M49-PWR-008` — I can analyze power functions with fractional exponents, including their domains, graph shapes, and behavior near zero. |
 
 ## SK-FUNC-DOMAIN-FORMULA: Determine domain restrictions from denominators, even roots, and logarithms.
 
@@ -858,6 +864,7 @@ First introduction: **Math 39**
 | Course | Role | Priority | Relationship | Unit | Objective |
 |---|---|---|---|---|---|
 | Math 39 | Introduce | Required | Required | Power Functions and Function Comparison | `M39-POW-006` — I can compare the long-run dominance of logarithmic, power, polynomial, and exponential functions. |
+| Math 49 | Deepen | Required | Required | Power, Polynomial, and Rational Functions | `M49-PWR-006` — I can compare the long-run dominance of logarithmic, power, polynomial, and exponential functions. |
 
 ## SK-FUNC-INDEPENDENT-DEPENDENT: Identify independent and dependent variables.
 
@@ -1595,7 +1602,6 @@ First introduction: **Math 21**
 | Math 39 | Apply | Required | Required | Linear Modeling and Residuals | `M39-LIN-002` — I can construct a linear function from two data points, a table, a graph, or a context. |
 | Math 39 | Deepen | Required | Required | Linear Modeling and Residuals | `M39-LIN-003` — I can fit a linear regression model to data using technology and interpret its parameters. |
 | Math 39 | Apply | Required | Required | Function Combinations and Polynomials | `M39-POL-008` — I can build and optimize a polynomial model in a geometric or economic context. |
-| Math 49 | Apply | Required | Required | Power, Polynomial, and Rational Functions | `M49-ALG-001` — I can identify and model direct, inverse, and power variation. |
 | Math 49 | Deepen | Required | Required | Power, Polynomial, and Rational Functions | `M49-ALG-008` — I can build or select a power, polynomial, or rational model for a context. |
 | Math 49 | Apply | Required | Required | Sequences and Series | `M49-SEQ-005` — I can create and interpret a sequence model for discrete change. |
 | Math 49 | Apply | Required | Required | Sequences and Series | `M49-SER-005` — I can create and interpret a series model for accumulated change. |
@@ -1896,6 +1902,7 @@ First introduction: **Math 39**
 | Course | Role | Priority | Relationship | Unit | Objective |
 |---|---|---|---|---|---|
 | Math 39 | Introduce | Required | Required | Power Functions and Function Comparison | `M39-POW-002` — I can construct a power function from two data points or a proportional relationship. |
+| Math 49 | Deepen | Required | Required | Power, Polynomial, and Rational Functions | `M49-PWR-002` — I can construct a power function from two data points or a proportional relationship. |
 
 ## SK-POWER-END-BEHAVIOR: Determine power-function behavior as the input approaches zero or positive or negative infinity.
 
@@ -1904,6 +1911,15 @@ First introduction: **Math 39**
 | Course | Role | Priority | Relationship | Unit | Objective |
 |---|---|---|---|---|---|
 | Math 39 | Introduce | Required | Required | Power Functions and Function Comparison | `M39-POW-003` — I can relate the sign and size of k and p to the shape, domain behavior, and end behavior of a power function. |
+| Math 49 | Deepen | Required | Required | Power, Polynomial, and Rational Functions | `M49-PWR-003` — I can relate the sign and size of k and p to the shape, domain behavior, and end behavior of a power function. |
+
+## SK-POWER-FRACTIONAL-ANALYZE: Analyze the domain, graph shape, and behavior near zero of a power function with a fractional exponent.
+
+First introduction: **Math 49**
+
+| Course | Role | Priority | Relationship | Unit | Objective |
+|---|---|---|---|---|---|
+| Math 49 | Introduce | Required | Required | Power, Polynomial, and Rational Functions | `M49-PWR-008` — I can analyze power functions with fractional exponents, including their domains, graph shapes, and behavior near zero. |
 
 ## SK-POWER-PARAMETER-INTERPRET: Interpret the coefficient and exponent in a power function.
 
@@ -1913,6 +1929,7 @@ First introduction: **Math 39**
 |---|---|---|---|---|---|
 | Math 39 | Introduce | Required | Required | Power Functions and Function Comparison | `M39-POW-001` — I can identify a power function and interpret the parameters in y = kx^p. |
 | Math 39 | Deepen | Required | Required | Power Functions and Function Comparison | `M39-POW-007` — I can fit a power regression model and interpret its parameters and correlation evidence. |
+| Math 49 | Deepen | Required | Required | Power, Polynomial, and Rational Functions | `M49-PWR-001` — I can identify a power function and interpret the parameters in y = kx^p. |
 
 ## SK-POWER-SHAPE: Relate the coefficient and exponent of a power function to its graph shape.
 
@@ -1921,6 +1938,7 @@ First introduction: **Math 39**
 | Course | Role | Priority | Relationship | Unit | Objective |
 |---|---|---|---|---|---|
 | Math 39 | Introduce | Required | Required | Power Functions and Function Comparison | `M39-POW-003` — I can relate the sign and size of k and p to the shape, domain behavior, and end behavior of a power function. |
+| Math 49 | Deepen | Required | Required | Power, Polynomial, and Rational Functions | `M49-PWR-003` — I can relate the sign and size of k and p to the shape, domain behavior, and end behavior of a power function. |
 
 ## SK-PROB-AND: Calculate the probability of a compound and event.
 
@@ -2462,7 +2480,7 @@ First introduction: **Math 39**
 
 | Course | Role | Priority | Relationship | Unit | Objective |
 |---|---|---|---|---|---|
-| Math 39 | Introduce | Required | Method-dependent | Power Functions and Function Comparison | `M39-POW-008` — I can linearize power or exponential data and translate between the linearized and original models. |
+| Math 39 | Introduce | Extension | Method-dependent | Linearization of Nonlinear Data | `M39-POW-008` — I can linearize power or exponential data and translate between the linearized and original models. |
 
 ## SK-REG-LOGLOG-LINEARIZE: Transform power data so that a linear model can be fit on logarithmic axes.
 
@@ -2470,7 +2488,7 @@ First introduction: **Math 39**
 
 | Course | Role | Priority | Relationship | Unit | Objective |
 |---|---|---|---|---|---|
-| Math 39 | Introduce | Required | Method-dependent | Power Functions and Function Comparison | `M39-POW-008` — I can linearize power or exponential data and translate between the linearized and original models. |
+| Math 39 | Introduce | Extension | Method-dependent | Linearization of Nonlinear Data | `M39-POW-008` — I can linearize power or exponential data and translate between the linearized and original models. |
 
 ## SK-REG-MODEL-ASSESS: Use residual patterns and contextual evidence to judge whether a model is appropriate.
 
@@ -2512,7 +2530,7 @@ First introduction: **Math 39**
 
 | Course | Role | Priority | Relationship | Unit | Objective |
 |---|---|---|---|---|---|
-| Math 39 | Introduce | Required | Required | Power Functions and Function Comparison | `M39-POW-008` — I can linearize power or exponential data and translate between the linearized and original models. |
+| Math 39 | Introduce | Extension | Required | Linearization of Nonlinear Data | `M39-POW-008` — I can linearize power or exponential data and translate between the linearized and original models. |
 
 ## SK-REP-FORMULA-GRAPH: Connect parameters in a formula to features of its graph.
 
@@ -2536,6 +2554,7 @@ First introduction: **Math 21**
 | Math 39 | Deepen | Required | Required | Power Functions and Function Comparison | `M39-POW-003` — I can relate the sign and size of k and p to the shape, domain behavior, and end behavior of a power function. |
 | Math 49 | Apply | Review | Required | Review Content | `M49-FND-004` — I can analyze exponential functions using their equations, graphs, and contexts. |
 | Math 49 | Apply | Review | Required | Review Content | `M49-FND-005` — I can analyze logarithmic functions using their equations, graphs, and contexts. |
+| Math 49 | Apply | Required | Required | Power, Polynomial, and Rational Functions | `M49-PWR-003` — I can relate the sign and size of k and p to the shape, domain behavior, and end behavior of a power function. |
 
 ## SK-REP-TABLE-GRAPH: Use tabular patterns to predict graph shape and behavior.
 
@@ -3436,7 +3455,7 @@ First introduction: **Math 39**
 | Course | Role | Priority | Relationship | Unit | Objective |
 |---|---|---|---|---|---|
 | Math 39 | Introduce | Required | Required | Power Functions and Function Comparison | `M39-POW-004` — I can recognize and model direct, inverse, and other power-variation relationships. |
-| Math 49 | Introduce | Required | Required | Power, Polynomial, and Rational Functions | `M49-ALG-001` — I can identify and model direct, inverse, and power variation. |
+| Math 49 | Deepen | Required | Required | Power, Polynomial, and Rational Functions | `M49-PWR-004` — I can recognize and model direct, inverse, and other power-variation relationships. |
 
 ## SK-VAR-INVERSE: Represent and interpret an inverse-variation relationship.
 
@@ -3445,7 +3464,7 @@ First introduction: **Math 39**
 | Course | Role | Priority | Relationship | Unit | Objective |
 |---|---|---|---|---|---|
 | Math 39 | Introduce | Required | Required | Power Functions and Function Comparison | `M39-POW-004` — I can recognize and model direct, inverse, and other power-variation relationships. |
-| Math 49 | Introduce | Required | Required | Power, Polynomial, and Rational Functions | `M49-ALG-001` — I can identify and model direct, inverse, and power variation. |
+| Math 49 | Deepen | Required | Required | Power, Polynomial, and Rational Functions | `M49-PWR-004` — I can recognize and model direct, inverse, and other power-variation relationships. |
 
 ## SK-VAR-POWER: Represent and interpret a power-variation relationship.
 
@@ -3455,7 +3474,8 @@ First introduction: **Math 39**
 |---|---|---|---|---|---|
 | Math 39 | Introduce | Required | Required | Power Functions and Function Comparison | `M39-POW-001` — I can identify a power function and interpret the parameters in y = kx^p. |
 | Math 39 | Deepen | Required | Required | Power Functions and Function Comparison | `M39-POW-004` — I can recognize and model direct, inverse, and other power-variation relationships. |
-| Math 49 | Introduce | Required | Required | Power, Polynomial, and Rational Functions | `M49-ALG-001` — I can identify and model direct, inverse, and power variation. |
+| Math 49 | Deepen | Required | Required | Power, Polynomial, and Rational Functions | `M49-PWR-001` — I can identify a power function and interpret the parameters in y = kx^p. |
+| Math 49 | Deepen | Required | Required | Power, Polynomial, and Rational Functions | `M49-PWR-004` — I can recognize and model direct, inverse, and other power-variation relationships. |
 
 ## SK-VEC-3D: Represent and operate on vectors with three components.
 

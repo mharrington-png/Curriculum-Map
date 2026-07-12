@@ -1,6 +1,6 @@
 # Math 39 Learning Objectives
 
-These draft objectives describe Math 39: Precalculus with Data Analysis. Unit titles are topical rather than sequential because teachers may vary the order.
+These approved objectives describe Math 39: Precalculus with Data Analysis. Unit titles are topical rather than sequential because teachers may vary the order.
 
 ## Required: Linear Modeling and Residuals (`M39-LIN`)
 
@@ -30,7 +30,6 @@ These draft objectives describe Math 39: Precalculus with Data Analysis. Unit ti
 - **M39-POW-005:** I can solve equations involving integer or rational powers.
 - **M39-POW-006:** I can compare the long-run dominance of logarithmic, power, polynomial, and exponential functions.
 - **M39-POW-007:** I can fit a power regression model and interpret its parameters and correlation evidence.
-- **M39-POW-008:** I can linearize power or exponential data and translate between the linearized and original models.
 
 ## Required: Function Combinations and Polynomials (`M39-POL`)
 
@@ -72,9 +71,13 @@ These draft objectives describe Math 39: Precalculus with Data Analysis. Unit ti
 - **M39-EV-001:** I can calculate the expected value of a discrete probability situation.
 - **M39-EV-002:** I can interpret expected value to evaluate a game, risk, or long-run decision.
 
+## Extension: Linearization of Nonlinear Data (`M39-LNZ`)
+
+- **M39-POW-008:** I can linearize power or exponential data and translate between the linearized and original models.
+
 ## Sources and Review Status
 
 - Algebra and modeling objectives are inferred from the Math 39 unit and exam review packets.
 - Descriptive-statistics objectives follow *Math in Society* sections 3.2-3.4.
 - Required probability objectives follow sections 4.1-4.2; expected value from section 4.3 is extension.
-- Status: draft for faculty review.
+- Status: approved by the department.

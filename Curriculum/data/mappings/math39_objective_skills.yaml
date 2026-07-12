@@ -1,6 +1,6 @@
 schema_version: 1
 course_id: M39
-status: draft
+status: approved
 evidence:
   - source: source_documents/Math 39/Unit #1 review - 2025 Spring.pdf
   - source: source_documents/Math 39/Unit #2 review No LogLinear.pdf

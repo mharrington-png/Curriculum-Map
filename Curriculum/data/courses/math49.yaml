@@ -34,7 +34,13 @@ units:
     title: Power, Polynomial, and Rational Functions
     priority: required
     objectives:
-      - {id: M49-ALG-001, statement: "I can identify and model direct, inverse, and power variation."}
+      - {id: M49-PWR-001, statement: "I can identify a power function and interpret the parameters in y = kx^p."}
+      - {id: M49-PWR-002, statement: "I can construct a power function from two data points or a proportional relationship."}
+      - {id: M49-PWR-003, statement: "I can relate the sign and size of k and p to the shape, domain behavior, and end behavior of a power function."}
+      - {id: M49-PWR-004, statement: "I can recognize and model direct, inverse, and other power-variation relationships."}
+      - {id: M49-PWR-005, statement: "I can solve equations involving integer or rational powers."}
+      - {id: M49-PWR-006, statement: "I can compare the long-run dominance of logarithmic, power, polynomial, and exponential functions."}
+      - {id: M49-PWR-008, statement: "I can analyze power functions with fractional exponents, including their domains, graph shapes, and behavior near zero."}
       - {id: M49-ALG-002, statement: "I can predict the end behavior of a polynomial from its degree and leading coefficient."}
       - {id: M49-ALG-003, statement: "I can determine polynomial zeros and their multiplicities."}
       - {id: M49-ALG-004, statement: "I can construct a polynomial function from specified zeros or graphical features."}
@@ -96,4 +102,5 @@ units:
       - {id: M49-CON-006, statement: "I can determine the center, vertices, foci, axes, or asymptotes needed to describe a circle, ellipse, or hyperbola."}
       - {id: M49-CON-007, statement: "I can explain the geometric definitions of circles, ellipses, and hyperbolas using foci and distance relationships."}
       - {id: M49-CON-008, statement: "I can explain a parabola as the set of points equidistant from a focus and directrix."}
+
 

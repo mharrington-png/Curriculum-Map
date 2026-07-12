@@ -19,6 +19,7 @@
 - **SK-POWER-SHAPE:** Relate the coefficient and exponent of a power function to its graph shape.
 - **SK-POWER-END-BEHAVIOR:** Determine power-function behavior as the input approaches zero or positive or negative infinity.
 - **SK-POWER-CONSTRUCT:** Determine a power function from two points or a proportional relationship.
+- **SK-POWER-FRACTIONAL-ANALYZE:** Analyze the domain, graph shape, and behavior near zero of a power function with a fractional exponent.
 - **SK-FUNC-DOMINANCE:** Compare the long-run growth or decay of functions from different families.
 
 ## Descriptive Statistics

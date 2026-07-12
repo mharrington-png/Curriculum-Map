@@ -4,13 +4,13 @@ Generated automatically from the approved course and mapping records. Warnings r
 
 ## Summary
 
-- Canonical skills used in mappings: 353
+- Canonical skills used in mappings: 354
 - Skills without a mapped or accepted inherited introduction: 0
 - Skills used in an earlier course than their recorded introduction: 0
 - Skills introduced in more than one course: 0
 - Skills introduced only in extension material and later assumed outside extension: 0
-- Skills appearing in only one course: 229
-- Broad-definition review candidates: 3
+- Skills appearing in only one course: 225
+- Broad-definition review candidates: 4
 
 ## Warning: Introduction Not Identified
 
@@ -104,7 +104,6 @@ These may be appropriately course-specific. Review them when checking whether la
 - `SK-FUNC-CONCAVITY-AROC` — Use successive average rates of change to classify concavity. (Math 31)
 - `SK-FUNC-DECOMPOSE` — Identify simpler inner and outer functions in a composition. (Math 49)
 - `SK-FUNC-DISCRETE-CONTINUOUS` — Distinguish discrete inputs from values varying continuously over an interval. (Math 12)
-- `SK-FUNC-DOMINANCE` — Compare the long-run growth or decay of functions from different families. (Math 39)
 - `SK-FUNC-INDEPENDENT-DEPENDENT` — Identify independent and dependent variables. (Math 31)
 - `SK-FUNC-INTERVAL-BEHAVIOR` — Describe increasing or decreasing behavior over intervals. (Math 31)
 - `SK-FUNC-NOTATION-SOLVE` — Use function notation to express and solve an input-output question. (Math 31)
@@ -147,10 +146,7 @@ These may be appropriately course-specific. Review them when checking whether la
 - `SK-POL-PLOT` — Plot a point from radius and angle. (Math 32)
 - `SK-POLY-ANGLE-SUM` — Calculate polygon interior or exterior angle sums. (Math 22)
 - `SK-POLY-DIVIDE-MONOMIAL` — Divide each term of a polynomial by a monomial. (Math 12)
-- `SK-POWER-CONSTRUCT` — Determine a power function from two points or a proportional relationship. (Math 39)
-- `SK-POWER-END-BEHAVIOR` — Determine power-function behavior as the input approaches zero or positive or negative infinity. (Math 39)
-- `SK-POWER-PARAMETER-INTERPRET` — Interpret the coefficient and exponent in a power function. (Math 39)
-- `SK-POWER-SHAPE` — Relate the coefficient and exponent of a power function to its graph shape. (Math 39)
+- `SK-POWER-FRACTIONAL-ANALYZE` — Analyze the domain, graph shape, and behavior near zero of a power function with a fractional exponent. (Math 49)
 - `SK-PROB-AND` — Calculate the probability of a compound and event. (Math 39)
 - `SK-PROB-COMPLEMENT` — Use the complement rule to calculate probability. (Math 39)
 - `SK-PROB-CONDITIONAL` — Calculate and interpret a conditional probability. (Math 39)
@@ -295,5 +291,6 @@ These may be appropriately course-specific. Review them when checking whether la
 Automatically identified from length and conjunctions; inclusion does not mean a definition is invalid.
 
 - `SK-NUM-PERCENT-CALCULATE` — Calculate a percentage of a quantity or determine what percent one quantity is of another.
+- `SK-POWER-FRACTIONAL-ANALYZE` — Analyze the domain, graph shape, and behavior near zero of a power function with a fractional exponent.
 - `SK-QUAD-FORM-CONVERT` — Rewrite a quadratic among standard, factored, and vertex forms using an appropriate algebraic method.
 - `SK-TRIG-TRIANGLE-METHOD` — Select right-triangle ratios, Law of Sines, or Law of Cosines from the given data.

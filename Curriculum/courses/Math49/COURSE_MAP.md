@@ -28,6 +28,7 @@ Review content supports entry into Math 49. Teachers should diagnose and reinfor
 ### Unit 2: Power, Polynomial, and Rational Functions
 
 - Power functions and proportionality/variation
+- The algebraic and graphical Math 39 power-function sequence at greater depth, including fractional exponents
 - Polynomial structure, zeros, multiplicity, and end behavior
 - Rational functions, discontinuities, and asymptotes
 - Modeling and comparison using function families

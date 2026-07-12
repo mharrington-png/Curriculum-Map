@@ -486,7 +486,8 @@
       "Math 21",
       "Math 22",
       "Math 31",
-      "Math 39"
+      "Math 39",
+      "Math 49"
     ],
     "occurrences": [
       {
@@ -800,6 +801,18 @@
         "objective": "I can solve equations involving integer or rational powers.",
         "relationship": "prerequisite",
         "progression": "apply"
+      },
+      {
+        "skill_id": "SK-ALG-INVERSE-OPERATIONS",
+        "course_id": "M49",
+        "course": "Math 49",
+        "unit_id": "M49-ALG",
+        "unit_title": "Power, Polynomial, and Rational Functions",
+        "priority": "required",
+        "objective_id": "M49-PWR-005",
+        "objective": "I can solve equations involving integer or rational powers.",
+        "relationship": "prerequisite",
+        "progression": "apply"
       }
     ]
   },
@@ -1082,6 +1095,18 @@
         "objective_id": "M49-PAR-002",
         "objective": "I can eliminate a parameter to obtain a rectangular equation.",
         "relationship": "required",
+        "progression": "apply"
+      },
+      {
+        "skill_id": "SK-ALG-VARIABLE-ISOLATE",
+        "course_id": "M49",
+        "course": "Math 49",
+        "unit_id": "M49-ALG",
+        "unit_title": "Power, Polynomial, and Rational Functions",
+        "priority": "required",
+        "objective_id": "M49-PWR-002",
+        "objective": "I can construct a power function from two data points or a proportional relationship.",
+        "relationship": "prerequisite",
         "progression": "apply"
       }
     ]
@@ -2864,7 +2889,8 @@
     "courses": [
       "Math 21",
       "Math 31",
-      "Math 39"
+      "Math 39",
+      "Math 49"
     ],
     "occurrences": [
       {
@@ -2913,6 +2939,30 @@
         "objective_id": "M39-POW-005",
         "objective": "I can solve equations involving integer or rational powers.",
         "relationship": "required",
+        "progression": "apply"
+      },
+      {
+        "skill_id": "SK-EXP-RATIONAL",
+        "course_id": "M49",
+        "course": "Math 49",
+        "unit_id": "M49-ALG",
+        "unit_title": "Power, Polynomial, and Rational Functions",
+        "priority": "required",
+        "objective_id": "M49-PWR-005",
+        "objective": "I can solve equations involving integer or rational powers.",
+        "relationship": "required",
+        "progression": "deepen"
+      },
+      {
+        "skill_id": "SK-EXP-RATIONAL",
+        "course_id": "M49",
+        "course": "Math 49",
+        "unit_id": "M49-ALG",
+        "unit_title": "Power, Polynomial, and Rational Functions",
+        "priority": "required",
+        "objective_id": "M49-PWR-008",
+        "objective": "I can analyze power functions with fractional exponents, including their domains, graph shapes, and behavior near zero.",
+        "relationship": "prerequisite",
         "progression": "apply"
       }
     ]
@@ -3618,6 +3668,18 @@
         "skill_id": "SK-FUNC-COMPARE-REP",
         "course_id": "M49",
         "course": "Math 49",
+        "unit_id": "M49-ALG",
+        "unit_title": "Power, Polynomial, and Rational Functions",
+        "priority": "required",
+        "objective_id": "M49-PWR-006",
+        "objective": "I can compare the long-run dominance of logarithmic, power, polynomial, and exponential functions.",
+        "relationship": "required",
+        "progression": "apply"
+      },
+      {
+        "skill_id": "SK-FUNC-COMPARE-REP",
+        "course_id": "M49",
+        "course": "Math 49",
         "unit_id": "M49-SS",
         "unit_title": "Sequences and Series",
         "priority": "required",
@@ -4014,7 +4076,8 @@
     "inherited_note": null,
     "courses": [
       "Math 21",
-      "Math 31"
+      "Math 31",
+      "Math 49"
     ],
     "occurrences": [
       {
@@ -4040,6 +4103,18 @@
         "objective": "I can determine algebraic domain restrictions caused by denominators and even roots.",
         "relationship": "required",
         "progression": "deepen"
+      },
+      {
+        "skill_id": "SK-FUNC-DOMAIN-EVEN-ROOT",
+        "course_id": "M49",
+        "course": "Math 49",
+        "unit_id": "M49-ALG",
+        "unit_title": "Power, Polynomial, and Rational Functions",
+        "priority": "required",
+        "objective_id": "M49-PWR-008",
+        "objective": "I can analyze power functions with fractional exponents, including their domains, graph shapes, and behavior near zero.",
+        "relationship": "method-dependent",
+        "progression": "apply"
       }
     ]
   },
@@ -4261,7 +4336,8 @@
     "first_introduced_course": "Math 39",
     "inherited_note": null,
     "courses": [
-      "Math 39"
+      "Math 39",
+      "Math 49"
     ],
     "occurrences": [
       {
@@ -4275,6 +4351,18 @@
         "objective": "I can compare the long-run dominance of logarithmic, power, polynomial, and exponential functions.",
         "relationship": "required",
         "progression": "introduce"
+      },
+      {
+        "skill_id": "SK-FUNC-DOMINANCE",
+        "course_id": "M49",
+        "course": "Math 49",
+        "unit_id": "M49-ALG",
+        "unit_title": "Power, Polynomial, and Rational Functions",
+        "priority": "required",
+        "objective_id": "M49-PWR-006",
+        "objective": "I can compare the long-run dominance of logarithmic, power, polynomial, and exponential functions.",
+        "relationship": "required",
+        "progression": "deepen"
       }
     ]
   },
@@ -8080,18 +8168,6 @@
         "unit_id": "M49-ALG",
         "unit_title": "Power, Polynomial, and Rational Functions",
         "priority": "required",
-        "objective_id": "M49-ALG-001",
-        "objective": "I can identify and model direct, inverse, and power variation.",
-        "relationship": "required",
-        "progression": "apply"
-      },
-      {
-        "skill_id": "SK-MODEL-PARAMETER-INTERPRET",
-        "course_id": "M49",
-        "course": "Math 49",
-        "unit_id": "M49-ALG",
-        "unit_title": "Power, Polynomial, and Rational Functions",
-        "priority": "required",
         "objective_id": "M49-ALG-008",
         "objective": "I can build or select a power, polynomial, or rational model for a context.",
         "relationship": "required",
@@ -9687,7 +9763,8 @@
     "first_introduced_course": "Math 39",
     "inherited_note": null,
     "courses": [
-      "Math 39"
+      "Math 39",
+      "Math 49"
     ],
     "occurrences": [
       {
@@ -9701,6 +9778,18 @@
         "objective": "I can construct a power function from two data points or a proportional relationship.",
         "relationship": "required",
         "progression": "introduce"
+      },
+      {
+        "skill_id": "SK-POWER-CONSTRUCT",
+        "course_id": "M49",
+        "course": "Math 49",
+        "unit_id": "M49-ALG",
+        "unit_title": "Power, Polynomial, and Rational Functions",
+        "priority": "required",
+        "objective_id": "M49-PWR-002",
+        "objective": "I can construct a power function from two data points or a proportional relationship.",
+        "relationship": "required",
+        "progression": "deepen"
       }
     ]
   },
@@ -9711,7 +9800,8 @@
     "first_introduced_course": "Math 39",
     "inherited_note": null,
     "courses": [
-      "Math 39"
+      "Math 39",
+      "Math 49"
     ],
     "occurrences": [
       {
@@ -9725,6 +9815,42 @@
         "objective": "I can relate the sign and size of k and p to the shape, domain behavior, and end behavior of a power function.",
         "relationship": "required",
         "progression": "introduce"
+      },
+      {
+        "skill_id": "SK-POWER-END-BEHAVIOR",
+        "course_id": "M49",
+        "course": "Math 49",
+        "unit_id": "M49-ALG",
+        "unit_title": "Power, Polynomial, and Rational Functions",
+        "priority": "required",
+        "objective_id": "M49-PWR-003",
+        "objective": "I can relate the sign and size of k and p to the shape, domain behavior, and end behavior of a power function.",
+        "relationship": "required",
+        "progression": "deepen"
+      }
+    ]
+  },
+  {
+    "skill_id": "SK-POWER-FRACTIONAL-ANALYZE",
+    "description": "Analyze the domain, graph shape, and behavior near zero of a power function with a fractional exponent.",
+    "introduction_status": "mapped",
+    "first_introduced_course": "Math 49",
+    "inherited_note": null,
+    "courses": [
+      "Math 49"
+    ],
+    "occurrences": [
+      {
+        "skill_id": "SK-POWER-FRACTIONAL-ANALYZE",
+        "course_id": "M49",
+        "course": "Math 49",
+        "unit_id": "M49-ALG",
+        "unit_title": "Power, Polynomial, and Rational Functions",
+        "priority": "required",
+        "objective_id": "M49-PWR-008",
+        "objective": "I can analyze power functions with fractional exponents, including their domains, graph shapes, and behavior near zero.",
+        "relationship": "required",
+        "progression": "introduce"
       }
     ]
   },
@@ -9735,7 +9861,8 @@
     "first_introduced_course": "Math 39",
     "inherited_note": null,
     "courses": [
-      "Math 39"
+      "Math 39",
+      "Math 49"
     ],
     "occurrences": [
       {
@@ -9761,6 +9888,18 @@
         "objective": "I can fit a power regression model and interpret its parameters and correlation evidence.",
         "relationship": "required",
         "progression": "deepen"
+      },
+      {
+        "skill_id": "SK-POWER-PARAMETER-INTERPRET",
+        "course_id": "M49",
+        "course": "Math 49",
+        "unit_id": "M49-ALG",
+        "unit_title": "Power, Polynomial, and Rational Functions",
+        "priority": "required",
+        "objective_id": "M49-PWR-001",
+        "objective": "I can identify a power function and interpret the parameters in y = kx^p.",
+        "relationship": "required",
+        "progression": "deepen"
       }
     ]
   },
@@ -9771,7 +9910,8 @@
     "first_introduced_course": "Math 39",
     "inherited_note": null,
     "courses": [
-      "Math 39"
+      "Math 39",
+      "Math 49"
     ],
     "occurrences": [
       {
@@ -9785,6 +9925,18 @@
         "objective": "I can relate the sign and size of k and p to the shape, domain behavior, and end behavior of a power function.",
         "relationship": "required",
         "progression": "introduce"
+      },
+      {
+        "skill_id": "SK-POWER-SHAPE",
+        "course_id": "M49",
+        "course": "Math 49",
+        "unit_id": "M49-ALG",
+        "unit_title": "Power, Polynomial, and Rational Functions",
+        "priority": "required",
+        "objective_id": "M49-PWR-003",
+        "objective": "I can relate the sign and size of k and p to the shape, domain behavior, and end behavior of a power function.",
+        "relationship": "required",
+        "progression": "deepen"
       }
     ]
   },
@@ -12123,9 +12275,9 @@
         "skill_id": "SK-REG-LOG-LINEARIZE",
         "course_id": "M39",
         "course": "Math 39",
-        "unit_id": "M39-POW",
-        "unit_title": "Power Functions and Function Comparison",
-        "priority": "required",
+        "unit_id": "M39-LNZ",
+        "unit_title": "Linearization of Nonlinear Data",
+        "priority": "extension",
         "objective_id": "M39-POW-008",
         "objective": "I can linearize power or exponential data and translate between the linearized and original models.",
         "relationship": "method-dependent",
@@ -12147,9 +12299,9 @@
         "skill_id": "SK-REG-LOGLOG-LINEARIZE",
         "course_id": "M39",
         "course": "Math 39",
-        "unit_id": "M39-POW",
-        "unit_title": "Power Functions and Function Comparison",
-        "priority": "required",
+        "unit_id": "M39-LNZ",
+        "unit_title": "Linearization of Nonlinear Data",
+        "priority": "extension",
         "objective_id": "M39-POW-008",
         "objective": "I can linearize power or exponential data and translate between the linearized and original models.",
         "relationship": "method-dependent",
@@ -12291,9 +12443,9 @@
         "skill_id": "SK-REG-UNLINEARIZE",
         "course_id": "M39",
         "course": "Math 39",
-        "unit_id": "M39-POW",
-        "unit_title": "Power Functions and Function Comparison",
-        "priority": "required",
+        "unit_id": "M39-LNZ",
+        "unit_title": "Linearization of Nonlinear Data",
+        "priority": "extension",
         "objective_id": "M39-POW-008",
         "objective": "I can linearize power or exponential data and translate between the linearized and original models.",
         "relationship": "required",
@@ -12504,6 +12656,18 @@
         "priority": "review",
         "objective_id": "M49-FND-005",
         "objective": "I can analyze logarithmic functions using their equations, graphs, and contexts.",
+        "relationship": "required",
+        "progression": "apply"
+      },
+      {
+        "skill_id": "SK-REP-FORMULA-GRAPH",
+        "course_id": "M49",
+        "course": "Math 49",
+        "unit_id": "M49-ALG",
+        "unit_title": "Power, Polynomial, and Rational Functions",
+        "priority": "required",
+        "objective_id": "M49-PWR-003",
+        "objective": "I can relate the sign and size of k and p to the shape, domain behavior, and end behavior of a power function.",
         "relationship": "required",
         "progression": "apply"
       }
@@ -16570,10 +16734,10 @@
         "unit_id": "M49-ALG",
         "unit_title": "Power, Polynomial, and Rational Functions",
         "priority": "required",
-        "objective_id": "M49-ALG-001",
-        "objective": "I can identify and model direct, inverse, and power variation.",
+        "objective_id": "M49-PWR-004",
+        "objective": "I can recognize and model direct, inverse, and other power-variation relationships.",
         "relationship": "required",
-        "progression": "introduce"
+        "progression": "deepen"
       }
     ]
   },
@@ -16607,10 +16771,10 @@
         "unit_id": "M49-ALG",
         "unit_title": "Power, Polynomial, and Rational Functions",
         "priority": "required",
-        "objective_id": "M49-ALG-001",
-        "objective": "I can identify and model direct, inverse, and power variation.",
+        "objective_id": "M49-PWR-004",
+        "objective": "I can recognize and model direct, inverse, and other power-variation relationships.",
         "relationship": "required",
-        "progression": "introduce"
+        "progression": "deepen"
       }
     ]
   },
@@ -16656,10 +16820,22 @@
         "unit_id": "M49-ALG",
         "unit_title": "Power, Polynomial, and Rational Functions",
         "priority": "required",
-        "objective_id": "M49-ALG-001",
-        "objective": "I can identify and model direct, inverse, and power variation.",
+        "objective_id": "M49-PWR-001",
+        "objective": "I can identify a power function and interpret the parameters in y = kx^p.",
         "relationship": "required",
-        "progression": "introduce"
+        "progression": "deepen"
+      },
+      {
+        "skill_id": "SK-VAR-POWER",
+        "course_id": "M49",
+        "course": "Math 49",
+        "unit_id": "M49-ALG",
+        "unit_title": "Power, Polynomial, and Rational Functions",
+        "priority": "required",
+        "objective_id": "M49-PWR-004",
+        "objective": "I can recognize and model direct, inverse, and other power-variation relationships.",
+        "relationship": "required",
+        "progression": "deepen"
       }
     ]
   },

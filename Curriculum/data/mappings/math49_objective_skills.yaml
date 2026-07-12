@@ -83,12 +83,43 @@ mappings:
       - {skill_id: SK-FUNC-INVERSE-DOMAIN-RANGE, relationship: required, progression: deepen}
       - {skill_id: SK-FUNC-INVERSE-UNITS, relationship: method-dependent, progression: deepen}
 
-  - objective_id: M49-ALG-001
+  - objective_id: M49-PWR-001
     skills:
-      - {skill_id: SK-VAR-DIRECT, relationship: required, progression: introduce}
-      - {skill_id: SK-VAR-INVERSE, relationship: required, progression: introduce}
-      - {skill_id: SK-VAR-POWER, relationship: required, progression: introduce}
-      - {skill_id: SK-MODEL-PARAMETER-INTERPRET, relationship: required, progression: apply}
+      - {skill_id: SK-VAR-POWER, relationship: required, progression: deepen}
+      - {skill_id: SK-POWER-PARAMETER-INTERPRET, relationship: required, progression: deepen}
+
+  - objective_id: M49-PWR-002
+    skills:
+      - {skill_id: SK-POWER-CONSTRUCT, relationship: required, progression: deepen}
+      - {skill_id: SK-ALG-VARIABLE-ISOLATE, relationship: prerequisite, progression: apply}
+
+  - objective_id: M49-PWR-003
+    skills:
+      - {skill_id: SK-POWER-SHAPE, relationship: required, progression: deepen}
+      - {skill_id: SK-POWER-END-BEHAVIOR, relationship: required, progression: deepen}
+      - {skill_id: SK-REP-FORMULA-GRAPH, relationship: required, progression: apply}
+
+  - objective_id: M49-PWR-004
+    skills:
+      - {skill_id: SK-VAR-DIRECT, relationship: required, progression: deepen}
+      - {skill_id: SK-VAR-INVERSE, relationship: required, progression: deepen}
+      - {skill_id: SK-VAR-POWER, relationship: required, progression: deepen}
+
+  - objective_id: M49-PWR-005
+    skills:
+      - {skill_id: SK-EXP-RATIONAL, relationship: required, progression: deepen}
+      - {skill_id: SK-ALG-INVERSE-OPERATIONS, relationship: prerequisite, progression: apply}
+
+  - objective_id: M49-PWR-006
+    skills:
+      - {skill_id: SK-FUNC-DOMINANCE, relationship: required, progression: deepen}
+      - {skill_id: SK-FUNC-COMPARE-REP, relationship: required, progression: apply}
+
+  - objective_id: M49-PWR-008
+    skills:
+      - {skill_id: SK-POWER-FRACTIONAL-ANALYZE, relationship: required, progression: introduce}
+      - {skill_id: SK-EXP-RATIONAL, relationship: prerequisite, progression: apply}
+      - {skill_id: SK-FUNC-DOMAIN-EVEN-ROOT, relationship: method-dependent, progression: apply}
 
   - objective_id: M49-ALG-002
     skills:

@@ -3,7 +3,7 @@
 ## MATH 39
 
 **Course title:** Precalculus with Data Analysis  
-**Status:** Draft curriculum structure and objective-to-skill mapping.
+**Status:** Approved curriculum structure and objective-to-skill mapping.
 
 Math 39 follows Math 32 and provides an optional route before Math 49. Because students do not all take Math 39, a skill may appropriately be introduced in both Math 39 and Math 49.
 
@@ -20,6 +20,7 @@ Math 39 follows Math 32 and provides an optional route before Math 49. Because s
 ## Extension Material
 
 - Expected value and its use in long-run decisions
+- Linearization of exponential and power data
 
 ## Curriculum Records
 

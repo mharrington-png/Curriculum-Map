@@ -3,7 +3,7 @@ course:
   id: M39
   number: Math 39
   title: Precalculus with Data Analysis
-  status: draft
+  status: approved
   source: source_documents/Math 39
 
 units:
@@ -41,7 +41,6 @@ units:
       - {id: M39-POW-005, statement: "I can solve equations involving integer or rational powers."}
       - {id: M39-POW-006, statement: "I can compare the long-run dominance of logarithmic, power, polynomial, and exponential functions."}
       - {id: M39-POW-007, statement: "I can fit a power regression model and interpret its parameters and correlation evidence."}
-      - {id: M39-POW-008, statement: "I can linearize power or exponential data and translate between the linearized and original models."}
 
   - id: M39-POL
     title: Function Combinations and Polynomials
@@ -90,3 +89,9 @@ units:
     objectives:
       - {id: M39-EV-001, statement: "I can calculate the expected value of a discrete probability situation."}
       - {id: M39-EV-002, statement: "I can interpret expected value to evaluate a game, risk, or long-run decision."}
+
+  - id: M39-LNZ
+    title: Linearization of Nonlinear Data
+    priority: extension
+    objectives:
+      - {id: M39-POW-008, statement: "I can linearize power or exponential data and translate between the linearized and original models."}

@@ -25,7 +25,13 @@ These objectives represent prerequisite content to diagnose and reinforce as nee
 
 ## Required Unit 2: Power, Polynomial, and Rational Functions (`M49-ALG`)
 
-- **M49-ALG-001:** I can identify and model direct, inverse, and power variation.
+- **M49-PWR-001:** I can identify a power function and interpret the parameters in y = kx^p.
+- **M49-PWR-002:** I can construct a power function from two data points or a proportional relationship.
+- **M49-PWR-003:** I can relate the sign and size of k and p to the shape, domain behavior, and end behavior of a power function.
+- **M49-PWR-004:** I can recognize and model direct, inverse, and other power-variation relationships.
+- **M49-PWR-005:** I can solve equations involving integer or rational powers.
+- **M49-PWR-006:** I can compare the long-run dominance of logarithmic, power, polynomial, and exponential functions.
+- **M49-PWR-008:** I can analyze power functions with fractional exponents, including their domains, graph shapes, and behavior near zero.
 - **M49-ALG-002:** I can predict the end behavior of a polynomial from its degree and leading coefficient.
 - **M49-ALG-003:** I can determine polynomial zeros and their multiplicities.
 - **M49-ALG-004:** I can construct a polynomial function from specified zeros or graphical features.
