@@ -18,6 +18,7 @@ COURSE_DIR = ROOT / "data" / "courses"
 OUTPUT_DIR = ROOT / "output" / "pdf" / "reports"
 PUBLIC_DIR = ROOT / "ui" / "public" / "downloads"
 SKILL_DATA = ROOT / "generated" / "skill_progressions.json"
+OPENSTAX_MAP_DIR = ROOT / "mappings" / "openstax"
 
 MX_RED = colors.HexColor("#CF003D")
 MX_PINK = colors.HexColor("#F8DBE3")
@@ -111,6 +112,78 @@ detail_role = ParagraphStyle(
     "DetailRole", parent=styles["Normal"], fontName="Helvetica-Bold", fontSize=8,
     leading=10, textColor=colors.white, alignment=1,
 )
+resource_label_style = ParagraphStyle(
+    "ResourceLabel", parent=styles["Normal"], fontName="Helvetica-Bold", fontSize=6.1,
+    leading=7.2, textColor=MX_RED,
+)
+resource_text_style = ParagraphStyle(
+    "ResourceText", parent=styles["Normal"], fontName="Helvetica", fontSize=6.35,
+    leading=7.5, textColor=MX_BLACK,
+)
+detail_resource_style = ParagraphStyle(
+    "DetailResource", parent=styles["Normal"], fontName="Helvetica", fontSize=8,
+    leading=10, textColor=MX_GRAY, spaceAfter=10,
+)
+
+
+def expand_objective_references(text, valid_ids):
+    """Expand objective IDs and same-prefix numeric ranges from a mapping table cell."""
+    found = []
+    range_pattern = re.compile(r"(M\d+-[A-Z]+-)(\d{3})\s+through\s+(?:M\d+-[A-Z]+-)?(\d{3})")
+    for match in range_pattern.finditer(text):
+        prefix, start, end = match.groups()
+        found.extend(f"{prefix}{number:03d}" for number in range(int(start), int(end) + 1))
+    without_ranges = range_pattern.sub("", text)
+    found.extend(re.findall(r"M\d+-[A-Z]+-\d{3}", without_ranges))
+    return [oid for oid in dict.fromkeys(found) if oid in valid_ids]
+
+
+def load_resource_sections(course):
+    """Read the detailed OpenStax crosswalk and derive LO and unit section coverage."""
+    map_path = OPENSTAX_MAP_DIR / f"MATH{course['id'][1:]}_OPENSTAX_MAP.md"
+    result = {"resource": "", "objectives": {}, "units": {}}
+    if not map_path.exists():
+        return result
+    text = map_path.read_text(encoding="utf-8")
+    resource_match = re.search(r"- \*\*Resource:\*\*\s+(.+)", text)
+    result["resource"] = re.sub(r"[*`]", "", resource_match.group(1)).strip() if resource_match else "OpenStax"
+    valid_ids = {oid for unit in course["units"] for oid, _ in unit["objectives"]}
+    in_crosswalk = False
+    for line in text.splitlines():
+        if line.startswith("## Detailed Section-to-Objective Crosswalk") or line.startswith("## Extension Section Crosswalk"):
+            in_crosswalk = True
+            continue
+        if in_crosswalk and line.startswith("## "):
+            in_crosswalk = False
+            continue
+        if not in_crosswalk or not re.match(r"\|\s*\d+\.\d+\s*\|", line):
+            continue
+        cells = [cell.strip() for cell in line.strip().strip("|").split("|")]
+        if len(cells) < 3:
+            continue
+        section, title, references = cells[:3]
+        for oid in expand_objective_references(references, valid_ids):
+            result["objectives"].setdefault(oid, []).append({"section": section, "title": title})
+    for unit in course["units"]:
+        seen = set()
+        sections = []
+        for oid, _ in unit["objectives"]:
+            for section in result["objectives"].get(oid, []):
+                key = (section["section"], section["title"])
+                if key not in seen:
+                    seen.add(key)
+                    sections.append(section)
+        sections.sort(key=lambda item: tuple(int(part) for part in item["section"].split(".")))
+        result["units"][unit["id"]] = sections
+    return result
+
+
+def format_sections(sections, include_titles=False):
+    if not sections:
+        return "No mapped textbook section"
+    if include_titles:
+        return "; ".join(f"{item['section']} {item['title']}" for item in sections)
+    return ", ".join(item["section"] for item in sections)
 
 
 def load_objective_skills():
@@ -141,10 +214,17 @@ ROLE_NAME = {"introduce": "Introduce", "reinforce": "Reinforce", "deepen": "Deep
 ROLE_COLOR = {"introduce": MX_RED, "reinforce": colors.HexColor("#666666"), "deepen": MX_BLACK, "apply": colors.HexColor("#A83A5A")}
 
 
-def unit_card(unit, width):
+def unit_card(unit, width, resource_data):
     priority = unit["priority"].upper()
     header_color = MX_RED if unit["priority"] == "required" else (MX_BLACK if unit["priority"] == "review" else MX_GRAY)
-    body = [[Paragraph(priority, priority_style), ""]]
+    unit_sections = resource_data["units"].get(unit["id"], [])
+    section_summary = ""
+    if resource_data["resource"]:
+        section_summary = Paragraph(
+            f"<font color='#CF003D'><b>SECTIONS</b></font> &nbsp;{escape(format_sections(unit_sections))}",
+            resource_text_style,
+        )
+    body = [[Paragraph(priority, priority_style), section_summary]]
     for oid, statement in unit["objectives"]:
         body.append([Paragraph(oid, objective_id), Paragraph(statement, objective_text)])
     table = Table(
@@ -157,7 +237,6 @@ def unit_card(unit, width):
         ("SPAN", (0, 0), (1, 0)),
         ("BACKGROUND", (0, 0), (1, 0), header_color),
         ("BACKGROUND", (0, 1), (1, 1), MX_PINK if unit["priority"] == "required" else MX_LIGHT),
-        ("SPAN", (0, 1), (1, 1)),
         ("BOX", (0, 0), (-1, -1), 0.7, header_color),
         ("LINEBELOW", (0, 2), (-1, -2), 0.35, MX_LINE),
         ("VALIGN", (0, 0), (-1, -1), "TOP"),
@@ -175,9 +254,16 @@ def unit_card(unit, width):
     return table
 
 
-def objective_detail_card(course_id, objective, width):
+def objective_detail_card(course_id, objective, width, resource_data):
     oid, statement = objective
-    rows = [[Paragraph(escape(oid), detail_objective_id), Paragraph(escape(statement), detail_objective_text)]]
+    sections = resource_data["objectives"].get(oid, [])
+    resource_line = ""
+    if resource_data["resource"]:
+        resource_line = (
+            f"<br/><font name='Helvetica-Bold' size='6.5' color='#CF003D'>TEXTBOOK SECTIONS</font> "
+            f"<font name='Helvetica' size='6.5' color='#666666'>{escape(format_sections(sections, include_titles=True))}</font>"
+        )
+    rows = [[Paragraph(escape(oid), detail_objective_id), Paragraph(escape(statement) + resource_line, detail_objective_text)]]
     skill_rows = []
     for skill in OBJECTIVE_SKILLS.get((course_id, oid), []):
         role = skill["progression"]
@@ -285,6 +371,11 @@ class GlanceDocument(BaseDocTemplate):
         canvas.setFillColor(MX_RED)
         canvas.setFont("Helvetica-Bold", 10.5)
         canvas.drawString(self.leftMargin, self.page_height - 0.88*inch, self.course["title"])
+        resource = getattr(self, "resource_data", {}).get("resource", "")
+        if resource:
+            canvas.setFillColor(MX_GRAY)
+            canvas.setFont("Helvetica-Bold", 6.8)
+            canvas.drawRightString(self.page_width - self.rightMargin, self.page_height - 0.86*inch, f"TEXTBOOK  |  {resource}")
         canvas.setFillColor(MX_GRAY)
         canvas.setFont("Helvetica", 6.8)
         canvas.drawRightString(self.page_width - self.rightMargin, 0.24*inch, f"Page {doc.page}")
@@ -302,6 +393,11 @@ class GlanceDocument(BaseDocTemplate):
         canvas.setFillColor(MX_RED)
         canvas.setFont("Helvetica-Bold", 9.5)
         canvas.drawString(self.leftMargin, self.page_height - 0.84*inch, self.course["title"])
+        resource = getattr(self, "resource_data", {}).get("resource", "")
+        if resource:
+            canvas.setFillColor(MX_GRAY)
+            canvas.setFont("Helvetica-Bold", 6.8)
+            canvas.drawString(self.leftMargin + 2.35*inch, self.page_height - 0.84*inch, f"TEXTBOOK  |  {resource}")
         legend = [
             ("I", "Introduce", ROLE_COLOR["introduce"]),
             ("R", "Reinforce", ROLE_COLOR["reinforce"]),
@@ -334,11 +430,13 @@ def generate(course):
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
     PUBLIC_DIR.mkdir(parents=True, exist_ok=True)
     filename = f"{course['id'].lower()}-course-report.pdf"
+    resource_data = load_resource_sections(course)
     output = OUTPUT_DIR / filename
     doc = GlanceDocument(str(output), course)
+    doc.resource_data = resource_data
     story = [NextPageTemplate("glance"), PageBreak()]
     for index, unit in enumerate(course["units"]):
-        story.append(KeepTogether([unit_card(unit, doc.column_width)]))
+        story.append(KeepTogether([unit_card(unit, doc.column_width, resource_data)]))
         if index < len(course["units"]) - 1:
             story.append(FrameBreak())
     story.extend([NextPageTemplate("detail"), PageBreak()])
@@ -347,8 +445,14 @@ def generate(course):
             story.append(PageBreak())
         story.append(Paragraph(escape(unit["title"]), detail_unit_style))
         story.append(Paragraph(unit["priority"].upper(), detail_priority_style))
+        unit_sections = resource_data["units"].get(unit["id"], [])
+        if resource_data["resource"]:
+            story.append(Paragraph(
+                f"<b>UNIT TEXTBOOK COVERAGE</b><br/>{escape(format_sections(unit_sections, include_titles=True))}",
+                detail_resource_style,
+            ))
         for objective in unit["objectives"]:
-            story.append(KeepTogether([objective_detail_card(course["id"], objective, doc.detail_column_width), Spacer(1, 0.10*inch)]))
+            story.append(KeepTogether([objective_detail_card(course["id"], objective, doc.detail_column_width, resource_data), Spacer(1, 0.10*inch)]))
     doc.build(story)
     shutil.copy2(output, PUBLIC_DIR / filename)
     return output
