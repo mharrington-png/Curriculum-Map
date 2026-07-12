@@ -42,6 +42,9 @@ export default function Home() {
   const [skillId, setSkillId] = useState<string | null>(null);
   const [query, setQuery] = useState("");
   const [courseIndex, setCourseIndex] = useState(0);
+  const [showReview, setShowReview] = useState(true);
+  const [showExtension, setShowExtension] = useState(true);
+  const [showMethodDependent, setShowMethodDependent] = useState(true);
 
   useEffect(() => { fetch(`${import.meta.env.BASE_URL}data/skill_progressions.json`).then(r => r.json()).then(setSkills); }, []);
   const allOccurrences = useMemo(() => skills.flatMap(s => s.occurrences), [skills]);
@@ -60,11 +63,31 @@ export default function Home() {
     });
   }, [courseOccurrences]);
   const selectedSkill = skills.find(s => s.skill_id === skillId);
-  const searchResults = query.length > 1 ? skills.filter(s => `${s.skill_id} ${s.description}`.toLowerCase().includes(query.toLowerCase())).slice(0, 8) : [];
+  const searchResults = useMemo(() => {
+    if (query.trim().length < 2) return { skills: [] as Skill[], objectives: [] as Occurrence[], units: [] as Occurrence[] };
+    const needle = query.trim().toLowerCase();
+    const matchingSkills = skills.filter(s => `${s.skill_id} ${s.description}`.toLowerCase().includes(needle)).slice(0, 6);
+    const objectiveMap = new Map<string, Occurrence>();
+    const unitMap = new Map<string, Occurrence>();
+    allOccurrences.forEach(o => {
+      if (`${o.objective_id} ${o.objective}`.toLowerCase().includes(needle)) objectiveMap.set(`${o.course_id}:${o.objective_id}`, o);
+      if (`${o.unit_id} ${o.unit_title}`.toLowerCase().includes(needle)) unitMap.set(`${o.course_id}:${o.unit_id}`, o);
+    });
+    return { skills: matchingSkills, objectives: [...objectiveMap.values()].slice(0, 6), units: [...unitMap.values()].slice(0, 6) };
+  }, [query, skills, allOccurrences]);
+  const hasSearchResults = searchResults.skills.length + searchResults.objectives.length + searchResults.units.length > 0;
 
   const openCourse = (id: string) => { setCourseId(id); setObjectiveId(null); setSkillId(null); };
   const goHome = () => { setCourseId(null); setObjectiveId(null); setSkillId(null); };
   const flipCourse = (direction: number) => setCourseIndex(current => (current + direction + courses.length) % courses.length);
+  const openObjective = (occurrence: Occurrence) => {
+    setCourseId(occurrence.course_id); setObjectiveId(occurrence.objective_id); setSkillId(null); setQuery("");
+  };
+
+  useEffect(() => {
+    if (!objectiveId || skillId) return;
+    requestAnimationFrame(() => document.getElementById(`objective-${objectiveId}`)?.scrollIntoView({ behavior: "smooth", block: "center" }));
+  }, [objectiveId, skillId, courseId]);
 
   return <main>
     <header className="topbar">
@@ -72,7 +95,11 @@ export default function Home() {
       <nav><button onClick={goHome}>Courses</button></nav>
       <div className="searchbox">
         <span>⌕</span><input aria-label="Search skills" placeholder="Search a skill…" value={query} onChange={e => setQuery(e.target.value)} />
-        {searchResults.length > 0 && <div className="searchresults">{searchResults.map(s => <button key={s.skill_id} onClick={() => { setSkillId(s.skill_id); setQuery(""); }}>{s.description}<small>{s.skill_id}</small></button>)}</div>}
+        {hasSearchResults && <div className="searchresults">
+          {searchResults.skills.length > 0 && <section><h2>Skills</h2>{searchResults.skills.map(s => <button key={s.skill_id} onClick={() => { setSkillId(s.skill_id); setQuery(""); }}>{s.description}<small>{s.skill_id}</small></button>)}</section>}
+          {searchResults.objectives.length > 0 && <section><h2>Objectives</h2>{searchResults.objectives.map(o => <button key={`${o.course_id}-${o.objective_id}`} onClick={() => openObjective(o)}>{o.objective}<small>{o.course} · {o.objective_id}</small></button>)}</section>}
+          {searchResults.units.length > 0 && <section><h2>Units</h2>{searchResults.units.map(o => <button key={`${o.course_id}-${o.unit_id}`} onClick={() => openObjective(o)}>{o.unit_title}<small>{o.course} · {o.unit_id}</small></button>)}</section>}
+        </div>}
       </div>
     </header>
 
@@ -106,17 +133,19 @@ export default function Home() {
         const units = [...new Map(group.map(o => [o.unit_id, { id: o.unit_id, title: o.unit_title }])).values()];
         return <div className="priorityGroup" key={priority}><div className="priorityHead"><h2 className={`priority ${priority}`}>{priority}</h2><span>{units.length} {units.length === 1 ? "unit" : "units"} · {group.length} objectives</span></div>{units.map(unit => {
           const unitObjectives = group.filter(o => o.unit_id === unit.id);
-          return <details className="unit" key={unit.id}><summary><span><small>{priority} unit</small><b>{unit.title}</b></span><span className="unitCount">{unitObjectives.length} objectives</span><span className="chevron">⌄</span></summary><div className="unitObjectives">{unitObjectives.map(o => {
+          const containsSelectedObjective = unitObjectives.some(o => o.objective_id === objectiveId);
+          return <details className="unit" key={unit.id} open={containsSelectedObjective || undefined}><summary><span><small>{priority} unit</small><b>{unit.title}</b></span><span className="unitCount">{unitObjectives.length} objectives</span><span className="chevron">⌄</span></summary><div className="unitObjectives">{unitObjectives.map(o => {
             const isOpen = objectiveId === o.objective_id;
             const skillsForObjective = isOpen ? skills.filter(s => s.occurrences.some(x => x.objective_id === o.objective_id)) : [];
-            return <div className="objectiveBranch" key={o.objective_id}><button className={isOpen ? "objective active" : "objective"} onClick={() => setObjectiveId(isOpen ? null : o.objective_id)} aria-expanded={isOpen}><small>{o.objective_id}</small><span>{o.objective}</span><b>{isOpen ? "−" : "+"}</b></button>{isOpen && <div className="nestedSkills"><p>Supporting skills</p>{skillsForObjective.map(s => { const occurrence=s.occurrences.find(x=>x.objective_id===o.objective_id)!; return <button className="skillrow" key={s.skill_id} onClick={()=>setSkillId(s.skill_id)}><span className={`dot ${occurrence.progression}`}>{roleLabel[occurrence.progression][0]}</span><span>{s.description}<small>{roleLabel[occurrence.progression]}</small></span><b>→</b></button>})}</div>}</div>;
+            return <div className="objectiveBranch" id={`objective-${o.objective_id}`} key={o.objective_id}><button className={isOpen ? "objective active" : "objective"} onClick={() => setObjectiveId(isOpen ? null : o.objective_id)} aria-expanded={isOpen}><small>{o.objective_id}</small><span>{o.objective}</span><b>{isOpen ? "−" : "+"}</b></button>{isOpen && <div className="nestedSkills"><p>Supporting skills</p>{skillsForObjective.map(s => { const occurrence=s.occurrences.find(x=>x.objective_id===o.objective_id)!; return <button className="skillrow" key={s.skill_id} onClick={()=>setSkillId(s.skill_id)}><span className={`dot ${occurrence.progression}`}>{roleLabel[occurrence.progression][0]}</span><span>{s.description}<small>{roleLabel[occurrence.progression]}</small></span><b>→</b></button>})}</div>}</div>;
           })}</div></details>;
         })}</div>;
       })}</section></div>
     </div>}
 
     {selectedSkill && <div className="shell page"><button className="back" onClick={() => setSkillId(null)}>← {selectedCourse ? selectedCourse.label : "Back"}</button><p className="eyebrow">Skill explorer</p><code>{selectedSkill.skill_id}</code><h1 className="skilltitle">{selectedSkill.description}</h1><p className="lede">{selectedSkill.introduction_status === "inherited" ? selectedSkill.inherited_note : `First introduced in ${selectedSkill.first_introduced_course}.`} Once established, this skill remains available in the student toolkit.</p>
-      <div className="timeline">{courses.map(c => { const items=selectedSkill.occurrences.filter(o=>o.course_id===c.id); const origin=selectedSkill.first_introduced_course; const originIndex=courses.findIndex(x=>x.label===origin); const currentIndex=courses.findIndex(x=>x.id===c.id); const carried=!items.length && (selectedSkill.introduction_status==="inherited" || (originIndex>=0 && currentIndex>originIndex)); return <div className={`timecourse ${items.length?"explicit":carried?"carried":"future"}`} key={c.id}><div className="timehead"><b>{c.label}</b>{carried&&<span>Carried forward</span>}</div>{items.map((o,i)=><button key={`${o.objective_id}-${i}`} onClick={()=>{setCourseId(o.course_id);setObjectiveId(o.objective_id);setSkillId(null)}}><span className={`dot ${o.progression}`}>{roleLabel[o.progression][0]}</span><span><b>{roleLabel[o.progression]}</b><small>{o.objective}</small></span></button>)}</div>})}</div>
+      <fieldset className="timelineFilters"><legend>Show timeline occurrences</legend><label><input type="checkbox" checked={showReview} onChange={e => setShowReview(e.target.checked)} /> Review</label><label><input type="checkbox" checked={showExtension} onChange={e => setShowExtension(e.target.checked)} /> Extension</label><label><input type="checkbox" checked={showMethodDependent} onChange={e => setShowMethodDependent(e.target.checked)} /> Method-dependent</label></fieldset>
+      <div className="timeline">{courses.map(c => { const allItems=selectedSkill.occurrences.filter(o=>o.course_id===c.id); const items=allItems.filter(o => (showReview || o.priority !== "review") && (showExtension || o.priority !== "extension") && (showMethodDependent || o.relationship !== "method-dependent")); const origin=selectedSkill.first_introduced_course; const originIndex=courses.findIndex(x=>x.label===origin); const currentIndex=courses.findIndex(x=>x.id===c.id); const carried=!allItems.length && (selectedSkill.introduction_status==="inherited" || (originIndex>=0 && currentIndex>originIndex)); return <div className={`timecourse ${allItems.length?"explicit":carried?"carried":"future"}`} key={c.id}><div className="timehead"><b>{c.label}</b>{carried&&<span>Carried forward</span>}{allItems.length > 0 && items.length === 0 && <span>Hidden by filters</span>}</div>{items.map((o,i)=><button key={`${o.objective_id}-${i}`} onClick={()=>openObjective(o)}><span className={`dot ${o.progression}`}>{roleLabel[o.progression][0]}</span><span><b>{roleLabel[o.progression]}</b><small className="unitMeta">{o.unit_title} · {o.objective_id}</small><small>{o.objective}</small></span></button>)}</div>})}</div>
     </div>}
   </main>;
 }
