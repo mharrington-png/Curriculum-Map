@@ -41,7 +41,7 @@ def parse_course(path: Path):
         if not in_units:
             match = re.match(r"  (id|number|title):\s*(.+)", line)
             if match:
-                course[match.group(1)] = match.group(2).strip()
+                course[match.group(1)] = match.group(2).strip().strip('"').strip("'")
             continue
         match = re.match(r"  - id: (M\d+-[A-Z]+)$", line)
         if match:
@@ -79,6 +79,10 @@ objective_text = ParagraphStyle(
 priority_style = ParagraphStyle(
     "Priority", parent=styles["Normal"], fontName="Helvetica-Bold", fontSize=6.5,
     leading=8, textColor=MX_GRAY, uppercase=True,
+)
+glance_objectives_heading = ParagraphStyle(
+    "GlanceObjectivesHeading", parent=styles["Normal"], fontName="Helvetica-Bold", fontSize=6.5,
+    leading=8, textColor=MX_RED, uppercase=True,
 )
 intro_style = ParagraphStyle(
     "Intro", parent=styles["Normal"], fontName="Helvetica", fontSize=8.5,
@@ -123,6 +127,10 @@ resource_text_style = ParagraphStyle(
 detail_resource_style = ParagraphStyle(
     "DetailResource", parent=styles["Normal"], fontName="Helvetica", fontSize=8,
     leading=10, textColor=MX_GRAY, spaceAfter=10,
+)
+detail_objectives_heading = ParagraphStyle(
+    "DetailObjectivesHeading", parent=styles["Normal"], fontName="Helvetica-Bold", fontSize=7.5,
+    leading=9, textColor=MX_RED, spaceBefore=2, spaceAfter=6,
 )
 
 
@@ -224,7 +232,10 @@ def unit_card(unit, width, resource_data):
             f"<font color='#CF003D'><b>SECTIONS</b></font> &nbsp;{escape(format_sections(unit_sections))}",
             resource_text_style,
         )
-    body = [[Paragraph(priority, priority_style), section_summary]]
+    body = [
+        [Paragraph(priority, priority_style), section_summary],
+        [Paragraph("LEARNING OBJECTIVES", glance_objectives_heading), ""],
+    ]
     for oid, statement in unit["objectives"]:
         body.append([Paragraph(oid, objective_id), Paragraph(statement, objective_text)])
     table = Table(
@@ -237,8 +248,10 @@ def unit_card(unit, width, resource_data):
         ("SPAN", (0, 0), (1, 0)),
         ("BACKGROUND", (0, 0), (1, 0), header_color),
         ("BACKGROUND", (0, 1), (1, 1), MX_PINK if unit["priority"] == "required" else MX_LIGHT),
+        ("SPAN", (0, 2), (1, 2)),
+        ("BACKGROUND", (0, 2), (1, 2), MX_PINK if unit["priority"] == "required" else MX_LIGHT),
         ("BOX", (0, 0), (-1, -1), 0.7, header_color),
-        ("LINEBELOW", (0, 2), (-1, -2), 0.35, MX_LINE),
+        ("LINEBELOW", (0, 3), (-1, -2), 0.35, MX_LINE),
         ("VALIGN", (0, 0), (-1, -1), "TOP"),
         ("LEFTPADDING", (0, 0), (-1, -1), 7),
         ("RIGHTPADDING", (0, 0), (-1, -1), 7),
@@ -246,6 +259,8 @@ def unit_card(unit, width, resource_data):
         ("BOTTOMPADDING", (0, 0), (-1, 0), 7),
         ("TOPPADDING", (0, 1), (-1, 1), 4),
         ("BOTTOMPADDING", (0, 1), (-1, 1), 4),
+        ("TOPPADDING", (0, 2), (-1, 2), 2),
+        ("BOTTOMPADDING", (0, 2), (-1, 2), 4),
         ("TOPPADDING", (0, 2), (-1, -1), 2.5),
         ("BOTTOMPADDING", (0, 2), (-1, -1), 2.5),
         ("BACKGROUND", (0, 2), (-1, -1), MX_PALE if unit["priority"] == "extension" else colors.white),
@@ -451,6 +466,7 @@ def generate(course):
                 f"<b>UNIT TEXTBOOK COVERAGE</b><br/>{escape(format_sections(unit_sections, include_titles=True))}",
                 detail_resource_style,
             ))
+        story.append(Paragraph("LEARNING OBJECTIVES WITH SUPPORTING SKILLS", detail_objectives_heading))
         for objective in unit["objectives"]:
             story.append(KeepTogether([objective_detail_card(course["id"], objective, doc.detail_column_width, resource_data), Spacer(1, 0.10*inch)]))
     doc.build(story)
