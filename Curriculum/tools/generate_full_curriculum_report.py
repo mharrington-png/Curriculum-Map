@@ -1,4 +1,4 @@
-"""Combine all course reports into one linked, bookmarked curriculum PDF."""
+"""Combine all course curricula into one linked, bookmarked curriculum PDF."""
 
 from datetime import date
 from pathlib import Path
@@ -7,18 +7,18 @@ import sys
 from pypdf import PdfReader, PdfWriter
 from pypdf.annotations import Link
 from reportlab.lib import colors
-from reportlab.lib.pagesizes import landscape, letter
+from reportlab.lib.pagesizes import letter
 from reportlab.pdfgen import canvas
 
 ROOT = Path(__file__).resolve().parents[1]
-REPORT_DIR = ROOT / "output" / "pdf" / "reports"
-OUTPUT = ROOT / "output" / "pdf" / "full-curriculum-report.pdf"
-FRONT_MATTER = ROOT / "tmp" / "pdfs" / "full-curriculum-front-matter.pdf"
+COURSE_DIR = ROOT / "output" / "pdf" / "courses"
+OUTPUT = ROOT / "output" / "pdf" / "mathematics-curriculum.pdf"
+FRONT_MATTER = ROOT / "tmp" / "pdfs" / "mathematics-curriculum-front-matter.pdf"
 
 MX_RED = colors.HexColor("#CF003D")
 MX_BLACK = colors.HexColor("#111111")
 MX_GRAY = colors.HexColor("#666666")
-PAGE_WIDTH, PAGE_HEIGHT = landscape(letter)
+PAGE_WIDTH, PAGE_HEIGHT = letter
 
 COURSES = [
     ("m12", "Math 12", "Intermediate Algebra"),
@@ -33,7 +33,7 @@ COURSES = [
 
 def section_page(reader, marker):
     for index, page in enumerate(reader.pages):
-        if marker in (page.extract_text() or ""):
+        if marker.casefold() in (page.extract_text() or "").casefold():
             return index
     raise ValueError(f"Could not find {marker!r} in report")
 
@@ -41,7 +41,7 @@ def section_page(reader, marker):
 def draw_front_matter(destinations):
     FRONT_MATTER.parent.mkdir(parents=True, exist_ok=True)
     c = canvas.Canvas(str(FRONT_MATTER), pagesize=(PAGE_WIDTH, PAGE_HEIGHT))
-    c.setTitle("Middlesex Mathematics Full Curriculum Report")
+    c.setTitle("Middlesex School Mathematics Curriculum")
     c.setAuthor("Middlesex School Mathematics Department")
 
     # Main title page
@@ -59,7 +59,7 @@ def draw_front_matter(destinations):
     c.line(PAGE_WIDTH / 2 - 58, PAGE_HEIGHT / 2 + 78, PAGE_WIDTH / 2 + 58, PAGE_HEIGHT / 2 + 78)
     c.setFillColor(MX_BLACK)
     c.setFont("Helvetica-Bold", 34)
-    c.drawCentredString(PAGE_WIDTH / 2, PAGE_HEIGHT / 2 + 23, "Full Curriculum Report")
+    c.drawCentredString(PAGE_WIDTH / 2, PAGE_HEIGHT / 2 + 23, "Mathematics Curriculum")
     c.setFillColor(MX_RED)
     c.setFont("Helvetica-Bold", 18)
     c.drawCentredString(PAGE_WIDTH / 2, PAGE_HEIGHT / 2 - 15, "Math 12 through Math 49")
@@ -118,11 +118,11 @@ def draw_front_matter(destinations):
 
 
 def generate(output=OUTPUT):
-    reports = []
+    curricula = []
     destinations = {}
     output_index = 2  # title page and table of contents
     for key, _, _ in COURSES:
-        path = REPORT_DIR / f"{key}-course-report.pdf"
+        path = COURSE_DIR / f"{key}-curriculum.pdf"
         reader = PdfReader(path)
         glance_local = section_page(reader, "Course at a Glance")
         detail_local = section_page(reader, "In-Depth Curriculum")
@@ -131,14 +131,14 @@ def generate(output=OUTPUT):
             "glance": output_index + glance_local,
             "detail": output_index + detail_local,
         }
-        reports.append((key, reader))
+        curricula.append((key, reader))
         output_index += len(reader.pages)
 
     link_rects = draw_front_matter(destinations)
     writer = PdfWriter()
     for page in PdfReader(FRONT_MATTER).pages:
         writer.add_page(page)
-    for _, reader in reports:
+    for _, reader in curricula:
         for page in reader.pages:
             writer.add_page(page)
 
@@ -153,9 +153,9 @@ def generate(output=OUTPUT):
         writer.add_annotation(1, Link(rect=rect, target_page_index=target_page))
 
     writer.add_metadata({
-        "/Title": "Middlesex Mathematics Full Curriculum Report",
+        "/Title": "Middlesex School Mathematics Curriculum",
         "/Author": "Middlesex School Mathematics Department",
-        "/Subject": "Complete curriculum report for Math 12 through Math 49",
+        "/Subject": "Mathematics curriculum for Math 12 through Math 49",
     })
     output = Path(output)
     output.parent.mkdir(parents=True, exist_ok=True)
