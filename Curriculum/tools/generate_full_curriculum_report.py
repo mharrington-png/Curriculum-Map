@@ -8,12 +8,14 @@ from pypdf import PdfReader, PdfWriter
 from pypdf.annotations import Link
 from reportlab.lib import colors
 from reportlab.lib.pagesizes import letter
+from reportlab.lib.utils import ImageReader
 from reportlab.pdfgen import canvas
 
 ROOT = Path(__file__).resolve().parents[1]
 COURSE_DIR = ROOT / "output" / "pdf" / "courses"
 OUTPUT = ROOT / "output" / "pdf" / "mathematics-curriculum.pdf"
 FRONT_MATTER = ROOT / "tmp" / "pdfs" / "mathematics-curriculum-front-matter.pdf"
+MX_SHIELD = ROOT / "ui" / "public" / "mx-shield-black.png"
 
 MX_RED = colors.HexColor("#CF003D")
 MX_BLACK = colors.HexColor("#111111")
@@ -54,9 +56,23 @@ def draw_front_matter(destinations):
     c.setFillColor(MX_GRAY)
     c.setFont("Helvetica-Bold", 10)
     c.drawCentredString(PAGE_WIDTH / 2, PAGE_HEIGHT - 92, "MATHEMATICS DEPARTMENT")
+    title_rule_y = PAGE_HEIGHT / 2 + 78
+    shield = ImageReader(str(MX_SHIELD))
+    shield_width, shield_height = shield.getSize()
+    display_height = 132
+    display_width = display_height * shield_width / shield_height
+    c.drawImage(
+        shield,
+        (PAGE_WIDTH - display_width) / 2,
+        title_rule_y + 30,
+        width=display_width,
+        height=display_height,
+        preserveAspectRatio=True,
+        mask="auto",
+    )
     c.setStrokeColor(MX_RED)
     c.setLineWidth(2)
-    c.line(PAGE_WIDTH / 2 - 58, PAGE_HEIGHT / 2 + 78, PAGE_WIDTH / 2 + 58, PAGE_HEIGHT / 2 + 78)
+    c.line(PAGE_WIDTH / 2 - 58, title_rule_y, PAGE_WIDTH / 2 + 58, title_rule_y)
     c.setFillColor(MX_BLACK)
     c.setFont("Helvetica-Bold", 34)
     c.drawCentredString(PAGE_WIDTH / 2, PAGE_HEIGHT / 2 + 23, "Mathematics Curriculum")
@@ -65,7 +81,7 @@ def draw_front_matter(destinations):
     c.drawCentredString(PAGE_WIDTH / 2, PAGE_HEIGHT / 2 - 15, "Math 12 through Math 49")
     c.setFillColor(MX_GRAY)
     c.setFont("Helvetica", 9)
-    c.drawCentredString(PAGE_WIDTH / 2, 68, f"Generated {date.today().strftime('%B %d, %Y')}")
+    c.drawCentredString(PAGE_WIDTH / 2, 68, f"Published {date.today().strftime('%B %d, %Y')}")
     c.showPage()
 
     # Traditional table of contents. Coordinates are also returned for link annotations.
