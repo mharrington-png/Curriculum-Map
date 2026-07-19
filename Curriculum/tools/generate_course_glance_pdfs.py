@@ -322,32 +322,89 @@ class LegendBox(Flowable):
             self.canv.drawString(x + 12, 10.8, ROLE_NAME[role])
 
 
-def glance_unit_block(unit, width, resource_data):
-    sections = resource_data["units"].get(unit["id"], [])
-    left = [
-        Paragraph(escape(unit["title"]), glance_unit_title_style),
-        Spacer(1, 5),
-        PriorityBadge(unit["priority"]),
-        Spacer(1, 7),
-        Paragraph(escape(format_sections(sections, include_titles=True)), glance_sections_style),
-    ]
-    right = [Paragraph("UNIT LEARNING OBJECTIVES", glance_heading_style), Spacer(1, 6)]
-    right.extend(Paragraph(escape(statement), glance_objective_style) for _, statement in unit["objectives"])
-    table = Table([[left, right]], colWidths=[1.87 * inch, width - 1.87 * inch], hAlign="LEFT")
-    table.setStyle(TableStyle([
-        ("VALIGN", (0, 0), (-1, -1), "TOP"),
-        ("LEFTPADDING", (0, 0), (-1, -1), 0),
-        ("RIGHTPADDING", (0, 0), (0, 0), 18),
-        ("RIGHTPADDING", (1, 0), (1, 0), 0),
-        ("TOPPADDING", (0, 0), (-1, -1), 0),
-        ("BOTTOMPADDING", (0, 0), (-1, -1), 0),
-    ]))
-    return [
-        HRFlowable(width="100%", thickness=0.45, color=colors.HexColor("#DDDDDD")),
-        Spacer(1, 11),
-        table,
-        Spacer(1, 14),
-    ]
+class GlanceUnitFlowable(Flowable):
+    """A unit overview that can split between objectives and label continuations."""
+
+    def __init__(self, unit, resource_data, objectives=None, continued=False):
+        super().__init__()
+        self.unit = unit
+        self.resource_data = resource_data
+        self.objectives = list(objectives if objectives is not None else unit["objectives"])
+        self.continued = continued
+        self._table = None
+        self._table_height = 0
+
+    def _build_table(self, width):
+        title = self.unit["title"] + (" (Continued)" if self.continued else "")
+        left = [
+            Paragraph(escape(title), glance_unit_title_style),
+            Spacer(1, 5),
+            PriorityBadge(self.unit["priority"]),
+        ]
+        if not self.continued:
+            sections = self.resource_data["units"].get(self.unit["id"], [])
+            left.extend([
+                Spacer(1, 7),
+                Paragraph(escape(format_sections(sections, include_titles=True)), glance_sections_style),
+            ])
+        heading = "UNIT LEARNING OBJECTIVES - CONTINUED" if self.continued else "UNIT LEARNING OBJECTIVES"
+        right = [Paragraph(heading, glance_heading_style), Spacer(1, 6)]
+        right.extend(Paragraph(escape(statement), glance_objective_style) for _, statement in self.objectives)
+        table = Table([[left, right]], colWidths=[1.87 * inch, width - 1.87 * inch], hAlign="LEFT")
+        table.setStyle(TableStyle([
+            ("VALIGN", (0, 0), (-1, -1), "TOP"),
+            ("LEFTPADDING", (0, 0), (-1, -1), 0),
+            ("RIGHTPADDING", (0, 0), (0, 0), 18),
+            ("RIGHTPADDING", (1, 0), (1, 0), 0),
+            ("TOPPADDING", (0, 0), (-1, -1), 0),
+            ("BOTTOMPADDING", (0, 0), (-1, -1), 0),
+        ]))
+        return table
+
+    def wrap(self, avail_width, avail_height):
+        self.width = avail_width
+        self._table = self._build_table(avail_width)
+        _, self._table_height = self._table.wrap(avail_width, avail_height)
+        self.height = 0.45 + 11 + self._table_height + 14
+        return self.width, self.height
+
+    def split(self, avail_width, avail_height):
+        _, full_height = self.wrap(avail_width, avail_height)
+        if full_height <= avail_height:
+            return [self]
+        best_count = 0
+        best_part = None
+        for count in range(1, len(self.objectives) + 1):
+            candidate = GlanceUnitFlowable(
+                self.unit,
+                self.resource_data,
+                objectives=self.objectives[:count],
+                continued=self.continued,
+            )
+            _, candidate_height = candidate.wrap(avail_width, avail_height)
+            if candidate_height > avail_height:
+                break
+            best_count = count
+            best_part = candidate
+        if best_count == 0:
+            return []
+        if best_count == len(self.objectives):
+            return [best_part]
+        continuation = GlanceUnitFlowable(
+            self.unit,
+            self.resource_data,
+            objectives=self.objectives[best_count:],
+            continued=True,
+        )
+        return [best_part, continuation]
+
+    def draw(self):
+        if self._table is None:
+            self.wrap(self.width, self.height)
+        self.canv.setStrokeColor(colors.HexColor("#DDDDDD"))
+        self.canv.setLineWidth(0.45)
+        self.canv.line(0, self.height - 0.45, self.width, self.height - 0.45)
+        self._table.drawOn(self.canv, 0, 14)
 
 
 def course_header(course, resource_data):
@@ -474,12 +531,9 @@ def generate(course):
     doc = CourseCurriculumDocument(str(output), course)
     story = []
 
-    first_glance = course_header(course, resource_data) + glance_unit_block(course["units"][0], doc.width, resource_data)
-    story.append(KeepTogether(first_glance))
-    for unit_index, unit in enumerate(course["units"][1:], start=1):
-        if unit_index == 3:
-            story.append(PageBreak())
-        story.append(KeepTogether(glance_unit_block(unit, doc.width, resource_data)))
+    story.extend(course_header(course, resource_data))
+    for unit in course["units"]:
+        story.append(GlanceUnitFlowable(unit, resource_data))
 
     story.append(PageBreak())
     for unit_index, unit in enumerate(course["units"]):
