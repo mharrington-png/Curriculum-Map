@@ -91,7 +91,7 @@ export default function Home() {
 
   return <main>
     <header className="topbar">
-      <button className="brand" onClick={goHome}><span className="brandmark">M</span><span>Middlesex Mathematics<small>Curriculum Map</small></span></button>
+      <button className="brand" onClick={goHome}><span className="brandmark" aria-hidden="true"><img src={`${import.meta.env.BASE_URL}mx-shield-black.png`} alt="" /></span><span>Middlesex Mathematics<small>Curriculum Map</small></span></button>
       <nav><button onClick={goHome}>Courses</button></nav>
       <div className="searchbox">
         <span>⌕</span><input aria-label="Search skills" placeholder="Search a skill…" value={query} onChange={e => setQuery(e.target.value)} />
