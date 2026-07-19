@@ -1,6 +1,6 @@
 # Structured Curriculum Data
 
-This directory is the emerging source of truth for curriculum records and relationships. Markdown files remain the faculty-readable review and export layer.
+This directory is the source of truth for course, unit, learning-objective, and objective-to-skill records. Markdown files remain the faculty-readable review and export layer.
 
 ## Directory Layout
 
@@ -16,9 +16,10 @@ This directory is the emerging source of truth for curriculum records and relati
 - Math 22: structured; mapping approved
 - Math 31: structured; mapping approved
 - Math 32: structured; mapping approved
+- Math 39: structured; mapping approved
 - Math 49: structured; mapping approved
 
-The six-course objective-to-skill migration is complete. Course mappings and generated cross-course audits should be regenerated whenever approved YAML records change.
+The seven-course objective-to-skill migration is complete. Course mappings and generated cross-course audits should be regenerated whenever approved YAML records change.
 
 ## Generated Cross-Course Outputs
 
