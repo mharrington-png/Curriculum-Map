@@ -110,10 +110,18 @@ mappings:
       - {skill_id: SK-EXP-RATIONAL, relationship: required, progression: deepen}
       - {skill_id: SK-ALG-INVERSE-OPERATIONS, relationship: prerequisite, progression: apply}
 
+  - objective_id: M49-PWR-007
+    skills:
+      - {skill_id: SK-MODEL-FAMILY-SELECT, relationship: required, progression: introduce}
+      - {skill_id: SK-POWER-CONSTRUCT, relationship: required, progression: apply}
+      - {skill_id: SK-MODEL-PARAMETER-INTERPRET, relationship: required, progression: deepen}
+      - {skill_id: SK-MODEL-VALID-DOMAIN, relationship: required, progression: apply}
+
   - objective_id: M49-PWR-006
     skills:
       - {skill_id: SK-FUNC-DOMINANCE, relationship: required, progression: deepen}
       - {skill_id: SK-FUNC-COMPARE-REP, relationship: required, progression: apply}
+      - {skill_id: SK-LIM-INFINITY, relationship: required, progression: apply}
 
   - objective_id: M49-PWR-008
     skills:
@@ -143,6 +151,20 @@ mappings:
       - {skill_id: SK-POLY-ZEROS, relationship: required, progression: apply}
       - {skill_id: SK-POLY-MULTIPLICITY, relationship: required, progression: deepen}
 
+  - objective_id: M49-POL-001
+    skills:
+      - {skill_id: SK-MODEL-FAMILY-SELECT, relationship: required, progression: deepen}
+      - {skill_id: SK-POLY-CONSTRUCT, relationship: required, progression: apply}
+      - {skill_id: SK-MODEL-PARAMETER-INTERPRET, relationship: required, progression: deepen}
+      - {skill_id: SK-MODEL-VALID-DOMAIN, relationship: required, progression: apply}
+
+  - objective_id: M49-POL-002
+    skills:
+      - {skill_id: SK-POLY-DEGREE-ZEROS, relationship: required, progression: introduce}
+      - {skill_id: SK-POLY-DEGREE-TURNING, relationship: required, progression: introduce}
+      - {skill_id: SK-POLY-DEGREE-INFLECTION, relationship: required, progression: introduce}
+      - {skill_id: SK-POLY-END-BEHAVIOR, relationship: required, progression: apply}
+
   - objective_id: M49-ALG-006
     skills:
       - {skill_id: SK-RAT-HOLE, relationship: required, progression: introduce}
@@ -161,9 +183,10 @@ mappings:
 
   - objective_id: M49-ALG-008
     skills:
-      - {skill_id: SK-MODEL-FAMILY-SELECT, relationship: required, progression: introduce}
+      - {skill_id: SK-MODEL-FAMILY-SELECT, relationship: required, progression: deepen}
       - {skill_id: SK-MODEL-PARAMETER-INTERPRET, relationship: required, progression: deepen}
       - {skill_id: SK-MODEL-VALID-DOMAIN, relationship: required, progression: apply}
+      - {skill_id: SK-RAT-END-BEHAVIOR, relationship: required, progression: apply}
 
   - objective_id: M49-LIM-001
     skills:

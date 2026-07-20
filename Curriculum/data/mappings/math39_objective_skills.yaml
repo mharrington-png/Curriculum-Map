@@ -130,6 +130,9 @@ mappings:
     skills:
       - {skill_id: SK-POLY-END-BEHAVIOR, relationship: required, progression: deepen}
       - {skill_id: SK-POLY-MULTIPLICITY, relationship: required, progression: deepen}
+      - {skill_id: SK-POLY-DEGREE-ZEROS, relationship: required, progression: introduce}
+      - {skill_id: SK-POLY-DEGREE-TURNING, relationship: required, progression: introduce}
+      - {skill_id: SK-POLY-DEGREE-INFLECTION, relationship: required, progression: introduce}
   - objective_id: M39-POL-006
     skills:
       - {skill_id: SK-POLY-CONSTRUCT, relationship: required, progression: deepen}

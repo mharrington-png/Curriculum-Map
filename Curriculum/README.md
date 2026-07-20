@@ -19,6 +19,7 @@ Learning objectives and supporting skills are the durable curriculum. Textbooks,
 | Website behavior, navigation, filters, or wording | `ui/app/page.tsx` |
 | Website colors, spacing, typography, or responsive layout | `ui/app/globals.css` |
 | Individual or at-a-glance PDF content and layout | `tools/generate_course_glance_pdfs.py` |
+| Printable student unit learning maps | `tools/generate_unit_learning_map.py` |
 | The combined curriculum PDF structure | `tools/generate_full_curriculum_report.py` |
 | The rules used to build skill progressions and audits | `tools/generate_skill_progressions.ps1` |
 
@@ -73,6 +74,8 @@ There is no runtime database, API server, Next.js application, or Cloudflare Wor
 
 `tools/generate_course_glance_pdfs.py` combines course data, progression data, and resource mappings to create the individual course and at-a-glance PDFs. It also refreshes the website download copies.
 
+`tools/generate_unit_learning_map.py` creates one- or two-page student handouts for individual units. Each handout uses the approved learning objectives and mapped supporting skills directly, with Introduce, Deepen, Apply, and Reinforce tags. It does not require a separate student-language data layer.
+
 `tools/generate_full_curriculum_report.py` combines the individual course PDFs into the complete mathematics curriculum PDF with its title page, linked table of contents, and bookmarks.
 
 PDFs are not currently rebuilt by the GitHub Pages workflow. Regenerate them before publishing when curriculum or resource coverage changes.
@@ -91,6 +94,15 @@ After changing curriculum content, resource mappings, or PDF formatting:
 python ./tools/generate_course_glance_pdfs.py
 python ./tools/generate_full_curriculum_report.py
 ```
+
+To create a printable learning map for one unit, or every unit in a course:
+
+```powershell
+python ./tools/generate_unit_learning_map.py --course M32 --unit M32-GRF
+python ./tools/generate_unit_learning_map.py --course M32 --all
+```
+
+Unit learning maps are written to `output/pdf/unit-learning-maps/`.
 
 After changing the website:
 

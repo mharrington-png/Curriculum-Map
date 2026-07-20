@@ -24,6 +24,9 @@ Math 49 reuses `SK-FUNC-COMPOSE-FORMULA`, `SK-FUNC-COMPOSE-TABLE`, and `SK-FUNC-
 - **SK-POLY-ZEROS:** Determine real and complex zeros using an appropriate method.
 - **SK-POLY-MULTIPLICITY:** Relate zero multiplicity to local graph behavior.
 - **SK-POLY-CONSTRUCT:** Build a polynomial from zeros, multiplicities, and a point.
+- **SK-POLY-DEGREE-ZEROS:** Use zeros and their multiplicities to establish a minimum possible polynomial degree.
+- **SK-POLY-DEGREE-TURNING:** Use turning points to establish a minimum possible polynomial degree.
+- **SK-POLY-DEGREE-INFLECTION:** Use inflection points to establish a minimum possible polynomial degree.
 - **SK-RAT-HOLE:** Identify a removable discontinuity and its coordinates.
 - **SK-RAT-VERTICAL-ASYMPTOTE:** Determine vertical asymptotes from noncanceling denominator zeros.
 - **SK-RAT-END-BEHAVIOR:** Determine horizontal or slant asymptotic behavior.

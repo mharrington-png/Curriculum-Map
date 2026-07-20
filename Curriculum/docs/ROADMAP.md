@@ -20,6 +20,8 @@ Phase 4
 
 Phase 5
 - Student tools
+- Audit the leading action words and phrases in all learning objectives, map them to Bloom's taxonomy, and compare the distribution across courses and units
+- Explore a visual report showing Bloom's levels, repeated verbs, ambiguous mappings, and gaps in cognitive demand
 
 Phase 6
 - AI-powered features

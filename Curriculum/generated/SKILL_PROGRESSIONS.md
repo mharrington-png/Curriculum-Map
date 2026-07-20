@@ -117,7 +117,7 @@ First introduction: **Math 12**
 | Math 22 | Reinforce | Review | Required | Review Content | `M22-REV-001` — I can solve a linear equation arising from a geometric relationship. |
 | Math 31 | Apply | Required | Method-dependent | Linear Functions and Function Notation | `M31-LIN-003` — I can evaluate a function or solve for an input using a graph, table, or formula. |
 | Math 39 | Apply | Required | Prerequisite | Power Functions and Function Comparison | `M39-POW-005` — I can solve equations involving integer or rational powers. |
-| Math 49 | Apply | Required | Prerequisite | Power, Polynomial, and Rational Functions | `M49-PWR-005` — I can solve equations involving integer or rational powers. |
+| Math 49 | Apply | Required | Prerequisite | Power Functions | `M49-PWR-005` — I can solve equations involving integer or rational powers. |
 
 ## SK-ALG-LIKE-TERMS: Identify and combine like terms.
 
@@ -159,7 +159,7 @@ First introduction: **Math 12**
 | Math 32 | Apply | Extension | Required | Parametric Equations | `M32-PAR-002` — I can eliminate a parameter to obtain a rectangular equation. |
 | Math 39 | Apply | Required | Prerequisite | Power Functions and Function Comparison | `M39-POW-002` — I can construct a power function from two data points or a proportional relationship. |
 | Math 49 | Apply | Extension | Required | Parametric Equations | `M49-PAR-002` — I can eliminate a parameter to obtain a rectangular equation. |
-| Math 49 | Apply | Required | Prerequisite | Power, Polynomial, and Rational Functions | `M49-PWR-002` — I can construct a power function from two data points or a proportional relationship. |
+| Math 49 | Apply | Required | Prerequisite | Power Functions | `M49-PWR-002` — I can construct a power function from two data points or a proportional relationship. |
 
 ## SK-ANG-PAIR-IDENTIFY: Identify complementary, supplementary, vertical, and linear-pair relationships.
 
@@ -593,8 +593,8 @@ First introduction: **Math 21**
 | Math 21 | Apply | Required | Required | Exponents and Radicals | `M21-EXP-004` — I can apply exponent rules to expressions with integer and rational exponents. |
 | Math 31 | Apply | Required | Method-dependent | Exponential Functions and Models | `M31-EXP-007` — I can determine an exponential formula from two points or other sufficient data. |
 | Math 39 | Apply | Required | Required | Power Functions and Function Comparison | `M39-POW-005` — I can solve equations involving integer or rational powers. |
-| Math 49 | Deepen | Required | Required | Power, Polynomial, and Rational Functions | `M49-PWR-005` — I can solve equations involving integer or rational powers. |
-| Math 49 | Apply | Required | Prerequisite | Power, Polynomial, and Rational Functions | `M49-PWR-008` — I can analyze power functions with fractional exponents, including their domains, graph shapes, and behavior near zero. |
+| Math 49 | Deepen | Required | Required | Power Functions | `M49-PWR-005` — I can solve equations involving integer or rational powers. |
+| Math 49 | Apply | Required | Prerequisite | Power Functions | `M49-PWR-008` — I can analyze power functions with fractional exponents, including their domains, graph shapes, and behavior near zero. |
 
 ## SK-EXP-REWRITE-BASE: Rewrite exponential expressions using a common base when possible.
 
@@ -729,8 +729,8 @@ First introduction: **Math 21**
 | Math 39 | Deepen | Required | Required | Exponential Modeling | `M39-EXP-001` — I can distinguish linear and exponential change using rates, multipliers, tables, graphs, or contexts. |
 | Math 39 | Apply | Required | Required | Exponential Modeling | `M39-EXP-007` — I can compare linear and exponential models and justify which is more appropriate for a data set or context. |
 | Math 39 | Deepen | Required | Required | Power Functions and Function Comparison | `M39-POW-006` — I can compare the long-run dominance of logarithmic, power, polynomial, and exponential functions. |
-| Math 49 | Apply | Required | Prerequisite | Limits and Function Comparison | `M49-LIM-007` — I can compare the long-run growth of polynomial, exponential, logarithmic, and rational functions. |
-| Math 49 | Apply | Required | Required | Power, Polynomial, and Rational Functions | `M49-PWR-006` — I can compare the long-run dominance of logarithmic, power, polynomial, and exponential functions. |
+| Math 49 | Apply | Required | Prerequisite | Rational Functions and Limits | `M49-LIM-007` — I can compare the long-run growth of polynomial, exponential, logarithmic, and rational functions. |
+| Math 49 | Apply | Required | Required | Rational Functions and Limits | `M49-PWR-006` — I can analyze the long-run behavior of quotients involving polynomial, exponential, or logarithmic expressions. |
 | Math 49 | Apply | Required | Required | Sequences and Series | `M49-SEQ-004` — I can distinguish arithmetic, geometric, and other sequences from formulas, tables, or contexts. |
 
 ## SK-FUNC-COMPOSE-FORMULA: Substitute one function formula into another.
@@ -820,7 +820,7 @@ First introduction: **Math 21**
 |---|---|---|---|---|---|
 | Math 21 | Introduce | Required | Required | Exponents and Radicals | `M21-EXP-005` — I can solve a basic equation involving a radical or rational exponent and check for extraneous solutions. |
 | Math 31 | Deepen | Required | Required | Function Behavior and Structure | `M31-FUN-004` — I can determine algebraic domain restrictions caused by denominators and even roots. |
-| Math 49 | Apply | Required | Method-dependent | Power, Polynomial, and Rational Functions | `M49-PWR-008` — I can analyze power functions with fractional exponents, including their domains, graph shapes, and behavior near zero. |
+| Math 49 | Apply | Required | Method-dependent | Power Functions | `M49-PWR-008` — I can analyze power functions with fractional exponents, including their domains, graph shapes, and behavior near zero. |
 
 ## SK-FUNC-DOMAIN-FORMULA: Determine domain restrictions from denominators, even roots, and logarithms.
 
@@ -864,7 +864,7 @@ First introduction: **Math 39**
 | Course | Role | Priority | Relationship | Unit | Objective |
 |---|---|---|---|---|---|
 | Math 39 | Introduce | Required | Required | Power Functions and Function Comparison | `M39-POW-006` — I can compare the long-run dominance of logarithmic, power, polynomial, and exponential functions. |
-| Math 49 | Deepen | Required | Required | Power, Polynomial, and Rational Functions | `M49-PWR-006` — I can compare the long-run dominance of logarithmic, power, polynomial, and exponential functions. |
+| Math 49 | Deepen | Required | Required | Rational Functions and Limits | `M49-PWR-006` — I can analyze the long-run behavior of quotients involving polynomial, exponential, or logarithmic expressions. |
 
 ## SK-FUNC-INDEPENDENT-DEPENDENT: Identify independent and dependent variables.
 
@@ -1305,7 +1305,7 @@ First introduction: **Math 49**
 
 | Course | Role | Priority | Relationship | Unit | Objective |
 |---|---|---|---|---|---|
-| Math 49 | Introduce | Required | Required | Limits and Function Comparison | `M49-LIM-002` — I can estimate a limit from a graph or table. |
+| Math 49 | Introduce | Required | Required | Rational Functions and Limits | `M49-LIM-002` — I can estimate a limit from a graph or table. |
 | Math 49 | Deepen | Extension | Required | Additional Limit Concepts | `M49-LIM-004` — I can determine one-sided limits and decide whether a two-sided limit exists. |
 | Math 49 | Apply | Extension | Method-dependent | Additional Limit Concepts | `M49-LIM-008` — I can distinguish a function value from a limit and determine continuity at a point. |
 
@@ -1315,7 +1315,7 @@ First introduction: **Math 49**
 
 | Course | Role | Priority | Relationship | Unit | Objective |
 |---|---|---|---|---|---|
-| Math 49 | Introduce | Required | Required | Limits and Function Comparison | `M49-LIM-007` — I can compare the long-run growth of polynomial, exponential, logarithmic, and rational functions. |
+| Math 49 | Introduce | Required | Required | Rational Functions and Limits | `M49-LIM-007` — I can compare the long-run growth of polynomial, exponential, logarithmic, and rational functions. |
 
 ## SK-LIM-INFINITE: Interpret unbounded output near a finite input as an infinite limit.
 
@@ -1323,7 +1323,7 @@ First introduction: **Math 49**
 
 | Course | Role | Priority | Relationship | Unit | Objective |
 |---|---|---|---|---|---|
-| Math 49 | Introduce | Required | Required | Limits and Function Comparison | `M49-LIM-005` — I can interpret an infinite limit as vertical-asymptotic behavior. |
+| Math 49 | Introduce | Required | Required | Rational Functions and Limits | `M49-LIM-005` — I can interpret an infinite limit as vertical-asymptotic behavior. |
 
 ## SK-LIM-INFINITY: Compare dominant terms to determine behavior at infinity.
 
@@ -1331,7 +1331,8 @@ First introduction: **Math 49**
 
 | Course | Role | Priority | Relationship | Unit | Objective |
 |---|---|---|---|---|---|
-| Math 49 | Introduce | Required | Required | Limits and Function Comparison | `M49-LIM-006` — I can determine limits at infinity and relate them to long-run behavior. |
+| Math 49 | Introduce | Required | Required | Rational Functions and Limits | `M49-LIM-006` — I can use limit notation to describe behavior at infinity. |
+| Math 49 | Apply | Required | Required | Rational Functions and Limits | `M49-PWR-006` — I can analyze the long-run behavior of quotients involving polynomial, exponential, or logarithmic expressions. |
 
 ## SK-LIM-NOTATION: Read and write limit notation with correct approach direction.
 
@@ -1339,7 +1340,7 @@ First introduction: **Math 49**
 
 | Course | Role | Priority | Relationship | Unit | Objective |
 |---|---|---|---|---|---|
-| Math 49 | Introduce | Required | Required | Limits and Function Comparison | `M49-LIM-001` — I can interpret limit notation as a statement about function behavior near an input. |
+| Math 49 | Introduce | Required | Required | Rational Functions and Limits | `M49-LIM-001` — I can interpret limit notation as a statement about function behavior near an input. |
 | Math 49 | Deepen | Extension | Required | Additional Limit Concepts | `M49-LIM-004` — I can determine one-sided limits and decide whether a two-sided limit exists. |
 
 ## SK-LIM-SIMPLIFY: Resolve an indeterminate algebraic form by factoring or rationalizing.
@@ -1348,7 +1349,7 @@ First introduction: **Math 49**
 
 | Course | Role | Priority | Relationship | Unit | Objective |
 |---|---|---|---|---|---|
-| Math 49 | Introduce | Required | Method-dependent | Limits and Function Comparison | `M49-LIM-003` — I can evaluate a limit algebraically using direct substitution or simplification. |
+| Math 49 | Introduce | Required | Method-dependent | Rational Functions and Limits | `M49-LIM-003` — I can evaluate a limit algebraically using direct substitution or simplification. |
 
 ## SK-LIM-SUBSTITUTE: Test a limit using direct substitution.
 
@@ -1356,7 +1357,7 @@ First introduction: **Math 49**
 
 | Course | Role | Priority | Relationship | Unit | Objective |
 |---|---|---|---|---|---|
-| Math 49 | Introduce | Required | Required | Limits and Function Comparison | `M49-LIM-003` — I can evaluate a limit algebraically using direct substitution or simplification. |
+| Math 49 | Introduce | Required | Required | Rational Functions and Limits | `M49-LIM-003` — I can evaluate a limit algebraically using direct substitution or simplification. |
 | Math 49 | Deepen | Extension | Required | Additional Limit Concepts | `M49-LIM-008` — I can distinguish a function value from a limit and determine continuity at a point. |
 
 ## SK-LIM-TABLE: Estimate a limit from input-output values approaching from both sides.
@@ -1365,7 +1366,7 @@ First introduction: **Math 49**
 
 | Course | Role | Priority | Relationship | Unit | Objective |
 |---|---|---|---|---|---|
-| Math 49 | Introduce | Required | Required | Limits and Function Comparison | `M49-LIM-002` — I can estimate a limit from a graph or table. |
+| Math 49 | Introduce | Required | Required | Rational Functions and Limits | `M49-LIM-002` — I can estimate a limit from a graph or table. |
 | Math 49 | Apply | Extension | Method-dependent | Additional Limit Concepts | `M49-LIM-004` — I can determine one-sided limits and decide whether a two-sided limit exists. |
 
 ## SK-LIN-FORM-CONVERT: Convert among common forms of a linear equation.
@@ -1578,7 +1579,9 @@ First introduction: **Math 39**
 | Course | Role | Priority | Relationship | Unit | Objective |
 |---|---|---|---|---|---|
 | Math 39 | Introduce | Required | Required | Exponential Modeling | `M39-EXP-007` — I can compare linear and exponential models and justify which is more appropriate for a data set or context. |
-| Math 49 | Introduce | Required | Required | Power, Polynomial, and Rational Functions | `M49-ALG-008` — I can build or select a power, polynomial, or rational model for a context. |
+| Math 49 | Deepen | Required | Required | Rational Functions and Limits | `M49-ALG-008` — I can build or select a rational or rational-adjacent model for a context and interpret its long-run behavior. |
+| Math 49 | Deepen | Required | Required | Polynomial Functions | `M49-POL-001` — I can build or select a polynomial model for a context and interpret its features. |
+| Math 49 | Introduce | Required | Required | Power Functions | `M49-PWR-007` — I can build or select a power-function model for a context and interpret its parameters. |
 
 ## SK-MODEL-PARAMETER-INTERPRET: Explain a model parameter in the language of its context.
 
@@ -1602,7 +1605,9 @@ First introduction: **Math 21**
 | Math 39 | Apply | Required | Required | Linear Modeling and Residuals | `M39-LIN-002` — I can construct a linear function from two data points, a table, a graph, or a context. |
 | Math 39 | Deepen | Required | Required | Linear Modeling and Residuals | `M39-LIN-003` — I can fit a linear regression model to data using technology and interpret its parameters. |
 | Math 39 | Apply | Required | Required | Function Combinations and Polynomials | `M39-POL-008` — I can build and optimize a polynomial model in a geometric or economic context. |
-| Math 49 | Deepen | Required | Required | Power, Polynomial, and Rational Functions | `M49-ALG-008` — I can build or select a power, polynomial, or rational model for a context. |
+| Math 49 | Deepen | Required | Required | Rational Functions and Limits | `M49-ALG-008` — I can build or select a rational or rational-adjacent model for a context and interpret its long-run behavior. |
+| Math 49 | Deepen | Required | Required | Polynomial Functions | `M49-POL-001` — I can build or select a polynomial model for a context and interpret its features. |
+| Math 49 | Deepen | Required | Required | Power Functions | `M49-PWR-007` — I can build or select a power-function model for a context and interpret its parameters. |
 | Math 49 | Apply | Required | Required | Sequences and Series | `M49-SEQ-005` — I can create and interpret a sequence model for discrete change. |
 | Math 49 | Apply | Required | Required | Sequences and Series | `M49-SER-005` — I can create and interpret a series model for accumulated change. |
 
@@ -1623,7 +1628,9 @@ First introduction: **Math 12**
 | Math 32 | Apply | Required | Required | Periodic Functions and Modeling | `M32-GRF-005` — I can construct a sinusoidal model from contextual information or data. |
 | Math 39 | Apply | Required | Required | Linear Modeling and Residuals | `M39-LIN-006` — I can use a linear model to make and interpret predictions, including solving for either variable. |
 | Math 39 | Apply | Required | Required | Function Combinations and Polynomials | `M39-POL-008` — I can build and optimize a polynomial model in a geometric or economic context. |
-| Math 49 | Apply | Required | Required | Power, Polynomial, and Rational Functions | `M49-ALG-008` — I can build or select a power, polynomial, or rational model for a context. |
+| Math 49 | Apply | Required | Required | Rational Functions and Limits | `M49-ALG-008` — I can build or select a rational or rational-adjacent model for a context and interpret its long-run behavior. |
+| Math 49 | Apply | Required | Required | Polynomial Functions | `M49-POL-001` — I can build or select a polynomial model for a context and interpret its features. |
+| Math 49 | Apply | Required | Required | Power Functions | `M49-PWR-007` — I can build or select a power-function model for a context and interpret its parameters. |
 
 ## SK-NOT-INTERVAL: Translate between inequality and interval notation.
 
@@ -1798,7 +1805,35 @@ First introduction: **Math 31**
 |---|---|---|---|---|---|
 | Math 31 | Introduce | Required | Required | Quadratic Functions and Equations | `M31-QUAD-006` — I can construct a quadratic function from specified zeros, a vertex, or graphical information. |
 | Math 39 | Deepen | Required | Required | Function Combinations and Polynomials | `M39-POL-006` — I can construct a polynomial function from specified zeros, multiplicities, and a point. |
-| Math 49 | Deepen | Required | Required | Power, Polynomial, and Rational Functions | `M49-ALG-004` — I can construct a polynomial function from specified zeros or graphical features. |
+| Math 49 | Deepen | Required | Required | Polynomial Functions | `M49-ALG-004` — I can construct a polynomial function from specified zeros or graphical features. |
+| Math 49 | Apply | Required | Required | Polynomial Functions | `M49-POL-001` — I can build or select a polynomial model for a context and interpret its features. |
+
+## SK-POLY-DEGREE-INFLECTION: Use inflection points to establish a minimum possible polynomial degree.
+
+First introduction: **Math 39**
+
+| Course | Role | Priority | Relationship | Unit | Objective |
+|---|---|---|---|---|---|
+| Math 39 | Introduce | Required | Required | Function Combinations and Polynomials | `M39-POL-005` — I can estimate a polynomial's possible degree from its zeros, turning points, inflection points, and end behavior. |
+| Math 49 | Introduce | Required | Required | Polynomial Functions | `M49-POL-002` — I can determine the minimum possible degree of a polynomial function from the zeros, turning points, inflection points, and end behavior of its graph. |
+
+## SK-POLY-DEGREE-TURNING: Use turning points to establish a minimum possible polynomial degree.
+
+First introduction: **Math 39**
+
+| Course | Role | Priority | Relationship | Unit | Objective |
+|---|---|---|---|---|---|
+| Math 39 | Introduce | Required | Required | Function Combinations and Polynomials | `M39-POL-005` — I can estimate a polynomial's possible degree from its zeros, turning points, inflection points, and end behavior. |
+| Math 49 | Introduce | Required | Required | Polynomial Functions | `M49-POL-002` — I can determine the minimum possible degree of a polynomial function from the zeros, turning points, inflection points, and end behavior of its graph. |
+
+## SK-POLY-DEGREE-ZEROS: Use zeros and their multiplicities to establish a minimum possible polynomial degree.
+
+First introduction: **Math 39**
+
+| Course | Role | Priority | Relationship | Unit | Objective |
+|---|---|---|---|---|---|
+| Math 39 | Introduce | Required | Required | Function Combinations and Polynomials | `M39-POL-005` — I can estimate a polynomial's possible degree from its zeros, turning points, inflection points, and end behavior. |
+| Math 49 | Introduce | Required | Required | Polynomial Functions | `M49-POL-002` — I can determine the minimum possible degree of a polynomial function from the zeros, turning points, inflection points, and end behavior of its graph. |
 
 ## SK-POLY-DISTRIBUTE: Multiply a monomial by a polynomial.
 
@@ -1826,8 +1861,9 @@ First introduction: **Math 39**
 | Math 39 | Introduce | Required | Required | Function Combinations and Polynomials | `M39-POL-003` — I can determine polynomial end behavior from degree and leading coefficient. |
 | Math 39 | Deepen | Required | Required | Function Combinations and Polynomials | `M39-POL-005` — I can estimate a polynomial's possible degree from its zeros, turning points, inflection points, and end behavior. |
 | Math 39 | Deepen | Required | Required | Function Combinations and Polynomials | `M39-POL-007` — I can match polynomial formulas and graphs using intercepts, multiplicity, degree, and end behavior. |
-| Math 49 | Introduce | Required | Required | Power, Polynomial, and Rational Functions | `M49-ALG-002` — I can predict the end behavior of a polynomial from its degree and leading coefficient. |
-| Math 49 | Deepen | Required | Required | Power, Polynomial, and Rational Functions | `M49-ALG-005` — I can sketch and analyze a polynomial function using intercepts, multiplicity, and end behavior. |
+| Math 49 | Introduce | Required | Required | Polynomial Functions | `M49-ALG-002` — I can predict the end behavior of a polynomial from its degree and leading coefficient. |
+| Math 49 | Deepen | Required | Required | Polynomial Functions | `M49-ALG-005` — I can sketch and analyze a polynomial function using intercepts, multiplicity, and end behavior. |
+| Math 49 | Apply | Required | Required | Polynomial Functions | `M49-POL-002` — I can determine the minimum possible degree of a polynomial function from the zeros, turning points, inflection points, and end behavior of its graph. |
 
 ## SK-POLY-GCF: Determine the numerical and variable greatest common factor of polynomial terms.
 
@@ -1857,9 +1893,9 @@ First introduction: **Math 39**
 | Math 39 | Deepen | Required | Required | Function Combinations and Polynomials | `M39-POL-005` — I can estimate a polynomial's possible degree from its zeros, turning points, inflection points, and end behavior. |
 | Math 39 | Apply | Required | Prerequisite | Function Combinations and Polynomials | `M39-POL-006` — I can construct a polynomial function from specified zeros, multiplicities, and a point. |
 | Math 39 | Apply | Required | Required | Function Combinations and Polynomials | `M39-POL-007` — I can match polynomial formulas and graphs using intercepts, multiplicity, degree, and end behavior. |
-| Math 49 | Introduce | Required | Required | Power, Polynomial, and Rational Functions | `M49-ALG-003` — I can determine polynomial zeros and their multiplicities. |
-| Math 49 | Apply | Required | Method-dependent | Power, Polynomial, and Rational Functions | `M49-ALG-004` — I can construct a polynomial function from specified zeros or graphical features. |
-| Math 49 | Deepen | Required | Required | Power, Polynomial, and Rational Functions | `M49-ALG-005` — I can sketch and analyze a polynomial function using intercepts, multiplicity, and end behavior. |
+| Math 49 | Introduce | Required | Required | Polynomial Functions | `M49-ALG-003` — I can determine polynomial zeros and their multiplicities. |
+| Math 49 | Apply | Required | Method-dependent | Polynomial Functions | `M49-ALG-004` — I can construct a polynomial function from specified zeros or graphical features. |
+| Math 49 | Deepen | Required | Required | Polynomial Functions | `M49-ALG-005` — I can sketch and analyze a polynomial function using intercepts, multiplicity, and end behavior. |
 
 ## SK-POLY-VOCABULARY: Identify terms, factors, coefficients, variables, and degree in a polynomial expression.
 
@@ -1879,7 +1915,7 @@ First introduction: **Math 12**
 | Math 21 | Apply | Required | Prerequisite | Polynomials and Factoring | `M21-POL-006` — I can use factoring to determine the zeros of a polynomial. |
 | Math 31 | Reinforce | Review | Required | Review Content | `M31-REV-003` — I can use polynomial vocabulary to distinguish terms, factors, coefficients, degree, and polynomial structure. |
 | Math 39 | Apply | Required | Prerequisite | Function Combinations and Polynomials | `M39-POL-003` — I can determine polynomial end behavior from degree and leading coefficient. |
-| Math 49 | Apply | Required | Prerequisite | Power, Polynomial, and Rational Functions | `M49-ALG-002` — I can predict the end behavior of a polynomial from its degree and leading coefficient. |
+| Math 49 | Apply | Required | Prerequisite | Polynomial Functions | `M49-ALG-002` — I can predict the end behavior of a polynomial from its degree and leading coefficient. |
 
 ## SK-POLY-ZEROS: Determine real and complex zeros using an appropriate method.
 
@@ -1891,9 +1927,9 @@ First introduction: **Math 21**
 | Math 39 | Deepen | Required | Required | Function Combinations and Polynomials | `M39-POL-004` — I can identify zeros and multiplicities and relate them to polynomial graph behavior. |
 | Math 39 | Apply | Required | Prerequisite | Function Combinations and Polynomials | `M39-POL-006` — I can construct a polynomial function from specified zeros, multiplicities, and a point. |
 | Math 39 | Apply | Required | Required | Function Combinations and Polynomials | `M39-POL-007` — I can match polynomial formulas and graphs using intercepts, multiplicity, degree, and end behavior. |
-| Math 49 | Deepen | Required | Required | Power, Polynomial, and Rational Functions | `M49-ALG-003` — I can determine polynomial zeros and their multiplicities. |
-| Math 49 | Apply | Required | Prerequisite | Power, Polynomial, and Rational Functions | `M49-ALG-004` — I can construct a polynomial function from specified zeros or graphical features. |
-| Math 49 | Apply | Required | Required | Power, Polynomial, and Rational Functions | `M49-ALG-005` — I can sketch and analyze a polynomial function using intercepts, multiplicity, and end behavior. |
+| Math 49 | Deepen | Required | Required | Polynomial Functions | `M49-ALG-003` — I can determine polynomial zeros and their multiplicities. |
+| Math 49 | Apply | Required | Prerequisite | Polynomial Functions | `M49-ALG-004` — I can construct a polynomial function from specified zeros or graphical features. |
+| Math 49 | Apply | Required | Required | Polynomial Functions | `M49-ALG-005` — I can sketch and analyze a polynomial function using intercepts, multiplicity, and end behavior. |
 
 ## SK-POWER-CONSTRUCT: Determine a power function from two points or a proportional relationship.
 
@@ -1902,7 +1938,8 @@ First introduction: **Math 39**
 | Course | Role | Priority | Relationship | Unit | Objective |
 |---|---|---|---|---|---|
 | Math 39 | Introduce | Required | Required | Power Functions and Function Comparison | `M39-POW-002` — I can construct a power function from two data points or a proportional relationship. |
-| Math 49 | Deepen | Required | Required | Power, Polynomial, and Rational Functions | `M49-PWR-002` — I can construct a power function from two data points or a proportional relationship. |
+| Math 49 | Deepen | Required | Required | Power Functions | `M49-PWR-002` — I can construct a power function from two data points or a proportional relationship. |
+| Math 49 | Apply | Required | Required | Power Functions | `M49-PWR-007` — I can build or select a power-function model for a context and interpret its parameters. |
 
 ## SK-POWER-END-BEHAVIOR: Determine power-function behavior as the input approaches zero or positive or negative infinity.
 
@@ -1911,7 +1948,7 @@ First introduction: **Math 39**
 | Course | Role | Priority | Relationship | Unit | Objective |
 |---|---|---|---|---|---|
 | Math 39 | Introduce | Required | Required | Power Functions and Function Comparison | `M39-POW-003` — I can relate the sign and size of k and p to the shape, domain behavior, and end behavior of a power function. |
-| Math 49 | Deepen | Required | Required | Power, Polynomial, and Rational Functions | `M49-PWR-003` — I can relate the sign and size of k and p to the shape, domain behavior, and end behavior of a power function. |
+| Math 49 | Deepen | Required | Required | Power Functions | `M49-PWR-003` — I can relate the sign and size of k and p to the shape, domain behavior, and end behavior of a power function. |
 
 ## SK-POWER-FRACTIONAL-ANALYZE: Analyze the domain, graph shape, and behavior near zero of a power function with a fractional exponent.
 
@@ -1919,7 +1956,7 @@ First introduction: **Math 49**
 
 | Course | Role | Priority | Relationship | Unit | Objective |
 |---|---|---|---|---|---|
-| Math 49 | Introduce | Required | Required | Power, Polynomial, and Rational Functions | `M49-PWR-008` — I can analyze power functions with fractional exponents, including their domains, graph shapes, and behavior near zero. |
+| Math 49 | Introduce | Required | Required | Power Functions | `M49-PWR-008` — I can analyze power functions with fractional exponents, including their domains, graph shapes, and behavior near zero. |
 
 ## SK-POWER-PARAMETER-INTERPRET: Interpret the coefficient and exponent in a power function.
 
@@ -1929,7 +1966,7 @@ First introduction: **Math 39**
 |---|---|---|---|---|---|
 | Math 39 | Introduce | Required | Required | Power Functions and Function Comparison | `M39-POW-001` — I can identify a power function and interpret the parameters in y = kx^p. |
 | Math 39 | Deepen | Required | Required | Power Functions and Function Comparison | `M39-POW-007` — I can fit a power regression model and interpret its parameters and correlation evidence. |
-| Math 49 | Deepen | Required | Required | Power, Polynomial, and Rational Functions | `M49-PWR-001` — I can identify a power function and interpret the parameters in y = kx^p. |
+| Math 49 | Deepen | Required | Required | Power Functions | `M49-PWR-001` — I can identify a power function and interpret the parameters in y = kx^p. |
 
 ## SK-POWER-SHAPE: Relate the coefficient and exponent of a power function to its graph shape.
 
@@ -1938,7 +1975,7 @@ First introduction: **Math 39**
 | Course | Role | Priority | Relationship | Unit | Objective |
 |---|---|---|---|---|---|
 | Math 39 | Introduce | Required | Required | Power Functions and Function Comparison | `M39-POW-003` — I can relate the sign and size of k and p to the shape, domain behavior, and end behavior of a power function. |
-| Math 49 | Deepen | Required | Required | Power, Polynomial, and Rational Functions | `M49-PWR-003` — I can relate the sign and size of k and p to the shape, domain behavior, and end behavior of a power function. |
+| Math 49 | Deepen | Required | Required | Power Functions | `M49-PWR-003` — I can relate the sign and size of k and p to the shape, domain behavior, and end behavior of a power function. |
 
 ## SK-PROB-AND: Calculate the probability of a compound and event.
 
@@ -2353,7 +2390,7 @@ First introduction: **Math 21**
 |---|---|---|---|---|---|
 | Math 21 | Introduce | Required | Required | Rational Expressions and Equations | `M21-RAT-002` — I can simplify a rational expression while preserving its restrictions. |
 | Math 21 | Apply | Required | Required | Rational Expressions and Equations | `M21-RAT-003` — I can multiply and divide rational expressions. |
-| Math 49 | Apply | Required | Prerequisite | Power, Polynomial, and Rational Functions | `M49-ALG-006` — I can identify holes and vertical, horizontal, or slant asymptotes of a rational function. |
+| Math 49 | Apply | Required | Prerequisite | Rational Functions and Limits | `M49-ALG-006` — I can identify holes and vertical, horizontal, or slant asymptotes of a rational function. |
 
 ## SK-RAT-CLEAR-DENOMINATORS: Clear denominators from a rational equation.
 
@@ -2377,9 +2414,10 @@ First introduction: **Math 49**
 
 | Course | Role | Priority | Relationship | Unit | Objective |
 |---|---|---|---|---|---|
-| Math 49 | Introduce | Required | Required | Power, Polynomial, and Rational Functions | `M49-ALG-006` — I can identify holes and vertical, horizontal, or slant asymptotes of a rational function. |
-| Math 49 | Deepen | Required | Required | Power, Polynomial, and Rational Functions | `M49-ALG-007` — I can sketch and analyze a rational function using its algebraic and asymptotic features. |
-| Math 49 | Deepen | Required | Method-dependent | Limits and Function Comparison | `M49-LIM-006` — I can determine limits at infinity and relate them to long-run behavior. |
+| Math 49 | Introduce | Required | Required | Rational Functions and Limits | `M49-ALG-006` — I can identify holes and vertical, horizontal, or slant asymptotes of a rational function. |
+| Math 49 | Deepen | Required | Required | Rational Functions and Limits | `M49-ALG-007` — I can sketch and analyze a rational function using its algebraic and asymptotic features. |
+| Math 49 | Apply | Required | Required | Rational Functions and Limits | `M49-ALG-008` — I can build or select a rational or rational-adjacent model for a context and interpret its long-run behavior. |
+| Math 49 | Deepen | Required | Method-dependent | Rational Functions and Limits | `M49-LIM-006` — I can use limit notation to describe behavior at infinity. |
 
 ## SK-RAT-EXTRANEOUS: Check candidate solutions against denominator restrictions.
 
@@ -2397,8 +2435,8 @@ First introduction: **Math 21**
 |---|---|---|---|---|---|
 | Math 21 | Introduce | Required | Required | Rational Expressions and Equations | `M21-RAT-002` — I can simplify a rational expression while preserving its restrictions. |
 | Math 21 | Apply | Required | Required | Rational Expressions and Equations | `M21-RAT-003` — I can multiply and divide rational expressions. |
-| Math 49 | Apply | Required | Prerequisite | Power, Polynomial, and Rational Functions | `M49-ALG-006` — I can identify holes and vertical, horizontal, or slant asymptotes of a rational function. |
-| Math 49 | Apply | Required | Method-dependent | Limits and Function Comparison | `M49-LIM-003` — I can evaluate a limit algebraically using direct substitution or simplification. |
+| Math 49 | Apply | Required | Prerequisite | Rational Functions and Limits | `M49-ALG-006` — I can identify holes and vertical, horizontal, or slant asymptotes of a rational function. |
+| Math 49 | Apply | Required | Method-dependent | Rational Functions and Limits | `M49-LIM-003` — I can evaluate a limit algebraically using direct substitution or simplification. |
 
 ## SK-RAT-HOLE: Identify a removable discontinuity and its coordinates.
 
@@ -2406,8 +2444,8 @@ First introduction: **Math 49**
 
 | Course | Role | Priority | Relationship | Unit | Objective |
 |---|---|---|---|---|---|
-| Math 49 | Introduce | Required | Required | Power, Polynomial, and Rational Functions | `M49-ALG-006` — I can identify holes and vertical, horizontal, or slant asymptotes of a rational function. |
-| Math 49 | Deepen | Required | Required | Power, Polynomial, and Rational Functions | `M49-ALG-007` — I can sketch and analyze a rational function using its algebraic and asymptotic features. |
+| Math 49 | Introduce | Required | Required | Rational Functions and Limits | `M49-ALG-006` — I can identify holes and vertical, horizontal, or slant asymptotes of a rational function. |
+| Math 49 | Deepen | Required | Required | Rational Functions and Limits | `M49-ALG-007` — I can sketch and analyze a rational function using its algebraic and asymptotic features. |
 
 ## SK-RAT-LCD: Determine the least common denominator of rational expressions.
 
@@ -2428,7 +2466,7 @@ First introduction: **Math 21**
 | Math 21 | Apply | Required | Required | Rational Expressions and Equations | `M21-RAT-003` — I can multiply and divide rational expressions. |
 | Math 21 | Apply | Required | Required | Rational Expressions and Equations | `M21-RAT-005` — I can solve a rational equation and reject extraneous solutions. |
 | Math 31 | Apply | Required | Required | Function Behavior and Structure | `M31-FUN-004` — I can determine algebraic domain restrictions caused by denominators and even roots. |
-| Math 49 | Apply | Required | Prerequisite | Power, Polynomial, and Rational Functions | `M49-ALG-007` — I can sketch and analyze a rational function using its algebraic and asymptotic features. |
+| Math 49 | Apply | Required | Prerequisite | Rational Functions and Limits | `M49-ALG-007` — I can sketch and analyze a rational function using its algebraic and asymptotic features. |
 
 ## SK-RAT-SIGN-INTERVAL: Determine the sign of a rational function on intervals.
 
@@ -2436,7 +2474,7 @@ First introduction: **Math 49**
 
 | Course | Role | Priority | Relationship | Unit | Objective |
 |---|---|---|---|---|---|
-| Math 49 | Introduce | Required | Required | Power, Polynomial, and Rational Functions | `M49-ALG-007` — I can sketch and analyze a rational function using its algebraic and asymptotic features. |
+| Math 49 | Introduce | Required | Required | Rational Functions and Limits | `M49-ALG-007` — I can sketch and analyze a rational function using its algebraic and asymptotic features. |
 
 ## SK-RAT-VERTICAL-ASYMPTOTE: Determine vertical asymptotes from noncanceling denominator zeros.
 
@@ -2444,9 +2482,9 @@ First introduction: **Math 49**
 
 | Course | Role | Priority | Relationship | Unit | Objective |
 |---|---|---|---|---|---|
-| Math 49 | Introduce | Required | Required | Power, Polynomial, and Rational Functions | `M49-ALG-006` — I can identify holes and vertical, horizontal, or slant asymptotes of a rational function. |
-| Math 49 | Deepen | Required | Required | Power, Polynomial, and Rational Functions | `M49-ALG-007` — I can sketch and analyze a rational function using its algebraic and asymptotic features. |
-| Math 49 | Deepen | Required | Required | Limits and Function Comparison | `M49-LIM-005` — I can interpret an infinite limit as vertical-asymptotic behavior. |
+| Math 49 | Introduce | Required | Required | Rational Functions and Limits | `M49-ALG-006` — I can identify holes and vertical, horizontal, or slant asymptotes of a rational function. |
+| Math 49 | Deepen | Required | Required | Rational Functions and Limits | `M49-ALG-007` — I can sketch and analyze a rational function using its algebraic and asymptotic features. |
+| Math 49 | Deepen | Required | Required | Rational Functions and Limits | `M49-LIM-005` — I can interpret an infinite limit as vertical-asymptotic behavior. |
 
 ## SK-REG-CORRELATION-INTERPRET: Interpret the sign and magnitude of a correlation coefficient in context.
 
@@ -2554,7 +2592,7 @@ First introduction: **Math 21**
 | Math 39 | Deepen | Required | Required | Power Functions and Function Comparison | `M39-POW-003` — I can relate the sign and size of k and p to the shape, domain behavior, and end behavior of a power function. |
 | Math 49 | Apply | Review | Required | Review Content | `M49-FND-004` — I can analyze exponential functions using their equations, graphs, and contexts. |
 | Math 49 | Apply | Review | Required | Review Content | `M49-FND-005` — I can analyze logarithmic functions using their equations, graphs, and contexts. |
-| Math 49 | Apply | Required | Required | Power, Polynomial, and Rational Functions | `M49-PWR-003` — I can relate the sign and size of k and p to the shape, domain behavior, and end behavior of a power function. |
+| Math 49 | Apply | Required | Required | Power Functions | `M49-PWR-003` — I can relate the sign and size of k and p to the shape, domain behavior, and end behavior of a power function. |
 
 ## SK-REP-TABLE-GRAPH: Use tabular patterns to predict graph shape and behavior.
 
@@ -3455,7 +3493,7 @@ First introduction: **Math 39**
 | Course | Role | Priority | Relationship | Unit | Objective |
 |---|---|---|---|---|---|
 | Math 39 | Introduce | Required | Required | Power Functions and Function Comparison | `M39-POW-004` — I can recognize and model direct, inverse, and other power-variation relationships. |
-| Math 49 | Deepen | Required | Required | Power, Polynomial, and Rational Functions | `M49-PWR-004` — I can recognize and model direct, inverse, and other power-variation relationships. |
+| Math 49 | Deepen | Required | Required | Power Functions | `M49-PWR-004` — I can recognize and model direct, inverse, and other power-variation relationships. |
 
 ## SK-VAR-INVERSE: Represent and interpret an inverse-variation relationship.
 
@@ -3464,7 +3502,7 @@ First introduction: **Math 39**
 | Course | Role | Priority | Relationship | Unit | Objective |
 |---|---|---|---|---|---|
 | Math 39 | Introduce | Required | Required | Power Functions and Function Comparison | `M39-POW-004` — I can recognize and model direct, inverse, and other power-variation relationships. |
-| Math 49 | Deepen | Required | Required | Power, Polynomial, and Rational Functions | `M49-PWR-004` — I can recognize and model direct, inverse, and other power-variation relationships. |
+| Math 49 | Deepen | Required | Required | Power Functions | `M49-PWR-004` — I can recognize and model direct, inverse, and other power-variation relationships. |
 
 ## SK-VAR-POWER: Represent and interpret a power-variation relationship.
 
@@ -3474,8 +3512,8 @@ First introduction: **Math 39**
 |---|---|---|---|---|---|
 | Math 39 | Introduce | Required | Required | Power Functions and Function Comparison | `M39-POW-001` — I can identify a power function and interpret the parameters in y = kx^p. |
 | Math 39 | Deepen | Required | Required | Power Functions and Function Comparison | `M39-POW-004` — I can recognize and model direct, inverse, and other power-variation relationships. |
-| Math 49 | Deepen | Required | Required | Power, Polynomial, and Rational Functions | `M49-PWR-001` — I can identify a power function and interpret the parameters in y = kx^p. |
-| Math 49 | Deepen | Required | Required | Power, Polynomial, and Rational Functions | `M49-PWR-004` — I can recognize and model direct, inverse, and other power-variation relationships. |
+| Math 49 | Deepen | Required | Required | Power Functions | `M49-PWR-001` — I can identify a power function and interpret the parameters in y = kx^p. |
+| Math 49 | Deepen | Required | Required | Power Functions | `M49-PWR-004` — I can recognize and model direct, inverse, and other power-variation relationships. |
 
 ## SK-VEC-3D: Represent and operate on vectors with three components.
 

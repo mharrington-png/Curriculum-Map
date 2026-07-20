@@ -4,7 +4,7 @@ Generated automatically from the approved course and mapping records. Warnings r
 
 ## Summary
 
-- Canonical skills used in mappings: 354
+- Canonical skills used in mappings: 357
 - Skills without a mapped or accepted inherited introduction: 0
 - Skills used in an earlier course than their recorded introduction: 0
 - Skills introduced in more than one course: 0
@@ -50,6 +50,9 @@ Math 39 is optional between Math 32 and Math 49. These skills may be introduced 
 - `SK-FUNC-DOMAIN-COMBINE` — introduced in both Math 39 and Math 49
 - `SK-FUNC-OPERATIONS` — introduced in both Math 39 and Math 49
 - `SK-MODEL-FAMILY-SELECT` — introduced in both Math 39 and Math 49
+- `SK-POLY-DEGREE-INFLECTION` — introduced in both Math 39 and Math 49
+- `SK-POLY-DEGREE-TURNING` — introduced in both Math 39 and Math 49
+- `SK-POLY-DEGREE-ZEROS` — introduced in both Math 39 and Math 49
 - `SK-POLY-END-BEHAVIOR` — introduced in both Math 39 and Math 49
 - `SK-POLY-MULTIPLICITY` — introduced in both Math 39 and Math 49
 - `SK-VAR-DIRECT` — introduced in both Math 39 and Math 49

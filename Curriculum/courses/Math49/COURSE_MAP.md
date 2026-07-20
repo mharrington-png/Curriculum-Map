@@ -25,23 +25,31 @@ Review content supports entry into Math 49. Teachers should diagnose and reinfor
 - Domain restrictions under function operations
 - Inverse functions from formulas, graphs, and tables
 
-### Unit 2: Power, Polynomial, and Rational Functions
+### Unit 2: Power Functions
 
 - Power functions and proportionality/variation
 - The algebraic and graphical Math 39 power-function sequence at greater depth, including fractional exponents
+- Selecting, building, and interpreting power-function models
+
+### Unit 3: Polynomial Functions
+
 - Polynomial structure, zeros, multiplicity, and end behavior
+- Constructing and analyzing polynomial functions
+- Determining the minimum possible degree from zeros, turning points, inflection points, and end behavior shown in a graph
+- Selecting, building, and interpreting polynomial models
+
+### Unit 4: Rational Functions and Limits
+
 - Rational functions, discontinuities, and asymptotes
-- Modeling and comparison using function families
-
-### Unit 3: Limits and Function Comparison
-
 - Limit notation and meaning
 - Limits from graphs, tables, and formulas
-- Limits at infinity
 - Infinite limits and asymptotic behavior
-- Comparison of long-run growth among function families
+- Limits at infinity and thorough use of limit notation
+- Long-run behavior of rational and rational-adjacent quotients involving polynomial, exponential, or logarithmic expressions
+- Long-run comparison across function families
+- Selecting, building, and interpreting rational and rational-adjacent models
 
-### Unit 4: Sequences and Series
+### Unit 5: Sequences and Series
 
 - Sequence notation and evaluation
 - Explicit and recursive definitions

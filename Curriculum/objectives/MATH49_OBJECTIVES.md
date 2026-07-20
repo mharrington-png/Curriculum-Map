@@ -23,33 +23,39 @@ These objectives represent prerequisite content to diagnose and reinforce as nee
 - **M49-OPS-006:** I can find and verify an inverse function algebraically.
 - **M49-OPS-007:** I can interpret the relationship between a function and its inverse from graphs or tables.
 
-## Required Unit 2: Power, Polynomial, and Rational Functions (`M49-ALG`)
+## Required Unit 2: Power Functions (`M49-PWR`)
 
 - **M49-PWR-001:** I can identify a power function and interpret the parameters in y = kx^p.
 - **M49-PWR-002:** I can construct a power function from two data points or a proportional relationship.
 - **M49-PWR-003:** I can relate the sign and size of k and p to the shape, domain behavior, and end behavior of a power function.
 - **M49-PWR-004:** I can recognize and model direct, inverse, and other power-variation relationships.
 - **M49-PWR-005:** I can solve equations involving integer or rational powers.
-- **M49-PWR-006:** I can compare the long-run dominance of logarithmic, power, polynomial, and exponential functions.
+- **M49-PWR-007:** I can build or select a power-function model for a context and interpret its parameters.
 - **M49-PWR-008:** I can analyze power functions with fractional exponents, including their domains, graph shapes, and behavior near zero.
+
+## Required Unit 3: Polynomial Functions (`M49-POL`)
+
 - **M49-ALG-002:** I can predict the end behavior of a polynomial from its degree and leading coefficient.
 - **M49-ALG-003:** I can determine polynomial zeros and their multiplicities.
 - **M49-ALG-004:** I can construct a polynomial function from specified zeros or graphical features.
 - **M49-ALG-005:** I can sketch and analyze a polynomial function using intercepts, multiplicity, and end behavior.
+- **M49-POL-002:** I can determine the minimum possible degree of a polynomial function from the zeros, turning points, inflection points, and end behavior of its graph.
+- **M49-POL-001:** I can build or select a polynomial model for a context and interpret its features.
+
+## Required Unit 4: Rational Functions and Limits (`M49-RAT`)
+
 - **M49-ALG-006:** I can identify holes and vertical, horizontal, or slant asymptotes of a rational function.
 - **M49-ALG-007:** I can sketch and analyze a rational function using its algebraic and asymptotic features.
-- **M49-ALG-008:** I can build or select a power, polynomial, or rational model for a context.
-
-## Required Unit 3: Limits and Function Comparison (`M49-LIM`)
-
 - **M49-LIM-001:** I can interpret limit notation as a statement about function behavior near an input.
 - **M49-LIM-002:** I can estimate a limit from a graph or table.
 - **M49-LIM-003:** I can evaluate a limit algebraically using direct substitution or simplification.
 - **M49-LIM-005:** I can interpret an infinite limit as vertical-asymptotic behavior.
-- **M49-LIM-006:** I can determine limits at infinity and relate them to long-run behavior.
+- **M49-LIM-006:** I can use limit notation to describe behavior at infinity.
+- **M49-PWR-006:** I can analyze the long-run behavior of quotients involving polynomial, exponential, or logarithmic expressions.
 - **M49-LIM-007:** I can compare the long-run growth of polynomial, exponential, logarithmic, and rational functions.
+- **M49-ALG-008:** I can build or select a rational or rational-adjacent model for a context and interpret its long-run behavior.
 
-## Required Unit 4: Sequences and Series (`M49-SS`)
+## Required Unit 5: Sequences and Series (`M49-SS`)
 
 - **M49-SEQ-001:** I can evaluate and graph a sequence defined explicitly or recursively.
 - **M49-SEQ-002:** I can write explicit and recursive formulas for arithmetic sequences.

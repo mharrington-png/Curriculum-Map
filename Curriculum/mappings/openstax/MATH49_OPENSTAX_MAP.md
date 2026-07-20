@@ -32,10 +32,10 @@ These resources support outcomes that must be addressed every semester.
 | Even and odd symmetry | M49-FND-003 | Not identified in source map | Map an appropriate section or supplemental resource |
 | Function operations and composition | M49-OPS-001 through M49-OPS-004 | 1.4 | Supplement with table-based problems |
 | Inverse functions | M49-OPS-005 through M49-OPS-007 | 1.7 | Include formula, graph, and table representations |
-| Power functions and proportionality | M49-PWR-001 through M49-PWR-005; M49-PWR-008 | 3.3, 3.8, 3.9 | Sections 3.8-3.9 supply radical/power behavior and variation/proportionality |
-| Polynomial functions | M49-ALG-002 through M49-ALG-005 | 3.3-3.6 | Curate for zeros, multiplicity, end behavior, and modeling |
-| Rational functions | M49-ALG-006 through M49-ALG-008 | 3.7 | Supplement modeling and full graph analysis if needed |
-| Limits | M49-LIM-001 through M49-LIM-008 | 12.1 | Major supplement required for formulas, graphs, tables, one-sided limits, infinity, and continuity |
+| Power functions and proportionality | M49-PWR-001 through M49-PWR-005; M49-PWR-007; M49-PWR-008 | 3.3, 3.8, 3.9 | Sections 3.8-3.9 supply radical/power behavior, variation, and modeling |
+| Polynomial functions | M49-ALG-002 through M49-ALG-005; M49-POL-001; M49-POL-002 | 3.3-3.6 | Curate for zeros, minimum-degree reasoning, multiplicity, end behavior, and modeling |
+| Rational functions and required limits | M49-ALG-006 through M49-ALG-008; M49-PWR-006; M49-LIM-001 through M49-LIM-003; M49-LIM-005 through M49-LIM-007 | 3.7, 12.1 | Major supplement required for rational-adjacent quotients, algebraic limits, limits at infinity, long-run comparison, and modeling |
+| Additional limit concepts | M49-LIM-004; M49-LIM-008 | 12.1 | Extension content covering one-sided limits and continuity |
 | Sequences and series | M49-SEQ-001 through M49-SEQ-005; M49-SER-001 through M49-SER-005 | 11.1-11.4 | Treat as one unit; supplement applications and accumulated-change models |
 
 ## Detailed Section-to-Objective Crosswalk
@@ -46,13 +46,13 @@ These resources support outcomes that must be addressed every semester.
 | 1.4 | Composition of Functions | M49-OPS-001 through M49-OPS-004 | Direct | Covers function arithmetic, composition from formulas/graphs/tables, domains, and decomposition |
 | 1.5 | Transformation of Functions | M49-FND-002 | Direct | Review resource |
 | 1.7 | Inverse Functions | M49-OPS-005 through M49-OPS-007 | Direct / Partial | Strong for invertibility, algebra, and graphs; table interpretation should be deliberately selected |
-| 3.3 | Power Functions and Polynomial Functions | M49-PWR-001; M49-PWR-003; M49-ALG-002 | Direct / Partial | Strong for power identification and end behavior; limited for fractional powers and contextual parameter interpretation |
-| 3.4 | Graphs of Polynomial Functions | M49-ALG-002 through M49-ALG-005 | Direct | End behavior, zeros, multiplicity, intercepts, and graph construction |
+| 3.3 | Power Functions and Polynomial Functions | M49-PWR-001; M49-PWR-003; M49-PWR-007; M49-ALG-002; M49-POL-001 | Direct / Partial | Strong for power identification and end behavior; modeling and contextual interpretation need deliberate selection |
+| 3.4 | Graphs of Polynomial Functions | M49-ALG-002 through M49-ALG-005; M49-POL-001; M49-POL-002 | Direct / Partial | End behavior, zeros, multiplicity, graph construction, and partial evidence for minimum-degree reasoning and modeling |
 | 3.5 | Dividing Polynomials | M49-ALG-003; M49-ALG-004 | Supporting | Supports finding and constructing from factors; division itself is not a stated LO |
 | 3.6 | Zeros of Polynomial Functions | M49-ALG-003 through M49-ALG-005 | Direct | Strong for zeros, factors, multiplicity, and construction |
 | 3.7 | Rational Functions | M49-ALG-006; M49-ALG-007 | Direct | Holes, vertical/horizontal/slant asymptotes, intercepts, domains, and graphs |
 | 3.8 | Inverses and Radical Functions | M49-PWR-005; M49-PWR-008 | Direct / Partial | Useful for rational powers, radical-function domains, and graph behavior; equations need careful selection |
-| 3.9 | Modeling Using Variation | M49-PWR-002; M49-PWR-004; M49-ALG-008 | Direct | Direct, inverse, and joint variation; supports contextual power models |
+| 3.9 | Modeling Using Variation | M49-PWR-002; M49-PWR-004; M49-PWR-007; M49-ALG-008 | Direct / Partial | Direct, inverse, and joint variation support power models; rational-adjacent model selection needs supplementation |
 | 4.1 | Exponential Functions | M49-FND-004 | Direct | Review resource |
 | 4.2 | Graphs of Exponential Functions | M49-FND-004; M49-PWR-006 | Direct / Supporting | Strong review; only partially supports long-run comparison among function families |
 | 4.3 | Logarithmic Functions | M49-FND-005; M49-FND-006 | Direct | Review resource |
@@ -81,8 +81,9 @@ These resources support outcomes that must be addressed every semester.
 | Objective | Status | Section-level finding |
 |---|---|---|
 | M49-FND-003 | Gap | Even/odd symmetry is not identified in the current function-review sections. |
-| M49-PWR-006 | Partial | Long-run comparison of logarithmic, power, polynomial, rational, and exponential functions must be synthesized across chapters. |
-| M49-ALG-008 | Partial | Variation modeling is direct, but polynomial and rational model selection requires additional contextual tasks. |
+| M49-PWR-006 | Partial | Long-run behavior of quotients involving polynomial, exponential, or logarithmic expressions must be synthesized across chapters. |
+| M49-PWR-007; M49-POL-001; M49-ALG-008 | Partial | Power modeling is directly supported by variation; polynomial and rational-adjacent model selection require additional contextual tasks. |
+| M49-POL-002 | Partial | Zeros, multiplicity, and end behavior are supported; determining minimum possible degree from turning-point and inflection-point evidence needs curated graphs. |
 | M49-LIM-003 | Gap in approved range | Algebraic limit evaluation belongs in 12.2, not 12.1. |
 | M49-LIM-005; M49-LIM-006; M49-LIM-007 | Gap | Infinite limits, limits at infinity, and systematic long-run function comparison are not covered by 12.1 at the required depth. |
 | M49-LIM-008 | Partial | Distinguishing value from limit is in 12.1; a full continuity-at-a-point treatment belongs in 12.3. |
@@ -96,9 +97,10 @@ These resources support outcomes that must be addressed every semester.
 |---|---|---|
 | M49-FND-003 | Even/odd symmetry lesson and practice | Symmetry is required in Math 49 but is not identified in the mapped function-review sections. |
 | M49-OPS-002; M49-OPS-007 | Composition and inverse interpretation from tables | Section 1.4 includes some table work, but teachers should add enough table-based practice to make it an assessed representation. |
-| M49-PWR-002 through M49-PWR-005; M49-PWR-008 | Fractional-power behavior and power-model construction | Sections 3.3, 3.8, and 3.9 must be combined; no single section supplies the complete progression. |
-| M49-PWR-006; M49-LIM-007 | Long-run function-family comparison | Teachers need a synthesis resource comparing logarithmic, power, polynomial, rational, and exponential growth on common scales. |
-| M49-ALG-008 | Model-selection tasks | The textbook supports variation directly, but polynomial and rational model choice needs additional contextual datasets or scenarios. |
+| M49-PWR-002 through M49-PWR-005; M49-PWR-007; M49-PWR-008 | Fractional-power behavior and power-model construction | Sections 3.3, 3.8, and 3.9 must be combined; no single section supplies the complete progression. |
+| M49-PWR-006; M49-LIM-007 | Long-run and rational-adjacent comparison | Teachers need a synthesis resource comparing logarithmic, power, polynomial, rational, and exponential expressions, including quotients across families. |
+| M49-POL-002 | Degree reasoning from graphs | Add graphs designed to support lower-bound reasoning from zeros, turning points, inflection points, and end behavior. |
+| M49-PWR-007; M49-POL-001; M49-ALG-008 | Family-specific model-selection tasks | Power variation is directly supported, but polynomial and rational-adjacent model choice needs additional contextual datasets or scenarios. |
 | M49-LIM-003 | Algebraic limit evaluation | Add OpenStax 12.2 or equivalent work on substitution, factoring, cancellation, and rationalization. |
 | M49-LIM-005; M49-LIM-006 | Infinite limits and limits at infinity | Section 12.1 does not cover these required outcomes at the intended depth. |
 | M49-LIM-008 | Continuity at a point | Add OpenStax 12.3 or equivalent work distinguishing function value, limit, and continuity. |

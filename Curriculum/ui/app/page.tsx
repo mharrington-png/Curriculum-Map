@@ -32,7 +32,7 @@ const requiredUnitOrder: Record<string, string[]> = {
   M31: ["M31-LIN", "M31-FUN", "M31-EXP", "M31-LOG", "M31-QUAD"],
   M32: ["M32-FND", "M32-TRI", "M32-IDN", "M32-INV", "M32-GRF", "M32-POL"],
   M39: ["M39-LIN", "M39-EXP", "M39-POW", "M39-POL", "M39-STA", "M39-PRO"],
-  M49: ["M49-OPS", "M49-ALG", "M49-LIM", "M49-SS"],
+  M49: ["M49-OPS", "M49-PWR", "M49-POL", "M49-RAT", "M49-SS"],
 };
 
 export default function Home() {
