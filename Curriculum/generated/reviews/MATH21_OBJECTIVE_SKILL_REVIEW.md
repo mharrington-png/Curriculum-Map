@@ -1,4 +1,4 @@
-# Math 21 Objective-to-Skill Mapping Review
+# M21 Objective-to-Skill Mapping Review
 
 This teacher-facing view combines each learning objective with the supporting skills currently mapped to it. The YAML files remain the structured source; this document is generated for review.
 
@@ -219,6 +219,7 @@ Objective ID: `M21-RAT-001`
 
 | Supporting skill | Relationship | Course role | Skill ID |
 |---|---|---|---|
+| Recall and correctly use rational-expression terms including numerator, denominator, restriction, and excluded value. | Prerequisite | Introduce | `SK-RAT-VOCABULARY` |
 | Determine excluded values from an original denominator. | Required | Introduce | `SK-RAT-RESTRICTIONS` |
 
 ### I can simplify a rational expression while preserving its restrictions.
@@ -227,6 +228,7 @@ Objective ID: `M21-RAT-002`
 
 | Supporting skill | Relationship | Course role | Skill ID |
 |---|---|---|---|
+| Recall and correctly use rational-expression terms including numerator, denominator, restriction, and excluded value. | Prerequisite | Apply | `SK-RAT-VOCABULARY` |
 | Determine excluded values from an original denominator. | Required | Apply | `SK-RAT-RESTRICTIONS` |
 | Factor numerators and denominators completely. | Required | Introduce | `SK-RAT-FACTOR` |
 | Cancel common factors rather than individual terms. | Required | Introduce | `SK-RAT-CANCEL-FACTORS` |
@@ -281,6 +283,7 @@ Objective ID: `M21-EXP-002`
 
 | Supporting skill | Relationship | Course role | Skill ID |
 |---|---|---|---|
+| Read radical and rational-exponent notation and identify the index, radicand, base, numerator, and denominator. | Prerequisite | Introduce | `SK-RAD-NOTATION-READ` |
 | Interpret numerator and denominator roles in a rational exponent. | Required | Introduce | `SK-EXP-RATIONAL` |
 | Convert between radical and rational-exponent notation. | Required | Introduce | `SK-RAD-CONVERT` |
 
@@ -325,6 +328,7 @@ Objective ID: `M21-QUAD-001`
 
 | Supporting skill | Relationship | Course role | Skill ID |
 |---|---|---|---|
+| Recall and correctly use quadratic-function terms including parabola, vertex, axis of symmetry, intercept, zero, and solution. | Prerequisite | Introduce | `SK-QUAD-VOCABULARY` |
 | Identify standard, factored, and vertex forms. | Required | Introduce | `SK-QUAD-FORM-IDENTIFY` |
 | Determine the vertex and axis of symmetry. | Required | Introduce | `SK-QUAD-VERTEX` |
 | Determine x- and y-intercepts of a quadratic function. | Required | Introduce | `SK-QUAD-INTERCEPTS` |

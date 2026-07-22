@@ -2,6 +2,7 @@
 
 ## Regression and Modeling
 
+- **SK-REG-VOCABULARY:** Recall and correctly use regression terms including explanatory variable, response variable, correlation, residual, and residual plot.
 - **SK-REG-LINEAR-FIT:** Use technology to determine a least-squares linear regression model.
 - **SK-REG-CORRELATION-INTERPRET:** Interpret the sign and magnitude of a correlation coefficient in context.
 - **SK-REG-RESIDUAL-CALCULATE:** Calculate an observed value minus its model-predicted value.
@@ -15,6 +16,7 @@
 
 ## Power Functions and Comparison
 
+- **SK-POWER-VOCABULARY:** Recall and correctly use power-function terms including coefficient, exponent, direct variation, and inverse variation.
 - **SK-POWER-PARAMETER-INTERPRET:** Interpret the coefficient and exponent in a power function.
 - **SK-POWER-SHAPE:** Relate the coefficient and exponent of a power function to its graph shape.
 - **SK-POWER-END-BEHAVIOR:** Determine power-function behavior as the input approaches zero or positive or negative infinity.
@@ -24,6 +26,7 @@
 
 ## Descriptive Statistics
 
+- **SK-STAT-VOCABULARY:** Recall and correctly use terms for data type, distribution shape, center, spread, percentile, and outlier.
 - **SK-STAT-DATA-TYPE:** Classify data as categorical or quantitative.
 - **SK-STAT-FREQUENCY-TABLE:** Construct and interpret a frequency table.
 - **SK-STAT-RELATIVE-FREQUENCY:** Calculate and interpret relative frequency.
@@ -47,6 +50,8 @@
 
 ## Probability
 
+- **SK-PROB-NOTATION-VOCAB:** Read and write probability notation and correctly use the terms outcome, event, sample space, complement, intersection, union, and conditional probability.
+- **SK-PROB-EXPECTED-NOTATION:** Read expected-value notation and recall the meanings of outcome, probability, payoff, and long-run average.
 - **SK-PROB-CONTINGENCY-TABLE:** Construct and interpret a contingency table.
 - **SK-PROB-VENN-DIAGRAM:** Represent categorical events and their overlap with a Venn diagram.
 - **SK-PROB-EMPIRICAL:** Calculate probability from observed relative frequency.

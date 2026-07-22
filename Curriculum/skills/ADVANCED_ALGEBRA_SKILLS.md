@@ -4,6 +4,7 @@ This is the initial reusable skill library extracted from Math 31. Foundational 
 
 ## Function Structure Skills
 
+- **SK-FUNC-STRUCTURE-NOTATION:** Read and write notation for function composition and inverse functions.
 - **SK-FUNC-NOTATION-SOLVE:** Use function notation to express and solve an input-output question.
 - **SK-FUNC-INDEPENDENT-DEPENDENT:** Identify independent and dependent variables.
 - **SK-FUNC-INTERVAL-BEHAVIOR:** Describe increasing or decreasing behavior over intervals.
@@ -27,6 +28,7 @@ This is the initial reusable skill library extracted from Math 31. Foundational 
 
 ## Exponential Skills
 
+- **SK-EXP-VOCABULARY:** Recall and correctly use exponential-function terms including initial value, growth or decay factor, growth or decay rate, and asymptote.
 - **SK-EXP-DIFFERENCE-RATIO:** Use constant differences or ratios to distinguish linear and exponential patterns.
 - **SK-EXP-PERCENT-FACTOR:** Convert a percent increase or decrease to a growth or decay factor.
 - **SK-EXP-MODEL-TABLE:** Determine an exponential model from tabular values.
@@ -41,6 +43,7 @@ This is the initial reusable skill library extracted from Math 31. Foundational 
 
 ## Logarithmic Skills
 
+- **SK-LOG-NOTATION-READ:** Read logarithmic notation and identify the base, argument, and corresponding exponential statement.
 - **SK-LOG-DEFINITION:** Interpret a logarithm as an exponent.
 - **SK-LOG-PRODUCT:** Apply the logarithm product property in either direction.
 - **SK-LOG-QUOTIENT:** Apply the logarithm quotient property in either direction.

@@ -1600,7 +1600,7 @@
         "objective_id": "M22-CIR-001",
         "objective": "I can identify and name radii, diameters, chords, secants, tangents, arcs, sectors, and segments.",
         "relationship": "required",
-        "progression": "introduce"
+        "progression": "apply"
       },
       {
         "skill_id": "SK-CIR-VOCAB",
@@ -1612,7 +1612,7 @@
         "objective_id": "M22-CIR-005",
         "objective": "I can apply relationships among chords, arcs, and distances from the center.",
         "relationship": "prerequisite",
-        "progression": "apply"
+        "progression": "introduce"
       },
       {
         "skill_id": "SK-CIR-VOCAB",
@@ -1936,6 +1936,30 @@
         "objective_id": "M49-CON-008",
         "objective": "I can explain a parabola as the set of points equidistant from a focus and directrix.",
         "relationship": "required",
+        "progression": "introduce"
+      }
+    ]
+  },
+  {
+    "skill_id": "SK-CONIC-VOCABULARY",
+    "description": "Recall the defining terms and standard notation for circles, parabolas, ellipses, and hyperbolas.",
+    "introduction_status": "mapped",
+    "first_introduced_course": "Math 49",
+    "inherited_note": null,
+    "courses": [
+      "Math 49"
+    ],
+    "occurrences": [
+      {
+        "skill_id": "SK-CONIC-VOCABULARY",
+        "course_id": "M49",
+        "course": "Math 49",
+        "unit_id": "M49-CON",
+        "unit_title": "Conic Sections",
+        "priority": "extension",
+        "objective_id": "M49-CON-001",
+        "objective": "I can classify a circle, ellipse, or hyperbola from its equation or defining geometric relationship.",
+        "relationship": "prerequisite",
         "progression": "introduce"
       }
     ]
@@ -3000,6 +3024,43 @@
         "objective_id": "M49-FND-006",
         "objective": "I can solve exponential and logarithmic equations using equivalent forms and logarithm properties.",
         "relationship": "method-dependent",
+        "progression": "reinforce"
+      }
+    ]
+  },
+  {
+    "skill_id": "SK-EXP-VOCABULARY",
+    "description": "Recall and correctly use exponential-function terms including initial value, growth or decay factor, growth or decay rate, and asymptote.",
+    "introduction_status": "mapped",
+    "first_introduced_course": "Math 31",
+    "inherited_note": null,
+    "courses": [
+      "Math 31",
+      "Math 39"
+    ],
+    "occurrences": [
+      {
+        "skill_id": "SK-EXP-VOCABULARY",
+        "course_id": "M31",
+        "course": "Math 31",
+        "unit_id": "M31-EXP",
+        "unit_title": "Exponential Functions and Models",
+        "priority": "required",
+        "objective_id": "M31-EXP-002",
+        "objective": "I can identify initial value and growth or decay factor in an exponential model.",
+        "relationship": "prerequisite",
+        "progression": "introduce"
+      },
+      {
+        "skill_id": "SK-EXP-VOCABULARY",
+        "course_id": "M39",
+        "course": "Math 39",
+        "unit_id": "M39-EXP",
+        "unit_title": "Exponential Modeling",
+        "priority": "required",
+        "objective_id": "M39-EXP-003",
+        "objective": "I can interpret the initial value, growth or decay factor, and growth or decay rate of an exponential model.",
+        "relationship": "prerequisite",
         "progression": "reinforce"
       }
     ]
@@ -5396,6 +5457,55 @@
     ]
   },
   {
+    "skill_id": "SK-FUNC-STRUCTURE-NOTATION",
+    "description": "Read and write notation for function composition and inverse functions.",
+    "introduction_status": "mapped",
+    "first_introduced_course": "Math 31",
+    "inherited_note": null,
+    "courses": [
+      "Math 31",
+      "Math 49"
+    ],
+    "occurrences": [
+      {
+        "skill_id": "SK-FUNC-STRUCTURE-NOTATION",
+        "course_id": "M31",
+        "course": "Math 31",
+        "unit_id": "M31-FUN",
+        "unit_title": "Function Behavior and Structure",
+        "priority": "required",
+        "objective_id": "M31-FUN-009",
+        "objective": "I can evaluate a composition from formulas, graphs, or tables.",
+        "relationship": "prerequisite",
+        "progression": "introduce"
+      },
+      {
+        "skill_id": "SK-FUNC-STRUCTURE-NOTATION",
+        "course_id": "M31",
+        "course": "Math 31",
+        "unit_id": "M31-FUN",
+        "unit_title": "Function Behavior and Structure",
+        "priority": "required",
+        "objective_id": "M31-FUN-011",
+        "objective": "I can find an inverse function algebraically.",
+        "relationship": "prerequisite",
+        "progression": "apply"
+      },
+      {
+        "skill_id": "SK-FUNC-STRUCTURE-NOTATION",
+        "course_id": "M49",
+        "course": "Math 49",
+        "unit_id": "M49-OPS",
+        "unit_title": "Function Operations, Composition, and Inverses",
+        "priority": "required",
+        "objective_id": "M49-OPS-002",
+        "objective": "I can evaluate a composition from formulas, graphs, or tables.",
+        "relationship": "prerequisite",
+        "progression": "reinforce"
+      }
+    ]
+  },
+  {
     "skill_id": "SK-FUNC-SYMMETRY",
     "description": "Test a formula or graph for even or odd symmetry.",
     "introduction_status": "mapped",
@@ -5742,6 +5852,42 @@
     ]
   },
   {
+    "skill_id": "SK-FUNC-VOCABULARY",
+    "description": "Recall and correctly use the terms relation, function, input, output, domain, and range.",
+    "introduction_status": "mapped",
+    "first_introduced_course": "Math 12",
+    "inherited_note": null,
+    "courses": [
+      "Math 12"
+    ],
+    "occurrences": [
+      {
+        "skill_id": "SK-FUNC-VOCABULARY",
+        "course_id": "M12",
+        "course": "Math 12",
+        "unit_id": "M12-LIN",
+        "unit_title": "Lines and Introductory Functions",
+        "priority": "required",
+        "objective_id": "M12-LIN-005",
+        "objective": "I can evaluate a function using function notation.",
+        "relationship": "prerequisite",
+        "progression": "introduce"
+      },
+      {
+        "skill_id": "SK-FUNC-VOCABULARY",
+        "course_id": "M12",
+        "course": "Math 12",
+        "unit_id": "M12-LIN",
+        "unit_title": "Lines and Introductory Functions",
+        "priority": "required",
+        "objective_id": "M12-LIN-006",
+        "objective": "I can determine whether a relation is a function using the vertical line test or input-output data.",
+        "relationship": "prerequisite",
+        "progression": "apply"
+      }
+    ]
+  },
+  {
     "skill_id": "SK-GEO-ANGLE-ADDITION",
     "description": "Translate angle addition into an equation.",
     "introduction_status": "mapped",
@@ -6076,6 +6222,30 @@
         "objective": "I can determine exact side lengths in 30-60-90 and 45-45-90 triangles.",
         "relationship": "required",
         "progression": "apply"
+      }
+    ]
+  },
+  {
+    "skill_id": "SK-GEO-FOUNDATIONAL-DEFINITIONS",
+    "description": "Recall definitions of points, lines, planes, segments, rays, angles, and intersections.",
+    "introduction_status": "mapped",
+    "first_introduced_course": "Math 22",
+    "inherited_note": null,
+    "courses": [
+      "Math 22"
+    ],
+    "occurrences": [
+      {
+        "skill_id": "SK-GEO-FOUNDATIONAL-DEFINITIONS",
+        "course_id": "M22",
+        "course": "Math 22",
+        "unit_id": "M22-BAS",
+        "unit_title": "Geometry Basics",
+        "priority": "required",
+        "objective_id": "M22-BAS-001",
+        "objective": "I can name and represent points, lines, planes, segments, and rays using correct notation.",
+        "relationship": "prerequisite",
+        "progression": "introduce"
       }
     ]
   },
@@ -7564,6 +7734,30 @@
     ]
   },
   {
+    "skill_id": "SK-LOG-NOTATION-READ",
+    "description": "Read logarithmic notation and identify the base, argument, and corresponding exponential statement.",
+    "introduction_status": "mapped",
+    "first_introduced_course": "Math 31",
+    "inherited_note": null,
+    "courses": [
+      "Math 31"
+    ],
+    "occurrences": [
+      {
+        "skill_id": "SK-LOG-NOTATION-READ",
+        "course_id": "M31",
+        "course": "Math 31",
+        "unit_id": "M31-LOG",
+        "unit_title": "Logarithmic Functions and Models",
+        "priority": "required",
+        "objective_id": "M31-LOG-001",
+        "objective": "I can convert between logarithmic and exponential forms.",
+        "relationship": "prerequisite",
+        "progression": "introduce"
+      }
+    ]
+  },
+  {
     "skill_id": "SK-LOG-POWER",
     "description": "Apply the logarithm power property in either direction.",
     "introduction_status": "mapped",
@@ -8446,6 +8640,30 @@
     ]
   },
   {
+    "skill_id": "SK-NOT-INEQUALITY-READ",
+    "description": "Read inequality symbols and state the relationship each symbol expresses.",
+    "introduction_status": "mapped",
+    "first_introduced_course": "Math 12",
+    "inherited_note": null,
+    "courses": [
+      "Math 12"
+    ],
+    "occurrences": [
+      {
+        "skill_id": "SK-NOT-INEQUALITY-READ",
+        "course_id": "M12",
+        "course": "Math 12",
+        "unit_id": "M12-INE",
+        "unit_title": "Inequalities and Absolute-Value Equations",
+        "priority": "required",
+        "objective_id": "M12-INE-004",
+        "objective": "I can express an inequality solution using interval notation.",
+        "relationship": "prerequisite",
+        "progression": "introduce"
+      }
+    ]
+  },
+  {
     "skill_id": "SK-NOT-INTERVAL",
     "description": "Translate between inequality and interval notation.",
     "introduction_status": "mapped",
@@ -8937,6 +9155,30 @@
     ]
   },
   {
+    "skill_id": "SK-PAR-NOTATION-VOCAB",
+    "description": "Read parametric notation and correctly use the terms parameter, coordinate equation, orientation, and parameter interval.",
+    "introduction_status": "mapped",
+    "first_introduced_course": "Math 32",
+    "inherited_note": null,
+    "courses": [
+      "Math 32"
+    ],
+    "occurrences": [
+      {
+        "skill_id": "SK-PAR-NOTATION-VOCAB",
+        "course_id": "M32",
+        "course": "Math 32",
+        "unit_id": "M32-PAR",
+        "unit_title": "Parametric Equations",
+        "priority": "extension",
+        "objective_id": "M32-PAR-001",
+        "objective": "I can graph a plane curve defined by parametric equations with its orientation.",
+        "relationship": "prerequisite",
+        "progression": "introduce"
+      }
+    ]
+  },
+  {
     "skill_id": "SK-PAR-TABLE",
     "description": "Generate ordered pairs from parametric equations.",
     "introduction_status": "mapped",
@@ -9101,6 +9343,30 @@
         "objective_id": "M32-POL-002",
         "objective": "I can represent a polar point using equivalent coordinate pairs.",
         "relationship": "required",
+        "progression": "introduce"
+      }
+    ]
+  },
+  {
+    "skill_id": "SK-POL-NOTATION-READ",
+    "description": "Read and write polar-coordinate notation and identify the radius, angle, pole, and polar axis.",
+    "introduction_status": "mapped",
+    "first_introduced_course": "Math 32",
+    "inherited_note": null,
+    "courses": [
+      "Math 32"
+    ],
+    "occurrences": [
+      {
+        "skill_id": "SK-POL-NOTATION-READ",
+        "course_id": "M32",
+        "course": "Math 32",
+        "unit_id": "M32-POL",
+        "unit_title": "Polar Coordinates",
+        "priority": "required",
+        "objective_id": "M32-POL-001",
+        "objective": "I can plot and identify points in polar coordinates.",
+        "relationship": "prerequisite",
         "progression": "introduce"
       }
     ]
@@ -9861,6 +10127,18 @@
         "objective_id": "M39-POL-003",
         "objective": "I can determine polynomial end behavior from degree and leading coefficient.",
         "relationship": "prerequisite",
+        "progression": "reinforce"
+      },
+      {
+        "skill_id": "SK-POLY-VOCABULARY",
+        "course_id": "M39",
+        "course": "Math 39",
+        "unit_id": "M39-POL",
+        "unit_title": "Function Combinations and Polynomials",
+        "priority": "required",
+        "objective_id": "M39-POL-004",
+        "objective": "I can identify zeros and multiplicities and relate them to polynomial graph behavior.",
+        "relationship": "prerequisite",
         "progression": "apply"
       },
       {
@@ -9872,6 +10150,18 @@
         "priority": "required",
         "objective_id": "M49-ALG-002",
         "objective": "I can predict the end behavior of a polynomial from its degree and leading coefficient.",
+        "relationship": "prerequisite",
+        "progression": "reinforce"
+      },
+      {
+        "skill_id": "SK-POLY-VOCABULARY",
+        "course_id": "M49",
+        "course": "Math 49",
+        "unit_id": "M49-POL",
+        "unit_title": "Polynomial Functions",
+        "priority": "required",
+        "objective_id": "M49-ALG-003",
+        "objective": "I can determine polynomial zeros and their multiplicities.",
         "relationship": "prerequisite",
         "progression": "apply"
       }
@@ -10172,6 +10462,43 @@
     ]
   },
   {
+    "skill_id": "SK-POWER-VOCABULARY",
+    "description": "Recall and correctly use power-function terms including coefficient, exponent, direct variation, and inverse variation.",
+    "introduction_status": "mapped",
+    "first_introduced_course": "Math 39",
+    "inherited_note": null,
+    "courses": [
+      "Math 39",
+      "Math 49"
+    ],
+    "occurrences": [
+      {
+        "skill_id": "SK-POWER-VOCABULARY",
+        "course_id": "M39",
+        "course": "Math 39",
+        "unit_id": "M39-POW",
+        "unit_title": "Power Functions and Function Comparison",
+        "priority": "required",
+        "objective_id": "M39-POW-001",
+        "objective": "I can identify a power function and interpret the parameters in y = kx^p.",
+        "relationship": "prerequisite",
+        "progression": "introduce"
+      },
+      {
+        "skill_id": "SK-POWER-VOCABULARY",
+        "course_id": "M49",
+        "course": "Math 49",
+        "unit_id": "M49-PWR",
+        "unit_title": "Power Functions",
+        "priority": "required",
+        "objective_id": "M49-PWR-001",
+        "objective": "I can identify a power function and interpret the parameters in y = kx^p.",
+        "relationship": "prerequisite",
+        "progression": "reinforce"
+      }
+    ]
+  },
+  {
     "skill_id": "SK-PROB-AND",
     "description": "Calculate the probability of a compound and event.",
     "introduction_status": "mapped",
@@ -10364,6 +10691,30 @@
     ]
   },
   {
+    "skill_id": "SK-PROB-EXPECTED-NOTATION",
+    "description": "Read expected-value notation and recall the meanings of outcome, probability, payoff, and long-run average.",
+    "introduction_status": "mapped",
+    "first_introduced_course": "Math 39",
+    "inherited_note": null,
+    "courses": [
+      "Math 39"
+    ],
+    "occurrences": [
+      {
+        "skill_id": "SK-PROB-EXPECTED-NOTATION",
+        "course_id": "M39",
+        "course": "Math 39",
+        "unit_id": "M39-EV",
+        "unit_title": "Expected Value",
+        "priority": "extension",
+        "objective_id": "M39-EV-001",
+        "objective": "I can calculate the expected value of a discrete probability situation.",
+        "relationship": "prerequisite",
+        "progression": "introduce"
+      }
+    ]
+  },
+  {
     "skill_id": "SK-PROB-EXPECTED-VALUE",
     "description": "Calculate the expected value of a discrete probability situation.",
     "introduction_status": "mapped",
@@ -10466,6 +10817,42 @@
         "priority": "required",
         "objective_id": "M39-PRO-002",
         "objective": "I can calculate and interpret empirical, marginal, joint, and conditional probabilities from a contingency table.",
+        "relationship": "required",
+        "progression": "introduce"
+      }
+    ]
+  },
+  {
+    "skill_id": "SK-PROB-NOTATION-VOCAB",
+    "description": "Read and write probability notation and correctly use the terms outcome, event, sample space, complement, intersection, union, and conditional probability.",
+    "introduction_status": "mapped",
+    "first_introduced_course": "Math 39",
+    "inherited_note": null,
+    "courses": [
+      "Math 39"
+    ],
+    "occurrences": [
+      {
+        "skill_id": "SK-PROB-NOTATION-VOCAB",
+        "course_id": "M39",
+        "course": "Math 39",
+        "unit_id": "M39-PRO",
+        "unit_title": "Probability",
+        "priority": "required",
+        "objective_id": "M39-PRO-003",
+        "objective": "I can identify an experiment, outcomes, events, and a sample space.",
+        "relationship": "prerequisite",
+        "progression": "apply"
+      },
+      {
+        "skill_id": "SK-PROB-NOTATION-VOCAB",
+        "course_id": "M39",
+        "course": "Math 39",
+        "unit_id": "M39-PRO",
+        "unit_title": "Probability",
+        "priority": "required",
+        "objective_id": "M39-PRO-009",
+        "objective": "I can interpret and write notation for compound and conditional probabilities.",
         "relationship": "required",
         "progression": "introduce"
       }
@@ -11094,6 +11481,30 @@
         "objective": "I can use completing the square to rewrite a general-form conic equation in standard form.",
         "relationship": "required",
         "progression": "deepen"
+      }
+    ]
+  },
+  {
+    "skill_id": "SK-QUAD-DEFINITIONS",
+    "description": "Recall the definitions and defining properties of the major quadrilateral families.",
+    "introduction_status": "mapped",
+    "first_introduced_course": "Math 22",
+    "inherited_note": null,
+    "courses": [
+      "Math 22"
+    ],
+    "occurrences": [
+      {
+        "skill_id": "SK-QUAD-DEFINITIONS",
+        "course_id": "M22",
+        "course": "Math 22",
+        "unit_id": "M22-QUAD",
+        "unit_title": "Quadrilaterals, Perimeter, and Area",
+        "priority": "required",
+        "objective_id": "M22-QUAD-006",
+        "objective": "I can classify a quadrilateral from its stated or marked properties.",
+        "relationship": "prerequisite",
+        "progression": "introduce"
       }
     ]
   },
@@ -11767,6 +12178,43 @@
     ]
   },
   {
+    "skill_id": "SK-QUAD-VOCABULARY",
+    "description": "Recall and correctly use quadratic-function terms including parabola, vertex, axis of symmetry, intercept, zero, and solution.",
+    "introduction_status": "mapped",
+    "first_introduced_course": "Math 21",
+    "inherited_note": null,
+    "courses": [
+      "Math 21",
+      "Math 31"
+    ],
+    "occurrences": [
+      {
+        "skill_id": "SK-QUAD-VOCABULARY",
+        "course_id": "M21",
+        "course": "Math 21",
+        "unit_id": "M21-QUAD",
+        "unit_title": "Quadratic Functions and Equations",
+        "priority": "required",
+        "objective_id": "M21-QUAD-001",
+        "objective": "I can identify key features of a quadratic function from its graph or equation.",
+        "relationship": "prerequisite",
+        "progression": "introduce"
+      },
+      {
+        "skill_id": "SK-QUAD-VOCABULARY",
+        "course_id": "M31",
+        "course": "Math 31",
+        "unit_id": "M31-QUAD",
+        "unit_title": "Quadratic Functions and Equations",
+        "priority": "required",
+        "objective_id": "M31-QUAD-001",
+        "objective": "I can identify the vertex, intercepts, axis of symmetry, and concavity of a quadratic function.",
+        "relationship": "prerequisite",
+        "progression": "reinforce"
+      }
+    ]
+  },
+  {
     "skill_id": "SK-RAD-CHECK",
     "description": "Check a candidate solution for extraneous results.",
     "introduction_status": "mapped",
@@ -11944,6 +12392,30 @@
         "objective_id": "M21-EXP-005",
         "objective": "I can solve a basic equation involving a radical or rational exponent and check for extraneous solutions.",
         "relationship": "required",
+        "progression": "introduce"
+      }
+    ]
+  },
+  {
+    "skill_id": "SK-RAD-NOTATION-READ",
+    "description": "Read radical and rational-exponent notation and identify the index, radicand, base, numerator, and denominator.",
+    "introduction_status": "mapped",
+    "first_introduced_course": "Math 21",
+    "inherited_note": null,
+    "courses": [
+      "Math 21"
+    ],
+    "occurrences": [
+      {
+        "skill_id": "SK-RAD-NOTATION-READ",
+        "course_id": "M21",
+        "course": "Math 21",
+        "unit_id": "M21-EXP",
+        "unit_title": "Exponents and Radicals",
+        "priority": "required",
+        "objective_id": "M21-EXP-002",
+        "objective": "I can rewrite expressions between radical and rational-exponent forms.",
+        "relationship": "prerequisite",
         "progression": "introduce"
       }
     ]
@@ -12191,6 +12663,30 @@
     ]
   },
   {
+    "skill_id": "SK-RAT-FUNCTION-VOCAB",
+    "description": "Recall and correctly use rational-function terms including restriction, hole, asymptote, and end behavior.",
+    "introduction_status": "mapped",
+    "first_introduced_course": "Math 49",
+    "inherited_note": null,
+    "courses": [
+      "Math 49"
+    ],
+    "occurrences": [
+      {
+        "skill_id": "SK-RAT-FUNCTION-VOCAB",
+        "course_id": "M49",
+        "course": "Math 49",
+        "unit_id": "M49-RAT",
+        "unit_title": "Rational Functions and Limits",
+        "priority": "required",
+        "objective_id": "M49-ALG-006",
+        "objective": "I can identify holes and vertical, horizontal, or slant asymptotes of a rational function.",
+        "relationship": "prerequisite",
+        "progression": "introduce"
+      }
+    ]
+  },
+  {
     "skill_id": "SK-RAT-HOLE",
     "description": "Identify a removable discontinuity and its coordinates.",
     "introduction_status": "mapped",
@@ -12405,6 +12901,55 @@
         "objective": "I can interpret an infinite limit as vertical-asymptotic behavior.",
         "relationship": "required",
         "progression": "deepen"
+      }
+    ]
+  },
+  {
+    "skill_id": "SK-RAT-VOCABULARY",
+    "description": "Recall and correctly use rational-expression terms including numerator, denominator, restriction, and excluded value.",
+    "introduction_status": "mapped",
+    "first_introduced_course": "Math 21",
+    "inherited_note": null,
+    "courses": [
+      "Math 21",
+      "Math 49"
+    ],
+    "occurrences": [
+      {
+        "skill_id": "SK-RAT-VOCABULARY",
+        "course_id": "M21",
+        "course": "Math 21",
+        "unit_id": "M21-RAT",
+        "unit_title": "Rational Expressions and Equations",
+        "priority": "required",
+        "objective_id": "M21-RAT-001",
+        "objective": "I can state excluded values for a rational expression.",
+        "relationship": "prerequisite",
+        "progression": "introduce"
+      },
+      {
+        "skill_id": "SK-RAT-VOCABULARY",
+        "course_id": "M21",
+        "course": "Math 21",
+        "unit_id": "M21-RAT",
+        "unit_title": "Rational Expressions and Equations",
+        "priority": "required",
+        "objective_id": "M21-RAT-002",
+        "objective": "I can simplify a rational expression while preserving its restrictions.",
+        "relationship": "prerequisite",
+        "progression": "apply"
+      },
+      {
+        "skill_id": "SK-RAT-VOCABULARY",
+        "course_id": "M49",
+        "course": "Math 49",
+        "unit_id": "M49-RAT",
+        "unit_title": "Rational Functions and Limits",
+        "priority": "required",
+        "objective_id": "M49-ALG-006",
+        "objective": "I can identify holes and vertical, horizontal, or slant asymptotes of a rational function.",
+        "relationship": "prerequisite",
+        "progression": "reinforce"
       }
     ]
   },
@@ -12692,6 +13237,30 @@
         "objective_id": "M39-POW-008",
         "objective": "I can linearize power or exponential data and translate between the linearized and original models.",
         "relationship": "required",
+        "progression": "introduce"
+      }
+    ]
+  },
+  {
+    "skill_id": "SK-REG-VOCABULARY",
+    "description": "Recall and correctly use regression terms including explanatory variable, response variable, correlation, residual, and residual plot.",
+    "introduction_status": "mapped",
+    "first_introduced_course": "Math 39",
+    "inherited_note": null,
+    "courses": [
+      "Math 39"
+    ],
+    "occurrences": [
+      {
+        "skill_id": "SK-REG-VOCABULARY",
+        "course_id": "M39",
+        "course": "Math 39",
+        "unit_id": "M39-LIN",
+        "unit_title": "Linear Modeling and Residuals",
+        "priority": "required",
+        "objective_id": "M39-LIN-003",
+        "objective": "I can fit a linear regression model to data using technology and interpret its parameters.",
+        "relationship": "prerequisite",
         "progression": "introduce"
       }
     ]
@@ -13536,6 +14105,30 @@
     ]
   },
   {
+    "skill_id": "SK-SEQ-VOCABULARY",
+    "description": "Recall and correctly use the terms sequence, term, index, explicit formula, recursive formula, arithmetic sequence, and geometric sequence.",
+    "introduction_status": "mapped",
+    "first_introduced_course": "Math 49",
+    "inherited_note": null,
+    "courses": [
+      "Math 49"
+    ],
+    "occurrences": [
+      {
+        "skill_id": "SK-SEQ-VOCABULARY",
+        "course_id": "M49",
+        "course": "Math 49",
+        "unit_id": "M49-SS",
+        "unit_title": "Sequences and Series",
+        "priority": "required",
+        "objective_id": "M49-SEQ-001",
+        "objective": "I can evaluate and graph a sequence defined explicitly or recursively.",
+        "relationship": "prerequisite",
+        "progression": "introduce"
+      }
+    ]
+  },
+  {
     "skill_id": "SK-SER-ARITHMETIC",
     "description": "Apply an arithmetic-series sum formula.",
     "introduction_status": "mapped",
@@ -13687,6 +14280,30 @@
         "objective_id": "M49-SER-001",
         "objective": "I can interpret and use summation notation.",
         "relationship": "required",
+        "progression": "introduce"
+      }
+    ]
+  },
+  {
+    "skill_id": "SK-SER-VOCABULARY",
+    "description": "Recall and correctly use the terms series, partial sum, sigma notation, finite series, infinite series, and convergence.",
+    "introduction_status": "mapped",
+    "first_introduced_course": "Math 49",
+    "inherited_note": null,
+    "courses": [
+      "Math 49"
+    ],
+    "occurrences": [
+      {
+        "skill_id": "SK-SER-VOCABULARY",
+        "course_id": "M49",
+        "course": "Math 49",
+        "unit_id": "M49-SS",
+        "unit_title": "Sequences and Series",
+        "priority": "required",
+        "objective_id": "M49-SER-001",
+        "objective": "I can interpret and use summation notation.",
+        "relationship": "prerequisite",
         "progression": "introduce"
       }
     ]
@@ -13927,6 +14544,30 @@
         "objective_id": "M22-SIM-007",
         "objective": "I can apply triangle proportionality theorems and their converses.",
         "relationship": "required",
+        "progression": "introduce"
+      }
+    ]
+  },
+  {
+    "skill_id": "SK-SIM-VOCAB",
+    "description": "Recall and correctly use the terms similarity, dilation, scale factor, and corresponding parts.",
+    "introduction_status": "mapped",
+    "first_introduced_course": "Math 22",
+    "inherited_note": null,
+    "courses": [
+      "Math 22"
+    ],
+    "occurrences": [
+      {
+        "skill_id": "SK-SIM-VOCAB",
+        "course_id": "M22",
+        "course": "Math 22",
+        "unit_id": "M22-SIM",
+        "unit_title": "Similarity and Proportional Reasoning",
+        "priority": "required",
+        "objective_id": "M22-SIM-002",
+        "objective": "I can identify the scale factor of a dilation or similarity relationship.",
+        "relationship": "prerequisite",
         "progression": "introduce"
       }
     ]
@@ -14407,6 +15048,30 @@
         "objective_id": "M39-STA-007",
         "objective": "I can calculate and interpret range, standard deviation, quartiles, and interquartile range.",
         "relationship": "required",
+        "progression": "introduce"
+      }
+    ]
+  },
+  {
+    "skill_id": "SK-STAT-VOCABULARY",
+    "description": "Recall and correctly use terms for data type, distribution shape, center, spread, percentile, and outlier.",
+    "introduction_status": "mapped",
+    "first_introduced_course": "Math 39",
+    "inherited_note": null,
+    "courses": [
+      "Math 39"
+    ],
+    "occurrences": [
+      {
+        "skill_id": "SK-STAT-VOCABULARY",
+        "course_id": "M39",
+        "course": "Math 39",
+        "unit_id": "M39-STA",
+        "unit_title": "Describing Data",
+        "priority": "required",
+        "objective_id": "M39-STA-005",
+        "objective": "I can describe a distribution's modality, symmetry, skewness, and outliers.",
+        "relationship": "prerequisite",
         "progression": "introduce"
       }
     ]
@@ -14938,6 +15603,42 @@
     ]
   },
   {
+    "skill_id": "SK-TRI-CONGRUENCE-VOCAB",
+    "description": "Recall and correctly use terminology and notation for triangle classification, congruence, and corresponding parts.",
+    "introduction_status": "mapped",
+    "first_introduced_course": "Math 22",
+    "inherited_note": null,
+    "courses": [
+      "Math 22"
+    ],
+    "occurrences": [
+      {
+        "skill_id": "SK-TRI-CONGRUENCE-VOCAB",
+        "course_id": "M22",
+        "course": "Math 22",
+        "unit_id": "M22-CON",
+        "unit_title": "Triangle Congruence and Proof",
+        "priority": "required",
+        "objective_id": "M22-CON-001",
+        "objective": "I can classify triangles by sides and angles.",
+        "relationship": "prerequisite",
+        "progression": "introduce"
+      },
+      {
+        "skill_id": "SK-TRI-CONGRUENCE-VOCAB",
+        "course_id": "M22",
+        "course": "Math 22",
+        "unit_id": "M22-CON",
+        "unit_title": "Triangle Congruence and Proof",
+        "priority": "required",
+        "objective_id": "M22-CON-003",
+        "objective": "I can write a congruence statement with corresponding vertices in the correct order.",
+        "relationship": "prerequisite",
+        "progression": "apply"
+      }
+    ]
+  },
+  {
     "skill_id": "SK-TRI-EXTERIOR-ANGLE",
     "description": "Apply the triangle exterior-angle theorem.",
     "introduction_status": "mapped",
@@ -15079,6 +15780,30 @@
         "objective": "I can evaluate trigonometric functions from a point on a circle or terminal side.",
         "relationship": "prerequisite",
         "progression": "apply"
+      }
+    ]
+  },
+  {
+    "skill_id": "SK-TRI-RIGHT-VOCAB",
+    "description": "Recall and correctly use the terms leg, hypotenuse, opposite side, adjacent side, and trigonometric ratio.",
+    "introduction_status": "mapped",
+    "first_introduced_course": "Math 22",
+    "inherited_note": null,
+    "courses": [
+      "Math 22"
+    ],
+    "occurrences": [
+      {
+        "skill_id": "SK-TRI-RIGHT-VOCAB",
+        "course_id": "M22",
+        "course": "Math 22",
+        "unit_id": "M22-RGT",
+        "unit_title": "Right Triangles",
+        "priority": "required",
+        "objective_id": "M22-RGT-007",
+        "objective": "I can select sine, cosine, or tangent for a right-triangle problem.",
+        "relationship": "prerequisite",
+        "progression": "introduce"
       }
     ]
   },
@@ -16023,6 +16748,30 @@
     ]
   },
   {
+    "skill_id": "SK-TRIG-GRAPH-VOCAB",
+    "description": "Recall and correctly use the terms amplitude, midline, period, phase shift, vertical shift, and asymptote.",
+    "introduction_status": "mapped",
+    "first_introduced_course": "Math 32",
+    "inherited_note": null,
+    "courses": [
+      "Math 32"
+    ],
+    "occurrences": [
+      {
+        "skill_id": "SK-TRIG-GRAPH-VOCAB",
+        "course_id": "M32",
+        "course": "Math 32",
+        "unit_id": "M32-GRF",
+        "unit_title": "Periodic Functions and Modeling",
+        "priority": "required",
+        "objective_id": "M32-GRF-002",
+        "objective": "I can identify amplitude, midline, period, and phase shift from an equation or graph.",
+        "relationship": "prerequisite",
+        "progression": "introduce"
+      }
+    ]
+  },
+  {
     "skill_id": "SK-TRIG-IDENTITY-COFUNCTION",
     "description": "Apply sine/cosine cofunction identities.",
     "introduction_status": "mapped",
@@ -16467,6 +17216,42 @@
     ]
   },
   {
+    "skill_id": "SK-TRIG-INVERSE-NOTATION",
+    "description": "Read inverse-trigonometric notation and distinguish it from reciprocal notation.",
+    "introduction_status": "mapped",
+    "first_introduced_course": "Math 32",
+    "inherited_note": null,
+    "courses": [
+      "Math 32"
+    ],
+    "occurrences": [
+      {
+        "skill_id": "SK-TRIG-INVERSE-NOTATION",
+        "course_id": "M32",
+        "course": "Math 32",
+        "unit_id": "M32-INV",
+        "unit_title": "Inverse Functions and Trigonometric Equations",
+        "priority": "required",
+        "objective_id": "M32-INV-001",
+        "objective": "I can evaluate inverse sine, inverse cosine, and inverse tangent expressions.",
+        "relationship": "prerequisite",
+        "progression": "apply"
+      },
+      {
+        "skill_id": "SK-TRIG-INVERSE-NOTATION",
+        "course_id": "M32",
+        "course": "Math 32",
+        "unit_id": "M32-INV",
+        "unit_title": "Inverse Functions and Trigonometric Equations",
+        "priority": "required",
+        "objective_id": "M32-INV-006",
+        "objective": "I can read inverse-trigonometric notation and distinguish it from reciprocal notation.",
+        "relationship": "required",
+        "progression": "introduce"
+      }
+    ]
+  },
+  {
     "skill_id": "SK-TRIG-INVERSE-RANGE",
     "description": "Recall the principal-value ranges of inverse trigonometric functions.",
     "introduction_status": "mapped",
@@ -16635,6 +17420,30 @@
     ]
   },
   {
+    "skill_id": "SK-TRIG-NOTATION-VOCAB",
+    "description": "Recall the six trigonometric functions, their reciprocal relationships, and their notation.",
+    "introduction_status": "mapped",
+    "first_introduced_course": "Math 32",
+    "inherited_note": null,
+    "courses": [
+      "Math 32"
+    ],
+    "occurrences": [
+      {
+        "skill_id": "SK-TRIG-NOTATION-VOCAB",
+        "course_id": "M32",
+        "course": "Math 32",
+        "unit_id": "M32-FND",
+        "unit_title": "Trigonometric Foundations",
+        "priority": "required",
+        "objective_id": "M32-FND-007",
+        "objective": "I can evaluate all six trigonometric functions exactly for common angles.",
+        "relationship": "prerequisite",
+        "progression": "introduce"
+      }
+    ]
+  },
+  {
     "skill_id": "SK-TRIG-RECIPROCAL",
     "description": "Relate sine/cosecant, cosine/secant, and tangent/cotangent.",
     "introduction_status": "mapped",
@@ -16679,6 +17488,18 @@
         "objective": "I can graph tangent, secant, and cosecant functions with their asymptotes.",
         "relationship": "required",
         "progression": "deepen"
+      },
+      {
+        "skill_id": "SK-TRIG-RECIPROCAL",
+        "course_id": "M32",
+        "course": "Math 32",
+        "unit_id": "M32-INV",
+        "unit_title": "Inverse Functions and Trigonometric Equations",
+        "priority": "required",
+        "objective_id": "M32-INV-006",
+        "objective": "I can read inverse-trigonometric notation and distinguish it from reciprocal notation.",
+        "relationship": "prerequisite",
+        "progression": "apply"
       }
     ]
   },
@@ -17211,6 +18032,30 @@
         "objective": "I can perform basic operations with vectors in three dimensions.",
         "relationship": "required",
         "progression": "deepen"
+      }
+    ]
+  },
+  {
+    "skill_id": "SK-VEC-NOTATION-VOCAB",
+    "description": "Read and write vector notation and correctly use the terms magnitude, direction, component, and unit vector.",
+    "introduction_status": "mapped",
+    "first_introduced_course": "Math 32",
+    "inherited_note": null,
+    "courses": [
+      "Math 32"
+    ],
+    "occurrences": [
+      {
+        "skill_id": "SK-VEC-NOTATION-VOCAB",
+        "course_id": "M32",
+        "course": "Math 32",
+        "unit_id": "M32-VEC",
+        "unit_title": "Vectors",
+        "priority": "extension",
+        "objective_id": "M32-VEC-001",
+        "objective": "I can represent a vector geometrically and in component form.",
+        "relationship": "prerequisite",
+        "progression": "introduce"
       }
     ]
   },

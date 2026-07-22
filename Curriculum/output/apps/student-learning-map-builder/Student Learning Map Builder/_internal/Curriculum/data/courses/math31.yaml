@@ -1,0 +1,112 @@
+schema_version: 1
+course:
+  id: M31
+  number: Math 31
+  title: Advanced Algebra
+  status: draft
+  source: source_documents/Math 31 Course Map.docx
+
+units:
+  - id: M31-REV
+    title: Review Content
+    priority: review
+    objectives:
+      - {id: M31-REV-001, statement: "I can calculate a percentage, percent increase, or percent decrease."}
+      - {id: M31-REV-002, statement: "I can simplify an expression using exponent properties."}
+      - {id: M31-REV-003, statement: "I can use polynomial vocabulary to distinguish terms, factors, coefficients, degree, and polynomial structure."}
+      - {id: M31-REV-004, statement: "I can expand a product of two binomials."}
+
+  - id: M31-LIN
+    title: Linear Functions and Function Notation
+    priority: required
+    objectives:
+      - {id: M31-LIN-001, statement: "I can interpret function notation as a statement about input and output."}
+      - {id: M31-LIN-002, statement: "I can determine whether a graph or table represents a function."}
+      - {id: M31-LIN-003, statement: "I can evaluate a function or solve for an input using a graph, table, or formula."}
+      - {id: M31-LIN-004, statement: "I can identify independent and dependent variables in a relationship."}
+      - {id: M31-LIN-005, statement: "I can calculate average rate of change from two points."}
+      - {id: M31-LIN-006, statement: "I can interpret interval notation and identify increasing or decreasing intervals."}
+      - {id: M31-LIN-007, statement: "I can determine total change from an average rate of change over an interval."}
+      - {id: M31-LIN-008, statement: "I can determine and interpret the units of an average rate of change."}
+      - {id: M31-LIN-009, statement: "I can identify a linear function from a table, graph, or formula."}
+      - {id: M31-LIN-010, statement: "I can interpret the slope and intercept of a linear model."}
+      - {id: M31-LIN-011, statement: "I can determine the intersection of two linear relationships graphically or algebraically."}
+      - {id: M31-LIN-012, statement: "I can write equations of horizontal, vertical, parallel, and perpendicular lines through a specified point."}
+
+  - id: M31-FUN
+    title: Function Behavior and Structure
+    priority: required
+    objectives:
+      - {id: M31-FUN-001, statement: "I can determine whether a relation is a function."}
+      - {id: M31-FUN-002, statement: "I can evaluate a function from a formula, graph, or table."}
+      - {id: M31-FUN-003, statement: "I can determine domain and range from a formula, graph, or table."}
+      - {id: M31-FUN-004, statement: "I can determine algebraic domain restrictions caused by denominators and even roots."}
+      - {id: M31-FUN-005, statement: "I can graph a piecewise function from its formula."}
+      - {id: M31-FUN-006, statement: "I can write a piecewise formula that represents a graph."}
+      - {id: M31-FUN-007, statement: "I can graph a transformed function using shifts, stretches, compressions, and reflections."}
+      - {id: M31-FUN-008, statement: "I can describe how a transformation affects domain, range, or asymptotes."}
+      - {id: M31-FUN-009, statement: "I can evaluate a composition from formulas, graphs, or tables."}
+      - {id: M31-FUN-010, statement: "I can write a formula for a composition of two functions."}
+      - {id: M31-FUN-011, statement: "I can find an inverse function algebraically."}
+      - {id: M31-FUN-012, statement: "I can evaluate and interpret an inverse from a graph, formula, or table."}
+      - {id: M31-FUN-013, statement: "I can determine and interpret the units of an inverse function."}
+      - {id: M31-FUN-014, statement: "I can explain how the domain and range of a function relate to those of its inverse."}
+      - {id: M31-FUN-015, statement: "I can determine the range of a function by analyzing the domain of its inverse."}
+      - {id: M31-FUN-016, statement: "I can verify algebraically that two functions are inverses."}
+      - {id: M31-FUN-017, statement: "I can interpret the meaning and units of a composition."}
+      - {id: M31-FUN-018, statement: "I can classify a graph or table as concave up or concave down using changes in average rate of change."}
+      - {id: M31-FUN-019, statement: "I can determine whether a function is invertible using the horizontal line test."}
+      - {id: M31-FUN-020, statement: "I can graph an inverse function as a reflection across the line `y = x`."}
+
+  - id: M31-QUAD
+    title: Quadratic Functions and Equations
+    priority: required
+    objectives:
+      - {id: M31-QUAD-001, statement: "I can identify the vertex, intercepts, axis of symmetry, and concavity of a quadratic function."}
+      - {id: M31-QUAD-002, statement: "I can connect standard, factored, and vertex forms to features of a quadratic graph."}
+      - {id: M31-QUAD-003, statement: "I can rewrite a quadratic function in a form that reveals a requested feature."}
+      - {id: M31-QUAD-004, statement: "I can solve a quadratic equation by factoring or using the quadratic formula."}
+      - {id: M31-QUAD-005, statement: "I can graph a quadratic function using its algebraic structure and key features."}
+      - {id: M31-QUAD-006, statement: "I can construct a quadratic function from specified zeros, a vertex, or graphical information."}
+      - {id: M31-QUAD-007, statement: "I can create and interpret a quadratic trajectory model."}
+
+  - id: M31-EXP
+    title: Exponential Functions and Models
+    priority: required
+    objectives:
+      - {id: M31-EXP-001, statement: "I can distinguish linear change from exponential change using differences, ratios, or percent change."}
+      - {id: M31-EXP-002, statement: "I can identify initial value and growth or decay factor in an exponential model."}
+      - {id: M31-EXP-003, statement: "I can write an exponential function from a table, graph, or context."}
+      - {id: M31-EXP-004, statement: "I can evaluate and interpret an exponential model."}
+      - {id: M31-EXP-005, statement: "I can calculate growth under periodic compounding."}
+      - {id: M31-EXP-006, statement: "I can calculate growth under continuous compounding."}
+      - {id: M31-EXP-007, statement: "I can determine an exponential formula from two points or other sufficient data."}
+      - {id: M31-EXP-008, statement: "I can determine domain, range, intercepts, and asymptotes of an exponential function."}
+      - {id: M31-EXP-009, statement: "I can compare the growth rates of two exponential functions."}
+      - {id: M31-EXP-010, statement: "I can determine the percent growth or decay represented by a continuous exponential model."}
+
+  - id: M31-LOG
+    title: Logarithmic Functions and Models
+    priority: required
+    objectives:
+      - {id: M31-LOG-001, statement: "I can convert between logarithmic and exponential forms."}
+      - {id: M31-LOG-002, statement: "I can evaluate a logarithm using its exponential meaning."}
+      - {id: M31-LOG-003, statement: "I can expand or condense an expression using product, quotient, and power properties."}
+      - {id: M31-LOG-004, statement: "I can solve an exponential equation using logarithms."}
+      - {id: M31-LOG-005, statement: "I can solve a logarithmic equation using exponential form and check domain restrictions."}
+      - {id: M31-LOG-006, statement: "I can calculate and interpret doubling time or half-life."}
+      - {id: M31-LOG-007, statement: "I can determine domain, range, intercepts, and asymptotes of a logarithmic function."}
+      - {id: M31-LOG-008, statement: "I can explain how exponential and logarithmic functions undo one another."}
+      - {id: M31-LOG-009, statement: "I can solve a multi-step exponential or logarithmic equation."}
+      - {id: M31-LOG-010, statement: "I can determine an intersection of exponential functions graphically or algebraically."}
+      - {id: M31-LOG-011, statement: "I can rewrite a discrete exponential model as an equivalent continuous exponential model."}
+      - {id: M31-LOG-012, statement: "I can solve and interpret an exponential or logarithmic modeling problem."}
+
+  - id: M31-EXT
+    title: Extension Content
+    priority: extension
+    objectives:
+      - {id: M31-EXT-001, statement: "I can analyze an absolute-value function using transformations."}
+      - {id: M31-EXT-002, statement: "I can determine even or odd symmetry from a graph or formula."}
+      - {id: M31-EXT-003, statement: "I can interpret a contextual logarithmic scale."}
+

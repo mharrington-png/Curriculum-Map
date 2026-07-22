@@ -18,6 +18,7 @@ Math 32 reuses canonical skills defined in the earlier algebra libraries rather 
 
 ## Angle and Triangle Skills
 
+- **SK-TRIG-NOTATION-VOCAB:** Recall the six trigonometric functions, their reciprocal relationships, and their notation.
 - **SK-TRIG-ANGLE-CONVERT:** Convert between degree and radian measure.
 - **SK-TRIG-ANGLE-COTERMINAL:** Generate and recognize coterminal angles.
 - **SK-TRIG-ANGLE-REFERENCE:** Determine a reference angle and its quadrant.
@@ -40,6 +41,7 @@ Math 32 reuses canonical skills defined in the earlier algebra libraries rather 
 
 ## Graphing and Modeling Skills
 
+- **SK-TRIG-GRAPH-VOCAB:** Recall and correctly use the terms amplitude, midline, period, phase shift, vertical shift, and asymptote.
 - **SK-TRIG-GRAPH-KEYPOINTS:** Locate quarter-period key points of a periodic function.
 - **SK-TRIG-GRAPH-AMPLITUDE:** Determine amplitude and vertical reflection.
 - **SK-TRIG-GRAPH-MIDLINE:** Determine a sinusoid's midline and vertical shift.
@@ -50,6 +52,7 @@ Math 32 reuses canonical skills defined in the earlier algebra libraries rather 
 
 ## Equation and Identity Skills
 
+- **SK-TRIG-INVERSE-NOTATION:** Read inverse-trigonometric notation and distinguish it from reciprocal notation.
 - **SK-TRIG-INVERSE-RANGE:** Recall the principal-value ranges of inverse trigonometric functions.
 - **SK-TRIG-INVERSE-EVALUATE:** Evaluate an inverse trigonometric expression exactly or approximately.
 - **SK-TRIG-EQUATION-ISOLATE:** Isolate a trigonometric expression before solving.
@@ -68,6 +71,9 @@ Math 32 reuses canonical skills defined in the earlier algebra libraries rather 
 
 ## Polar, Vector, and Parametric Skills
 
+- **SK-POL-NOTATION-READ:** Read and write polar-coordinate notation and identify the radius, angle, pole, and polar axis.
+- **SK-VEC-NOTATION-VOCAB:** Read and write vector notation and correctly use the terms magnitude, direction, component, and unit vector.
+- **SK-PAR-NOTATION-VOCAB:** Read parametric notation and correctly use the terms parameter, coordinate equation, orientation, and parameter interval.
 - **SK-POL-PLOT:** Plot a point from radius and angle.
 - **SK-POL-EQUIVALENT:** Generate equivalent polar coordinate pairs.
 - **SK-POL-CONVERT-POINT:** Use coordinate relationships to convert a point between systems.

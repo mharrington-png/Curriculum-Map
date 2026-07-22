@@ -36,6 +36,7 @@ mappings:
 
   - objective_id: M22-BAS-001
     skills:
+      - {skill_id: SK-GEO-FOUNDATIONAL-DEFINITIONS, relationship: prerequisite, progression: introduce}
       - {skill_id: SK-GEO-NOTATION, relationship: required, progression: introduce}
       - {skill_id: SK-GEO-DIAGRAM-MARK, relationship: required, progression: introduce}
 
@@ -104,6 +105,7 @@ mappings:
 
   - objective_id: M22-CON-001
     skills:
+      - {skill_id: SK-TRI-CONGRUENCE-VOCAB, relationship: prerequisite, progression: introduce}
       - {skill_id: SK-TRI-CLASSIFY, relationship: required, progression: introduce}
       - {skill_id: SK-GEO-DIAGRAM-MARK, relationship: required, progression: apply}
 
@@ -115,6 +117,7 @@ mappings:
 
   - objective_id: M22-CON-003
     skills:
+      - {skill_id: SK-TRI-CONGRUENCE-VOCAB, relationship: prerequisite, progression: apply}
       - {skill_id: SK-GEO-CORRESPONDENCE, relationship: required, progression: introduce}
       - {skill_id: SK-PROOF-CONGRUENCE-ORDER, relationship: required, progression: introduce}
 
@@ -184,6 +187,7 @@ mappings:
 
   - objective_id: M22-QUAD-006
     skills:
+      - {skill_id: SK-QUAD-DEFINITIONS, relationship: prerequisite, progression: introduce}
       - {skill_id: SK-QUAD-HIERARCHY, relationship: required, progression: deepen}
       - {skill_id: SK-GEO-DIAGRAM-INFER, relationship: required, progression: apply}
 
@@ -215,6 +219,7 @@ mappings:
 
   - objective_id: M22-SIM-002
     skills:
+      - {skill_id: SK-SIM-VOCAB, relationship: prerequisite, progression: introduce}
       - {skill_id: SK-SIM-SCALE-FACTOR, relationship: required, progression: deepen}
       - {skill_id: SK-ALG-CROSS-MULTIPLY, relationship: method-dependent, progression: apply}
 
@@ -285,6 +290,7 @@ mappings:
 
   - objective_id: M22-RGT-007
     skills:
+      - {skill_id: SK-TRI-RIGHT-VOCAB, relationship: prerequisite, progression: introduce}
       - {skill_id: SK-TRIG-TRIANGLE-LABEL, relationship: required, progression: introduce}
       - {skill_id: SK-TRI-TRIG-RATIO, relationship: required, progression: introduce}
       - {skill_id: SK-GEO-DIAGRAM-MARK, relationship: prerequisite, progression: apply}
@@ -311,7 +317,7 @@ mappings:
 
   - objective_id: M22-CIR-001
     skills:
-      - {skill_id: SK-CIR-VOCAB, relationship: required, progression: introduce}
+      - {skill_id: SK-CIR-VOCAB, relationship: required, progression: apply}
       - {skill_id: SK-GEO-NOTATION, relationship: required, progression: apply}
 
   - objective_id: M22-CIR-002
@@ -337,7 +343,7 @@ mappings:
   - objective_id: M22-CIR-005
     skills:
       - {skill_id: SK-CIR-CHORD-RELATION, relationship: required, progression: introduce}
-      - {skill_id: SK-CIR-VOCAB, relationship: prerequisite, progression: apply}
+      - {skill_id: SK-CIR-VOCAB, relationship: prerequisite, progression: introduce}
 
   - objective_id: M22-CIR-006
     skills:

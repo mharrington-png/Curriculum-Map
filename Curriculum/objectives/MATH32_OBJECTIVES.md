@@ -28,6 +28,7 @@ These draft objectives follow the department standard: observable, one primary o
 
 ## Unit 3: Inverse Functions and Trigonometric Equations (`M32-INV`)
 
+- **M32-INV-006:** I can read inverse-trigonometric notation and distinguish it from reciprocal notation.
 - **M32-INV-001:** I can evaluate inverse sine, inverse cosine, and inverse tangent expressions.
 - **M32-INV-002:** I can explain how restricted domains make inverse trigonometric functions possible.
 - **M32-INV-003:** I can solve trigonometric equations exactly or approximately on a specified interval.

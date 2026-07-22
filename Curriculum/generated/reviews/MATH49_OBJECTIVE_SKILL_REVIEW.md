@@ -1,4 +1,4 @@
-# Math 49 Objective-to-Skill Mapping Review
+# M49 Objective-to-Skill Mapping Review
 
 This teacher-facing view combines each learning objective with the supporting skills currently mapped to it. The YAML files remain the structured source; this document is generated for review.
 
@@ -94,6 +94,7 @@ Objective ID: `M49-OPS-002`
 
 | Supporting skill | Relationship | Course role | Skill ID |
 |---|---|---|---|
+| Read and write notation for function composition and inverse functions. | Prerequisite | Reinforce | `SK-FUNC-STRUCTURE-NOTATION` |
 | Substitute one function formula into another. | Required | Deepen | `SK-FUNC-COMPOSE-FORMULA` |
 | Follow intermediate values to compose functions from tables. | Required | Deepen | `SK-FUNC-COMPOSE-TABLE` |
 | Identify input and output values in a formula, graph, table, or context. | Prerequisite | Apply | `SK-FUNC-INPUT-OUTPUT` |
@@ -145,18 +146,78 @@ Objective ID: `M49-OPS-007`
 | Exchange domain and range between a function and its inverse. | Required | Deepen | `SK-FUNC-INVERSE-DOMAIN-RANGE` |
 | Reverse input and output units when interpreting an inverse. | Method-dependent | Deepen | `SK-FUNC-INVERSE-UNITS` |
 
-## Required - Power, Polynomial, and Rational Functions
+## Required - Power Functions
 
-### I can identify and model direct, inverse, and power variation.
+### I can identify a power function and interpret the parameters in y = kx^p.
 
-Objective ID: `M49-ALG-001`
+Objective ID: `M49-PWR-001`
 
 | Supporting skill | Relationship | Course role | Skill ID |
 |---|---|---|---|
-| Represent and interpret a direct-variation relationship. | Required | Introduce | `SK-VAR-DIRECT` |
-| Represent and interpret an inverse-variation relationship. | Required | Introduce | `SK-VAR-INVERSE` |
-| Represent and interpret a power-variation relationship. | Required | Introduce | `SK-VAR-POWER` |
-| Explain a model parameter in the language of its context. | Required | Apply | `SK-MODEL-PARAMETER-INTERPRET` |
+| Recall and correctly use power-function terms including coefficient, exponent, direct variation, and inverse variation. | Prerequisite | Reinforce | `SK-POWER-VOCABULARY` |
+| Represent and interpret a power-variation relationship. | Required | Deepen | `SK-VAR-POWER` |
+| Interpret the coefficient and exponent in a power function. | Required | Deepen | `SK-POWER-PARAMETER-INTERPRET` |
+
+### I can construct a power function from two data points or a proportional relationship.
+
+Objective ID: `M49-PWR-002`
+
+| Supporting skill | Relationship | Course role | Skill ID |
+|---|---|---|---|
+| Determine a power function from two points or a proportional relationship. | Required | Deepen | `SK-POWER-CONSTRUCT` |
+| Isolate a specified variable in an equation or formula. | Prerequisite | Apply | `SK-ALG-VARIABLE-ISOLATE` |
+
+### I can relate the sign and size of k and p to the shape, domain behavior, and end behavior of a power function.
+
+Objective ID: `M49-PWR-003`
+
+| Supporting skill | Relationship | Course role | Skill ID |
+|---|---|---|---|
+| Relate the coefficient and exponent of a power function to its graph shape. | Required | Deepen | `SK-POWER-SHAPE` |
+| Determine power-function behavior as the input approaches zero or positive or negative infinity. | Required | Deepen | `SK-POWER-END-BEHAVIOR` |
+| Connect parameters in a formula to features of its graph. | Required | Apply | `SK-REP-FORMULA-GRAPH` |
+
+### I can recognize and model direct, inverse, and other power-variation relationships.
+
+Objective ID: `M49-PWR-004`
+
+| Supporting skill | Relationship | Course role | Skill ID |
+|---|---|---|---|
+| Represent and interpret a direct-variation relationship. | Required | Deepen | `SK-VAR-DIRECT` |
+| Represent and interpret an inverse-variation relationship. | Required | Deepen | `SK-VAR-INVERSE` |
+| Represent and interpret a power-variation relationship. | Required | Deepen | `SK-VAR-POWER` |
+
+### I can solve equations involving integer or rational powers.
+
+Objective ID: `M49-PWR-005`
+
+| Supporting skill | Relationship | Course role | Skill ID |
+|---|---|---|---|
+| Interpret numerator and denominator roles in a rational exponent. | Required | Deepen | `SK-EXP-RATIONAL` |
+| Use inverse operations to maintain an equivalent equation. | Prerequisite | Apply | `SK-ALG-INVERSE-OPERATIONS` |
+
+### I can build or select a power-function model for a context and interpret its parameters.
+
+Objective ID: `M49-PWR-007`
+
+| Supporting skill | Relationship | Course role | Skill ID |
+|---|---|---|---|
+| Select a function family whose behavior fits a table, graph, or context. | Required | Introduce | `SK-MODEL-FAMILY-SELECT` |
+| Determine a power function from two points or a proportional relationship. | Required | Apply | `SK-POWER-CONSTRUCT` |
+| Explain a model parameter in the language of its context. | Required | Deepen | `SK-MODEL-PARAMETER-INTERPRET` |
+| Restrict a model to meaningful contextual inputs. | Required | Apply | `SK-MODEL-VALID-DOMAIN` |
+
+### I can analyze power functions with fractional exponents, including their domains, graph shapes, and behavior near zero.
+
+Objective ID: `M49-PWR-008`
+
+| Supporting skill | Relationship | Course role | Skill ID |
+|---|---|---|---|
+| Analyze the domain, graph shape, and behavior near zero of a power function with a fractional exponent. | Required | Introduce | `SK-POWER-FRACTIONAL-ANALYZE` |
+| Interpret numerator and denominator roles in a rational exponent. | Prerequisite | Apply | `SK-EXP-RATIONAL` |
+| Require an even-root radicand to be nonnegative when determining domain. | Method-dependent | Apply | `SK-FUNC-DOMAIN-EVEN-ROOT` |
+
+## Required - Polynomial Functions
 
 ### I can predict the end behavior of a polynomial from its degree and leading coefficient.
 
@@ -165,7 +226,7 @@ Objective ID: `M49-ALG-002`
 | Supporting skill | Relationship | Course role | Skill ID |
 |---|---|---|---|
 | Infer polynomial end behavior from degree and leading coefficient. | Required | Introduce | `SK-POLY-END-BEHAVIOR` |
-| Identify terms, factors, coefficients, variables, and degree in a polynomial expression. | Prerequisite | Apply | `SK-POLY-VOCABULARY` |
+| Identify terms, factors, coefficients, variables, and degree in a polynomial expression. | Prerequisite | Reinforce | `SK-POLY-VOCABULARY` |
 
 ### I can determine polynomial zeros and their multiplicities.
 
@@ -173,6 +234,7 @@ Objective ID: `M49-ALG-003`
 
 | Supporting skill | Relationship | Course role | Skill ID |
 |---|---|---|---|
+| Identify terms, factors, coefficients, variables, and degree in a polynomial expression. | Prerequisite | Apply | `SK-POLY-VOCABULARY` |
 | Determine real and complex zeros using an appropriate method. | Required | Deepen | `SK-POLY-ZEROS` |
 | Relate zero multiplicity to local graph behavior. | Required | Introduce | `SK-POLY-MULTIPLICITY` |
 
@@ -196,12 +258,38 @@ Objective ID: `M49-ALG-005`
 | Determine real and complex zeros using an appropriate method. | Required | Apply | `SK-POLY-ZEROS` |
 | Relate zero multiplicity to local graph behavior. | Required | Deepen | `SK-POLY-MULTIPLICITY` |
 
+### I can determine the minimum possible degree of a polynomial function from the zeros, turning points, inflection points, and end behavior of its graph.
+
+Objective ID: `M49-POL-002`
+
+| Supporting skill | Relationship | Course role | Skill ID |
+|---|---|---|---|
+| Use zeros and their multiplicities to establish a minimum possible polynomial degree. | Required | Introduce | `SK-POLY-DEGREE-ZEROS` |
+| Use turning points to establish a minimum possible polynomial degree. | Required | Introduce | `SK-POLY-DEGREE-TURNING` |
+| Use inflection points to establish a minimum possible polynomial degree. | Required | Introduce | `SK-POLY-DEGREE-INFLECTION` |
+| Infer polynomial end behavior from degree and leading coefficient. | Required | Apply | `SK-POLY-END-BEHAVIOR` |
+
+### I can build or select a polynomial model for a context and interpret its features.
+
+Objective ID: `M49-POL-001`
+
+| Supporting skill | Relationship | Course role | Skill ID |
+|---|---|---|---|
+| Select a function family whose behavior fits a table, graph, or context. | Required | Deepen | `SK-MODEL-FAMILY-SELECT` |
+| Build a polynomial from zeros, multiplicities, and a point. | Required | Apply | `SK-POLY-CONSTRUCT` |
+| Explain a model parameter in the language of its context. | Required | Deepen | `SK-MODEL-PARAMETER-INTERPRET` |
+| Restrict a model to meaningful contextual inputs. | Required | Apply | `SK-MODEL-VALID-DOMAIN` |
+
+## Required - Rational Functions and Limits
+
 ### I can identify holes and vertical, horizontal, or slant asymptotes of a rational function.
 
 Objective ID: `M49-ALG-006`
 
 | Supporting skill | Relationship | Course role | Skill ID |
 |---|---|---|---|
+| Recall and correctly use rational-function terms including restriction, hole, asymptote, and end behavior. | Prerequisite | Introduce | `SK-RAT-FUNCTION-VOCAB` |
+| Recall and correctly use rational-expression terms including numerator, denominator, restriction, and excluded value. | Prerequisite | Reinforce | `SK-RAT-VOCABULARY` |
 | Identify a removable discontinuity and its coordinates. | Required | Introduce | `SK-RAT-HOLE` |
 | Determine vertical asymptotes from noncanceling denominator zeros. | Required | Introduce | `SK-RAT-VERTICAL-ASYMPTOTE` |
 | Determine horizontal or slant asymptotic behavior. | Required | Introduce | `SK-RAT-END-BEHAVIOR` |
@@ -219,18 +307,6 @@ Objective ID: `M49-ALG-007`
 | Determine horizontal or slant asymptotic behavior. | Required | Deepen | `SK-RAT-END-BEHAVIOR` |
 | Determine the sign of a rational function on intervals. | Required | Introduce | `SK-RAT-SIGN-INTERVAL` |
 | Determine excluded values from an original denominator. | Prerequisite | Apply | `SK-RAT-RESTRICTIONS` |
-
-### I can build or select a power, polynomial, or rational model for a context.
-
-Objective ID: `M49-ALG-008`
-
-| Supporting skill | Relationship | Course role | Skill ID |
-|---|---|---|---|
-| Select a function family whose behavior fits a table, graph, or context. | Required | Introduce | `SK-MODEL-FAMILY-SELECT` |
-| Explain a model parameter in the language of its context. | Required | Deepen | `SK-MODEL-PARAMETER-INTERPRET` |
-| Restrict a model to meaningful contextual inputs. | Required | Apply | `SK-MODEL-VALID-DOMAIN` |
-
-## Required - Limits and Function Comparison
 
 ### I can interpret limit notation as a statement about function behavior near an input.
 
@@ -268,7 +344,7 @@ Objective ID: `M49-LIM-005`
 | Interpret unbounded output near a finite input as an infinite limit. | Required | Introduce | `SK-LIM-INFINITE` |
 | Determine vertical asymptotes from noncanceling denominator zeros. | Required | Deepen | `SK-RAT-VERTICAL-ASYMPTOTE` |
 
-### I can determine limits at infinity and relate them to long-run behavior.
+### I can use limit notation to describe behavior at infinity.
 
 Objective ID: `M49-LIM-006`
 
@@ -276,6 +352,16 @@ Objective ID: `M49-LIM-006`
 |---|---|---|---|
 | Compare dominant terms to determine behavior at infinity. | Required | Introduce | `SK-LIM-INFINITY` |
 | Determine horizontal or slant asymptotic behavior. | Method-dependent | Deepen | `SK-RAT-END-BEHAVIOR` |
+
+### I can analyze the long-run behavior of quotients involving polynomial, exponential, or logarithmic expressions.
+
+Objective ID: `M49-PWR-006`
+
+| Supporting skill | Relationship | Course role | Skill ID |
+|---|---|---|---|
+| Compare the long-run growth or decay of functions from different families. | Required | Deepen | `SK-FUNC-DOMINANCE` |
+| Compare functions shown in different representations. | Required | Apply | `SK-FUNC-COMPARE-REP` |
+| Compare dominant terms to determine behavior at infinity. | Required | Apply | `SK-LIM-INFINITY` |
 
 ### I can compare the long-run growth of polynomial, exponential, logarithmic, and rational functions.
 
@@ -286,6 +372,17 @@ Objective ID: `M49-LIM-007`
 | Apply the long-run growth hierarchy among logarithmic, polynomial, and exponential functions. | Required | Introduce | `SK-LIM-GROWTH-ORDER` |
 | Compare functions shown in different representations. | Prerequisite | Apply | `SK-FUNC-COMPARE-REP` |
 
+### I can build or select a rational or rational-adjacent model for a context and interpret its long-run behavior.
+
+Objective ID: `M49-ALG-008`
+
+| Supporting skill | Relationship | Course role | Skill ID |
+|---|---|---|---|
+| Select a function family whose behavior fits a table, graph, or context. | Required | Deepen | `SK-MODEL-FAMILY-SELECT` |
+| Explain a model parameter in the language of its context. | Required | Deepen | `SK-MODEL-PARAMETER-INTERPRET` |
+| Restrict a model to meaningful contextual inputs. | Required | Apply | `SK-MODEL-VALID-DOMAIN` |
+| Determine horizontal or slant asymptotic behavior. | Required | Apply | `SK-RAT-END-BEHAVIOR` |
+
 ## Required - Sequences and Series
 
 ### I can evaluate and graph a sequence defined explicitly or recursively.
@@ -294,6 +391,7 @@ Objective ID: `M49-SEQ-001`
 
 | Supporting skill | Relationship | Course role | Skill ID |
 |---|---|---|---|
+| Recall and correctly use the terms sequence, term, index, explicit formula, recursive formula, arithmetic sequence, and geometric sequence. | Prerequisite | Introduce | `SK-SEQ-VOCABULARY` |
 | Interpret subscripts and evaluate terms of a sequence. | Required | Introduce | `SK-SEQ-NOTATION` |
 | Generate an explicit formula from a sequence pattern. | Required | Introduce | `SK-SEQ-EXPLICIT` |
 | Generate a recursive formula with an initial condition. | Required | Introduce | `SK-SEQ-RECURSIVE` |
@@ -346,6 +444,7 @@ Objective ID: `M49-SER-001`
 
 | Supporting skill | Relationship | Course role | Skill ID |
 |---|---|---|---|
+| Recall and correctly use the terms series, partial sum, sigma notation, finite series, infinite series, and convergence. | Prerequisite | Introduce | `SK-SER-VOCABULARY` |
 | Expand and evaluate a finite sum written in sigma notation. | Required | Introduce | `SK-SER-SIGMA` |
 | Interpret subscripts and evaluate terms of a sequence. | Prerequisite | Apply | `SK-SEQ-NOTATION` |
 
@@ -450,6 +549,7 @@ Objective ID: `M49-CON-001`
 
 | Supporting skill | Relationship | Course role | Skill ID |
 |---|---|---|---|
+| Recall the defining terms and standard notation for circles, parabolas, ellipses, and hyperbolas. | Prerequisite | Introduce | `SK-CONIC-VOCABULARY` |
 | Classify a circle, ellipse, hyperbola, or parabola from an equation or geometric definition. | Required | Introduce | `SK-CONIC-CLASSIFY` |
 | Use fixed-distance and focal-distance relationships to explain circles, ellipses, and hyperbolas. | Method-dependent | Introduce | `SK-CONIC-DISTANCE-DEFINITION` |
 

@@ -6,6 +6,7 @@ import argparse
 import io
 import json
 import re
+import sys
 from itertools import combinations
 from html import escape
 from pathlib import Path
@@ -31,7 +32,10 @@ from reportlab.platypus.flowables import _listWrapOn
 from pypdf import PdfReader
 
 
-ROOT = Path(__file__).resolve().parents[1]
+if getattr(sys, "_MEIPASS", None):
+    ROOT = Path(sys._MEIPASS) / "Curriculum"
+else:
+    ROOT = Path(__file__).resolve().parents[1]
 COURSE_DIR = ROOT / "data" / "courses"
 SKILL_DATA = ROOT / "generated" / "skill_progressions.json"
 OUTPUT_DIR = ROOT / "output" / "pdf" / "unit-learning-maps"

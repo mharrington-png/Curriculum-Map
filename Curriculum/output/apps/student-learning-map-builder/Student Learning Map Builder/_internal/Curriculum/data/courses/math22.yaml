@@ -1,0 +1,108 @@
+schema_version: 1
+course:
+  id: M22
+  number: Math 22
+  title: Geometry
+  status: draft
+  source: source_documents/Math 22 Geometry PRINT Fall 2025.pdf
+
+units:
+  - id: M22-REV
+    title: Review Content
+    priority: review
+    objectives:
+      - {id: M22-REV-001, statement: "I can solve a linear equation arising from a geometric relationship."}
+      - {id: M22-REV-002, statement: "I can solve a proportion and interpret the resulting scale factor."}
+      - {id: M22-REV-003, statement: "I can simplify an exact square root and approximate it when needed."}
+      - {id: M22-REV-004, statement: "I can calculate distance, midpoint, and slope on the coordinate plane."}
+      - {id: M22-REV-005, statement: "I can substitute measurements into a formula with consistent units."}
+
+  - id: M22-BAS
+    title: Geometry Basics
+    priority: required
+    objectives:
+      - {id: M22-BAS-001, statement: "I can name and represent points, lines, planes, segments, and rays using correct notation."}
+      - {id: M22-BAS-002, statement: "I can identify collinear, coplanar, intersecting, and concurrent figures."}
+      - {id: M22-BAS-003, statement: "I can calculate segment lengths using betweenness and the segment-addition postulate."}
+      - {id: M22-BAS-004, statement: "I can determine a midpoint or use a segment bisector relationship."}
+      - {id: M22-BAS-005, statement: "I can classify and measure angles."}
+      - {id: M22-BAS-006, statement: "I can calculate angle measures using angle addition and angle bisectors."}
+      - {id: M22-BAS-007, statement: "I can identify and use complementary, supplementary, vertical, and linear-pair relationships."}
+      - {id: M22-BAS-008, statement: "I can distinguish a definition, postulate, theorem, converse, and counterexample."}
+      - {id: M22-BAS-009, statement: "I can determine angle relationships formed by parallel lines and a transversal."}
+      - {id: M22-BAS-010, statement: "I can use angle relationships to determine whether lines are parallel."}
+      - {id: M22-BAS-011, statement: "I can solve problems involving parallel, perpendicular, vertical, or horizontal lines."}
+      - {id: M22-BAS-012, statement: "I can construct a logical geometric argument from stated facts and accepted results."}
+
+  - id: M22-CON
+    title: Triangle Congruence and Proof
+    priority: required
+    objectives:
+      - {id: M22-CON-001, statement: "I can classify triangles by sides and angles."}
+      - {id: M22-CON-002, statement: "I can use triangle angle-sum and exterior-angle relationships."}
+      - {id: M22-CON-003, statement: "I can write a congruence statement with corresponding vertices in the correct order."}
+      - {id: M22-CON-004, statement: "I can determine whether triangles are congruent by SAS."}
+      - {id: M22-CON-005, statement: "I can determine whether triangles are congruent by SSS."}
+      - {id: M22-CON-006, statement: "I can determine whether right triangles are congruent by HL."}
+      - {id: M22-CON-007, statement: "I can determine whether triangles are congruent by ASA or AAS."}
+      - {id: M22-CON-008, statement: "I can apply isosceles and equilateral triangle theorems and their converses."}
+      - {id: M22-CON-009, statement: "I can use corresponding parts of congruent triangles after proving congruence."}
+      - {id: M22-CON-010, statement: "I can write a structured proof involving triangle congruence."}
+
+  - id: M22-QUAD
+    title: Quadrilaterals, Perimeter, and Area
+    priority: required
+    objectives:
+      - {id: M22-QUAD-001, statement: "I can calculate interior or exterior angle measures of a polygon."}
+      - {id: M22-QUAD-002, statement: "I can calculate perimeter and area of common polygons."}
+      - {id: M22-QUAD-003, statement: "I can apply properties of parallelograms to determine unknown measures."}
+      - {id: M22-QUAD-004, statement: "I can determine whether a quadrilateral is a parallelogram."}
+      - {id: M22-QUAD-005, statement: "I can apply properties of rectangles, rhombi, and squares."}
+      - {id: M22-QUAD-006, statement: "I can classify a quadrilateral from its stated or marked properties."}
+      - {id: M22-QUAD-007, statement: "I can apply trapezoid and trapezoid-midsegment relationships."}
+      - {id: M22-QUAD-008, statement: "I can apply properties of kites."}
+      - {id: M22-QUAD-009, statement: "I can calculate the perimeter or area of a composite polygon."}
+      - {id: M22-QUAD-010, statement: "I can justify a quadrilateral conclusion using definitions and theorems."}
+
+  - id: M22-SIM
+    title: Similarity and Proportional Reasoning
+    priority: required
+    objectives:
+      - {id: M22-SIM-001, statement: "I can determine image lengths and coordinates under a dilation."}
+      - {id: M22-SIM-002, statement: "I can identify the scale factor of a dilation or similarity relationship."}
+      - {id: M22-SIM-003, statement: "I can write a similarity statement with corresponding vertices in the correct order."}
+      - {id: M22-SIM-004, statement: "I can use proportional corresponding sides to solve similar-polygon problems."}
+      - {id: M22-SIM-005, statement: "I can relate similarity scale factor to perimeter and area scale factors."}
+      - {id: M22-SIM-006, statement: "I can prove triangles similar by AA, SSS, or SAS."}
+      - {id: M22-SIM-007, statement: "I can apply triangle proportionality theorems and their converses."}
+      - {id: M22-SIM-008, statement: "I can solve and justify an indirect-measurement or other similarity application."}
+
+  - id: M22-RGT
+    title: Right Triangles
+    priority: required
+    objectives:
+      - {id: M22-RGT-001, statement: "I can apply the Pythagorean theorem to determine a missing side."}
+      - {id: M22-RGT-002, statement: "I can use the converse of the Pythagorean theorem to classify a triangle."}
+      - {id: M22-RGT-003, statement: "I can apply triangle-inequality relationships."}
+      - {id: M22-RGT-004, statement: "I can determine exact side lengths in 45-45-90 and 30-60-90 triangles."}
+      - {id: M22-RGT-005, statement: "I can apply right-triangle similarity relationships."}
+      - {id: M22-RGT-006, statement: "I can use geometric-mean relationships created by an altitude to the hypotenuse."}
+      - {id: M22-RGT-007, statement: "I can select sine, cosine, or tangent for a right-triangle problem."}
+      - {id: M22-RGT-008, statement: "I can determine a missing side or angle of a right triangle."}
+      - {id: M22-RGT-009, statement: "I can solve a contextual right-triangle problem."}
+      - {id: M22-RGT-010, statement: "I can justify a right-triangle solution using an appropriate theorem or ratio."}
+
+  - id: M22-CIR
+    title: Circles
+    priority: required
+    objectives:
+      - {id: M22-CIR-001, statement: "I can identify and name radii, diameters, chords, secants, tangents, arcs, sectors, and segments."}
+      - {id: M22-CIR-002, statement: "I can calculate circumference and arc length."}
+      - {id: M22-CIR-003, statement: "I can calculate the area of a circle, sector, or segment."}
+      - {id: M22-CIR-004, statement: "I can determine angle and arc measures involving central and inscribed angles."}
+      - {id: M22-CIR-005, statement: "I can apply relationships among chords, arcs, and distances from the center."}
+      - {id: M22-CIR-006, statement: "I can apply tangent-radius and tangent-segment relationships."}
+      - {id: M22-CIR-007, statement: "I can determine angle measures formed by chords, secants, or tangents."}
+      - {id: M22-CIR-008, statement: "I can determine segment lengths formed by intersecting chords."}
+      - {id: M22-CIR-009, statement: "I can determine segment lengths formed by secants or tangents."}
+      - {id: M22-CIR-010, statement: "I can solve a multi-step circle problem and justify each relationship used."}

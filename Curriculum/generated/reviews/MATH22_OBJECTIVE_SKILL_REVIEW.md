@@ -1,4 +1,4 @@
-# Math 22 Objective-to-Skill Mapping Review
+# M22 Objective-to-Skill Mapping Review
 
 This teacher-facing view combines each learning objective with the supporting skills currently mapped to it. The YAML files remain the structured source; this document is generated for review.
 
@@ -70,6 +70,7 @@ Objective ID: `M22-BAS-001`
 
 | Supporting skill | Relationship | Course role | Skill ID |
 |---|---|---|---|
+| Recall definitions of points, lines, planes, segments, rays, angles, and intersections. | Prerequisite | Introduce | `SK-GEO-FOUNDATIONAL-DEFINITIONS` |
 | Read and write geometric notation correctly. | Required | Introduce | `SK-GEO-NOTATION` |
 | Add congruence, parallel, perpendicular, and angle markings to a diagram. | Required | Introduce | `SK-GEO-DIAGRAM-MARK` |
 
@@ -188,6 +189,7 @@ Objective ID: `M22-CON-001`
 
 | Supporting skill | Relationship | Course role | Skill ID |
 |---|---|---|---|
+| Recall and correctly use terminology and notation for triangle classification, congruence, and corresponding parts. | Prerequisite | Introduce | `SK-TRI-CONGRUENCE-VOCAB` |
 | Classify a triangle by side lengths and angle measures. | Required | Introduce | `SK-TRI-CLASSIFY` |
 | Add congruence, parallel, perpendicular, and angle markings to a diagram. | Required | Apply | `SK-GEO-DIAGRAM-MARK` |
 
@@ -207,6 +209,7 @@ Objective ID: `M22-CON-003`
 
 | Supporting skill | Relationship | Course role | Skill ID |
 |---|---|---|---|
+| Recall and correctly use terminology and notation for triangle classification, congruence, and corresponding parts. | Prerequisite | Apply | `SK-TRI-CONGRUENCE-VOCAB` |
 | Match corresponding vertices, sides, and angles in order. | Required | Introduce | `SK-GEO-CORRESPONDENCE` |
 | Write congruence statements in corresponding order. | Required | Introduce | `SK-PROOF-CONGRUENCE-ORDER` |
 
@@ -330,6 +333,7 @@ Objective ID: `M22-QUAD-006`
 
 | Supporting skill | Relationship | Course role | Skill ID |
 |---|---|---|---|
+| Recall the definitions and defining properties of the major quadrilateral families. | Prerequisite | Introduce | `SK-QUAD-DEFINITIONS` |
 | Use the inclusive hierarchy of quadrilateral classifications. | Required | Deepen | `SK-QUAD-HIERARCHY` |
 | Distinguish stated or marked facts from visual appearance. | Required | Apply | `SK-GEO-DIAGRAM-INFER` |
 
@@ -387,6 +391,7 @@ Objective ID: `M22-SIM-002`
 
 | Supporting skill | Relationship | Course role | Skill ID |
 |---|---|---|---|
+| Recall and correctly use the terms similarity, dilation, scale factor, and corresponding parts. | Prerequisite | Introduce | `SK-SIM-VOCAB` |
 | Calculate and interpret a similarity or dilation scale factor. | Required | Deepen | `SK-SIM-SCALE-FACTOR` |
 | Use cross multiplication when two ratios form a proportion. | Method-dependent | Apply | `SK-ALG-CROSS-MULTIPLY` |
 
@@ -511,6 +516,7 @@ Objective ID: `M22-RGT-007`
 
 | Supporting skill | Relationship | Course role | Skill ID |
 |---|---|---|---|
+| Recall and correctly use the terms leg, hypotenuse, opposite side, adjacent side, and trigonometric ratio. | Prerequisite | Introduce | `SK-TRI-RIGHT-VOCAB` |
 | Label sides relative to a selected angle. | Required | Introduce | `SK-TRIG-TRIANGLE-LABEL` |
 | Match opposite, adjacent, and hypotenuse sides to a trigonometric ratio. | Required | Introduce | `SK-TRI-TRIG-RATIO` |
 | Add congruence, parallel, perpendicular, and angle markings to a diagram. | Prerequisite | Apply | `SK-GEO-DIAGRAM-MARK` |
@@ -555,7 +561,7 @@ Objective ID: `M22-CIR-001`
 
 | Supporting skill | Relationship | Course role | Skill ID |
 |---|---|---|---|
-| Identify circle parts and relationships from a diagram. | Required | Introduce | `SK-CIR-VOCAB` |
+| Identify circle parts and relationships from a diagram. | Required | Apply | `SK-CIR-VOCAB` |
 | Read and write geometric notation correctly. | Required | Apply | `SK-GEO-NOTATION` |
 
 ### I can calculate circumference and arc length.
@@ -597,7 +603,7 @@ Objective ID: `M22-CIR-005`
 | Supporting skill | Relationship | Course role | Skill ID |
 |---|---|---|---|
 | Apply equal-chord, equal-arc, and center-distance relationships. | Required | Introduce | `SK-CIR-CHORD-RELATION` |
-| Identify circle parts and relationships from a diagram. | Prerequisite | Apply | `SK-CIR-VOCAB` |
+| Identify circle parts and relationships from a diagram. | Prerequisite | Introduce | `SK-CIR-VOCAB` |
 
 ### I can apply tangent-radius and tangent-segment relationships.
 

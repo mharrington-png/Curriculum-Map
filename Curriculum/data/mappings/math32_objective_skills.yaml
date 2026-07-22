@@ -42,6 +42,7 @@ mappings:
 
   - objective_id: M32-FND-007
     skills:
+      - {skill_id: SK-TRIG-NOTATION-VOCAB, relationship: prerequisite, progression: introduce}
       - {skill_id: SK-TRIG-EXACT-VALUE, relationship: required, progression: introduce}
       - {skill_id: SK-TRIG-UNIT-CIRCLE-COORD, relationship: required, progression: apply}
       - {skill_id: SK-TRIG-RECIPROCAL, relationship: required, progression: introduce}
@@ -85,6 +86,7 @@ mappings:
 
   - objective_id: M32-GRF-002
     skills:
+      - {skill_id: SK-TRIG-GRAPH-VOCAB, relationship: prerequisite, progression: introduce}
       - {skill_id: SK-TRIG-GRAPH-AMPLITUDE, relationship: required, progression: introduce}
       - {skill_id: SK-TRIG-GRAPH-MIDLINE, relationship: required, progression: introduce}
       - {skill_id: SK-TRIG-GRAPH-PERIOD, relationship: required, progression: introduce}
@@ -129,6 +131,7 @@ mappings:
 
   - objective_id: M32-INV-001
     skills:
+      - {skill_id: SK-TRIG-INVERSE-NOTATION, relationship: prerequisite, progression: apply}
       - {skill_id: SK-TRIG-INVERSE-EVALUATE, relationship: required, progression: introduce}
       - {skill_id: SK-TRIG-INVERSE-RANGE, relationship: required, progression: introduce}
       - {skill_id: SK-TRIG-EXACT-VALUE, relationship: method-dependent, progression: apply}
@@ -242,6 +245,7 @@ mappings:
 
   - objective_id: M32-POL-001
     skills:
+      - {skill_id: SK-POL-NOTATION-READ, relationship: prerequisite, progression: introduce}
       - {skill_id: SK-POL-PLOT, relationship: required, progression: introduce}
       - {skill_id: SK-TRIG-ANGLE-REFERENCE, relationship: prerequisite, progression: apply}
 
@@ -270,6 +274,7 @@ mappings:
 
   - objective_id: M32-VEC-001
     skills:
+      - {skill_id: SK-VEC-NOTATION-VOCAB, relationship: prerequisite, progression: introduce}
       - {skill_id: SK-VEC-COMPONENTS, relationship: required, progression: introduce}
       - {skill_id: SK-GEO-DIAGRAM-MARK, relationship: required, progression: apply}
 
@@ -299,6 +304,7 @@ mappings:
 
   - objective_id: M32-PAR-001
     skills:
+      - {skill_id: SK-PAR-NOTATION-VOCAB, relationship: prerequisite, progression: introduce}
       - {skill_id: SK-PAR-TABLE, relationship: prerequisite, progression: introduce}
       - {skill_id: SK-PAR-GRAPH, relationship: required, progression: introduce}
       - {skill_id: SK-FUNC-INPUT-OUTPUT, relationship: required, progression: apply}
@@ -315,3 +321,8 @@ mappings:
       - {skill_id: SK-PAR-TABLE, relationship: required, progression: deepen}
       - {skill_id: SK-MODEL-PARAMETER-INTERPRET, relationship: required, progression: apply}
       - {skill_id: SK-REP-UNITS, relationship: required, progression: apply}
+
+  - objective_id: M32-INV-006
+    skills:
+      - {skill_id: SK-TRIG-INVERSE-NOTATION, relationship: required, progression: introduce}
+      - {skill_id: SK-TRIG-RECIPROCAL, relationship: prerequisite, progression: apply}

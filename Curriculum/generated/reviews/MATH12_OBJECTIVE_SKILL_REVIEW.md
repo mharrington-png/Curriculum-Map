@@ -1,4 +1,4 @@
-# Math 12 Objective-to-Skill Mapping Review
+# M12 Objective-to-Skill Mapping Review
 
 This teacher-facing view combines each learning objective with the supporting skills currently mapped to it. The YAML files remain the structured source; this document is generated for review.
 
@@ -149,6 +149,7 @@ Objective ID: `M12-INE-004`
 | Supporting skill | Relationship | Course role | Skill ID |
 |---|---|---|---|
 | Translate between inequality and interval notation. | Required | Introduce | `SK-NOT-INTERVAL` |
+| Read inequality symbols and state the relationship each symbol expresses. | Prerequisite | Introduce | `SK-NOT-INEQUALITY-READ` |
 | Represent an inequality solution on a number line. | Prerequisite | Apply | `SK-INE-NUMBER-LINE` |
 
 ### I can solve an absolute-value equation and check its solutions.
@@ -208,6 +209,7 @@ Objective ID: `M12-LIN-005`
 
 | Supporting skill | Relationship | Course role | Skill ID |
 |---|---|---|---|
+| Recall and correctly use the terms relation, function, input, output, domain, and range. | Prerequisite | Introduce | `SK-FUNC-VOCABULARY` |
 | Identify the input and output represented by function notation. | Required | Introduce | `SK-FUNC-NOTATION-READ` |
 | Identify input and output values in a formula, graph, table, or context. | Required | Introduce | `SK-FUNC-INPUT-OUTPUT` |
 | Simplify an algebraic expression using operation properties. | Prerequisite | Apply | `SK-ALG-EXPRESSION-SIMPLIFY` |
@@ -218,6 +220,7 @@ Objective ID: `M12-LIN-006`
 
 | Supporting skill | Relationship | Course role | Skill ID |
 |---|---|---|---|
+| Recall and correctly use the terms relation, function, input, output, domain, and range. | Prerequisite | Apply | `SK-FUNC-VOCABULARY` |
 | Apply the vertical line test to a graph. | Required | Introduce | `SK-FUNC-VERTICAL-LINE` |
 | Identify input and output values in a formula, graph, table, or context. | Required | Deepen | `SK-FUNC-INPUT-OUTPUT` |
 

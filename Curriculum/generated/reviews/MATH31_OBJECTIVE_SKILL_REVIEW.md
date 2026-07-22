@@ -1,4 +1,4 @@
-# Math 31 Objective-to-Skill Mapping Review
+# M31 Objective-to-Skill Mapping Review
 
 This teacher-facing view combines each learning objective with the supporting skills currently mapped to it. The YAML files remain the structured source; this document is generated for review.
 
@@ -264,6 +264,7 @@ Objective ID: `M31-FUN-009`
 
 | Supporting skill | Relationship | Course role | Skill ID |
 |---|---|---|---|
+| Read and write notation for function composition and inverse functions. | Prerequisite | Introduce | `SK-FUNC-STRUCTURE-NOTATION` |
 | Substitute one function formula into another. | Method-dependent | Introduce | `SK-FUNC-COMPOSE-FORMULA` |
 | Follow intermediate values to compose functions from tables. | Method-dependent | Introduce | `SK-FUNC-COMPOSE-TABLE` |
 | Identify input and output values in a formula, graph, table, or context. | Prerequisite | Apply | `SK-FUNC-INPUT-OUTPUT` |
@@ -283,6 +284,7 @@ Objective ID: `M31-FUN-011`
 
 | Supporting skill | Relationship | Course role | Skill ID |
 |---|---|---|---|
+| Read and write notation for function composition and inverse functions. | Prerequisite | Apply | `SK-FUNC-STRUCTURE-NOTATION` |
 | Exchange input and output values when interpreting an inverse. | Prerequisite | Introduce | `SK-FUNC-INVERSE-SWAP` |
 | Exchange variables and solve to obtain an inverse formula. | Required | Introduce | `SK-FUNC-INVERSE-ALGEBRA` |
 | Isolate a specified variable in an equation or formula. | Required | Apply | `SK-ALG-VARIABLE-ISOLATE` |
@@ -382,6 +384,7 @@ Objective ID: `M31-QUAD-001`
 
 | Supporting skill | Relationship | Course role | Skill ID |
 |---|---|---|---|
+| Recall and correctly use quadratic-function terms including parabola, vertex, axis of symmetry, intercept, zero, and solution. | Prerequisite | Reinforce | `SK-QUAD-VOCABULARY` |
 | Determine the vertex and axis of symmetry. | Required | Deepen | `SK-QUAD-VERTEX` |
 | Determine x- and y-intercepts of a quadratic function. | Required | Deepen | `SK-QUAD-INTERCEPTS` |
 | Use successive average rates of change to classify concavity. | Required | Apply | `SK-FUNC-CONCAVITY-AROC` |
@@ -470,6 +473,7 @@ Objective ID: `M31-EXP-002`
 
 | Supporting skill | Relationship | Course role | Skill ID |
 |---|---|---|---|
+| Recall and correctly use exponential-function terms including initial value, growth or decay factor, growth or decay rate, and asymptote. | Prerequisite | Introduce | `SK-EXP-VOCABULARY` |
 | Convert a percent increase or decrease to a growth or decay factor. | Required | Introduce | `SK-EXP-PERCENT-FACTOR` |
 | Identify initial amount, rate, and time interval in context. | Required | Introduce | `SK-EXP-MODEL-CONTEXT` |
 | Explain a model parameter in the language of its context. | Required | Deepen | `SK-MODEL-PARAMETER-INTERPRET` |
@@ -562,6 +566,7 @@ Objective ID: `M31-LOG-001`
 
 | Supporting skill | Relationship | Course role | Skill ID |
 |---|---|---|---|
+| Read logarithmic notation and identify the base, argument, and corresponding exponential statement. | Prerequisite | Introduce | `SK-LOG-NOTATION-READ` |
 | Interpret a logarithm as an exponent. | Required | Introduce | `SK-LOG-DEFINITION` |
 | Convert between logarithmic and exponential forms. | Required | Introduce | `SK-LOG-CONVERT` |
 

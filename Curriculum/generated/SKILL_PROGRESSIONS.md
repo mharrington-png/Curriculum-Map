@@ -296,8 +296,8 @@ First introduction: **Math 22**
 
 | Course | Role | Priority | Relationship | Unit | Objective |
 |---|---|---|---|---|---|
-| Math 22 | Introduce | Required | Required | Circles | `M22-CIR-001` — I can identify and name radii, diameters, chords, secants, tangents, arcs, sectors, and segments. |
-| Math 22 | Apply | Required | Prerequisite | Circles | `M22-CIR-005` — I can apply relationships among chords, arcs, and distances from the center. |
+| Math 22 | Apply | Required | Required | Circles | `M22-CIR-001` — I can identify and name radii, diameters, chords, secants, tangents, arcs, sectors, and segments. |
+| Math 22 | Introduce | Required | Prerequisite | Circles | `M22-CIR-005` — I can apply relationships among chords, arcs, and distances from the center. |
 | Math 22 | Apply | Required | Prerequisite | Circles | `M22-CIR-007` — I can determine angle measures formed by chords, secants, or tangents. |
 | Math 22 | Apply | Required | Prerequisite | Circles | `M22-CIR-010` — I can solve a multi-step circle problem and justify each relationship used. |
 
@@ -385,6 +385,14 @@ First introduction: **Math 49**
 | Course | Role | Priority | Relationship | Unit | Objective |
 |---|---|---|---|---|---|
 | Math 49 | Introduce | Extension | Required | Conic Sections | `M49-CON-008` — I can explain a parabola as the set of points equidistant from a focus and directrix. |
+
+## SK-CONIC-VOCABULARY: Recall the defining terms and standard notation for circles, parabolas, ellipses, and hyperbolas.
+
+First introduction: **Math 49**
+
+| Course | Role | Priority | Relationship | Unit | Objective |
+|---|---|---|---|---|---|
+| Math 49 | Introduce | Extension | Prerequisite | Conic Sections | `M49-CON-001` — I can classify a circle, ellipse, or hyperbola from its equation or defining geometric relationship. |
 
 ## SK-COORD-DISTANCE-AXIS: Calculate horizontal or vertical distance from the difference of coordinates.
 
@@ -604,6 +612,15 @@ First introduction: **Math 31**
 |---|---|---|---|---|---|
 | Math 31 | Introduce | Required | Method-dependent | Logarithmic Functions and Models | `M31-LOG-002` — I can evaluate a logarithm using its exponential meaning. |
 | Math 49 | Reinforce | Review | Method-dependent | Review Content | `M49-FND-006` — I can solve exponential and logarithmic equations using equivalent forms and logarithm properties. |
+
+## SK-EXP-VOCABULARY: Recall and correctly use exponential-function terms including initial value, growth or decay factor, growth or decay rate, and asymptote.
+
+First introduction: **Math 31**
+
+| Course | Role | Priority | Relationship | Unit | Objective |
+|---|---|---|---|---|---|
+| Math 31 | Introduce | Required | Prerequisite | Exponential Functions and Models | `M31-EXP-002` — I can identify initial value and growth or decay factor in an exponential model. |
+| Math 39 | Reinforce | Required | Prerequisite | Exponential Modeling | `M39-EXP-003` — I can interpret the initial value, growth or decay factor, and growth or decay rate of an exponential model. |
 
 ## SK-EXP-ZERO: Apply the zero-exponent rule.
 
@@ -1052,6 +1069,16 @@ First introduction: **Math 21**
 | Math 31 | Deepen | Required | Required | Linear Functions and Function Notation | `M31-LIN-003` — I can evaluate a function or solve for an input using a graph, table, or formula. |
 | Math 39 | Deepen | Required | Required | Linear Modeling and Residuals | `M39-LIN-006` — I can use a linear model to make and interpret predictions, including solving for either variable. |
 
+## SK-FUNC-STRUCTURE-NOTATION: Read and write notation for function composition and inverse functions.
+
+First introduction: **Math 31**
+
+| Course | Role | Priority | Relationship | Unit | Objective |
+|---|---|---|---|---|---|
+| Math 31 | Introduce | Required | Prerequisite | Function Behavior and Structure | `M31-FUN-009` — I can evaluate a composition from formulas, graphs, or tables. |
+| Math 31 | Apply | Required | Prerequisite | Function Behavior and Structure | `M31-FUN-011` — I can find an inverse function algebraically. |
+| Math 49 | Reinforce | Required | Prerequisite | Function Operations, Composition, and Inverses | `M49-OPS-002` — I can evaluate a composition from formulas, graphs, or tables. |
+
 ## SK-FUNC-SYMMETRY: Test a formula or graph for even or odd symmetry.
 
 First introduction: **Math 31**
@@ -1109,6 +1136,15 @@ First introduction: **Math 12**
 | Math 21 | Deepen | Required | Required | Functions and Function Interpretation | `M21-FUN-002` — I can determine whether a relation is a function. |
 | Math 31 | Apply | Required | Method-dependent | Function Behavior and Structure | `M31-FUN-001` — I can determine whether a relation is a function. |
 | Math 31 | Deepen | Required | Required | Linear Functions and Function Notation | `M31-LIN-002` — I can determine whether a graph or table represents a function. |
+
+## SK-FUNC-VOCABULARY: Recall and correctly use the terms relation, function, input, output, domain, and range.
+
+First introduction: **Math 12**
+
+| Course | Role | Priority | Relationship | Unit | Objective |
+|---|---|---|---|---|---|
+| Math 12 | Introduce | Required | Prerequisite | Lines and Introductory Functions | `M12-LIN-005` — I can evaluate a function using function notation. |
+| Math 12 | Apply | Required | Prerequisite | Lines and Introductory Functions | `M12-LIN-006` — I can determine whether a relation is a function using the vertical line test or input-output data. |
 
 ## SK-GEO-ANGLE-ADDITION: Translate angle addition into an equation.
 
@@ -1185,6 +1221,14 @@ First introduction: **Math 22**
 | Math 22 | Introduce | Review | Required | Review Content | `M22-REV-003` — I can simplify an exact square root and approximate it when needed. |
 | Math 22 | Apply | Required | Required | Right Triangles | `M22-RGT-004` — I can determine exact side lengths in 45-45-90 and 30-60-90 triangles. |
 | Math 32 | Apply | Required | Required | Trigonometric Foundations | `M32-FND-002` — I can determine exact side lengths in 30-60-90 and 45-45-90 triangles. |
+
+## SK-GEO-FOUNDATIONAL-DEFINITIONS: Recall definitions of points, lines, planes, segments, rays, angles, and intersections.
+
+First introduction: **Math 22**
+
+| Course | Role | Priority | Relationship | Unit | Objective |
+|---|---|---|---|---|---|
+| Math 22 | Introduce | Required | Prerequisite | Geometry Basics | `M22-BAS-001` — I can name and represent points, lines, planes, segments, and rays using correct notation. |
 
 ## SK-GEO-MIDPOINT: Use a midpoint to create equal segment lengths.
 
@@ -1506,6 +1550,14 @@ First introduction: **Math 31**
 | Math 31 | Introduce | Required | Required | Logarithmic Functions and Models | `M31-LOG-006` — I can calculate and interpret doubling time or half-life. |
 | Math 39 | Deepen | Required | Required | Exponential Modeling | `M39-EXP-004` — I can determine and interpret doubling time or half-life from an exponential model. |
 
+## SK-LOG-NOTATION-READ: Read logarithmic notation and identify the base, argument, and corresponding exponential statement.
+
+First introduction: **Math 31**
+
+| Course | Role | Priority | Relationship | Unit | Objective |
+|---|---|---|---|---|---|
+| Math 31 | Introduce | Required | Prerequisite | Logarithmic Functions and Models | `M31-LOG-001` — I can convert between logarithmic and exponential forms. |
+
 ## SK-LOG-POWER: Apply the logarithm power property in either direction.
 
 First introduction: **Math 31**
@@ -1632,6 +1684,14 @@ First introduction: **Math 12**
 | Math 49 | Apply | Required | Required | Polynomial Functions | `M49-POL-001` — I can build or select a polynomial model for a context and interpret its features. |
 | Math 49 | Apply | Required | Required | Power Functions | `M49-PWR-007` — I can build or select a power-function model for a context and interpret its parameters. |
 
+## SK-NOT-INEQUALITY-READ: Read inequality symbols and state the relationship each symbol expresses.
+
+First introduction: **Math 12**
+
+| Course | Role | Priority | Relationship | Unit | Objective |
+|---|---|---|---|---|---|
+| Math 12 | Introduce | Required | Prerequisite | Inequalities and Absolute-Value Equations | `M12-INE-004` — I can express an inequality solution using interval notation. |
+
 ## SK-NOT-INTERVAL: Translate between inequality and interval notation.
 
 First introduction: **Math 12**
@@ -1732,6 +1792,14 @@ First introduction: **Math 32**
 | Math 32 | Introduce | Extension | Required | Parametric Equations | `M32-PAR-003` — I can create or interpret parametric equations for motion in the plane. |
 | Math 49 | Deepen | Extension | Required | Parametric Equations | `M49-PAR-003` — I can create or interpret parametric equations for motion in the plane. |
 
+## SK-PAR-NOTATION-VOCAB: Read parametric notation and correctly use the terms parameter, coordinate equation, orientation, and parameter interval.
+
+First introduction: **Math 32**
+
+| Course | Role | Priority | Relationship | Unit | Objective |
+|---|---|---|---|---|---|
+| Math 32 | Introduce | Extension | Prerequisite | Parametric Equations | `M32-PAR-001` — I can graph a plane curve defined by parametric equations with its orientation. |
+
 ## SK-PAR-TABLE: Generate ordered pairs from parametric equations.
 
 First introduction: **Math 32**
@@ -1769,6 +1837,14 @@ First introduction: **Math 32**
 | Course | Role | Priority | Relationship | Unit | Objective |
 |---|---|---|---|---|---|
 | Math 32 | Introduce | Required | Required | Polar Coordinates | `M32-POL-002` — I can represent a polar point using equivalent coordinate pairs. |
+
+## SK-POL-NOTATION-READ: Read and write polar-coordinate notation and identify the radius, angle, pole, and polar axis.
+
+First introduction: **Math 32**
+
+| Course | Role | Priority | Relationship | Unit | Objective |
+|---|---|---|---|---|---|
+| Math 32 | Introduce | Required | Prerequisite | Polar Coordinates | `M32-POL-001` — I can plot and identify points in polar coordinates. |
 
 ## SK-POL-PLOT: Plot a point from radius and angle.
 
@@ -1914,8 +1990,10 @@ First introduction: **Math 12**
 | Math 21 | Apply | Required | Prerequisite | Polynomials and Factoring | `M21-POL-005` — I can factor a difference of squares and other required special cases. |
 | Math 21 | Apply | Required | Prerequisite | Polynomials and Factoring | `M21-POL-006` — I can use factoring to determine the zeros of a polynomial. |
 | Math 31 | Reinforce | Review | Required | Review Content | `M31-REV-003` — I can use polynomial vocabulary to distinguish terms, factors, coefficients, degree, and polynomial structure. |
-| Math 39 | Apply | Required | Prerequisite | Function Combinations and Polynomials | `M39-POL-003` — I can determine polynomial end behavior from degree and leading coefficient. |
-| Math 49 | Apply | Required | Prerequisite | Polynomial Functions | `M49-ALG-002` — I can predict the end behavior of a polynomial from its degree and leading coefficient. |
+| Math 39 | Reinforce | Required | Prerequisite | Function Combinations and Polynomials | `M39-POL-003` — I can determine polynomial end behavior from degree and leading coefficient. |
+| Math 39 | Apply | Required | Prerequisite | Function Combinations and Polynomials | `M39-POL-004` — I can identify zeros and multiplicities and relate them to polynomial graph behavior. |
+| Math 49 | Reinforce | Required | Prerequisite | Polynomial Functions | `M49-ALG-002` — I can predict the end behavior of a polynomial from its degree and leading coefficient. |
+| Math 49 | Apply | Required | Prerequisite | Polynomial Functions | `M49-ALG-003` — I can determine polynomial zeros and their multiplicities. |
 
 ## SK-POLY-ZEROS: Determine real and complex zeros using an appropriate method.
 
@@ -1977,6 +2055,15 @@ First introduction: **Math 39**
 | Math 39 | Introduce | Required | Required | Power Functions and Function Comparison | `M39-POW-003` — I can relate the sign and size of k and p to the shape, domain behavior, and end behavior of a power function. |
 | Math 49 | Deepen | Required | Required | Power Functions | `M49-PWR-003` — I can relate the sign and size of k and p to the shape, domain behavior, and end behavior of a power function. |
 
+## SK-POWER-VOCABULARY: Recall and correctly use power-function terms including coefficient, exponent, direct variation, and inverse variation.
+
+First introduction: **Math 39**
+
+| Course | Role | Priority | Relationship | Unit | Objective |
+|---|---|---|---|---|---|
+| Math 39 | Introduce | Required | Prerequisite | Power Functions and Function Comparison | `M39-POW-001` — I can identify a power function and interpret the parameters in y = kx^p. |
+| Math 49 | Reinforce | Required | Prerequisite | Power Functions | `M49-PWR-001` — I can identify a power function and interpret the parameters in y = kx^p. |
+
 ## SK-PROB-AND: Calculate the probability of a compound and event.
 
 First introduction: **Math 39**
@@ -2035,6 +2122,14 @@ First introduction: **Math 39**
 |---|---|---|---|---|---|
 | Math 39 | Introduce | Extension | Required | Expected Value | `M39-EV-002` — I can interpret expected value to evaluate a game, risk, or long-run decision. |
 
+## SK-PROB-EXPECTED-NOTATION: Read expected-value notation and recall the meanings of outcome, probability, payoff, and long-run average.
+
+First introduction: **Math 39**
+
+| Course | Role | Priority | Relationship | Unit | Objective |
+|---|---|---|---|---|---|
+| Math 39 | Introduce | Extension | Prerequisite | Expected Value | `M39-EV-001` — I can calculate the expected value of a discrete probability situation. |
+
 ## SK-PROB-EXPECTED-VALUE: Calculate the expected value of a discrete probability situation.
 
 First introduction: **Math 39**
@@ -2067,6 +2162,15 @@ First introduction: **Math 39**
 | Course | Role | Priority | Relationship | Unit | Objective |
 |---|---|---|---|---|---|
 | Math 39 | Introduce | Required | Required | Probability | `M39-PRO-002` — I can calculate and interpret empirical, marginal, joint, and conditional probabilities from a contingency table. |
+
+## SK-PROB-NOTATION-VOCAB: Read and write probability notation and correctly use the terms outcome, event, sample space, complement, intersection, union, and conditional probability.
+
+First introduction: **Math 39**
+
+| Course | Role | Priority | Relationship | Unit | Objective |
+|---|---|---|---|---|---|
+| Math 39 | Apply | Required | Prerequisite | Probability | `M39-PRO-003` — I can identify an experiment, outcomes, events, and a sample space. |
+| Math 39 | Introduce | Required | Required | Probability | `M39-PRO-009` — I can interpret and write notation for compound and conditional probabilities. |
 
 ## SK-PROB-OR: Calculate the probability of a compound or event.
 
@@ -2203,6 +2307,14 @@ First introduction: **Math 21**
 | Math 21 | Apply | Required | Method-dependent | Quadratic Functions and Equations | `M21-QUAD-007` — I can choose an efficient method for solving a quadratic equation. |
 | Math 31 | Deepen | Required | Method-dependent | Quadratic Functions and Equations | `M31-QUAD-003` — I can rewrite a quadratic function in a form that reveals a requested feature. |
 | Math 49 | Deepen | Extension | Required | Conic Sections | `M49-CON-002` — I can use completing the square to rewrite a general-form conic equation in standard form. |
+
+## SK-QUAD-DEFINITIONS: Recall the definitions and defining properties of the major quadrilateral families.
+
+First introduction: **Math 22**
+
+| Course | Role | Priority | Relationship | Unit | Objective |
+|---|---|---|---|---|---|
+| Math 22 | Introduce | Required | Prerequisite | Quadrilaterals, Perimeter, and Area | `M22-QUAD-006` — I can classify a quadrilateral from its stated or marked properties. |
 
 ## SK-QUAD-DISCRIMINANT: Use the discriminant to predict the number and type of solutions.
 
@@ -2343,6 +2455,15 @@ First introduction: **Math 21**
 | Math 31 | Apply | Required | Required | Quadratic Functions and Equations | `M31-QUAD-002` — I can connect standard, factored, and vertex forms to features of a quadratic graph. |
 | Math 31 | Deepen | Required | Required | Quadratic Functions and Equations | `M31-QUAD-005` — I can graph a quadratic function using its algebraic structure and key features. |
 
+## SK-QUAD-VOCABULARY: Recall and correctly use quadratic-function terms including parabola, vertex, axis of symmetry, intercept, zero, and solution.
+
+First introduction: **Math 21**
+
+| Course | Role | Priority | Relationship | Unit | Objective |
+|---|---|---|---|---|---|
+| Math 21 | Introduce | Required | Prerequisite | Quadratic Functions and Equations | `M21-QUAD-001` — I can identify key features of a quadratic function from its graph or equation. |
+| Math 31 | Reinforce | Required | Prerequisite | Quadratic Functions and Equations | `M31-QUAD-001` — I can identify the vertex, intercepts, axis of symmetry, and concavity of a quadratic function. |
+
 ## SK-RAD-CHECK: Check a candidate solution for extraneous results.
 
 First introduction: **Math 21**
@@ -2381,6 +2502,14 @@ First introduction: **Math 21**
 | Course | Role | Priority | Relationship | Unit | Objective |
 |---|---|---|---|---|---|
 | Math 21 | Introduce | Required | Required | Exponents and Radicals | `M21-EXP-005` — I can solve a basic equation involving a radical or rational exponent and check for extraneous solutions. |
+
+## SK-RAD-NOTATION-READ: Read radical and rational-exponent notation and identify the index, radicand, base, numerator, and denominator.
+
+First introduction: **Math 21**
+
+| Course | Role | Priority | Relationship | Unit | Objective |
+|---|---|---|---|---|---|
+| Math 21 | Introduce | Required | Prerequisite | Exponents and Radicals | `M21-EXP-002` — I can rewrite expressions between radical and rational-exponent forms. |
 
 ## SK-RAT-CANCEL-FACTORS: Cancel common factors rather than individual terms.
 
@@ -2438,6 +2567,14 @@ First introduction: **Math 21**
 | Math 49 | Apply | Required | Prerequisite | Rational Functions and Limits | `M49-ALG-006` — I can identify holes and vertical, horizontal, or slant asymptotes of a rational function. |
 | Math 49 | Apply | Required | Method-dependent | Rational Functions and Limits | `M49-LIM-003` — I can evaluate a limit algebraically using direct substitution or simplification. |
 
+## SK-RAT-FUNCTION-VOCAB: Recall and correctly use rational-function terms including restriction, hole, asymptote, and end behavior.
+
+First introduction: **Math 49**
+
+| Course | Role | Priority | Relationship | Unit | Objective |
+|---|---|---|---|---|---|
+| Math 49 | Introduce | Required | Prerequisite | Rational Functions and Limits | `M49-ALG-006` — I can identify holes and vertical, horizontal, or slant asymptotes of a rational function. |
+
 ## SK-RAT-HOLE: Identify a removable discontinuity and its coordinates.
 
 First introduction: **Math 49**
@@ -2485,6 +2622,16 @@ First introduction: **Math 49**
 | Math 49 | Introduce | Required | Required | Rational Functions and Limits | `M49-ALG-006` — I can identify holes and vertical, horizontal, or slant asymptotes of a rational function. |
 | Math 49 | Deepen | Required | Required | Rational Functions and Limits | `M49-ALG-007` — I can sketch and analyze a rational function using its algebraic and asymptotic features. |
 | Math 49 | Deepen | Required | Required | Rational Functions and Limits | `M49-LIM-005` — I can interpret an infinite limit as vertical-asymptotic behavior. |
+
+## SK-RAT-VOCABULARY: Recall and correctly use rational-expression terms including numerator, denominator, restriction, and excluded value.
+
+First introduction: **Math 21**
+
+| Course | Role | Priority | Relationship | Unit | Objective |
+|---|---|---|---|---|---|
+| Math 21 | Introduce | Required | Prerequisite | Rational Expressions and Equations | `M21-RAT-001` — I can state excluded values for a rational expression. |
+| Math 21 | Apply | Required | Prerequisite | Rational Expressions and Equations | `M21-RAT-002` — I can simplify a rational expression while preserving its restrictions. |
+| Math 49 | Reinforce | Required | Prerequisite | Rational Functions and Limits | `M49-ALG-006` — I can identify holes and vertical, horizontal, or slant asymptotes of a rational function. |
 
 ## SK-REG-CORRELATION-INTERPRET: Interpret the sign and magnitude of a correlation coefficient in context.
 
@@ -2569,6 +2716,14 @@ First introduction: **Math 39**
 | Course | Role | Priority | Relationship | Unit | Objective |
 |---|---|---|---|---|---|
 | Math 39 | Introduce | Extension | Required | Linearization of Nonlinear Data | `M39-POW-008` — I can linearize power or exponential data and translate between the linearized and original models. |
+
+## SK-REG-VOCABULARY: Recall and correctly use regression terms including explanatory variable, response variable, correlation, residual, and residual plot.
+
+First introduction: **Math 39**
+
+| Course | Role | Priority | Relationship | Unit | Objective |
+|---|---|---|---|---|---|
+| Math 39 | Introduce | Required | Prerequisite | Linear Modeling and Residuals | `M39-LIN-003` — I can fit a linear regression model to data using technology and interpret its parameters. |
 
 ## SK-REP-FORMULA-GRAPH: Connect parameters in a formula to features of its graph.
 
@@ -2699,6 +2854,14 @@ First introduction: **Math 49**
 | Math 49 | Deepen | Required | Required | Sequences and Series | `M49-SEQ-003` — I can write explicit and recursive formulas for geometric sequences. |
 | Math 49 | Apply | Required | Method-dependent | Sequences and Series | `M49-SEQ-005` — I can create and interpret a sequence model for discrete change. |
 
+## SK-SEQ-VOCABULARY: Recall and correctly use the terms sequence, term, index, explicit formula, recursive formula, arithmetic sequence, and geometric sequence.
+
+First introduction: **Math 49**
+
+| Course | Role | Priority | Relationship | Unit | Objective |
+|---|---|---|---|---|---|
+| Math 49 | Introduce | Required | Prerequisite | Sequences and Series | `M49-SEQ-001` — I can evaluate and graph a sequence defined explicitly or recursively. |
+
 ## SK-SER-ARITHMETIC: Apply an arithmetic-series sum formula.
 
 First introduction: **Math 49**
@@ -2741,6 +2904,14 @@ First introduction: **Math 49**
 | Course | Role | Priority | Relationship | Unit | Objective |
 |---|---|---|---|---|---|
 | Math 49 | Introduce | Required | Required | Sequences and Series | `M49-SER-001` — I can interpret and use summation notation. |
+
+## SK-SER-VOCABULARY: Recall and correctly use the terms series, partial sum, sigma notation, finite series, infinite series, and convergence.
+
+First introduction: **Math 49**
+
+| Course | Role | Priority | Relationship | Unit | Objective |
+|---|---|---|---|---|---|
+| Math 49 | Introduce | Required | Prerequisite | Sequences and Series | `M49-SER-001` — I can interpret and use summation notation. |
 
 ## SK-SIM-AA: Recognize AA triangle similarity.
 
@@ -2797,6 +2968,14 @@ First introduction: **Math 22**
 | Course | Role | Priority | Relationship | Unit | Objective |
 |---|---|---|---|---|---|
 | Math 22 | Introduce | Required | Required | Similarity and Proportional Reasoning | `M22-SIM-007` — I can apply triangle proportionality theorems and their converses. |
+
+## SK-SIM-VOCAB: Recall and correctly use the terms similarity, dilation, scale factor, and corresponding parts.
+
+First introduction: **Math 22**
+
+| Course | Role | Priority | Relationship | Unit | Objective |
+|---|---|---|---|---|---|
+| Math 22 | Introduce | Required | Prerequisite | Similarity and Proportional Reasoning | `M22-SIM-002` — I can identify the scale factor of a dilation or similarity relationship. |
 
 ## SK-STAT-BOXPLOT: Construct and interpret a boxplot.
 
@@ -2952,6 +3131,14 @@ First introduction: **Math 39**
 |---|---|---|---|---|---|
 | Math 39 | Introduce | Required | Required | Describing Data | `M39-STA-007` — I can calculate and interpret range, standard deviation, quartiles, and interquartile range. |
 
+## SK-STAT-VOCABULARY: Recall and correctly use terms for data type, distribution shape, center, spread, percentile, and outlier.
+
+First introduction: **Math 39**
+
+| Course | Role | Priority | Relationship | Unit | Objective |
+|---|---|---|---|---|---|
+| Math 39 | Introduce | Required | Prerequisite | Describing Data | `M39-STA-005` — I can describe a distribution's modality, symmetry, skewness, and outliers. |
+
 ## SK-STAT-ZSCORE: Calculate and interpret a z-score.
 
 First introduction: **Math 39**
@@ -3049,6 +3236,15 @@ First introduction: **Math 22**
 | Math 22 | Deepen | Required | Required | Triangle Congruence and Proof | `M22-CON-007` — I can determine whether triangles are congruent by ASA or AAS. |
 | Math 22 | Apply | Required | Required | Triangle Congruence and Proof | `M22-CON-010` — I can write a structured proof involving triangle congruence. |
 
+## SK-TRI-CONGRUENCE-VOCAB: Recall and correctly use terminology and notation for triangle classification, congruence, and corresponding parts.
+
+First introduction: **Math 22**
+
+| Course | Role | Priority | Relationship | Unit | Objective |
+|---|---|---|---|---|---|
+| Math 22 | Introduce | Required | Prerequisite | Triangle Congruence and Proof | `M22-CON-001` — I can classify triangles by sides and angles. |
+| Math 22 | Apply | Required | Prerequisite | Triangle Congruence and Proof | `M22-CON-003` — I can write a congruence statement with corresponding vertices in the correct order. |
+
 ## SK-TRI-EXTERIOR-ANGLE: Apply the triangle exterior-angle theorem.
 
 First introduction: **Math 22**
@@ -3084,6 +3280,14 @@ First introduction: **Math 22**
 | Math 22 | Apply | Required | Method-dependent | Right Triangles | `M22-RGT-010` — I can justify a right-triangle solution using an appropriate theorem or ratio. |
 | Math 32 | Reinforce | Required | Required | Trigonometric Foundations | `M32-FND-001` — I can use the Pythagorean theorem to determine an unknown side of a right triangle. |
 | Math 32 | Apply | Required | Prerequisite | Trigonometric Foundations | `M32-FND-010` — I can evaluate trigonometric functions from a point on a circle or terminal side. |
+
+## SK-TRI-RIGHT-VOCAB: Recall and correctly use the terms leg, hypotenuse, opposite side, adjacent side, and trigonometric ratio.
+
+First introduction: **Math 22**
+
+| Course | Role | Priority | Relationship | Unit | Objective |
+|---|---|---|---|---|---|
+| Math 22 | Introduce | Required | Prerequisite | Right Triangles | `M22-RGT-007` — I can select sine, cosine, or tangent for a right-triangle problem. |
 
 ## SK-TRI-SPECIAL-RATIOS: Recall special-right-triangle ratios.
 
@@ -3277,6 +3481,14 @@ First introduction: **Math 32**
 | Math 32 | Introduce | Required | Required | Periodic Functions and Modeling | `M32-GRF-002` — I can identify amplitude, midline, period, and phase shift from an equation or graph. |
 | Math 32 | Deepen | Required | Required | Periodic Functions and Modeling | `M32-GRF-004` — I can write sine and cosine equations that represent a periodic graph. |
 
+## SK-TRIG-GRAPH-VOCAB: Recall and correctly use the terms amplitude, midline, period, phase shift, vertical shift, and asymptote.
+
+First introduction: **Math 32**
+
+| Course | Role | Priority | Relationship | Unit | Objective |
+|---|---|---|---|---|---|
+| Math 32 | Introduce | Required | Prerequisite | Periodic Functions and Modeling | `M32-GRF-002` — I can identify amplitude, midline, period, and phase shift from an equation or graph. |
+
 ## SK-TRIG-IDENTITY-COFUNCTION: Apply sine/cosine cofunction identities.
 
 First introduction: **Math 32**
@@ -3380,6 +3592,15 @@ First introduction: **Math 32**
 | Math 32 | Apply | Required | Method-dependent | Non-Right Triangles | `M32-TRI-002` — I can solve a non-right triangle using the Law of Sines. |
 | Math 32 | Apply | Required | Method-dependent | Non-Right Triangles | `M32-TRI-004` — I can solve a non-right triangle using the Law of Cosines. |
 
+## SK-TRIG-INVERSE-NOTATION: Read inverse-trigonometric notation and distinguish it from reciprocal notation.
+
+First introduction: **Math 32**
+
+| Course | Role | Priority | Relationship | Unit | Objective |
+|---|---|---|---|---|---|
+| Math 32 | Apply | Required | Prerequisite | Inverse Functions and Trigonometric Equations | `M32-INV-001` — I can evaluate inverse sine, inverse cosine, and inverse tangent expressions. |
+| Math 32 | Introduce | Required | Required | Inverse Functions and Trigonometric Equations | `M32-INV-006` — I can read inverse-trigonometric notation and distinguish it from reciprocal notation. |
+
 ## SK-TRIG-INVERSE-RANGE: Recall the principal-value ranges of inverse trigonometric functions.
 
 First introduction: **Math 32**
@@ -3418,6 +3639,14 @@ First introduction: **Math 32**
 | Math 32 | Introduce | Required | Required | Periodic Functions and Modeling | `M32-GRF-005` — I can construct a sinusoidal model from contextual information or data. |
 | Math 32 | Deepen | Required | Required | Periodic Functions and Modeling | `M32-GRF-006` — I can interpret the parameters and outputs of a sinusoidal model in context. |
 
+## SK-TRIG-NOTATION-VOCAB: Recall the six trigonometric functions, their reciprocal relationships, and their notation.
+
+First introduction: **Math 32**
+
+| Course | Role | Priority | Relationship | Unit | Objective |
+|---|---|---|---|---|---|
+| Math 32 | Introduce | Required | Prerequisite | Trigonometric Foundations | `M32-FND-007` — I can evaluate all six trigonometric functions exactly for common angles. |
+
 ## SK-TRIG-RECIPROCAL: Relate sine/cosecant, cosine/secant, and tangent/cotangent.
 
 First introduction: **Math 32**
@@ -3427,6 +3656,7 @@ First introduction: **Math 32**
 | Math 32 | Introduce | Required | Required | Trigonometric Foundations | `M32-FND-007` — I can evaluate all six trigonometric functions exactly for common angles. |
 | Math 32 | Apply | Required | Method-dependent | Trigonometric Foundations | `M32-FND-010` — I can evaluate trigonometric functions from a point on a circle or terminal side. |
 | Math 32 | Deepen | Required | Required | Periodic Functions and Modeling | `M32-GRF-007` — I can graph tangent, secant, and cosecant functions with their asymptotes. |
+| Math 32 | Apply | Required | Prerequisite | Inverse Functions and Trigonometric Equations | `M32-INV-006` — I can read inverse-trigonometric notation and distinguish it from reciprocal notation. |
 
 ## SK-TRIG-SIGN-QUADRANT: Determine the sign of a trigonometric function by quadrant.
 
@@ -3549,6 +3779,14 @@ First introduction: **Math 32**
 |---|---|---|---|---|---|
 | Math 32 | Introduce | Extension | Required | Vectors | `M32-VEC-003` — I can determine vector magnitude, direction, and unit vector. |
 | Math 32 | Deepen | Extension | Required | Vectors | `M32-VEC-005` — I can perform basic operations with vectors in three dimensions. |
+
+## SK-VEC-NOTATION-VOCAB: Read and write vector notation and correctly use the terms magnitude, direction, component, and unit vector.
+
+First introduction: **Math 32**
+
+| Course | Role | Priority | Relationship | Unit | Objective |
+|---|---|---|---|---|---|
+| Math 32 | Introduce | Extension | Prerequisite | Vectors | `M32-VEC-001` — I can represent a vector geometrically and in component form. |
 
 ## SK-VEC-OPERATE: Perform component-wise vector operations.
 

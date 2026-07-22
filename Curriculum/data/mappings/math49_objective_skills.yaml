@@ -52,6 +52,7 @@ mappings:
 
   - objective_id: M49-OPS-002
     skills:
+      - {skill_id: SK-FUNC-STRUCTURE-NOTATION, relationship: prerequisite, progression: reinforce}
       - {skill_id: SK-FUNC-COMPOSE-FORMULA, relationship: required, progression: deepen}
       - {skill_id: SK-FUNC-COMPOSE-TABLE, relationship: required, progression: deepen}
       - {skill_id: SK-FUNC-INPUT-OUTPUT, relationship: prerequisite, progression: apply}
@@ -85,6 +86,7 @@ mappings:
 
   - objective_id: M49-PWR-001
     skills:
+      - {skill_id: SK-POWER-VOCABULARY, relationship: prerequisite, progression: reinforce}
       - {skill_id: SK-VAR-POWER, relationship: required, progression: deepen}
       - {skill_id: SK-POWER-PARAMETER-INTERPRET, relationship: required, progression: deepen}
 
@@ -132,10 +134,11 @@ mappings:
   - objective_id: M49-ALG-002
     skills:
       - {skill_id: SK-POLY-END-BEHAVIOR, relationship: required, progression: introduce}
-      - {skill_id: SK-POLY-VOCABULARY, relationship: prerequisite, progression: apply}
+      - {skill_id: SK-POLY-VOCABULARY, relationship: prerequisite, progression: reinforce}
 
   - objective_id: M49-ALG-003
     skills:
+      - {skill_id: SK-POLY-VOCABULARY, relationship: prerequisite, progression: apply}
       - {skill_id: SK-POLY-ZEROS, relationship: required, progression: deepen}
       - {skill_id: SK-POLY-MULTIPLICITY, relationship: required, progression: introduce}
 
@@ -167,6 +170,8 @@ mappings:
 
   - objective_id: M49-ALG-006
     skills:
+      - {skill_id: SK-RAT-FUNCTION-VOCAB, relationship: prerequisite, progression: introduce}
+      - {skill_id: SK-RAT-VOCABULARY, relationship: prerequisite, progression: reinforce}
       - {skill_id: SK-RAT-HOLE, relationship: required, progression: introduce}
       - {skill_id: SK-RAT-VERTICAL-ASYMPTOTE, relationship: required, progression: introduce}
       - {skill_id: SK-RAT-END-BEHAVIOR, relationship: required, progression: introduce}
@@ -232,6 +237,7 @@ mappings:
 
   - objective_id: M49-SEQ-001
     skills:
+      - {skill_id: SK-SEQ-VOCABULARY, relationship: prerequisite, progression: introduce}
       - {skill_id: SK-SEQ-NOTATION, relationship: required, progression: introduce}
       - {skill_id: SK-SEQ-EXPLICIT, relationship: required, progression: introduce}
       - {skill_id: SK-SEQ-RECURSIVE, relationship: required, progression: introduce}
@@ -264,6 +270,7 @@ mappings:
 
   - objective_id: M49-SER-001
     skills:
+      - {skill_id: SK-SER-VOCABULARY, relationship: prerequisite, progression: introduce}
       - {skill_id: SK-SER-SIGMA, relationship: required, progression: introduce}
       - {skill_id: SK-SEQ-NOTATION, relationship: prerequisite, progression: apply}
 
@@ -310,6 +317,7 @@ mappings:
 
   - objective_id: M49-CON-001
     skills:
+      - {skill_id: SK-CONIC-VOCABULARY, relationship: prerequisite, progression: introduce}
       - {skill_id: SK-CONIC-CLASSIFY, relationship: required, progression: introduce}
       - {skill_id: SK-CONIC-DISTANCE-DEFINITION, relationship: method-dependent, progression: introduce}
 

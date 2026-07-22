@@ -1,4 +1,4 @@
-# Math 32 Objective-to-Skill Mapping Review
+# M32 Objective-to-Skill Mapping Review
 
 This teacher-facing view combines each learning objective with the supporting skills currently mapped to it. The YAML files remain the structured source; this document is generated for review.
 
@@ -78,6 +78,7 @@ Objective ID: `M32-FND-007`
 
 | Supporting skill | Relationship | Course role | Skill ID |
 |---|---|---|---|
+| Recall the six trigonometric functions, their reciprocal relationships, and their notation. | Prerequisite | Introduce | `SK-TRIG-NOTATION-VOCAB` |
 | Express common trigonometric values exactly. | Required | Introduce | `SK-TRIG-EXACT-VALUE` |
 | Determine unit-circle coordinates for common angles. | Required | Apply | `SK-TRIG-UNIT-CIRCLE-COORD` |
 | Relate sine/cosecant, cosine/secant, and tangent/cotangent. | Required | Introduce | `SK-TRIG-RECIPROCAL` |
@@ -147,6 +148,7 @@ Objective ID: `M32-GRF-002`
 
 | Supporting skill | Relationship | Course role | Skill ID |
 |---|---|---|---|
+| Recall and correctly use the terms amplitude, midline, period, phase shift, vertical shift, and asymptote. | Prerequisite | Introduce | `SK-TRIG-GRAPH-VOCAB` |
 | Determine amplitude and vertical reflection. | Required | Introduce | `SK-TRIG-GRAPH-AMPLITUDE` |
 | Determine a sinusoid's midline and vertical shift. | Required | Introduce | `SK-TRIG-GRAPH-MIDLINE` |
 | Determine period from a graph or equation. | Required | Introduce | `SK-TRIG-GRAPH-PERIOD` |
@@ -211,12 +213,22 @@ Objective ID: `M32-GRF-007`
 
 ## Required - Inverse Functions and Trigonometric Equations
 
+### I can read inverse-trigonometric notation and distinguish it from reciprocal notation.
+
+Objective ID: `M32-INV-006`
+
+| Supporting skill | Relationship | Course role | Skill ID |
+|---|---|---|---|
+| Read inverse-trigonometric notation and distinguish it from reciprocal notation. | Required | Introduce | `SK-TRIG-INVERSE-NOTATION` |
+| Relate sine/cosecant, cosine/secant, and tangent/cotangent. | Prerequisite | Apply | `SK-TRIG-RECIPROCAL` |
+
 ### I can evaluate inverse sine, inverse cosine, and inverse tangent expressions.
 
 Objective ID: `M32-INV-001`
 
 | Supporting skill | Relationship | Course role | Skill ID |
 |---|---|---|---|
+| Read inverse-trigonometric notation and distinguish it from reciprocal notation. | Prerequisite | Apply | `SK-TRIG-INVERSE-NOTATION` |
 | Evaluate an inverse trigonometric expression exactly or approximately. | Required | Introduce | `SK-TRIG-INVERSE-EVALUATE` |
 | Recall the principal-value ranges of inverse trigonometric functions. | Required | Introduce | `SK-TRIG-INVERSE-RANGE` |
 | Express common trigonometric values exactly. | Method-dependent | Apply | `SK-TRIG-EXACT-VALUE` |
@@ -412,6 +424,7 @@ Objective ID: `M32-POL-001`
 
 | Supporting skill | Relationship | Course role | Skill ID |
 |---|---|---|---|
+| Read and write polar-coordinate notation and identify the radius, angle, pole, and polar axis. | Prerequisite | Introduce | `SK-POL-NOTATION-READ` |
 | Plot a point from radius and angle. | Required | Introduce | `SK-POL-PLOT` |
 | Determine a reference angle and its quadrant. | Prerequisite | Apply | `SK-TRIG-ANGLE-REFERENCE` |
 
@@ -464,6 +477,7 @@ Objective ID: `M32-VEC-001`
 
 | Supporting skill | Relationship | Course role | Skill ID |
 |---|---|---|---|
+| Read and write vector notation and correctly use the terms magnitude, direction, component, and unit vector. | Prerequisite | Introduce | `SK-VEC-NOTATION-VOCAB` |
 | Write a vector in component form. | Required | Introduce | `SK-VEC-COMPONENTS` |
 | Add congruence, parallel, perpendicular, and angle markings to a diagram. | Required | Apply | `SK-GEO-DIAGRAM-MARK` |
 
@@ -515,6 +529,7 @@ Objective ID: `M32-PAR-001`
 
 | Supporting skill | Relationship | Course role | Skill ID |
 |---|---|---|---|
+| Read parametric notation and correctly use the terms parameter, coordinate equation, orientation, and parameter interval. | Prerequisite | Introduce | `SK-PAR-NOTATION-VOCAB` |
 | Generate ordered pairs from parametric equations. | Prerequisite | Introduce | `SK-PAR-TABLE` |
 | Graph a parametric curve with its direction of motion. | Required | Introduce | `SK-PAR-GRAPH` |
 | Identify input and output values in a formula, graph, table, or context. | Required | Apply | `SK-FUNC-INPUT-OUTPUT` |

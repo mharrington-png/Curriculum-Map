@@ -57,13 +57,14 @@ These approved objectives describe Math 39: Precalculus with Data Analysis. Unit
 
 ## Required: Probability (`M39-PRO`)
 
+- **M39-PRO-009:** I can interpret and write notation for compound and conditional probabilities.
 - **M39-PRO-001:** I can organize categorical data in a contingency table or Venn diagram.
 - **M39-PRO-002:** I can calculate and interpret empirical, marginal, joint, and conditional probabilities from a contingency table.
 - **M39-PRO-003:** I can identify an experiment, outcomes, events, and a sample space.
 - **M39-PRO-004:** I can calculate theoretical probabilities when outcomes are equally likely.
 - **M39-PRO-005:** I can use complements to calculate probabilities.
-- **M39-PRO-006:** I can calculate probabilities of compound "and" events and distinguish independent from dependent events.
-- **M39-PRO-007:** I can calculate probabilities of compound "or" events and distinguish overlapping from disjoint events.
+- **M39-PRO-006:** I can calculate probabilities of compound 'and' events and distinguish independent from dependent events.
+- **M39-PRO-007:** I can calculate probabilities of compound 'or' events and distinguish overlapping from disjoint events.
 - **M39-PRO-008:** I can compare experimental and theoretical probability and explain the law of large numbers.
 
 ## Extension: Expected Value (`M39-EV`)

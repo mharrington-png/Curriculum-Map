@@ -81,6 +81,7 @@ mappings:
   - objective_id: M12-INE-004
     skills:
       - {skill_id: SK-NOT-INTERVAL, relationship: required, progression: introduce}
+      - {skill_id: SK-NOT-INEQUALITY-READ, relationship: prerequisite, progression: introduce}
       - {skill_id: SK-INE-NUMBER-LINE, relationship: prerequisite, progression: apply}
 
   - objective_id: M12-INE-005
@@ -114,12 +115,14 @@ mappings:
 
   - objective_id: M12-LIN-005
     skills:
+      - {skill_id: SK-FUNC-VOCABULARY, relationship: prerequisite, progression: introduce}
       - {skill_id: SK-FUNC-NOTATION-READ, relationship: required, progression: introduce}
       - {skill_id: SK-FUNC-INPUT-OUTPUT, relationship: required, progression: introduce}
       - {skill_id: SK-ALG-EXPRESSION-SIMPLIFY, relationship: prerequisite, progression: apply}
 
   - objective_id: M12-LIN-006
     skills:
+      - {skill_id: SK-FUNC-VOCABULARY, relationship: prerequisite, progression: apply}
       - {skill_id: SK-FUNC-VERTICAL-LINE, relationship: required, progression: introduce}
       - {skill_id: SK-FUNC-INPUT-OUTPUT, relationship: required, progression: deepen}
 

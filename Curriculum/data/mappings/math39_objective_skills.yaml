@@ -24,6 +24,7 @@ mappings:
       - {skill_id: SK-MODEL-PARAMETER-INTERPRET, relationship: required, progression: apply}
   - objective_id: M39-LIN-003
     skills:
+      - {skill_id: SK-REG-VOCABULARY, relationship: prerequisite, progression: introduce}
       - {skill_id: SK-REG-LINEAR-FIT, relationship: required, progression: introduce}
       - {skill_id: SK-MODEL-PARAMETER-INTERPRET, relationship: required, progression: deepen}
   - objective_id: M39-LIN-004
@@ -51,6 +52,7 @@ mappings:
       - {skill_id: SK-EXP-MODEL-CONTEXT, relationship: required, progression: deepen}
   - objective_id: M39-EXP-003
     skills:
+      - {skill_id: SK-EXP-VOCABULARY, relationship: prerequisite, progression: reinforce}
       - {skill_id: SK-EXP-PERCENT-FACTOR, relationship: required, progression: deepen}
       - {skill_id: SK-MODEL-PARAMETER-INTERPRET, relationship: required, progression: deepen}
   - objective_id: M39-EXP-004
@@ -75,6 +77,7 @@ mappings:
 
   - objective_id: M39-POW-001
     skills:
+      - {skill_id: SK-POWER-VOCABULARY, relationship: prerequisite, progression: introduce}
       - {skill_id: SK-VAR-POWER, relationship: required, progression: introduce}
       - {skill_id: SK-POWER-PARAMETER-INTERPRET, relationship: required, progression: introduce}
   - objective_id: M39-POW-002
@@ -121,9 +124,10 @@ mappings:
   - objective_id: M39-POL-003
     skills:
       - {skill_id: SK-POLY-END-BEHAVIOR, relationship: required, progression: introduce}
-      - {skill_id: SK-POLY-VOCABULARY, relationship: prerequisite, progression: apply}
+      - {skill_id: SK-POLY-VOCABULARY, relationship: prerequisite, progression: reinforce}
   - objective_id: M39-POL-004
     skills:
+      - {skill_id: SK-POLY-VOCABULARY, relationship: prerequisite, progression: apply}
       - {skill_id: SK-POLY-ZEROS, relationship: required, progression: deepen}
       - {skill_id: SK-POLY-MULTIPLICITY, relationship: required, progression: introduce}
   - objective_id: M39-POL-005
@@ -165,6 +169,7 @@ mappings:
       - {skill_id: SK-STAT-GRAPH-CRITIQUE, relationship: required, progression: introduce}
   - objective_id: M39-STA-005
     skills:
+      - {skill_id: SK-STAT-VOCABULARY, relationship: prerequisite, progression: introduce}
       - {skill_id: SK-STAT-DISTRIBUTION-SHAPE, relationship: required, progression: introduce}
       - {skill_id: SK-STAT-OUTLIER-IDENTIFY, relationship: required, progression: introduce}
   - objective_id: M39-STA-006
@@ -203,6 +208,7 @@ mappings:
       - {skill_id: SK-PROB-CONDITIONAL, relationship: required, progression: introduce}
   - objective_id: M39-PRO-003
     skills:
+      - {skill_id: SK-PROB-NOTATION-VOCAB, relationship: prerequisite, progression: apply}
       - {skill_id: SK-PROB-SAMPLE-SPACE, relationship: required, progression: introduce}
   - objective_id: M39-PRO-004
     skills:
@@ -228,8 +234,13 @@ mappings:
 
   - objective_id: M39-EV-001
     skills:
+      - {skill_id: SK-PROB-EXPECTED-NOTATION, relationship: prerequisite, progression: introduce}
       - {skill_id: SK-PROB-EXPECTED-VALUE, relationship: required, progression: introduce}
   - objective_id: M39-EV-002
     skills:
       - {skill_id: SK-PROB-EXPECTED-VALUE, relationship: prerequisite, progression: deepen}
       - {skill_id: SK-PROB-EXPECTED-INTERPRET, relationship: required, progression: introduce}
+
+  - objective_id: M39-PRO-009
+    skills:
+      - {skill_id: SK-PROB-NOTATION-VOCAB, relationship: required, progression: introduce}

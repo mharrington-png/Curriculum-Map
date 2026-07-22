@@ -153,6 +153,7 @@ mappings:
 
   - objective_id: M31-FUN-009
     skills:
+      - {skill_id: SK-FUNC-STRUCTURE-NOTATION, relationship: prerequisite, progression: introduce}
       - {skill_id: SK-FUNC-COMPOSE-FORMULA, relationship: method-dependent, progression: introduce}
       - {skill_id: SK-FUNC-COMPOSE-TABLE, relationship: method-dependent, progression: introduce}
       - {skill_id: SK-FUNC-INPUT-OUTPUT, relationship: prerequisite, progression: apply}
@@ -164,6 +165,7 @@ mappings:
 
   - objective_id: M31-FUN-011
     skills:
+      - {skill_id: SK-FUNC-STRUCTURE-NOTATION, relationship: prerequisite, progression: apply}
       - {skill_id: SK-FUNC-INVERSE-SWAP, relationship: prerequisite, progression: introduce}
       - {skill_id: SK-FUNC-INVERSE-ALGEBRA, relationship: required, progression: introduce}
       - {skill_id: SK-ALG-VARIABLE-ISOLATE, relationship: required, progression: apply}
@@ -221,6 +223,7 @@ mappings:
 
   - objective_id: M31-QUAD-001
     skills:
+      - {skill_id: SK-QUAD-VOCABULARY, relationship: prerequisite, progression: reinforce}
       - {skill_id: SK-QUAD-VERTEX, relationship: required, progression: deepen}
       - {skill_id: SK-QUAD-INTERCEPTS, relationship: required, progression: deepen}
       - {skill_id: SK-FUNC-CONCAVITY-AROC, relationship: required, progression: apply}
@@ -275,6 +278,7 @@ mappings:
 
   - objective_id: M31-EXP-002
     skills:
+      - {skill_id: SK-EXP-VOCABULARY, relationship: prerequisite, progression: introduce}
       - {skill_id: SK-EXP-PERCENT-FACTOR, relationship: required, progression: introduce}
       - {skill_id: SK-EXP-MODEL-CONTEXT, relationship: required, progression: introduce}
       - {skill_id: SK-MODEL-PARAMETER-INTERPRET, relationship: required, progression: deepen}
@@ -329,6 +333,7 @@ mappings:
 
   - objective_id: M31-LOG-001
     skills:
+      - {skill_id: SK-LOG-NOTATION-READ, relationship: prerequisite, progression: introduce}
       - {skill_id: SK-LOG-DEFINITION, relationship: required, progression: introduce}
       - {skill_id: SK-LOG-CONVERT, relationship: required, progression: introduce}
 

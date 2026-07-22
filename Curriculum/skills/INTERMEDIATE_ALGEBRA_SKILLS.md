@@ -23,6 +23,7 @@ This is the initial reusable skill library extracted from Math 21. Foundational 
 
 ## Rational Expression Skills
 
+- **SK-RAT-VOCABULARY:** Recall and correctly use rational-expression terms including numerator, denominator, restriction, and excluded value.
 - **SK-RAT-RESTRICTIONS:** Determine excluded values from an original denominator.
 - **SK-RAT-FACTOR:** Factor numerators and denominators completely.
 - **SK-RAT-CANCEL-FACTORS:** Cancel common factors rather than individual terms.
@@ -33,6 +34,7 @@ This is the initial reusable skill library extracted from Math 21. Foundational 
 
 ## Exponent and Radical Skills
 
+- **SK-RAD-NOTATION-READ:** Read radical and rational-exponent notation and identify the index, radicand, base, numerator, and denominator.
 - **SK-EXP-NEGATIVE:** Rewrite a negative exponent using a reciprocal.
 - **SK-EXP-ZERO:** Apply the zero-exponent rule.
 - **SK-EXP-RATIONAL:** Interpret numerator and denominator roles in a rational exponent.
@@ -43,6 +45,7 @@ This is the initial reusable skill library extracted from Math 21. Foundational 
 
 ## Quadratic Skills
 
+- **SK-QUAD-VOCABULARY:** Recall and correctly use quadratic-function terms including parabola, vertex, axis of symmetry, intercept, zero, and solution.
 - **SK-QUAD-FORM-IDENTIFY:** Identify standard, factored, and vertex forms.
 - **SK-QUAD-FORM-CONVERT:** Rewrite a quadratic among standard, factored, and vertex forms using an appropriate algebraic method.
 - **SK-QUAD-VERTEX:** Determine the vertex and axis of symmetry.

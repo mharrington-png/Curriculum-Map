@@ -31,6 +31,7 @@ This is the initial reusable skill library extracted from Math 12. It is intende
 - **SK-ABS-SPLIT-INEQUALITY:** Rewrite an absolute-value inequality as a compound inequality.
 - **SK-INE-GRAPH-BOUNDARY:** Graph the boundary line of a linear inequality with the correct line type.
 - **SK-INE-SYSTEM-REGION:** Identify the overlapping solution region of multiple linear inequalities.
+- **SK-NOT-INEQUALITY-READ:** Read inequality symbols and state the relationship each symbol expresses.
 
 ## Line and Function Skills
 
@@ -45,6 +46,7 @@ This is the initial reusable skill library extracted from Math 12. It is intende
 - **SK-LIN-PARALLEL-SLOPE:** Recognize that distinct parallel lines have equal slopes.
 - **SK-LIN-PERPENDICULAR-SLOPE:** Determine the negative reciprocal of a nonzero slope.
 - **SK-FUNC-NOTATION-READ:** Identify the input and output represented by function notation.
+- **SK-FUNC-VOCABULARY:** Recall and correctly use the terms relation, function, input, output, domain, and range.
 - **SK-FUNC-VERTICAL-LINE:** Apply the vertical line test to a graph.
 - **SK-FUNC-DISCRETE-CONTINUOUS:** Distinguish discrete inputs from values varying continuously over an interval.
 - **SK-FUNC-DOMAIN-RANGE-GRAPH:** Read domain and range from a graph.

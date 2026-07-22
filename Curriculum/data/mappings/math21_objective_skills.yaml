@@ -125,10 +125,12 @@ mappings:
 
   - objective_id: M21-RAT-001
     skills:
+      - {skill_id: SK-RAT-VOCABULARY, relationship: prerequisite, progression: introduce}
       - {skill_id: SK-RAT-RESTRICTIONS, relationship: required, progression: introduce}
 
   - objective_id: M21-RAT-002
     skills:
+      - {skill_id: SK-RAT-VOCABULARY, relationship: prerequisite, progression: apply}
       - {skill_id: SK-RAT-RESTRICTIONS, relationship: required, progression: apply}
       - {skill_id: SK-RAT-FACTOR, relationship: required, progression: introduce}
       - {skill_id: SK-RAT-CANCEL-FACTORS, relationship: required, progression: introduce}
@@ -161,6 +163,7 @@ mappings:
 
   - objective_id: M21-EXP-002
     skills:
+      - {skill_id: SK-RAD-NOTATION-READ, relationship: prerequisite, progression: introduce}
       - {skill_id: SK-EXP-RATIONAL, relationship: required, progression: introduce}
       - {skill_id: SK-RAD-CONVERT, relationship: required, progression: introduce}
 
@@ -187,6 +190,7 @@ mappings:
 
   - objective_id: M21-QUAD-001
     skills:
+      - {skill_id: SK-QUAD-VOCABULARY, relationship: prerequisite, progression: introduce}
       - {skill_id: SK-QUAD-FORM-IDENTIFY, relationship: required, progression: introduce}
       - {skill_id: SK-QUAD-VERTEX, relationship: required, progression: introduce}
       - {skill_id: SK-QUAD-INTERCEPTS, relationship: required, progression: introduce}

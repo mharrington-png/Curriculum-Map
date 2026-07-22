@@ -4,6 +4,7 @@ This is the initial reusable skill library extracted from Math 22. Skills repres
 
 ## Diagram and Notation Skills
 
+- **SK-GEO-FOUNDATIONAL-DEFINITIONS:** Recall definitions of points, lines, planes, segments, rays, angles, and intersections.
 - **SK-GEO-NOTATION:** Read and write geometric notation correctly.
 - **SK-GEO-DIAGRAM-MARK:** Add congruence, parallel, perpendicular, and angle markings to a diagram.
 - **SK-GEO-DIAGRAM-INFER:** Distinguish stated or marked facts from visual appearance.
@@ -43,6 +44,8 @@ This is the initial reusable skill library extracted from Math 22. Skills repres
 
 ## Triangle Skills
 
+- **SK-TRI-CONGRUENCE-VOCAB:** Recall and correctly use terminology and notation for triangle classification, congruence, and corresponding parts.
+- **SK-TRI-RIGHT-VOCAB:** Recall and correctly use the terms leg, hypotenuse, opposite side, adjacent side, and trigonometric ratio.
 - **SK-TRI-CLASSIFY:** Classify a triangle by side lengths and angle measures.
 - **SK-TRI-ANGLE-SUM:** Apply the triangle angle-sum theorem.
 - **SK-TRI-EXTERIOR-ANGLE:** Apply the triangle exterior-angle theorem.
@@ -57,6 +60,7 @@ This is the initial reusable skill library extracted from Math 22. Skills repres
 
 ## Polygon and Quadrilateral Skills
 
+- **SK-QUAD-DEFINITIONS:** Recall the definitions and defining properties of the major quadrilateral families.
 - **SK-POLY-ANGLE-SUM:** Calculate polygon interior or exterior angle sums.
 - **SK-QUAD-HIERARCHY:** Use the inclusive hierarchy of quadrilateral classifications.
 - **SK-QUAD-PARALLELOGRAM:** Apply parallelogram properties and tests.
@@ -66,6 +70,7 @@ This is the initial reusable skill library extracted from Math 22. Skills repres
 
 ## Similarity Skills
 
+- **SK-SIM-VOCAB:** Recall and correctly use the terms similarity, dilation, scale factor, and corresponding parts.
 - **SK-SIM-SCALE-FACTOR:** Calculate and interpret a similarity or dilation scale factor.
 - **SK-SIM-PROPORTION:** Set up proportions using corresponding sides.
 - **SK-SIM-AA:** Recognize AA triangle similarity.

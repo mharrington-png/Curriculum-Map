@@ -4,13 +4,13 @@ Generated automatically from the approved course and mapping records. Warnings r
 
 ## Summary
 
-- Canonical skills used in mappings: 357
+- Canonical skills used in mappings: 385
 - Skills without a mapped or accepted inherited introduction: 0
 - Skills used in an earlier course than their recorded introduction: 0
 - Skills introduced in more than one course: 0
 - Skills introduced only in extension material and later assumed outside extension: 0
-- Skills appearing in only one course: 225
-- Broad-definition review candidates: 4
+- Skills appearing in only one course: 248
+- Broad-definition review candidates: 20
 
 ## Warning: Introduction Not Identified
 
@@ -55,6 +55,7 @@ Math 39 is optional between Math 32 and Math 49. These skills may be introduced 
 - `SK-POLY-DEGREE-ZEROS` — introduced in both Math 39 and Math 49
 - `SK-POLY-END-BEHAVIOR` — introduced in both Math 39 and Math 49
 - `SK-POLY-MULTIPLICITY` — introduced in both Math 39 and Math 49
+- `SK-POWER-VOCABULARY` — introduced in both Math 39 and Math 49
 - `SK-VAR-DIRECT` — introduced in both Math 39 and Math 49
 - `SK-VAR-INVERSE` — introduced in both Math 39 and Math 49
 - `SK-VAR-POWER` — introduced in both Math 39 and Math 49
@@ -92,6 +93,7 @@ These may be appropriately course-specific. Review them when checking whether la
 - `SK-CONIC-HYPERBOLA-EQUATIONS` — Connect implicit, standard, and parametric equations of a hyperbola. (Math 49)
 - `SK-CONIC-HYPERBOLA-FEATURES` — Determine and use a hyperbola's center, axes, vertices, foci, and asymptotes. (Math 49)
 - `SK-CONIC-PARABOLA-DEFINITION` — Explain a parabola using its focus-directrix distance relationship. (Math 49)
+- `SK-CONIC-VOCABULARY` — Recall the defining terms and standard notation for circles, parabolas, ellipses, and hyperbolas. (Math 49)
 - `SK-COORD-DISTANCE-AXIS` — Calculate horizontal or vertical distance from the difference of coordinates. (Math 22)
 - `SK-COORD-MIDPOINT` — Calculate the midpoint of a segment from endpoint coordinates. (Math 22)
 - `SK-CPLX-I-POWERS` — Simplify integer powers of the imaginary unit. (Math 21)
@@ -113,12 +115,14 @@ These may be appropriately course-specific. Review them when checking whether la
 - `SK-FUNC-PIECEWISE-EVALUATE` — Select the correct rule of a piecewise function for a given input. (Math 31)
 - `SK-FUNC-PIECEWISE-GRAPH` — Graph each rule on its stated domain with correct endpoints. (Math 31)
 - `SK-FUNC-PIECEWISE-WRITE` — Translate a segmented graph into a piecewise formula. (Math 31)
+- `SK-FUNC-VOCABULARY` — Recall and correctly use the terms relation, function, input, output, domain, and range. (Math 12)
 - `SK-GEO-ANGLE-ADDITION` — Translate angle addition into an equation. (Math 22)
 - `SK-GEO-ANGLE-MEASURE` — Measure or calculate an angle accurately. (Math 22)
 - `SK-GEO-AREA-DECOMPOSE` — Decompose a composite region into familiar shapes. (Math 22)
 - `SK-GEO-BISECTOR` — Use a bisector to create equal measures. (Math 22)
 - `SK-GEO-CORRESPONDENCE` — Match corresponding vertices, sides, and angles in order. (Math 22)
 - `SK-GEO-DIAGRAM-INFER` — Distinguish stated or marked facts from visual appearance. (Math 22)
+- `SK-GEO-FOUNDATIONAL-DEFINITIONS` — Recall definitions of points, lines, planes, segments, rays, angles, and intersections. (Math 22)
 - `SK-GEO-MIDPOINT` — Use a midpoint to create equal segment lengths. (Math 22)
 - `SK-GEO-NOTATION` — Read and write geometric notation correctly. (Math 22)
 - `SK-GEO-PERIMETER` — Add boundary lengths without omitting or duplicating sides. (Math 22)
@@ -140,12 +144,16 @@ These may be appropriately course-specific. Review them when checking whether la
 - `SK-LIM-TABLE` — Estimate a limit from input-output values approaching from both sides. (Math 49)
 - `SK-LIN-PERPENDICULAR-ANGLE` — Use right-angle relationships created by perpendicular lines. (Math 22)
 - `SK-LOG-CONVERT` — Convert between logarithmic and exponential forms. (Math 31)
+- `SK-LOG-NOTATION-READ` — Read logarithmic notation and identify the base, argument, and corresponding exponential statement. (Math 31)
 - `SK-LOG-SCALE-INTERPRET` — Interpret equal intervals on a logarithmic scale as equal multiplicative changes. (Math 31)
+- `SK-NOT-INEQUALITY-READ` — Read inequality symbols and state the relationship each symbol expresses. (Math 12)
 - `SK-NUM-PERCENT-CALCULATE` — Calculate a percentage of a quantity or determine what percent one quantity is of another. (Math 31)
 - `SK-NUM-PERCENT-CHANGE` — Calculate and interpret percent increase or decrease. (Math 31)
+- `SK-PAR-NOTATION-VOCAB` — Read parametric notation and correctly use the terms parameter, coordinate equation, orientation, and parameter interval. (Math 32)
 - `SK-POL-CONVERT-EQUATION` — Substitute coordinate identities to convert an equation between systems. (Math 32)
 - `SK-POL-CONVERT-POINT` — Use coordinate relationships to convert a point between systems. (Math 32)
 - `SK-POL-EQUIVALENT` — Generate equivalent polar coordinate pairs. (Math 32)
+- `SK-POL-NOTATION-READ` — Read and write polar-coordinate notation and identify the radius, angle, pole, and polar axis. (Math 32)
 - `SK-POL-PLOT` — Plot a point from radius and angle. (Math 32)
 - `SK-POLY-ANGLE-SUM` — Calculate polygon interior or exterior angle sums. (Math 22)
 - `SK-POLY-DIVIDE-MONOMIAL` — Divide each term of a polynomial by a monomial. (Math 12)
@@ -157,10 +165,12 @@ These may be appropriately course-specific. Review them when checking whether la
 - `SK-PROB-DISJOINT` — Determine whether events are overlapping or disjoint. (Math 39)
 - `SK-PROB-EMPIRICAL` — Calculate probability from observed relative frequency. (Math 39)
 - `SK-PROB-EXPECTED-INTERPRET` — Interpret expected value as a long-run average for decision-making. (Math 39)
+- `SK-PROB-EXPECTED-NOTATION` — Read expected-value notation and recall the meanings of outcome, probability, payoff, and long-run average. (Math 39)
 - `SK-PROB-EXPECTED-VALUE` — Calculate the expected value of a discrete probability situation. (Math 39)
 - `SK-PROB-INDEPENDENCE` — Determine whether events are independent or dependent. (Math 39)
 - `SK-PROB-LARGE-NUMBERS` — Explain how experimental probability stabilizes with many trials. (Math 39)
 - `SK-PROB-MARGINAL-JOINT` — Calculate and interpret marginal and joint probabilities. (Math 39)
+- `SK-PROB-NOTATION-VOCAB` — Read and write probability notation and correctly use the terms outcome, event, sample space, complement, intersection, union, and conditional probability. (Math 39)
 - `SK-PROB-OR` — Calculate the probability of a compound or event. (Math 39)
 - `SK-PROB-SAMPLE-SPACE` — Identify outcomes, events, and the sample space of an experiment. (Math 39)
 - `SK-PROB-THEORETICAL` — Calculate theoretical probability for equally likely outcomes. (Math 39)
@@ -174,6 +184,7 @@ These may be appropriately course-specific. Review them when checking whether la
 - `SK-PROOF-SIMILARITY-ORDER` — Write similarity statements in corresponding order. (Math 22)
 - `SK-PROOF-STRUCTURE` — Organize statements and reasons into a valid proof sequence. (Math 22)
 - `SK-PROOF-THEOREM-SELECT` — Select a theorem that connects known facts to a target statement. (Math 22)
+- `SK-QUAD-DEFINITIONS` — Recall the definitions and defining properties of the major quadrilateral families. (Math 22)
 - `SK-QUAD-HIERARCHY` — Use the inclusive hierarchy of quadrilateral classifications. (Math 22)
 - `SK-QUAD-KITE` — Apply kite properties. (Math 22)
 - `SK-QUAD-PARALLELOGRAM` — Apply parallelogram properties and tests. (Math 22)
@@ -183,10 +194,12 @@ These may be appropriately course-specific. Review them when checking whether la
 - `SK-RAD-CHECK` — Check a candidate solution for extraneous results. (Math 21)
 - `SK-RAD-CONVERT` — Convert between radical and rational-exponent notation. (Math 21)
 - `SK-RAD-ISOLATE` — Isolate a radical expression before solving. (Math 21)
+- `SK-RAD-NOTATION-READ` — Read radical and rational-exponent notation and identify the index, radicand, base, numerator, and denominator. (Math 21)
 - `SK-RAT-CLEAR-DENOMINATORS` — Clear denominators from a rational equation. (Math 21)
 - `SK-RAT-COMBINE` — Combine rational expressions over a common denominator. (Math 21)
 - `SK-RAT-END-BEHAVIOR` — Determine horizontal or slant asymptotic behavior. (Math 49)
 - `SK-RAT-EXTRANEOUS` — Check candidate solutions against denominator restrictions. (Math 21)
+- `SK-RAT-FUNCTION-VOCAB` — Recall and correctly use rational-function terms including restriction, hole, asymptote, and end behavior. (Math 49)
 - `SK-RAT-HOLE` — Identify a removable discontinuity and its coordinates. (Math 49)
 - `SK-RAT-LCD` — Determine the least common denominator of rational expressions. (Math 21)
 - `SK-RAT-SIGN-INTERVAL` — Determine the sign of a rational function on intervals. (Math 49)
@@ -201,6 +214,7 @@ These may be appropriately course-specific. Review them when checking whether la
 - `SK-REG-RESIDUAL-CALCULATE` — Calculate an observed value minus its model-predicted value. (Math 39)
 - `SK-REG-RESIDUAL-PLOT` — Construct and interpret a residual plot. (Math 39)
 - `SK-REG-UNLINEARIZE` — Translate a linearized regression equation back to its original nonlinear form. (Math 39)
+- `SK-REG-VOCABULARY` — Recall and correctly use regression terms including explanatory variable, response variable, correlation, residual, and residual plot. (Math 39)
 - `SK-SEQ-DIFFERENCE` — Recognize constant difference in an arithmetic sequence. (Math 49)
 - `SK-SEQ-EXPLICIT` — Generate an explicit formula from a sequence pattern. (Math 49)
 - `SK-SEQ-GRAPH` — Graph a sequence as discrete ordered pairs. (Math 49)
@@ -208,17 +222,20 @@ These may be appropriately course-specific. Review them when checking whether la
 - `SK-SEQ-NOTATION` — Interpret subscripts and evaluate terms of a sequence. (Math 49)
 - `SK-SEQ-RATIO` — Recognize constant ratio in a geometric sequence. (Math 49)
 - `SK-SEQ-RECURSIVE` — Generate a recursive formula with an initial condition. (Math 49)
+- `SK-SEQ-VOCABULARY` — Recall and correctly use the terms sequence, term, index, explicit formula, recursive formula, arithmetic sequence, and geometric sequence. (Math 49)
 - `SK-SER-ARITHMETIC` — Apply an arithmetic-series sum formula. (Math 49)
 - `SK-SER-GEOMETRIC-FINITE` — Apply a finite geometric-series sum formula. (Math 49)
 - `SK-SER-GEOMETRIC-INFINITE` — Test convergence and sum an infinite geometric series. (Math 49)
 - `SK-SER-MODEL` — Identify the initial term, change factor, and number of terms in an application. (Math 49)
 - `SK-SER-SIGMA` — Expand and evaluate a finite sum written in sigma notation. (Math 49)
+- `SK-SER-VOCABULARY` — Recall and correctly use the terms series, partial sum, sigma notation, finite series, infinite series, and convergence. (Math 49)
 - `SK-SIM-AA` — Recognize AA triangle similarity. (Math 22)
 - `SK-SIM-PERIMETER-AREA` — Relate length scale factor to perimeter and area factors. (Math 22)
 - `SK-SIM-PROPORTION` — Set up proportions using corresponding sides. (Math 22)
 - `SK-SIM-SCALE-FACTOR` — Calculate and interpret a similarity or dilation scale factor. (Math 22)
 - `SK-SIM-SSS-SAS` — Test SSS or SAS triangle similarity. (Math 22)
 - `SK-SIM-TRI-PROPORTIONALITY` — Apply triangle proportionality relationships. (Math 22)
+- `SK-SIM-VOCAB` — Recall and correctly use the terms similarity, dilation, scale factor, and corresponding parts. (Math 22)
 - `SK-STAT-BOXPLOT` — Construct and interpret a boxplot. (Math 39)
 - `SK-STAT-CATEGORICAL-DISPLAY` — Construct and interpret bar charts and pie charts. (Math 39)
 - `SK-STAT-CENTER-SELECT` — Select an appropriate measure of center based on distribution shape and context. (Math 39)
@@ -238,14 +255,17 @@ These may be appropriately course-specific. Review them when checking whether la
 - `SK-STAT-RANGE` — Calculate and interpret the range. (Math 39)
 - `SK-STAT-RELATIVE-FREQUENCY` — Calculate and interpret relative frequency. (Math 39)
 - `SK-STAT-STANDARD-DEVIATION` — Calculate and interpret standard deviation as a measure of spread. (Math 39)
+- `SK-STAT-VOCABULARY` — Recall and correctly use terms for data type, distribution shape, center, spread, percentile, and outlier. (Math 39)
 - `SK-STAT-ZSCORE` — Calculate and interpret a z-score. (Math 39)
 - `SK-SYS-MODEL` — Define two variables and write two equations for a context. (Math 12)
 - `SK-TRI-ANGLE-SUM` — Apply the triangle angle-sum theorem. (Math 22)
 - `SK-TRI-CLASSIFY` — Classify a triangle by side lengths and angle measures. (Math 22)
 - `SK-TRI-CONGRUENCE-SELECT` — Select SAS, SSS, HL, ASA, or AAS from marked information. (Math 22)
+- `SK-TRI-CONGRUENCE-VOCAB` — Recall and correctly use terminology and notation for triangle classification, congruence, and corresponding parts. (Math 22)
 - `SK-TRI-EXTERIOR-ANGLE` — Apply the triangle exterior-angle theorem. (Math 22)
 - `SK-TRI-GEOMETRIC-MEAN` — Apply geometric-mean relationships in a right triangle split by an altitude. (Math 22)
 - `SK-TRI-ISOSCELES` — Apply isosceles-triangle theorems and converses. (Math 22)
+- `SK-TRI-RIGHT-VOCAB` — Recall and correctly use the terms leg, hypotenuse, opposite side, adjacent side, and trigonometric ratio. (Math 22)
 - `SK-TRIG-AMBIGUOUS-CASE` — Test and interpret the possible outcomes of SSA data. (Math 32)
 - `SK-TRIG-ANGLE-CONVERT` — Convert between degree and radian measure. (Math 32)
 - `SK-TRIG-ANGLE-COTERMINAL` — Generate and recognize coterminal angles. (Math 32)
@@ -261,6 +281,7 @@ These may be appropriately course-specific. Review them when checking whether la
 - `SK-TRIG-GRAPH-MIDLINE` — Determine a sinusoid's midline and vertical shift. (Math 32)
 - `SK-TRIG-GRAPH-PERIOD` — Determine period from a graph or equation. (Math 32)
 - `SK-TRIG-GRAPH-PHASE` — Determine horizontal shift from a graph or equation. (Math 32)
+- `SK-TRIG-GRAPH-VOCAB` — Recall and correctly use the terms amplitude, midline, period, phase shift, vertical shift, and asymptote. (Math 32)
 - `SK-TRIG-IDENTITY-COFUNCTION` — Apply sine/cosine cofunction identities. (Math 32)
 - `SK-TRIG-IDENTITY-DOUBLE-ANGLE` — Apply double-angle identities. (Math 32)
 - `SK-TRIG-IDENTITY-EVEN-ODD` — Apply even and odd trigonometric identities. (Math 32)
@@ -272,10 +293,12 @@ These may be appropriately course-specific. Review them when checking whether la
 - `SK-TRIG-IDENTITY-SUM-DIFFERENCE` — Apply angle sum and difference identities. (Math 32)
 - `SK-TRIG-IDENTITY-VERIFY` — Maintain equivalence while transforming one side of an identity. (Math 32)
 - `SK-TRIG-INVERSE-EVALUATE` — Evaluate an inverse trigonometric expression exactly or approximately. (Math 32)
+- `SK-TRIG-INVERSE-NOTATION` — Read inverse-trigonometric notation and distinguish it from reciprocal notation. (Math 32)
 - `SK-TRIG-INVERSE-RANGE` — Recall the principal-value ranges of inverse trigonometric functions. (Math 32)
 - `SK-TRIG-LAW-COSINES` — Apply the Law of Cosines to determine missing sides or angles. (Math 32)
 - `SK-TRIG-LAW-SINES` — Apply the Law of Sines to determine missing sides or angles. (Math 32)
 - `SK-TRIG-MODEL-PARAMETERS` — Translate contextual maximum, minimum, cycle, and starting position into model parameters. (Math 32)
+- `SK-TRIG-NOTATION-VOCAB` — Recall the six trigonometric functions, their reciprocal relationships, and their notation. (Math 32)
 - `SK-TRIG-RECIPROCAL` — Relate sine/cosecant, cosine/secant, and tangent/cotangent. (Math 32)
 - `SK-TRIG-SIGN-QUADRANT` — Determine the sign of a trigonometric function by quadrant. (Math 32)
 - `SK-TRIG-TRIANGLE-AREA-SAS` — Calculate triangle area from two sides and the included angle. (Math 32)
@@ -286,6 +309,7 @@ These may be appropriately course-specific. Review them when checking whether la
 - `SK-VEC-COMPONENTS` — Write a vector in component form. (Math 32)
 - `SK-VEC-DIRECTION` — Determine a vector's direction angle with correct quadrant. (Math 32)
 - `SK-VEC-MAGNITUDE` — Calculate vector magnitude using the distance formula. (Math 32)
+- `SK-VEC-NOTATION-VOCAB` — Read and write vector notation and correctly use the terms magnitude, direction, component, and unit vector. (Math 32)
 - `SK-VEC-OPERATE` — Perform component-wise vector operations. (Math 32)
 - `SK-VEC-UNIT` — Normalize a nonzero vector to obtain a unit vector. (Math 32)
 
@@ -293,7 +317,23 @@ These may be appropriately course-specific. Review them when checking whether la
 
 Automatically identified from length and conjunctions; inclusion does not mean a definition is invalid.
 
+- `SK-EXP-VOCABULARY` — Recall and correctly use exponential-function terms including initial value, growth or decay factor, growth or decay rate, and asymptote.
 - `SK-NUM-PERCENT-CALCULATE` — Calculate a percentage of a quantity or determine what percent one quantity is of another.
+- `SK-PAR-NOTATION-VOCAB` — Read parametric notation and correctly use the terms parameter, coordinate equation, orientation, and parameter interval.
+- `SK-POL-NOTATION-READ` — Read and write polar-coordinate notation and identify the radius, angle, pole, and polar axis.
 - `SK-POWER-FRACTIONAL-ANALYZE` — Analyze the domain, graph shape, and behavior near zero of a power function with a fractional exponent.
+- `SK-POWER-VOCABULARY` — Recall and correctly use power-function terms including coefficient, exponent, direct variation, and inverse variation.
+- `SK-PROB-EXPECTED-NOTATION` — Read expected-value notation and recall the meanings of outcome, probability, payoff, and long-run average.
+- `SK-PROB-NOTATION-VOCAB` — Read and write probability notation and correctly use the terms outcome, event, sample space, complement, intersection, union, and conditional probability.
 - `SK-QUAD-FORM-CONVERT` — Rewrite a quadratic among standard, factored, and vertex forms using an appropriate algebraic method.
+- `SK-QUAD-VOCABULARY` — Recall and correctly use quadratic-function terms including parabola, vertex, axis of symmetry, intercept, zero, and solution.
+- `SK-RAD-NOTATION-READ` — Read radical and rational-exponent notation and identify the index, radicand, base, numerator, and denominator.
+- `SK-REG-VOCABULARY` — Recall and correctly use regression terms including explanatory variable, response variable, correlation, residual, and residual plot.
+- `SK-SEQ-VOCABULARY` — Recall and correctly use the terms sequence, term, index, explicit formula, recursive formula, arithmetic sequence, and geometric sequence.
+- `SK-SER-VOCABULARY` — Recall and correctly use the terms series, partial sum, sigma notation, finite series, infinite series, and convergence.
+- `SK-STAT-VOCABULARY` — Recall and correctly use terms for data type, distribution shape, center, spread, percentile, and outlier.
+- `SK-TRI-CONGRUENCE-VOCAB` — Recall and correctly use terminology and notation for triangle classification, congruence, and corresponding parts.
+- `SK-TRI-RIGHT-VOCAB` — Recall and correctly use the terms leg, hypotenuse, opposite side, adjacent side, and trigonometric ratio.
+- `SK-TRIG-GRAPH-VOCAB` — Recall and correctly use the terms amplitude, midline, period, phase shift, vertical shift, and asymptote.
 - `SK-TRIG-TRIANGLE-METHOD` — Select right-triangle ratios, Law of Sines, or Law of Cosines from the given data.
+- `SK-VEC-NOTATION-VOCAB` — Read and write vector notation and correctly use the terms magnitude, direction, component, and unit vector.

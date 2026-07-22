@@ -20,6 +20,7 @@ Math 49 reuses `SK-FUNC-COMPOSE-FORMULA`, `SK-FUNC-COMPOSE-TABLE`, and `SK-FUNC-
 
 ## Polynomial and Rational Skills
 
+- **SK-RAT-FUNCTION-VOCAB:** Recall and correctly use rational-function terms including restriction, hole, asymptote, and end behavior.
 - **SK-POLY-END-BEHAVIOR:** Infer polynomial end behavior from degree and leading coefficient.
 - **SK-POLY-ZEROS:** Determine real and complex zeros using an appropriate method.
 - **SK-POLY-MULTIPLICITY:** Relate zero multiplicity to local graph behavior.
@@ -55,6 +56,8 @@ Math 49 reuses the specific logarithm properties, equation-solving, domain-check
 
 ## Sequence and Series Skills
 
+- **SK-SEQ-VOCABULARY:** Recall and correctly use the terms sequence, term, index, explicit formula, recursive formula, arithmetic sequence, and geometric sequence.
+- **SK-SER-VOCABULARY:** Recall and correctly use the terms series, partial sum, sigma notation, finite series, infinite series, and convergence.
 - **SK-SEQ-NOTATION:** Interpret subscripts and evaluate terms of a sequence.
 - **SK-SEQ-DIFFERENCE:** Recognize constant difference in an arithmetic sequence.
 - **SK-SEQ-RATIO:** Recognize constant ratio in a geometric sequence.
@@ -70,6 +73,7 @@ Math 49 reuses the specific logarithm properties, equation-solving, domain-check
 
 ## Conic Section Skills
 
+- **SK-CONIC-VOCABULARY:** Recall the defining terms and standard notation for circles, parabolas, ellipses, and hyperbolas.
 - **SK-CONIC-CLASSIFY:** Classify a circle, ellipse, hyperbola, or parabola from an equation or geometric definition.
 - **SK-CONIC-GENERAL-STANDARD:** Complete squares to convert a general conic equation to standard form.
 - **SK-CONIC-CIRCLE-EQUATIONS:** Connect implicit, standard, and parametric equations of a circle.

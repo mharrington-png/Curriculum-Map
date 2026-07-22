@@ -1,0 +1,80 @@
+schema_version: 1
+course:
+  id: M12
+  number: Math 12
+  title: Intermediate Algebra
+  status: draft
+  source: source_documents/Math 12 Course Map.docx
+
+units:
+  - id: M12-REV
+    title: Review Content
+    priority: review
+    objectives:
+      - {id: M12-REV-001, statement: "I can evaluate numerical expressions using the order of operations."}
+      - {id: M12-REV-002, statement: "I can perform operations with signed integers and fractions."}
+      - {id: M12-REV-003, statement: "I can simplify an algebraic expression by combining like terms."}
+      - {id: M12-REV-004, statement: "I can use the distributive property to rewrite an expression."}
+      - {id: M12-REV-005, statement: "I can determine the prime factorization of a whole number."}
+
+  - id: M12-EQN
+    title: Linear Equations and Applications
+    priority: required
+    objectives:
+      - {id: M12-EQN-001, statement: "I can solve a linear equation and present equivalent steps clearly."}
+      - {id: M12-EQN-002, statement: "I can solve a linear equation containing fractions."}
+      - {id: M12-EQN-003, statement: "I can rearrange a formula to isolate a specified variable."}
+      - {id: M12-EQN-004, statement: "I can translate a verbal relationship into a linear equation."}
+      - {id: M12-EQN-005, statement: "I can solve and interpret a number, mixture, or motion problem using a linear equation."}
+
+  - id: M12-INE
+    title: Inequalities and Absolute-Value Equations
+    priority: required
+    objectives:
+      - {id: M12-INE-001, statement: "I can solve and graph a one-variable linear inequality."}
+      - {id: M12-INE-002, statement: "I can solve a compound inequality involving AND."}
+      - {id: M12-INE-003, statement: "I can solve a compound inequality involving OR."}
+      - {id: M12-INE-004, statement: "I can express an inequality solution using interval notation."}
+      - {id: M12-INE-005, statement: "I can solve an absolute-value equation and check its solutions."}
+
+  - id: M12-LIN
+    title: Lines and Introductory Functions
+    priority: required
+    objectives:
+      - {id: M12-LIN-001, statement: "I can determine and interpret the slope of a line."}
+      - {id: M12-LIN-002, statement: "I can graph a line from an equation in a common form."}
+      - {id: M12-LIN-003, statement: "I can write an equation of a line from given information."}
+      - {id: M12-LIN-004, statement: "I can determine whether two lines are parallel, perpendicular, or neither."}
+      - {id: M12-LIN-005, statement: "I can evaluate a function using function notation."}
+      - {id: M12-LIN-006, statement: "I can determine whether a relation is a function using the vertical line test or input-output data."}
+      - {id: M12-LIN-008, statement: "I can determine domain and range from a graph or table."}
+      - {id: M12-LIN-009, statement: "I can interpret domain and range in context."}
+
+  - id: M12-SYS
+    title: Systems of Linear Equations
+    priority: required
+    objectives:
+      - {id: M12-SYS-001, statement: "I can interpret the solution of a linear system as an intersection point."}
+      - {id: M12-SYS-002, statement: "I can solve a two-variable linear system by graphing."}
+      - {id: M12-SYS-003, statement: "I can solve a two-variable linear system by substitution."}
+      - {id: M12-SYS-004, statement: "I can solve a two-variable linear system by elimination."}
+      - {id: M12-SYS-005, statement: "I can create and solve a two-variable linear system for an application."}
+
+  - id: M12-POL
+    title: Polynomial Operations and Basic Factoring
+    priority: required
+    objectives:
+      - {id: M12-POL-001, statement: "I can simplify expressions using integer exponent rules."}
+      - {id: M12-POL-002, statement: "I can add and subtract polynomials."}
+      - {id: M12-POL-003, statement: "I can multiply polynomials, including binomials."}
+      - {id: M12-POL-004, statement: "I can divide a polynomial by a monomial."}
+      - {id: M12-POL-005, statement: "I can factor a greatest common factor from a polynomial."}
+
+  - id: M12-EXT
+    title: Extension Content
+    priority: extension
+    objectives:
+      - {id: M12-EXT-001, statement: "I can solve and graph an absolute-value inequality."}
+      - {id: M12-EXT-002, statement: "I can graph a system of linear inequalities and identify its solution region."}
+      - {id: M12-EXT-003, statement: "I can factor a quadratic trinomial."}
+      - {id: M12-EXT-004, statement: "I can identify a relationship as discrete or continuous."}

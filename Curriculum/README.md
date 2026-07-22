@@ -20,6 +20,8 @@ Learning objectives and supporting skills are the durable curriculum. Textbooks,
 | Website colors, spacing, typography, or responsive layout | `ui/app/globals.css` |
 | Individual or at-a-glance PDF content and layout | `tools/generate_course_glance_pdfs.py` |
 | Printable student unit learning maps | `tools/generate_unit_learning_map.py` |
+| The local teacher map-builder interface | `tools/unit_learning_map_builder.py` |
+| The packaged Windows map builder | `tools/package_unit_learning_map_builder.ps1` |
 | The combined curriculum PDF structure | `tools/generate_full_curriculum_report.py` |
 | The rules used to build skill progressions and audits | `tools/generate_skill_progressions.ps1` |
 
@@ -103,6 +105,15 @@ python ./tools/generate_unit_learning_map.py --course M32 --all
 ```
 
 Unit learning maps are written to `output/pdf/unit-learning-maps/`.
+
+To package the local Windows builder after curriculum or interface changes:
+
+```powershell
+./tools/package_unit_learning_map_builder.ps1 -PythonExecutable "path-to-python.exe"
+```
+
+The Google Drive-ready application folder is written to
+`output/apps/student-learning-map-builder/Student Learning Map Builder/`.
 
 After changing the website:
 
