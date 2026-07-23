@@ -746,8 +746,7 @@ First introduction: **Math 21**
 | Math 39 | Deepen | Required | Required | Exponential Modeling | `M39-EXP-001` — I can distinguish linear and exponential change using rates, multipliers, tables, graphs, or contexts. |
 | Math 39 | Apply | Required | Required | Exponential Modeling | `M39-EXP-007` — I can compare linear and exponential models and justify which is more appropriate for a data set or context. |
 | Math 39 | Deepen | Required | Required | Power Functions and Function Comparison | `M39-POW-006` — I can compare the long-run dominance of logarithmic, power, polynomial, and exponential functions. |
-| Math 49 | Apply | Required | Prerequisite | Rational Functions and Limits | `M49-LIM-007` — I can compare the long-run growth of polynomial, exponential, logarithmic, and rational functions. |
-| Math 49 | Apply | Required | Required | Rational Functions and Limits | `M49-PWR-006` — I can analyze the long-run behavior of quotients involving polynomial, exponential, or logarithmic expressions. |
+| Math 49 | Apply | Required | Required | Rational Functions and Limits | `M49-LIM-007` — I can compare the long-run growth of polynomial, exponential, logarithmic, and rational functions, and combinations thereof. |
 | Math 49 | Apply | Required | Required | Sequences and Series | `M49-SEQ-004` — I can distinguish arithmetic, geometric, and other sequences from formulas, tables, or contexts. |
 
 ## SK-FUNC-COMPOSE-FORMULA: Substitute one function formula into another.
@@ -881,7 +880,7 @@ First introduction: **Math 39**
 | Course | Role | Priority | Relationship | Unit | Objective |
 |---|---|---|---|---|---|
 | Math 39 | Introduce | Required | Required | Power Functions and Function Comparison | `M39-POW-006` — I can compare the long-run dominance of logarithmic, power, polynomial, and exponential functions. |
-| Math 49 | Deepen | Required | Required | Rational Functions and Limits | `M49-PWR-006` — I can analyze the long-run behavior of quotients involving polynomial, exponential, or logarithmic expressions. |
+| Math 49 | Deepen | Required | Required | Rational Functions and Limits | `M49-LIM-007` — I can compare the long-run growth of polynomial, exponential, logarithmic, and rational functions, and combinations thereof. |
 
 ## SK-FUNC-INDEPENDENT-DEPENDENT: Identify independent and dependent variables.
 
@@ -1086,6 +1085,7 @@ First introduction: **Math 31**
 | Course | Role | Priority | Relationship | Unit | Objective |
 |---|---|---|---|---|---|
 | Math 31 | Introduce | Extension | Required | Extension Content | `M31-EXT-002` — I can determine even or odd symmetry from a graph or formula. |
+| Math 32 | Deepen | Required | Required | Periodic Functions and Modeling | `M32-GRF-008` — I can determine whether a function is even, odd, or neither from its graph or formula. |
 | Math 32 | Deepen | Required | Required | Trigonometric Identities | `M32-IDN-003` — I can use even/odd and cofunction identities to rewrite trigonometric expressions. |
 | Math 49 | Deepen | Required | Required | Function Operations, Composition, and Inverses | `M49-FND-003` — I can determine whether a function is even, odd, or neither. |
 
@@ -1359,7 +1359,7 @@ First introduction: **Math 49**
 
 | Course | Role | Priority | Relationship | Unit | Objective |
 |---|---|---|---|---|---|
-| Math 49 | Introduce | Required | Required | Rational Functions and Limits | `M49-LIM-007` — I can compare the long-run growth of polynomial, exponential, logarithmic, and rational functions. |
+| Math 49 | Introduce | Required | Required | Rational Functions and Limits | `M49-LIM-007` — I can compare the long-run growth of polynomial, exponential, logarithmic, and rational functions, and combinations thereof. |
 
 ## SK-LIM-INFINITE: Interpret unbounded output near a finite input as an infinite limit.
 
@@ -1376,7 +1376,7 @@ First introduction: **Math 49**
 | Course | Role | Priority | Relationship | Unit | Objective |
 |---|---|---|---|---|---|
 | Math 49 | Introduce | Required | Required | Rational Functions and Limits | `M49-LIM-006` — I can use limit notation to describe behavior at infinity. |
-| Math 49 | Apply | Required | Required | Rational Functions and Limits | `M49-PWR-006` — I can analyze the long-run behavior of quotients involving polynomial, exponential, or logarithmic expressions. |
+| Math 49 | Apply | Required | Required | Rational Functions and Limits | `M49-LIM-007` — I can compare the long-run growth of polynomial, exponential, logarithmic, and rational functions, and combinations thereof. |
 
 ## SK-LIM-NOTATION: Read and write limit notation with correct approach direction.
 

@@ -16,7 +16,7 @@ This draft translates the existing Math 21 course map into an objective-centered
 | Curriculum content | Objective IDs | OpenStax section(s) from source map | Supplement status |
 |---|---|---|---|
 | Linear functions and graphing | M21-REV-001 through M21-REV-003 | 3.1-3.4 | Use diagnostically; existing map budgets approximately two weeks |
-| Systems of linear equations | M21-REV-004, M21-REV-005 | Not identified in source map | Provide exposure to identify gaps; do not reteach from scratch |
+| Systems of linear equations | M21-REV-004, M21-REV-005 | 4.1, 4.2 | Use diagnostically and select only the graphing, substitution, elimination, and application review students need |
 | Basic exponent rules | M21-REV-006 | Prior-course material | Review as needed before negative and fractional exponents |
 
 ## Required Content
@@ -37,6 +37,8 @@ This draft translates the existing Math 21 course map into an objective-centered
 | 3.2 | Slope of a Line | M21-REV-001 | Direct | Review use only |
 | 3.3 | Find the Equation of a Line | M21-REV-002; M21-REV-003 | Direct / Partial | Contextual interpretation needs selected applications |
 | 3.4 | Graph Linear Inequalities in Two Variables | — | Supporting | Not a stated Math 21 LO; omit unless needed locally |
+| 4.1 | Solve Systems of Linear Equations with Two Variables | M21-REV-004; M21-REV-005 | Direct | Review intersection meaning and solve simple systems by graphing, substitution, or elimination |
+| 4.2 | Solve Applications with Systems of Equations | M21-REV-005 | Supporting | Select a small number of applications only if diagnostic evidence indicates a need |
 | 3.5 | Relations and Functions | M21-FUN-001 through M21-FUN-005 | Direct / Partial | Strong for formulas and relations; tables and contextual interpretation need supplements |
 | 3.6 | Graphs of Functions | M21-FUN-001 through M21-FUN-005 | Direct / Partial | Strong for graph reading; does not fully address cross-representation comparison or average rate of change |
 | 5.1 | Add and Subtract Polynomials | M21-POL-001 | Direct | Strong one-to-one match |
@@ -67,9 +69,8 @@ This draft translates the existing Math 21 course map into an objective-centered
 
 | Objective | Status | Section-level finding |
 |---|---|---|
-| M21-REV-004; M21-REV-005 | Gap | The approved ranges do not include Chapter 4 systems material; use a diagnostic or Math 12 resource. |
 | M21-FUN-006 | Gap | Sections 3.5-3.6 do not provide the intended average-rate-of-change treatment. |
-| M21-FUN-007 | Partial | Formula/graph/table comparison requires supplemental tasks across representations. |
+| M21-FUN-007 | Partial | Use Intermediate Algebra 3.5 as the primary introduction, with College Algebra 3.1 and 4.1 as supplemental representation and comparison contexts. |
 | M21-POL-006 | Gap in approved range | Solving polynomial equations by factoring is developed in 6.5, beyond the current 6.3 endpoint. |
 | M21-EXP-005 | Gap in approved range | Radical equations are taught in 8.6, beyond the current 8.4 endpoint. |
 | M21-EXT-001; M21-EXT-002 | Gap in approved range | Complex numbers are taught in 8.8; 9.3 alone is insufficient preparation for nonreal solutions. |
@@ -78,8 +79,8 @@ This draft translates the existing Math 21 course map into an objective-centered
 
 | Objective(s) | Supplement needed | Why the textbook map is insufficient |
 |---|---|---|
-| M21-REV-004; M21-REV-005 | Short systems diagnostic and targeted review set | Systems are outside the approved Math 21 section ranges. |
-| M21-FUN-001 through M21-FUN-005; M21-FUN-007 | Functions represented by tables and contexts | Sections 3.5-3.6 lean more heavily on formulas, relations, and graphs than the course objectives do. |
+| M21-REV-004; M21-REV-005 | Sections 4.1-4.2 used diagnostically | Assign targeted review rather than reteaching the full systems chapter. |
+| M21-FUN-001 through M21-FUN-005; M21-FUN-007 | Functions represented by tables and contexts | Use Intermediate Algebra 3.5-3.6 for the foundation; for M21-FUN-007, add College Algebra 3.1 and 4.1 as supplemental comparison contexts. |
 | M21-FUN-006 | Average-rate-of-change lesson and practice | The mapped function sections do not directly teach the intended outcome. |
 | M21-POL-006 | Factoring-to-zeros bridge | Add OpenStax 6.5 or a teacher resource connecting factors, the zero-product property, and polynomial zeros. |
 | M21-EXP-005 | Basic radical-equation lesson with extraneous-solution checks | Add OpenStax 8.6 or equivalent teacher material. |
@@ -97,7 +98,7 @@ This draft translates the existing Math 21 course map into an objective-centered
 
 1. Fall and Spring sections should reach the same endpoint and cover the same required objectives.
 2. Functions need graph, table, formula, and contextual resources beyond the textbook.
-3. Systems need a short common diagnostic rather than a full unit.
+3. Use sections 4.1-4.2 selectively after a short common systems diagnostic rather than teaching a full review unit.
 4. Textbook questions must be screened for premature dependence on complex numbers.
 5. Assessment items should be tagged to objective IDs.
 

@@ -66,7 +66,7 @@ This draft translates the existing Math 31 transition notes into an objective-ce
 | M31-EXP-009 | Partial | Comparing two exponential growth rates needs curated or supplemental multi-function tasks. |
 | M31-EXP-010; M31-LOG-011 | Gap / Partial | Percent change in continuous models and conversion between discrete and continuous exponential forms need explicit supplemental treatment. |
 | M31-EXT-002 | Gap | Even/odd symmetry is not identified in the current core section set. |
-| M31-EXT-003 | Gap | Contextual logarithmic scales require an application supplement. |
+| M31-EXT-003 | Partial | College Algebra 6.7 supplies contextual exponential and logarithmic models; select or add examples that explicitly use logarithmic scales. |
 
 ## Teacher Supplements Needed
 
@@ -85,7 +85,7 @@ This draft translates the existing Math 31 transition notes into an objective-ce
 | M31-EXP-010; M31-LOG-011 | Discrete/continuous exponential conversion and continuous percent change | Explicit instruction is needed to connect forms such as `ab^x` and `ae^{kx}`. |
 | M31-LOG-010 | Intersections of two exponential functions | Add graphical and algebraic comparison tasks rather than only isolated equation exercises. |
 | M31-EXT-002 | Even/odd symmetry resource | Not identified in the mapped core sections. |
-| M31-EXT-003 | Contextual logarithmic-scale applications | Add examples such as pH, sound intensity, or earthquake magnitude at an appropriate depth. |
+| M31-EXT-003 | Contextual logarithmic-scale applications | Start with College Algebra 6.7, then add examples such as pH, sound intensity, or earthquake magnitude as needed. |
 
 ## Extension Content
 
@@ -93,7 +93,7 @@ This draft translates the existing Math 31 transition notes into an objective-ce
 |---|---|---|---|
 | Absolute-value transformations | M31-EXT-001 | 3.6 | Existing notes question whether to include it |
 | Symmetry and deeper transformations | M31-EXT-002 | Exact section not recorded | Optional depth |
-| Logarithmic scales | M31-EXT-003 | Exact section not recorded | Application supplement likely needed |
+| Logarithmic scales | M31-EXT-003 | 6.7 | Contextual models provide the base; explicit logarithmic-scale examples may still be needed |
 
 ## Resource Gaps to Fill
 

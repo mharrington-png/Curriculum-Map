@@ -119,12 +119,6 @@ mappings:
       - {skill_id: SK-MODEL-PARAMETER-INTERPRET, relationship: required, progression: deepen}
       - {skill_id: SK-MODEL-VALID-DOMAIN, relationship: required, progression: apply}
 
-  - objective_id: M49-PWR-006
-    skills:
-      - {skill_id: SK-FUNC-DOMINANCE, relationship: required, progression: deepen}
-      - {skill_id: SK-FUNC-COMPARE-REP, relationship: required, progression: apply}
-      - {skill_id: SK-LIM-INFINITY, relationship: required, progression: apply}
-
   - objective_id: M49-PWR-008
     skills:
       - {skill_id: SK-POWER-FRACTIONAL-ANALYZE, relationship: required, progression: introduce}
@@ -227,7 +221,9 @@ mappings:
   - objective_id: M49-LIM-007
     skills:
       - {skill_id: SK-LIM-GROWTH-ORDER, relationship: required, progression: introduce}
-      - {skill_id: SK-FUNC-COMPARE-REP, relationship: prerequisite, progression: apply}
+      - {skill_id: SK-FUNC-DOMINANCE, relationship: required, progression: deepen}
+      - {skill_id: SK-FUNC-COMPARE-REP, relationship: required, progression: apply}
+      - {skill_id: SK-LIM-INFINITY, relationship: required, progression: apply}
 
   - objective_id: M49-LIM-008
     skills:

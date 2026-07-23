@@ -129,6 +129,10 @@ mappings:
       - {skill_id: SK-TRIG-GRAPH-KEYPOINTS, relationship: required, progression: apply}
       - {skill_id: SK-FUNC-TRANSFORM-HORIZONTAL, relationship: required, progression: apply}
 
+  - objective_id: M32-GRF-008
+    skills:
+      - {skill_id: SK-FUNC-SYMMETRY, relationship: required, progression: deepen}
+
   - objective_id: M32-INV-001
     skills:
       - {skill_id: SK-TRIG-INVERSE-NOTATION, relationship: prerequisite, progression: apply}

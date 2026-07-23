@@ -3721,19 +3721,7 @@
         "unit_title": "Rational Functions and Limits",
         "priority": "required",
         "objective_id": "M49-LIM-007",
-        "objective": "I can compare the long-run growth of polynomial, exponential, logarithmic, and rational functions.",
-        "relationship": "prerequisite",
-        "progression": "apply"
-      },
-      {
-        "skill_id": "SK-FUNC-COMPARE-REP",
-        "course_id": "M49",
-        "course": "Math 49",
-        "unit_id": "M49-RAT",
-        "unit_title": "Rational Functions and Limits",
-        "priority": "required",
-        "objective_id": "M49-PWR-006",
-        "objective": "I can analyze the long-run behavior of quotients involving polynomial, exponential, or logarithmic expressions.",
+        "objective": "I can compare the long-run growth of polynomial, exponential, logarithmic, and rational functions, and combinations thereof.",
         "relationship": "required",
         "progression": "apply"
       },
@@ -4420,8 +4408,8 @@
         "unit_id": "M49-RAT",
         "unit_title": "Rational Functions and Limits",
         "priority": "required",
-        "objective_id": "M49-PWR-006",
-        "objective": "I can analyze the long-run behavior of quotients involving polynomial, exponential, or logarithmic expressions.",
+        "objective_id": "M49-LIM-007",
+        "objective": "I can compare the long-run growth of polynomial, exponential, logarithmic, and rational functions, and combinations thereof.",
         "relationship": "required",
         "progression": "deepen"
       }
@@ -5528,6 +5516,18 @@
         "objective": "I can determine even or odd symmetry from a graph or formula.",
         "relationship": "required",
         "progression": "introduce"
+      },
+      {
+        "skill_id": "SK-FUNC-SYMMETRY",
+        "course_id": "M32",
+        "course": "Math 32",
+        "unit_id": "M32-GRF",
+        "unit_title": "Periodic Functions and Modeling",
+        "priority": "required",
+        "objective_id": "M32-GRF-008",
+        "objective": "I can determine whether a function is even, odd, or neither from its graph or formula.",
+        "relationship": "required",
+        "progression": "deepen"
       },
       {
         "skill_id": "SK-FUNC-SYMMETRY",
@@ -6808,7 +6808,7 @@
         "unit_title": "Rational Functions and Limits",
         "priority": "required",
         "objective_id": "M49-LIM-007",
-        "objective": "I can compare the long-run growth of polynomial, exponential, logarithmic, and rational functions.",
+        "objective": "I can compare the long-run growth of polynomial, exponential, logarithmic, and rational functions, and combinations thereof.",
         "relationship": "required",
         "progression": "introduce"
       }
@@ -6867,8 +6867,8 @@
         "unit_id": "M49-RAT",
         "unit_title": "Rational Functions and Limits",
         "priority": "required",
-        "objective_id": "M49-PWR-006",
-        "objective": "I can analyze the long-run behavior of quotients involving polynomial, exponential, or logarithmic expressions.",
+        "objective_id": "M49-LIM-007",
+        "objective": "I can compare the long-run growth of polynomial, exponential, logarithmic, and rational functions, and combinations thereof.",
         "relationship": "required",
         "progression": "apply"
       }

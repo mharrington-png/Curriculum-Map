@@ -51,8 +51,7 @@ These objectives represent prerequisite content to diagnose and reinforce as nee
 - **M49-LIM-003:** I can evaluate a limit algebraically using direct substitution or simplification.
 - **M49-LIM-005:** I can interpret an infinite limit as vertical-asymptotic behavior.
 - **M49-LIM-006:** I can use limit notation to describe behavior at infinity.
-- **M49-PWR-006:** I can analyze the long-run behavior of quotients involving polynomial, exponential, or logarithmic expressions.
-- **M49-LIM-007:** I can compare the long-run growth of polynomial, exponential, logarithmic, and rational functions.
+- **M49-LIM-007:** I can compare the long-run growth of polynomial, exponential, logarithmic, and rational functions, and combinations thereof.
 - **M49-ALG-008:** I can build or select a rational or rational-adjacent model for a context and interpret its long-run behavior.
 
 ## Required Unit 5: Sequences and Series (`M49-SS`)

@@ -9,7 +9,7 @@ The workbook's printed page numbers begin after two cover/contents pages. Theref
 | Workbook part | Printed pages | Curriculum unit | Objective IDs |
 |---|---:|---|---|
 | Part I: Trigonometry Basics | 3-45 | Trigonometric Foundations | M32-FND-001 through M32-FND-011 |
-| Part II: Graphing Periodic Functions | 46-85 | Periodic Functions and Modeling | M32-GRF-001 through M32-GRF-007 |
+| Part II: Graphing Periodic Functions | 46-85 | Periodic Functions and Modeling | M32-GRF-001 through M32-GRF-008 |
 | Part III: Inverse Functions and Solving Trig Equations | 86-100 | Inverse Functions and Trigonometric Equations | M32-INV-001 through M32-INV-005 |
 | Part IV: Non-Right Triangles | 101-115 | Required: Laws of Sines/Cosines; Extension: SAS area | M32-TRI-002 through M32-TRI-005; M32-TRX-001 |
 | Part V: Trigonometric Identities | 116-126 | Required core and extension identity families | M32-IDN-001 through M32-IDN-004; M32-IDX-001 through M32-IDX-004 |
@@ -29,7 +29,7 @@ The workbook's printed page numbers begin after two cover/contents pages. Theref
 | Trig Functions Beyond Acute Angles; Non-Unit Circles | 24-28 | M32-FND-007, M32-FND-010 |
 | Review Questions | 29-33 | M32-FND-001 through M32-FND-010 |
 | Multiple Angle Solutions; Reciprocal Functions | 34-45 | M32-FND-007, M32-FND-011 |
-| Graphing Sine and Cosine | 46-49 | M32-GRF-001 |
+| Graphing Sine and Cosine | 46-49 | M32-GRF-001; M32-GRF-008 |
 | Vertical and Horizontal Transformations | 50-62 | M32-GRF-002, M32-GRF-003 |
 | Graphing All Transformations | 63-68 | M32-GRF-002 through M32-GRF-004 |
 | Modeling Problems | 69-76 | M32-GRF-005, M32-GRF-006 |

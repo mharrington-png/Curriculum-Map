@@ -64,8 +64,7 @@ units:
       - {id: M49-LIM-003, statement: "I can evaluate a limit algebraically using direct substitution or simplification."}
       - {id: M49-LIM-005, statement: "I can interpret an infinite limit as vertical-asymptotic behavior."}
       - {id: M49-LIM-006, statement: "I can use limit notation to describe behavior at infinity."}
-      - {id: M49-PWR-006, statement: "I can analyze the long-run behavior of quotients involving polynomial, exponential, or logarithmic expressions."}
-      - {id: M49-LIM-007, statement: "I can compare the long-run growth of polynomial, exponential, logarithmic, and rational functions."}
+      - {id: M49-LIM-007, statement: "I can compare the long-run growth of polynomial, exponential, logarithmic, and rational functions, and combinations thereof."}
       - {id: M49-ALG-008, statement: "I can build or select a rational or rational-adjacent model for a context and interpret its long-run behavior."}
 
   - id: M49-SS

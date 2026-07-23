@@ -34,6 +34,7 @@ units:
       - {id: M32-GRF-005, statement: "I can construct a sinusoidal model from contextual information or data."}
       - {id: M32-GRF-006, statement: "I can interpret the parameters and outputs of a sinusoidal model in context."}
       - {id: M32-GRF-007, statement: "I can graph tangent, secant, and cosecant functions with their asymptotes."}
+      - {id: M32-GRF-008, statement: "I can determine whether a function is even, odd, or neither from its graph or formula."}
 
   - id: M32-INV
     title: Inverse Functions and Trigonometric Equations

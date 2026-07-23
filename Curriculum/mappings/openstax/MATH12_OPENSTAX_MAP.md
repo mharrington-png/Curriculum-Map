@@ -68,7 +68,7 @@ This is the actionable high-level mapping for teacher planning. An objective may
 | 5.2 | Properties of Exponents and Scientific Notation | M12-POL-001 | Direct / Partial | Direct for integer exponent rules; scientific notation is supporting content, not a separate LO |
 | 5.3 | Multiply Polynomials | M12-POL-003 | Direct | Includes binomial multiplication |
 | 5.4 | Dividing Polynomials | M12-POL-004 | Direct / Partial | Restrict assignments to division by a monomial for the required LO |
-| 6.1 | Greatest Common Factor and Factor by Grouping | M12-POL-005 | Direct / Beyond scope | GCF factoring is required; factoring by grouping exceeds the required objective |
+| 6.1 | Greatest Common Factor and Factor by Grouping | M12-POL-005; M12-EXT-003 | Direct / Partial | Direct for GCF factoring; use the applicable factoring examples as support for the extension trinomial objective |
 
 ## Objective Gaps and Boundaries Identified at Section Level
 
@@ -77,7 +77,7 @@ This is the actionable high-level mapping for teacher planning. An objective may
 | M12-INE-005 | Gap | Section 2.7 is an absolute-value **inequality** section. A separate resource is needed for solving absolute-value equations. |
 | M12-LIN-009 | Partial | Section 3.6 supports graph-based domain and range, but contextual restrictions require additional material. |
 | M12-EXT-002 | Partial | Section 3.4 teaches one linear inequality in two variables; a system-of-inequalities resource is still needed. |
-| M12-EXT-003 | Gap in approved range | Factoring trinomials begins in 6.2, which is outside the current 6.1 endpoint. |
+| M12-EXT-003 | Partial | Section 6.1 provides the approved factoring support for this extension objective; select applicable examples and supplement only if additional trinomial depth is desired. |
 | M12-EXT-004 | Partial | Discrete-versus-continuous classification is not sufficiently explicit in the mapped function sections. |
 
 ## Extension Content
@@ -86,7 +86,7 @@ This is the actionable high-level mapping for teacher planning. An objective may
 |---|---|---|---|
 | Absolute-value inequalities | M12-EXT-001 | 2.7 | Teach only if time permits |
 | Systems of linear inequalities | M12-EXT-002 | Not identified in source map | Supplemental resource required |
-| Factoring trinomials | M12-EXT-003 | Beyond 6.1; exact section not identified | Coordinate depth with Math 21 |
+| Factoring trinomials | M12-EXT-003 | 6.1 | Use as extension support and coordinate depth with Math 21 |
 | Discrete and continuous relationships | M12-EXT-004 | Not identified in source map | Supplemental resource required if selected |
 
 ## Resource Gaps to Fill

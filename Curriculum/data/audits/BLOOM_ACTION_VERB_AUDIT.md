@@ -8,8 +8,8 @@ Audit of the 369 learning objectives in the seven structured course files agains
 - Lead verbs that have one literal level in the reference: 143 (38.8%)
 - Lead verbs that the reference places in multiple levels: 97 (26.3%)
 - Lead verbs absent from the reference: 129 (35.0%)
-- Objectives whose contextual classification is consistent with at least one listed level: 133 (36.0%)
-- Objectives needing a context adjustment despite a literal reference match: 107 (29.0%)
+- Objectives whose contextual classification is consistent with at least one listed level: 132 (35.8%)
+- Objectives needing a context adjustment despite a literal reference match: 108 (29.3%)
 - Objectives with coordinated assessment actions: 86 (23.3%)
 
 **Overall finding.** The objectives are generally observable and assessable, but the handout does not function as a one-verb/one-level dictionary. Mathematics changes the meaning of several verbs: *evaluate* usually means calculate, and *determine* usually means carry out a procedure, even though the handout lists both only under Evaluating. The strongest improvement opportunity is to clarify broad verbs such as *use* and to split objectives that bundle several independently assessable actions.
@@ -33,15 +33,15 @@ Audit of the 369 learning objectives in the seven structured course files agains
 | M21 | 40 | 0 (0.0%) | 4 (10.0%) | 31 (77.5%) | 4 (10.0%) | 0 (0.0%) | 1 (2.5%) |
 | M22 | 65 | 1 (1.5%) | 8 (12.3%) | 45 (69.2%) | 7 (10.8%) | 3 (4.6%) | 1 (1.5%) |
 | M31 | 68 | 0 (0.0%) | 13 (19.1%) | 44 (64.7%) | 8 (11.8%) | 1 (1.5%) | 2 (2.9%) |
-| M32 | 50 | 0 (0.0%) | 6 (12.0%) | 38 (76.0%) | 4 (8.0%) | 0 (0.0%) | 2 (4.0%) |
+| M32 | 51 | 0 (0.0%) | 6 (11.8%) | 38 (74.5%) | 5 (9.8%) | 0 (0.0%) | 2 (3.9%) |
 | M39 | 50 | 0 (0.0%) | 12 (24.0%) | 23 (46.0%) | 9 (18.0%) | 1 (2.0%) | 5 (10.0%) |
-| M49 | 59 | 0 (0.0%) | 12 (20.3%) | 22 (37.3%) | 17 (28.8%) | 0 (0.0%) | 8 (13.6%) |
+| M49 | 58 | 0 (0.0%) | 12 (20.7%) | 22 (37.9%) | 16 (27.6%) | 0 (0.0%) | 8 (13.8%) |
 
 ### Interpretation
 
 - Applying is the center of gravity: 233 objectives (63.1%). That is appropriate for performance-oriented mathematics objectives, but it means task design must carry much of the differentiation in complexity.
 - Remembering is explicit in 1 objectives (0.3%), primarily through terminology and notation outcomes. These establish the language base for later performance objectives without treating recall as a quota.
-- The share at Analyzing or above rises from 8.1% in M12 to 42.4% in M49, so the overall sequence does show increasing cognitive demand.
+- The share at Analyzing or above rises from 8.1% in M12 to 41.4% in M49, so the overall sequence does show increasing cognitive demand.
 - Evaluating is explicit in only 5 objectives (1.4%). If model critique, proof evaluation, or comparison against criteria is a program goal, this is the clearest area for intentional expansion.
 
 ## Reference-Lookup Findings
@@ -50,7 +50,7 @@ The literal lookup is reported separately from the contextual assignment. This p
 
 | Lead verb | Count | Reference level(s) | Context assignment(s) |
 | --- | --- | --- | --- |
-| determine | 55 | Evaluating | Applying 37, Analyzing 18 |
+| determine | 56 | Evaluating | Applying 37, Analyzing 19 |
 | solve | 39 | Applying, Creating | Applying 39 |
 | calculate | 27 | Not listed | Applying 27 |
 | identify | 18 | Applying | Understanding 18 |
@@ -66,11 +66,11 @@ The literal lookup is reported separately from the contextual assignment. This p
 | create | 7 | Creating | Creating 7 |
 | add | 6 | Not listed | Applying 6 |
 | distinguish | 6 | Analyzing | Analyzing 6 |
-| analyze | 5 | Analyzing | Analyzing 5 |
 | classify | 5 | Understanding, Analyzing | Understanding 5 |
 | explain | 5 | Understanding, Evaluating | Understanding 5 |
 | factor | 5 | Not listed | Applying 5 |
 | rewrite | 5 | Not listed | Applying 5 |
+| analyze | 4 | Analyzing | Analyzing 4 |
 | build | 4 | Applying, Creating | Creating 4 |
 | convert | 4 | Not listed | Applying 4 |
 | describe | 3 | Not listed | Understanding 3 |
@@ -188,6 +188,7 @@ These objectives use a verb found in the handout, but the whole statement indica
 | M32-FND-007 | evaluate | Evaluating | Applying | I can evaluate all six trigonometric functions exactly for common angles. |
 | M32-FND-010 | evaluate | Evaluating | Applying | I can evaluate trigonometric functions from a point on a circle or terminal side. |
 | M32-GRF-002 | identify | Applying | Understanding | I can identify amplitude, midline, period, and phase shift from an equation or graph. |
+| M32-GRF-008 | determine | Evaluating | Analyzing | I can determine whether a function is even, odd, or neither from its graph or formula. |
 | M32-INV-001 | evaluate | Evaluating | Applying | I can evaluate inverse sine, inverse cosine, and inverse tangent expressions. |
 | M32-INV-005 | evaluate | Evaluating | Applying | I can evaluate compositions of trigonometric and inverse trigonometric functions. |
 | M32-TRI-003 | determine | Evaluating | Analyzing | I can determine the number of possible triangles in the ambiguous SSA case. |
@@ -229,7 +230,7 @@ These verbs can be valid, but they disclose less about the student performance t
 
 | Verb | Count | Revision guidance |
 | --- | --- | --- |
-| determine | 55 | Name the observable method when more than one method or representation is possible. |
+| determine | 56 | Name the observable method when more than one method or representation is possible. |
 | use | 16 | Replace with the resulting performance: solve, graph, justify, calculate, or model. |
 | write | 15 | Keep for notation/formula production; specify derive or model when originality is intended. |
 | perform | 3 | Name the operation or mathematical product directly. |

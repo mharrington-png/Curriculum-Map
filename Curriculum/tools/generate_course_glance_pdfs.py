@@ -195,7 +195,7 @@ def load_resource_sections(course):
                 continue
             section, title, references = f"pp. {cells[1]}", cells[0], cells[2]
         else:
-            if not re.match(r"\d+\.\d+$", cells[0]):
+            if not re.match(r"(?:\d+\.\d+|Chapter\s+\d+)$", cells[0]):
                 continue
             section, title, references = cells[:3]
         for oid in expand_objective_references(references, valid_ids):

@@ -1,0 +1,68 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "openstax-objective-links.schema.json",
+  "title": "OpenStax objective links",
+  "type": "object",
+  "required": ["schema_version", "viewer_base_url", "scope", "summary", "objectives"],
+  "properties": {
+    "schema_version": {"const": 2},
+    "generated_on": {"type": "string", "format": "date"},
+    "viewer_base_url": {"type": "string", "format": "uri"},
+    "scope": {"type": "object"},
+    "validation_rules": {"type": "object"},
+    "summary": {"type": "object"},
+    "excluded_objective_count": {"type": "integer", "minimum": 0},
+    "objectives": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "course_id", "unit_id", "unit_title", "priority", "objective_id",
+          "objective", "resources", "alignment_status", "specificity_review", "audit_note"
+        ],
+        "properties": {
+          "course_id": {"type": "string", "pattern": "^M[0-9]+$"},
+          "unit_id": {"type": "string", "pattern": "^M[0-9]+-[A-Z]+$"},
+          "unit_title": {"type": "string"},
+          "priority": {"enum": ["review", "required", "extension"]},
+          "objective_id": {"type": "string", "pattern": "^M[0-9]+-[A-Z]+-[0-9]{3}$"},
+          "objective": {"type": "string"},
+          "resources": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "required": [
+                  "book_id", "book_title", "section", "section_title", "viewer_url",
+                  "role", "alignment", "covers", "content_evidence", "viewer_source_file"
+                ],
+                "properties": {
+                  "book_id": {"type": "string"},
+                  "book_title": {"type": "string"},
+                  "section": {"type": "string", "pattern": "^[0-9]+\\.[0-9]+$"},
+                  "section_title": {"type": "string"},
+                  "viewer_url": {"type": "string", "format": "uri"},
+                  "role": {"enum": ["primary", "complementary"]},
+                  "alignment": {"enum": ["direct", "partial", "supporting"]},
+                  "covers": {"type": "array", "items": {"type": "string"}},
+                  "content_evidence": {
+                    "type": "object",
+                    "required": ["heading", "anchor"],
+                    "properties": {
+                      "heading": {"type": "string"},
+                      "anchor": {"type": ["string", "null"]}
+                    }
+                  },
+                  "viewer_source_file": {"type": "string"}
+                },
+                "additionalProperties": false
+            }
+          },
+          "alignment_status": {"enum": ["direct_single", "direct_combined", "partial", "resource_gap"]},
+          "specificity_review": {"type": "boolean"},
+          "audit_note": {"type": "string"}
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}

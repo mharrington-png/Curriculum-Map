@@ -25,6 +25,7 @@ These draft objectives follow the department standard: observable, one primary o
 - **M32-GRF-005:** I can construct a sinusoidal model from contextual information or data.
 - **M32-GRF-006:** I can interpret the parameters and outputs of a sinusoidal model in context.
 - **M32-GRF-007:** I can graph tangent, secant, and cosecant functions with their asymptotes.
+- **M32-GRF-008:** I can determine whether a function is even, odd, or neither from its graph or formula.
 
 ## Unit 3: Inverse Functions and Trigonometric Equations (`M32-INV`)
 

@@ -1,4 +1,4 @@
-# M49 Objective-to-Skill Mapping Review
+# Math 49 Objective-to-Skill Mapping Review
 
 This teacher-facing view combines each learning objective with the supporting skills currently mapped to it. The YAML files remain the structured source; this document is generated for review.
 
@@ -353,24 +353,16 @@ Objective ID: `M49-LIM-006`
 | Compare dominant terms to determine behavior at infinity. | Required | Introduce | `SK-LIM-INFINITY` |
 | Determine horizontal or slant asymptotic behavior. | Method-dependent | Deepen | `SK-RAT-END-BEHAVIOR` |
 
-### I can analyze the long-run behavior of quotients involving polynomial, exponential, or logarithmic expressions.
-
-Objective ID: `M49-PWR-006`
-
-| Supporting skill | Relationship | Course role | Skill ID |
-|---|---|---|---|
-| Compare the long-run growth or decay of functions from different families. | Required | Deepen | `SK-FUNC-DOMINANCE` |
-| Compare functions shown in different representations. | Required | Apply | `SK-FUNC-COMPARE-REP` |
-| Compare dominant terms to determine behavior at infinity. | Required | Apply | `SK-LIM-INFINITY` |
-
-### I can compare the long-run growth of polynomial, exponential, logarithmic, and rational functions.
+### I can compare the long-run growth of polynomial, exponential, logarithmic, and rational functions, and combinations thereof.
 
 Objective ID: `M49-LIM-007`
 
 | Supporting skill | Relationship | Course role | Skill ID |
 |---|---|---|---|
 | Apply the long-run growth hierarchy among logarithmic, polynomial, and exponential functions. | Required | Introduce | `SK-LIM-GROWTH-ORDER` |
-| Compare functions shown in different representations. | Prerequisite | Apply | `SK-FUNC-COMPARE-REP` |
+| Compare the long-run growth or decay of functions from different families. | Required | Deepen | `SK-FUNC-DOMINANCE` |
+| Compare functions shown in different representations. | Required | Apply | `SK-FUNC-COMPARE-REP` |
+| Compare dominant terms to determine behavior at infinity. | Required | Apply | `SK-LIM-INFINITY` |
 
 ### I can build or select a rational or rational-adjacent model for a context and interpret its long-run behavior.
 
