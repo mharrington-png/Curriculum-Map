@@ -21,6 +21,7 @@ OUTPUT_DIR = ROOT / "output" / "pdf" / "courses"
 AT_A_GLANCE_DIR = ROOT / "output" / "pdf" / "at-a-glance"
 PUBLIC_DIR = ROOT / "ui" / "public" / "downloads"
 SKILL_DATA = ROOT / "generated" / "skill_progressions.json"
+OPENSTAX_LINK_DATA = ROOT / "data" / "resources" / "openstax_objective_links.json"
 OPENSTAX_MAP_DIR = ROOT / "mappings" / "openstax"
 WORKBOOK_MAP_DIR = ROOT / "mappings" / "workbook"
 
@@ -140,6 +141,42 @@ def expand_objective_references(text, valid_ids):
 
 def load_resource_sections(course):
     """Read the course's canonical resource crosswalk and derive LO and unit coverage."""
+    if course["id"] not in {"M22", "M32"} and OPENSTAX_LINK_DATA.exists():
+        link_data = json.loads(OPENSTAX_LINK_DATA.read_text(encoding="utf-8"))
+        result = {
+            "resource": "OpenStax Viewer",
+            "resource_label": "OpenStax",
+            "objectives": {},
+            "units": {},
+        }
+        for record in link_data["objectives"]:
+            if record["course_id"] != course["id"]:
+                continue
+            result["objectives"][record["objective_id"]] = [
+                {
+                    "section": resource["section"],
+                    "title": resource["section_title"],
+                    "book_title": resource["book_title"],
+                    "role": resource["role"],
+                    "url": resource["viewer_url"],
+                }
+                for resource in record["resources"]
+            ]
+        for unit in course["units"]:
+            seen = set()
+            sections = []
+            for oid, _ in unit["objectives"]:
+                for section in result["objectives"].get(oid, []):
+                    key = (
+                        section["role"], section["book_title"], section["section"],
+                        section["title"],
+                    )
+                    if key not in seen:
+                        seen.add(key)
+                        sections.append(section)
+            result["units"][unit["id"]] = sections
+        return result
+
     openstax_path = OPENSTAX_MAP_DIR / f"MATH{course['id'][1:]}_OPENSTAX_MAP.md"
     workbook_paths = {
         "M22": WORKBOOK_MAP_DIR / "MATH22_PACKET_MAP.md",
@@ -213,12 +250,36 @@ def load_resource_sections(course):
     return result
 
 
-def format_sections(sections, include_titles=False):
+def format_section(section, include_titles=False, include_book=False, markup=False):
+    book = f"{section.get('book_title', '')} " if include_book and section.get("book_title") else ""
+    title = f" {section['title']}" if include_titles else ""
+    label = f"{book}{section['section']}{title}"
+    if markup and section.get("url"):
+        return (
+            f'<link href="{escape(section["url"], quote=True)}" '
+            f'color="#5F6872" underline="1">{escape(label)}</link>'
+        )
+    return escape(label) if markup else label
+
+
+def format_sections(sections, include_titles=False, markup=False):
     if not sections:
-        return "No mapped textbook section"
-    if include_titles:
-        return "; ".join(f"{item['section']} {item['title']}" for item in sections)
-    return ", ".join(item["section"] for item in sections)
+        return "No mapped OpenStax section" if markup else "No mapped textbook section"
+    include_book = len({item.get("book_title") for item in sections if item.get("book_title")}) > 1
+    if not any(item.get("role") for item in sections):
+        return "; ".join(
+            format_section(item, include_titles, include_book, markup) for item in sections
+        )
+    groups = []
+    for role, label in (("primary", "Primary"), ("complementary", "Supplemental")):
+        role_sections = [item for item in sections if item.get("role") == role]
+        if role_sections:
+            entries = "; ".join(
+                format_section(item, include_titles, include_book, markup)
+                for item in role_sections
+            )
+            groups.append(f"<b>{label}:</b> {entries}" if markup else f"{label}: {entries}")
+    return "<br/>".join(groups) if markup else " | ".join(groups)
 
 
 def load_objective_skills():
@@ -345,7 +406,7 @@ class GlanceUnitFlowable(Flowable):
             sections = self.resource_data["units"].get(self.unit["id"], [])
             left.extend([
                 Spacer(1, 7),
-                Paragraph(escape(format_sections(sections, include_titles=True)), glance_sections_style),
+                Paragraph(format_sections(sections, include_titles=True, markup=True), glance_sections_style),
             ])
         heading = "UNIT LEARNING OBJECTIVES - CONTINUED" if self.continued else "UNIT LEARNING OBJECTIVES"
         right = [Paragraph(heading, glance_heading_style), Spacer(1, 6)]
@@ -447,7 +508,10 @@ def detail_unit_header(unit, width, resource_data):
         ("BOTTOMPADDING", (0, 0), (-1, -1), 0),
     ]))
     sections = resource_data["units"].get(unit["id"], [])
-    coverage = f"{resource_data.get('resource_label', 'Resource')} coverage: {escape(format_sections(sections, include_titles=True))}"
+    coverage = (
+        f"{escape(resource_data.get('resource_label', 'Resource'))} coverage: "
+        f"{format_sections(sections, include_titles=True, markup=True)}"
+    )
     return [title_row, Spacer(1, 4), Paragraph(coverage, detail_resource_style)]
 
 
@@ -457,7 +521,10 @@ def objective_detail_block(course_id, objective, width, resource_data):
     label = resource_data.get("resource_label", "Resource")
     content = [
         Paragraph(escape(statement), detail_objective_text),
-        Paragraph(f"{label}: {escape(format_sections(sections, include_titles=True))}", detail_textbook_style),
+        Paragraph(
+            f"{escape(label)}: {format_sections(sections, include_titles=True, markup=True)}",
+            detail_textbook_style,
+        ),
     ]
     skills = OBJECTIVE_SKILLS.get((course_id, oid), [])
     if skills:

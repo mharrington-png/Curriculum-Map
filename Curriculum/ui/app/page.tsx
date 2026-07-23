@@ -15,6 +15,17 @@ type Skill = {
   first_introduced_course: string | null; inherited_note: string | null;
   courses: string[]; occurrences: Occurrence[];
 };
+type OpenStaxResource = {
+  book_id: string; book_title: string; section: string; section_title: string;
+  viewer_url: string; role: "primary" | "complementary";
+  alignment: "direct" | "partial" | "supporting";
+};
+type ObjectiveResources = {
+  course_id: string; objective_id: string; resources: OpenStaxResource[];
+};
+type OpenStaxManifest = {
+  objectives: ObjectiveResources[];
+};
 
 const courses = [
   { id: "M12", label: "Math 12", title: "Intermediate Algebra", tone: "blue" },
@@ -37,6 +48,7 @@ const requiredUnitOrder: Record<string, string[]> = {
 
 export default function Home() {
   const [skills, setSkills] = useState<Skill[]>([]);
+  const [objectiveResources, setObjectiveResources] = useState<ObjectiveResources[]>([]);
   const [courseId, setCourseId] = useState<string | null>(null);
   const [objectiveId, setObjectiveId] = useState<string | null>(null);
   const [skillId, setSkillId] = useState<string | null>(null);
@@ -46,7 +58,19 @@ export default function Home() {
   const [showExtension, setShowExtension] = useState(true);
   const [showMethodDependent, setShowMethodDependent] = useState(true);
 
-  useEffect(() => { fetch(`${import.meta.env.BASE_URL}data/skill_progressions.json`).then(r => r.json()).then(setSkills); }, []);
+  useEffect(() => {
+    Promise.all([
+      fetch(`${import.meta.env.BASE_URL}data/skill_progressions.json`).then(r => r.json()),
+      fetch(`${import.meta.env.BASE_URL}data/openstax_objective_links.json`).then(r => r.json()),
+    ]).then(([skillData, resourceData]: [Skill[], OpenStaxManifest]) => {
+      setSkills(skillData);
+      setObjectiveResources(resourceData.objectives);
+    });
+  }, []);
+  const resourcesByObjective = useMemo(
+    () => new Map(objectiveResources.map(record => [record.objective_id, record.resources])),
+    [objectiveResources],
+  );
   const allOccurrences = useMemo(() => skills.flatMap(s => s.occurrences), [skills]);
   const selectedCourse = courses.find(c => c.id === courseId);
   const courseOccurrences = allOccurrences.filter(o => o.course_id === courseId);
@@ -137,7 +161,8 @@ export default function Home() {
           return <details className="unit" key={unit.id} open={containsSelectedObjective || undefined}><summary><span><small>{priority} unit</small><b>{unit.title}</b></span><span className="unitCount">{unitObjectives.length} objectives</span><span className="chevron">⌄</span></summary><div className="unitObjectives">{unitObjectives.map(o => {
             const isOpen = objectiveId === o.objective_id;
             const skillsForObjective = isOpen ? skills.filter(s => s.occurrences.some(x => x.objective_id === o.objective_id)) : [];
-            return <div className="objectiveBranch" id={`objective-${o.objective_id}`} key={o.objective_id}><button className={isOpen ? "objective active" : "objective"} onClick={() => setObjectiveId(isOpen ? null : o.objective_id)} aria-expanded={isOpen}><small>{o.objective_id}</small><span>{o.objective}</span><b>{isOpen ? "−" : "+"}</b></button>{isOpen && <div className="nestedSkills"><p>Supporting skills</p>{skillsForObjective.map(s => { const occurrence=s.occurrences.find(x=>x.objective_id===o.objective_id)!; return <button className="skillrow" key={s.skill_id} onClick={()=>setSkillId(s.skill_id)}><span className={`dot ${occurrence.progression}`}>{roleLabel[occurrence.progression][0]}</span><span>{s.description}<small>{roleLabel[occurrence.progression]}</small></span><b>→</b></button>})}</div>}</div>;
+            const resourcesForObjective = isOpen ? resourcesByObjective.get(o.objective_id) || [] : [];
+            return <div className="objectiveBranch" id={`objective-${o.objective_id}`} key={o.objective_id}><button className={isOpen ? "objective active" : "objective"} onClick={() => setObjectiveId(isOpen ? null : o.objective_id)} aria-expanded={isOpen}><small>{o.objective_id}</small><span>{o.objective}</span><b>{isOpen ? "−" : "+"}</b></button>{isOpen && <div className="objectiveDetails">{resourcesForObjective.length > 0 && <section className="objectiveResources" aria-label={`OpenStax resources for ${o.objective_id}`}><p>OpenStax resources</p>{resourcesForObjective.map(resource => <a className="resourceLink" href={resource.viewer_url} target="_blank" rel="noreferrer" key={`${resource.book_id}-${resource.section}-${resource.role}`}><span className={`resourceRole ${resource.role}`}>{resource.role === "primary" ? "Primary" : "Supplemental"}</span><span><b>{resource.book_title} · §{resource.section}</b><small>{resource.section_title}</small></span><b aria-hidden="true">↗</b></a>)}</section>}<div className="nestedSkills"><p>Supporting skills</p>{skillsForObjective.map(s => { const occurrence=s.occurrences.find(x=>x.objective_id===o.objective_id)!; return <button className="skillrow" key={s.skill_id} onClick={()=>setSkillId(s.skill_id)}><span className={`dot ${occurrence.progression}`}>{roleLabel[occurrence.progression][0]}</span><span>{s.description}<small>{roleLabel[occurrence.progression]}</small></span><b>→</b></button>})}</div></div>}</div>;
           })}</div></details>;
         })}</div>;
       })}</section></div>

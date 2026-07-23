@@ -20,6 +20,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 VIEWER_SECTIONS = Path(r"C:\Users\mikeg\Documents\OpenStax Viewer\sections")
 OUTPUT = ROOT / "data" / "resources" / "openstax_objective_links.json"
+PUBLIC_OUTPUT = ROOT / "ui" / "public" / "data" / "openstax_objective_links.json"
 REPORT = ROOT / "data" / "audits" / "OPENSTAX_OBJECTIVE_LINK_AUDIT.md"
 VIEWER_BASE = "https://mathclass.today/OpenStax-Viewer"
 IN_SCOPE = ("M12", "M21", "M31", "M39", "M49")
@@ -638,7 +639,10 @@ def main() -> None:
         "objectives": records,
         "excluded_objective_count": len(excluded),
     }
-    OUTPUT.write_text(json.dumps(payload, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+    rendered_payload = json.dumps(payload, indent=2, ensure_ascii=False) + "\n"
+    OUTPUT.write_text(rendered_payload, encoding="utf-8")
+    PUBLIC_OUTPUT.parent.mkdir(parents=True, exist_ok=True)
+    PUBLIC_OUTPUT.write_text(rendered_payload, encoding="utf-8")
 
     gap_records = [item for item in records if not item["resources"]]
     primary_gap_records = [item for item in gap_records if item["course_id"] != "M39"]
@@ -700,6 +704,7 @@ def main() -> None:
     REPORT.write_text("\n".join(lines) + "\n", encoding="utf-8")
     print(json.dumps(payload["summary"], indent=2))
     print(OUTPUT)
+    print(PUBLIC_OUTPUT)
     print(REPORT)
 
 
