@@ -1,4 +1,4 @@
-"""Build a one-primary-section OpenStax link manifest for the curriculum site.
+"""Build an objective-level OpenStax link manifest for the curriculum site.
 
 The generator reads the canonical course YAML, the existing section crosswalks,
 and the exact HTML files served by the local OpenStax Viewer.  It deliberately
@@ -409,7 +409,7 @@ OVERRIDES: dict[str, tuple[str | None, str | None, str, bool, str]] = {
 }
 
 
-# Complementary sections are added only when inspection of the local HTML shows
+# Supplemental sections are added only when inspection of the local HTML shows
 # that they teach a distinct part of the canonical objective.
 ADDITIONAL_RESOURCES: dict[str, list[tuple[str, str, str, list[str]]]] = {
     "M12-REV-002": [("intermediate-algebra-2e", "1.2", "direct", ["signed-integer operations"])],
@@ -561,8 +561,9 @@ def main() -> None:
         )
         resources = []
         if chosen:
+            selected_role = "supplemental" if objective["course_id"] == "M39" else "primary"
             resources.append(build_resource(
-                objective, catalog, chosen.book_id, chosen.section, "primary", chosen.alignment
+                objective, catalog, chosen.book_id, chosen.section, selected_role, chosen.alignment
             ))
         for book_id, section, alignment, covers in ADDITIONAL_RESOURCES.get(objective["objective_id"], []):
             if (book_id, section) not in catalog:
@@ -570,7 +571,7 @@ def main() -> None:
             if any(item["book_id"] == book_id and item["section"] == section for item in resources):
                 continue
             resources.append(build_resource(
-                objective, catalog, book_id, section, "complementary", alignment, covers
+                objective, catalog, book_id, section, "supplemental", alignment, covers
             ))
 
         objective_id = objective["objective_id"]
@@ -623,12 +624,22 @@ def main() -> None:
             "in_scope_objective_count": len(records),
         },
         "validation_rules": {
-            "exactly_one_primary_section_when_matched": True,
-            "complementary_sections_allowed": True,
+            "exactly_one_primary_section_when_matched_courses": ["M12", "M21", "M31", "M49"],
+            "supplemental_only_courses": ["M39"],
+            "supplemental_sections_allowed": True,
             "section_must_exist_in_local_viewer": True,
             "section_content_checked_not_title_only": True,
             "unmatched_objectives_are_not_given_placeholder_links": True,
         },
+        "follow_up_flags": [
+            {
+                "id": "M39-AUTHORITATIVE-RESOURCES",
+                "course_id": "M39",
+                "status": "open",
+                "action": "Retrieve the Math 39 course resources and include them in the curriculum database.",
+                "reason": "OpenStax is supplemental in Math 39 and is not the authoritative course resource set.",
+            }
+        ],
         "summary": {
             "matched": matched,
             **status_counts,
@@ -651,7 +662,7 @@ def main() -> None:
     lines = [
         "# OpenStax Objective Link Audit",
         "",
-        "The audit checks one primary Viewer section and any complementary sections per in-scope learning objective against the actual local HTML content.",
+        "The audit checks primary and supplemental Viewer sections per in-scope learning objective against the actual local HTML content. Math 39 is supplemental-only.",
         "Math 22 and Math 32 are excluded because they use internal workbooks.",
         "",
         "## Summary",
@@ -664,6 +675,11 @@ def main() -> None:
         f"- Primary-course resource gaps: {primary_gaps}",
         f"- Math 39 supplemental gaps: {math39_gaps}",
         f"- Objectives needing specificity review: {review_count}",
+        "",
+        "## Curriculum Database Follow-up",
+        "",
+        "- [ ] **Math 39:** Retrieve the authoritative Math 39 course resources and include them in the curriculum database. "
+        "All current Math 39 OpenStax links are supplemental only.",
         "",
         "## Primary-Course Resource Gaps",
         "",
@@ -693,7 +709,7 @@ def main() -> None:
         "",
         "## Unresolved Section Mappings",
         "",
-        "These objectives remain incomplete even after complementary Viewer sections are allowed.",
+        "These objectives remain incomplete even after supplemental Viewer sections are allowed.",
         "",
         "| Objective | Linked sections | Alignment | Finding |",
         "|---|---|---|---|",

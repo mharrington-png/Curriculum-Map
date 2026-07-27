@@ -271,7 +271,7 @@ def format_sections(sections, include_titles=False, markup=False):
             format_section(item, include_titles, include_book, markup) for item in sections
         )
     groups = []
-    for role, label in (("primary", "Primary"), ("complementary", "Supplemental")):
+    for role, label in (("primary", "Primary"), ("supplemental", "Supplemental")):
         role_sections = [item for item in sections if item.get("role") == role]
         if role_sections:
             entries = "; ".join(

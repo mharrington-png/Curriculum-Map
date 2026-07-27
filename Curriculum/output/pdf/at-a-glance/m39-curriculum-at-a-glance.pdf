@@ -12,7 +12,7 @@ endobj
 <<
 /Type /Pages
 /Count 2
-/Kids [ 4 0 R 57 0 R ]
+/Kids [ 4 0 R 51 0 R ]
 >>
 endobj
 3 0 obj
@@ -23,11 +23,11 @@ endobj
 endobj
 4 0 obj
 <<
-/Annots [ 5 0 R 6 0 R 7 0 R 8 0 R 9 0 R 10 0 R 11 0 R 12 0 R 13 0 R 14 0 R 15 0 R 16 0 R 17 0 R 18 0 R 19 0 R 20 0 R 21 0 R 22 0 R 23 0 R 24 0 R 25 0 R 26 0 R 27 0 R 28 0 R 29 0 R 30 0 R 31 0 R 32 0 R 33 0 R 34 0 R 35 0 R 36 0 R 37 0 R 38 0 R 39 0 R 40 0 R 41 0 R 42 0 R 43 0 R 44 0 R 45 0 R 46 0 R 47 0 R 48 0 R 49 0 R ]
-/Contents 50 0 R
+/Annots [ 5 0 R 6 0 R 7 0 R 8 0 R 9 0 R 10 0 R 11 0 R 12 0 R 13 0 R 14 0 R 15 0 R 16 0 R 17 0 R 18 0 R 19 0 R 20 0 R 21 0 R 22 0 R 23 0 R 24 0 R 25 0 R 26 0 R 27 0 R 28 0 R 29 0 R 30 0 R 31 0 R 32 0 R 33 0 R 34 0 R 35 0 R 36 0 R 37 0 R 38 0 R 39 0 R 40 0 R 41 0 R 42 0 R 43 0 R ]
+/Contents 44 0 R
 /MediaBox [ 0 0 612 792 ]
 /Resources <<
-/Font 51 0 R
+/Font 45 0 R
 /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
 >>
 /Rotate 0
@@ -45,7 +45,7 @@ endobj
 /URI (https\072\057\057mathclass\056today\057OpenStax\055Viewer\057sections\057college\055algebra\0552e\0573\0553\056html\043finding\055the\055average\055rate\055of\055change\055of\055a\055function)
 >>
 /Border [ 0 0 0 ]
-/Rect [ 82.17 606.57 152.28 613.95 ]
+/Rect [ 100.62 606.57 144.9 613.95 ]
 /Subtype /Link
 /Type /Annot
 >>
@@ -58,7 +58,7 @@ endobj
 /URI (https\072\057\057mathclass\056today\057OpenStax\055Viewer\057sections\057college\055algebra\0552e\0573\0553\056html\043finding\055the\055average\055rate\055of\055change\055of\055a\055function)
 >>
 /Border [ 0 0 0 ]
-/Rect [ 48.96 597.87 130.14 605.25 ]
+/Rect [ 48.96 597.87 155.97 605.25 ]
 /Subtype /Link
 /Type /Annot
 >>
@@ -71,7 +71,7 @@ endobj
 /URI (https\072\057\057mathclass\056today\057OpenStax\055Viewer\057sections\057college\055algebra\0552e\0574\0551\056html)
 >>
 /Border [ 0 0 0 ]
-/Rect [ 137.52 597.87 148.59 605.25 ]
+/Rect [ 48.96 589.17 122.76 596.55 ]
 /Subtype /Link
 /Type /Annot
 >>
@@ -81,10 +81,10 @@ endobj
 /A <<
 /S /URI
 /Type /Action
-/URI (https\072\057\057mathclass\056today\057OpenStax\055Viewer\057sections\057college\055algebra\0552e\0574\0551\056html)
+/URI (https\072\057\057mathclass\056today\057OpenStax\055Viewer\057sections\057college\055algebra\0552e\0574\0553\056html)
 >>
 /Border [ 0 0 0 ]
-/Rect [ 48.96 589.17 108 596.55 ]
+/Rect [ 130.14 589.17 141.21 596.55 ]
 /Subtype /Link
 /Type /Annot
 >>
@@ -97,7 +97,7 @@ endobj
 /URI (https\072\057\057mathclass\056today\057OpenStax\055Viewer\057sections\057college\055algebra\0552e\0574\0553\056html)
 >>
 /Border [ 0 0 0 ]
-/Rect [ 115.38 589.17 155.97 596.55 ]
+/Rect [ 48.96 580.47 155.97 587.85 ]
 /Subtype /Link
 /Type /Annot
 >>
@@ -107,10 +107,10 @@ endobj
 /A <<
 /S /URI
 /Type /Action
-/URI (https\072\057\057mathclass\056today\057OpenStax\055Viewer\057sections\057college\055algebra\0552e\0574\0553\056html)
+/URI (https\072\057\057mathclass\056today\057OpenStax\055Viewer\057sections\057college\055algebra\0552e\0576\0551\056html)
 >>
 /Border [ 0 0 0 ]
-/Rect [ 48.96 580.47 126.45 587.85 ]
+/Rect [ 100.62 479.32 155.97 486.7 ]
 /Subtype /Link
 /Type /Annot
 >>
@@ -123,25 +123,12 @@ endobj
 /URI (https\072\057\057mathclass\056today\057OpenStax\055Viewer\057sections\057college\055algebra\0552e\0576\0551\056html)
 >>
 /Border [ 0 0 0 ]
-/Rect [ 82.17 479.32 163.35 486.7 ]
+/Rect [ 48.96 470.62 152.28 478 ]
 /Subtype /Link
 /Type /Annot
 >>
 endobj
 12 0 obj
-<<
-/A <<
-/S /URI
-/Type /Action
-/URI (https\072\057\057mathclass\056today\057OpenStax\055Viewer\057sections\057college\055algebra\0552e\0576\0551\056html)
->>
-/Border [ 0 0 0 ]
-/Rect [ 48.96 470.62 126.45 478 ]
-/Subtype /Link
-/Type /Annot
->>
-endobj
-13 0 obj
 <<
 /A <<
 /S /URI
@@ -154,7 +141,7 @@ endobj
 /Type /Annot
 >>
 endobj
-14 0 obj
+13 0 obj
 <<
 /A <<
 /S /URI
@@ -167,7 +154,7 @@ endobj
 /Type /Annot
 >>
 endobj
-15 0 obj
+14 0 obj
 <<
 /A <<
 /S /URI
@@ -180,7 +167,7 @@ endobj
 /Type /Annot
 >>
 endobj
-16 0 obj
+15 0 obj
 <<
 /A <<
 /S /URI
@@ -193,7 +180,7 @@ endobj
 /Type /Annot
 >>
 endobj
-17 0 obj
+16 0 obj
 <<
 /A <<
 /S /URI
@@ -206,7 +193,7 @@ endobj
 /Type /Annot
 >>
 endobj
-18 0 obj
+17 0 obj
 <<
 /A <<
 /S /URI
@@ -219,7 +206,7 @@ endobj
 /Type /Annot
 >>
 endobj
-19 0 obj
+18 0 obj
 <<
 /A <<
 /S /URI
@@ -232,7 +219,7 @@ endobj
 /Type /Annot
 >>
 endobj
-20 0 obj
+19 0 obj
 <<
 /A <<
 /S /URI
@@ -245,7 +232,7 @@ endobj
 /Type /Annot
 >>
 endobj
-21 0 obj
+20 0 obj
 <<
 /A <<
 /S /URI
@@ -258,7 +245,7 @@ endobj
 /Type /Annot
 >>
 endobj
-22 0 obj
+21 0 obj
 <<
 /A <<
 /S /URI
@@ -271,7 +258,7 @@ endobj
 /Type /Annot
 >>
 endobj
-23 0 obj
+22 0 obj
 <<
 /A <<
 /S /URI
@@ -284,6 +271,19 @@ endobj
 /Type /Annot
 >>
 endobj
+23 0 obj
+<<
+/A <<
+/S /URI
+/Type /Action
+/URI (https\072\057\057mathclass\056today\057OpenStax\055Viewer\057sections\057college\055algebra\0552e\0574\0553\056html)
+>>
+/Border [ 0 0 0 ]
+/Rect [ 71.1 401.02 152.28 408.4 ]
+/Subtype /Link
+/Type /Annot
+>>
+endobj
 24 0 obj
 <<
 /A <<
@@ -292,7 +292,7 @@ endobj
 /URI (https\072\057\057mathclass\056today\057OpenStax\055Viewer\057sections\057college\055algebra\0552e\0574\0553\056html)
 >>
 /Border [ 0 0 0 ]
-/Rect [ 100.62 392.32 155.97 399.7 ]
+/Rect [ 48.96 392.32 155.97 399.7 ]
 /Subtype /Link
 /Type /Annot
 >>
@@ -302,10 +302,10 @@ endobj
 /A <<
 /S /URI
 /Type /Action
-/URI (https\072\057\057mathclass\056today\057OpenStax\055Viewer\057sections\057college\055algebra\0552e\0574\0553\056html)
+/URI (https\072\057\057mathclass\056today\057OpenStax\055Viewer\057sections\057precalculus\0552e\0573\0553\056html)
 >>
 /Border [ 0 0 0 ]
-/Rect [ 48.96 383.62 163.35 391 ]
+/Rect [ 100.62 303.07 152.28 310.45 ]
 /Subtype /Link
 /Type /Annot
 >>
@@ -315,10 +315,10 @@ endobj
 /A <<
 /S /URI
 /Type /Action
-/URI (https\072\057\057mathclass\056today\057OpenStax\055Viewer\057sections\057college\055algebra\0552e\0574\0553\056html)
+/URI (https\072\057\057mathclass\056today\057OpenStax\055Viewer\057sections\057precalculus\0552e\0573\0553\056html)
 >>
 /Border [ 0 0 0 ]
-/Rect [ 48.96 374.92 63.72 382.3 ]
+/Rect [ 48.96 294.37 133.83 301.75 ]
 /Subtype /Link
 /Type /Annot
 >>
@@ -328,10 +328,10 @@ endobj
 /A <<
 /S /URI
 /Type /Action
-/URI (https\072\057\057mathclass\056today\057OpenStax\055Viewer\057sections\057precalculus\0552e\0574\0558\056html\043objective\0552\055fit\055a\055regression\055equation\055to\055a\055set\055of\055data\055and\055use\055the\055linear\055or\055exponential\055model\055to\055make\055predictions\055ca\0554\0553\0554)
+/URI (https\072\057\057mathclass\056today\057OpenStax\055Viewer\057sections\057precalculus\0552e\0573\0553\056html)
 >>
 /Border [ 0 0 0 ]
-/Rect [ 71.1 374.92 137.52 382.3 ]
+/Rect [ 48.96 285.67 122.76 293.05 ]
 /Subtype /Link
 /Type /Annot
 >>
@@ -341,10 +341,10 @@ endobj
 /A <<
 /S /URI
 /Type /Action
-/URI (https\072\057\057mathclass\056today\057OpenStax\055Viewer\057sections\057precalculus\0552e\0574\0558\056html\043objective\0552\055fit\055a\055regression\055equation\055to\055a\055set\055of\055data\055and\055use\055the\055linear\055or\055exponential\055model\055to\055make\055predictions\055ca\0554\0553\0554)
+/URI (https\072\057\057mathclass\056today\057OpenStax\055Viewer\057sections\057precalculus\0552e\0573\0559\056html\043power\055functions\055and\055polynomial\055functions)
 >>
 /Border [ 0 0 0 ]
-/Rect [ 48.96 366.22 155.97 373.6 ]
+/Rect [ 48.96 276.97 148.59 284.35 ]
 /Subtype /Link
 /Type /Annot
 >>
@@ -354,10 +354,10 @@ endobj
 /A <<
 /S /URI
 /Type /Action
-/URI (https\072\057\057mathclass\056today\057OpenStax\055Viewer\057sections\057precalculus\0552e\0574\0558\056html\043objective\0552\055fit\055a\055regression\055equation\055to\055a\055set\055of\055data\055and\055use\055the\055linear\055or\055exponential\055model\055to\055make\055predictions\055ca\0554\0553\0554)
+/URI (https\072\057\057mathclass\056today\057OpenStax\055Viewer\057sections\057precalculus\0552e\0573\0559\056html\043power\055functions\055and\055polynomial\055functions)
 >>
 /Border [ 0 0 0 ]
-/Rect [ 48.96 357.52 63.72 364.9 ]
+/Rect [ 48.96 268.27 104.31 275.65 ]
 /Subtype /Link
 /Type /Annot
 >>
@@ -367,10 +367,10 @@ endobj
 /A <<
 /S /URI
 /Type /Action
-/URI (https\072\057\057mathclass\056today\057OpenStax\055Viewer\057sections\057precalculus\0552e\0573\0553\056html)
+/URI (https\072\057\057mathclass\056today\057OpenStax\055Viewer\057sections\057college\055algebra\0552e\0572\0556\056html\043solving\055equations\055involving\055rational\055exponents)
 >>
 /Border [ 0 0 0 ]
-/Rect [ 82.17 278.57 148.59 285.95 ]
+/Rect [ 111.69 268.27 137.52 275.65 ]
 /Subtype /Link
 /Type /Annot
 >>
@@ -380,10 +380,10 @@ endobj
 /A <<
 /S /URI
 /Type /Action
-/URI (https\072\057\057mathclass\056today\057OpenStax\055Viewer\057sections\057precalculus\0552e\0573\0553\056html)
+/URI (https\072\057\057mathclass\056today\057OpenStax\055Viewer\057sections\057college\055algebra\0552e\0572\0556\056html\043solving\055equations\055involving\055rational\055exponents)
 >>
 /Border [ 0 0 0 ]
-/Rect [ 48.96 269.87 159.66 277.25 ]
+/Rect [ 48.96 259.57 155.97 266.95 ]
 /Subtype /Link
 /Type /Annot
 >>
@@ -393,10 +393,10 @@ endobj
 /A <<
 /S /URI
 /Type /Action
-/URI (https\072\057\057mathclass\056today\057OpenStax\055Viewer\057sections\057precalculus\0552e\0573\0553\056html)
+/URI (https\072\057\057mathclass\056today\057OpenStax\055Viewer\057sections\057college\055algebra\0552e\0572\0556\056html\043solving\055equations\055involving\055rational\055exponents)
 >>
 /Border [ 0 0 0 ]
-/Rect [ 48.96 261.17 82.17 268.55 ]
+/Rect [ 48.96 250.87 82.17 258.25 ]
 /Subtype /Link
 /Type /Annot
 >>
@@ -406,10 +406,10 @@ endobj
 /A <<
 /S /URI
 /Type /Action
-/URI (https\072\057\057mathclass\056today\057OpenStax\055Viewer\057sections\057precalculus\0552e\0573\0559\056html\043power\055functions\055and\055polynomial\055functions)
+/URI (https\072\057\057mathclass\056today\057OpenStax\055Viewer\057sections\057precalculus\0552e\0574\0552\056html)
 >>
 /Border [ 0 0 0 ]
-/Rect [ 89.55 261.17 155.97 268.55 ]
+/Rect [ 89.55 250.87 155.97 258.25 ]
 /Subtype /Link
 /Type /Annot
 >>
@@ -419,10 +419,10 @@ endobj
 /A <<
 /S /URI
 /Type /Action
-/URI (https\072\057\057mathclass\056today\057OpenStax\055Viewer\057sections\057precalculus\0552e\0573\0559\056html\043power\055functions\055and\055polynomial\055functions)
+/URI (https\072\057\057mathclass\056today\057OpenStax\055Viewer\057sections\057precalculus\0552e\0574\0552\056html)
 >>
 /Border [ 0 0 0 ]
-/Rect [ 48.96 252.47 137.52 259.85 ]
+/Rect [ 48.96 242.17 126.45 249.55 ]
 /Subtype /Link
 /Type /Annot
 >>
@@ -432,10 +432,10 @@ endobj
 /A <<
 /S /URI
 /Type /Action
-/URI (https\072\057\057mathclass\056today\057OpenStax\055Viewer\057sections\057college\055algebra\0552e\0572\0556\056html\043solving\055equations\055involving\055rational\055exponents)
+/URI (https\072\057\057mathclass\056today\057OpenStax\055Viewer\057sections\057precalculus\0552e\0574\0552\056html)
 >>
 /Border [ 0 0 0 ]
-/Rect [ 48.96 243.77 152.28 251.15 ]
+/Rect [ 48.96 233.47 82.17 240.85 ]
 /Subtype /Link
 /Type /Annot
 >>
@@ -445,10 +445,10 @@ endobj
 /A <<
 /S /URI
 /Type /Action
-/URI (https\072\057\057mathclass\056today\057OpenStax\055Viewer\057sections\057college\055algebra\0552e\0572\0556\056html\043solving\055equations\055involving\055rational\055exponents)
+/URI (https\072\057\057mathclass\056today\057OpenStax\055Viewer\057sections\057precalculus\0552e\0574\0554\056html)
 >>
 /Border [ 0 0 0 ]
-/Rect [ 48.96 235.07 115.38 242.45 ]
+/Rect [ 89.55 233.47 155.97 240.85 ]
 /Subtype /Link
 /Type /Annot
 >>
@@ -458,10 +458,10 @@ endobj
 /A <<
 /S /URI
 /Type /Action
-/URI (https\072\057\057mathclass\056today\057OpenStax\055Viewer\057sections\057precalculus\0552e\0574\0552\056html)
+/URI (https\072\057\057mathclass\056today\057OpenStax\055Viewer\057sections\057precalculus\0552e\0574\0554\056html)
 >>
 /Border [ 0 0 0 ]
-/Rect [ 100.62 226.37 152.28 233.75 ]
+/Rect [ 48.96 224.77 163.35 232.15 ]
 /Subtype /Link
 /Type /Annot
 >>
@@ -471,10 +471,10 @@ endobj
 /A <<
 /S /URI
 /Type /Action
-/URI (https\072\057\057mathclass\056today\057OpenStax\055Viewer\057sections\057precalculus\0552e\0574\0552\056html)
+/URI (https\072\057\057mathclass\056today\057OpenStax\055Viewer\057sections\057precalculus\0552e\0571\0554\056html\043evaluating\055composite\055functions\055using\055tables)
 >>
 /Border [ 0 0 0 ]
-/Rect [ 48.96 217.67 141.21 225.05 ]
+/Rect [ 100.62 145.82 155.97 153.2 ]
 /Subtype /Link
 /Type /Annot
 >>
@@ -484,10 +484,10 @@ endobj
 /A <<
 /S /URI
 /Type /Action
-/URI (https\072\057\057mathclass\056today\057OpenStax\055Viewer\057sections\057precalculus\0552e\0574\0552\056html)
+/URI (https\072\057\057mathclass\056today\057OpenStax\055Viewer\057sections\057precalculus\0552e\0571\0554\056html\043evaluating\055composite\055functions\055using\055tables)
 >>
 /Border [ 0 0 0 ]
-/Rect [ 48.96 208.97 82.17 216.35 ]
+/Rect [ 48.96 137.12 93.24 144.5 ]
 /Subtype /Link
 /Type /Annot
 >>
@@ -497,10 +497,10 @@ endobj
 /A <<
 /S /URI
 /Type /Action
-/URI (https\072\057\057mathclass\056today\057OpenStax\055Viewer\057sections\057precalculus\0552e\0574\0554\056html)
+/URI (https\072\057\057mathclass\056today\057OpenStax\055Viewer\057sections\057precalculus\0552e\0573\0554\056html\043using\055factoring\055to\055find\055zeros\055of\055polynomial\055functions)
 >>
 /Border [ 0 0 0 ]
-/Rect [ 89.55 208.97 155.97 216.35 ]
+/Rect [ 100.62 137.12 148.59 144.5 ]
 /Subtype /Link
 /Type /Annot
 >>
@@ -510,10 +510,10 @@ endobj
 /A <<
 /S /URI
 /Type /Action
-/URI (https\072\057\057mathclass\056today\057OpenStax\055Viewer\057sections\057precalculus\0552e\0574\0554\056html)
+/URI (https\072\057\057mathclass\056today\057OpenStax\055Viewer\057sections\057precalculus\0552e\0573\0554\056html\043using\055factoring\055to\055find\055zeros\055of\055polynomial\055functions)
 >>
 /Border [ 0 0 0 ]
-/Rect [ 48.96 200.27 163.35 207.65 ]
+/Rect [ 48.96 128.42 122.76 135.8 ]
 /Subtype /Link
 /Type /Annot
 >>
@@ -523,10 +523,10 @@ endobj
 /A <<
 /S /URI
 /Type /Action
-/URI (https\072\057\057mathclass\056today\057OpenStax\055Viewer\057sections\057precalculus\0552e\0571\0554\056html\043evaluating\055composite\055functions\055using\055tables)
+/URI (https\072\057\057mathclass\056today\057OpenStax\055Viewer\057sections\057precalculus\0552e\0573\0556\056html)
 >>
 /Border [ 0 0 0 ]
-/Rect [ 82.17 121.32 148.59 128.7 ]
+/Rect [ 130.14 128.42 163.35 135.8 ]
 /Subtype /Link
 /Type /Annot
 >>
@@ -536,111 +536,33 @@ endobj
 /A <<
 /S /URI
 /Type /Action
-/URI (https\072\057\057mathclass\056today\057OpenStax\055Viewer\057sections\057precalculus\0552e\0571\0554\056html\043evaluating\055composite\055functions\055using\055tables)
+/URI (https\072\057\057mathclass\056today\057OpenStax\055Viewer\057sections\057precalculus\0552e\0573\0556\056html)
 >>
 /Border [ 0 0 0 ]
-/Rect [ 48.96 112.62 82.17 120 ]
+/Rect [ 48.96 119.72 133.83 127.1 ]
 /Subtype /Link
 /Type /Annot
 >>
 endobj
 44 0 obj
 <<
-/A <<
-/S /URI
-/Type /Action
-/URI (https\072\057\057mathclass\056today\057OpenStax\055Viewer\057sections\057precalculus\0552e\0573\0554\056html\043determining\055end\055behavior)
+/Filter [ /ASCII85Decode /FlateDecode ]
+/Length 3321
 >>
-/Border [ 0 0 0 ]
-/Rect [ 89.55 112.62 137.52 120 ]
-/Subtype /Link
-/Type /Annot
->>
+stream
+Gb"/*=``=W&q8H9kdT);3?3W0B58S/O-@_PF4j/,p0k"8&s=s-U#BG#;u>Ua)rRj1/B.LJ3"@7=$1s5VcjU!sJ!g-m9E8DFi7BmrQiXNR0MA`[Fp$@&ae'5I;d,dT45_#N1[k^`TeXHnHl-2\`<<)JmHc1D&tIVTK@.ntS9Ofn.$n?<E)l#1#ckI-rXQ8!@.js[q&+\5QIVO<ftm<8B%$g?dBk0L7g!hZ/6hk^d3W/8oMa&Q+JpFmGSJ6<mm.i,AK&K_KdZpH+4K?Rs'6Rh0;9lW"of'ViA/Sc+B`q%PTi6NnW,2lhNbqOhqClq<U`MMmnnVqqQ8Tp:k-Ns2O(@=n>$Y=dYYf-ApG0KSOG6GqY91GmM[]jE!^H$/jETH2p8oR&8kpn2OW^^`.d>6prA*Yp%IbUPmre<PTDVdc%?.8oI&Iq^W(6ERhpQ+-'^)QPXs49FX`!Kk(c"m3mL[9TLjW@Hl[!WR>ks/3NI7gl&A5ZOMgrHiiu#j&>W0uNp/,K6rX>0Z.1HfGdcUA39hssq4;/lCmpEVVpi'8/=kE3krG/6#"B&NMC4^l1#8.&/6B/4>Vq@ASl^E:#Js(,3NbSnRd&3umGj.)USa:u6b/N\(f-S\j]B-D=KeXSl`'Q#n`Hk>@%s#>-hC]lpl)bDN<>VXq?D"EZ^F'eMAgXqX2uJI6b&TLHVuaWa7T*%o9X[1f=qhqgfL>Y6+s/K`e!BSb[]li.N>RWX4oi6@#@.G3=ZniE?6GRF@+m9I&e2/2j?MkCTOC@\uY(s)ehlc$k,SaR[ViV<s0R3qEC$[BQtOpiA?ub>,WJbJmfXGRNp:MVn":\=f>E!&t<_lg[WmuPhYW+eLK\f:Wjm[9e,hf2g5(/SV+@bN@$>:'5iGc(Qcnr8@Vh-l%2iQ^h^Xm*^l=SD0VNTX/1]6>s/(\R:k-_QH#R-`]$m9Q6Js4R!HG/Q=dR7]Fe^H6/E.K!m42S!*b)GR?lu3!1@-8YmoT"0YX]d*.4F)3Ne5G?RD<s+5Y9#k5+ZB_n-FtiT'6R?!kk5ID*ALa+Ec_-_'su-f\8_kE$HeHlY"U8Y8Q=*Rh5mW`>PfoGrTN$>PnqB98DqC!#sHc:\EaGTNMBjE(e.+B7bPpX3HWb-P)#kZ3t+ZI&;:jn;UJku^IM.J##WAg(4;T%@i`o/o[=I*<_-I=INU@)W;tQ,.mml,/,Nq?#$c".H1Lhoi]2fM5K]SP4pOkjb;:7F$gC,Y6!ta`4-[<C'Acno1"/EOL*1=UT'HWuqocN[+GG@JIkM_AphW-V;X0:o/H_dB,s&0]Vc8#R)P+#R]K#,3!<m%X4OF-"'^VOhc!3dZR^G<1Y_hcd;%tc*[#sbZZR:C9O.0O>pm3R(Ojh/dB&B%)XR?apTXr<Ue^3-0cm)ZgrkoY%6<:;stGj5Ii&X<U4t5^Ep_*EAG=Z,,+T#"V-<-'p1Qn=o:P:3CXV$`5$G=#V[i<Loj>A\c*H_S#56(p31JXku`RA;gpkqXiYN<5-ift2V"8JhcEs<N\8]V9u4B8Zt+p%WO?>>aSm_C:K(LRh:\H/>r*"o/j4,Xd^:;odHBcXN=?2[=%5-sOLP^!<KlA3DE#p=3/6SF'NG%:DEq'$\qZ1:W+p3>A>j/T4f9o1IEaLYJVF5CD:B7()VXH\'Er@c[aD!NAbCidX*!,4"tR(`%7RHW=$hm=F!XeHWYXlf'g/>uf,5Cf9%6%iZILaGGgESf`?/C'?Y+6$YopZ;(]6I8/).&>BbopqTd+=>6`Tq\d0d$g%9Mj&nP`K`CMUNK3djS6f=K'>\-J;B7"d.O631_-`&W^;lT_H.HqNq[:sdp>6r9hYC*Ct\)&`7E@cgXObg]u<Otjl.MTM5:WD6`d7A:oa<MESRjV`=Xmod!:@gX"`8AiS$WT$gW@Y#*K66RA^8t]*RUf6<DrV3#dU$%#Cks1J#6/,7=m<HQp*5j#Q+qXX7!*%']dWG1RW$R3)"7li]6!.a0!W_8-%BLVNU(*O.&A_N=BLECe6)PZ1J1.Jdjmd%6&l+$0K6[AF(3?YF2DXQ+&m4K/!0(@m+#$'F`*GD.hP=SE:N9!Y*?6,TH_+/dTa',o!]HVNZnR[$--gOG(jSYOKNYSfEkX,*,q@m&n/iAl[eUS!/k*8Q;;aTbY(*$"QVf@K5_37.Fi]&JjDRDOL@,^o4;_723;&uAr-A]`M/8]XO7=ZGjLpc+5p)j>Ke$jF;.SoDfVrfAd<+l[T;_?LW7,h>eZ0dP30/ZT*ZB)YS<Wu2kJ9R@ekCE!!-(W_lr,&][[isCYm+/l"=Lco97J<_<(i5?T3>t0',:f.!>@2#R/RS_Ljo4F0QDm\g2oV$TO$gC;\hTo=`Su`L`X$K:,`%p2nH27PXm<s&>HO)oUlPG"alPiQa<U?YU=U#\7W,6W$WJ6K0LDK>8t*96._7tGJYWc`K;'[[NdZc3Wi9T<ed\h#d7&e[:!TK4VM)a)DkE:5/BJBg\:a7DdmtjR<rQk`]'SFKtXEWbAneijlmA:(rnT@)Nu^kWS9`jlK46(9*2/4o%T%^)<Ca-YX4-]AP%E`^TSU3$Cc&5^$iAACQ5]@d:d,VRdn[Ra"Ui+77pGiY6kT7IMoP&*mgCd&gNT#9X=Z_Tuii-1[R[j\0%:OO7b3Y6es_rpfJZfW:rEQrCRF$T2XmE+XRn^+b,?TFR^ia;XtZe#1TeDcfefY$cON"R]Z-i%J_iPZX95Dj<iD[<meSb-?o-Djir5Z[qXM:NkI"(LmFXeDs4a0C$4`Y5[8_:FcUDofE\=MV63YKo`c:Dp8/mqV:*=Y^i]^ojh"-QUGpB-e(LMQ,!,d0=D0j9$ng$t4XpW:T)GfpK.jYX&-W.8s5#VCBE1)Wa9p>Gne=3R9i"sER^c*s^ciFP*3u"8s5nT-o]=c;fZs2Fq9mNI[?HKVQp/RF1I2^\5Z-@(GsE*<h6M9'HY4U;UZo3]gpV0K.a\&PQ=s'`H5cB+a#S_R$3pJ$0@4fRjc<MjES6ps2[V#O3_9HlYVHD(Y[%&5>t8pBV%K?[o?i"$E/p:b3rZ`@AloO90G%+OT^'jj#E_%tDr9f*R@!qWi'k4V'hd$T$;nuO%<Vq"+XGEu;S#[TkPk=ZI5,h"8nkg$F1bf47L3=b,#RfZFf_SB6LZpVO^:rlFSj&bdNVYo8\m'QXR_T,d^71c3fiTnl.QW9!]b,#3`t\-h\/*jHF="qim2)Q6STAop9g8Tj!pI3FS[br!M\DejZn>W'@m%F\J;*0NNBHR^++nY@+%t3?&,+,n1rpM-/qGraVB,u"Iso1'Pp&(*5I/=#S_:k;@5d98eg7Xc>8+F@.HNW39@X~>
+endstream
 endobj
 45 0 obj
 <<
-/A <<
-/S /URI
-/Type /Action
-/URI (https\072\057\057mathclass\056today\057OpenStax\055Viewer\057sections\057precalculus\0552e\0573\0554\056html\043determining\055end\055behavior)
->>
-/Border [ 0 0 0 ]
-/Rect [ 48.96 103.92 122.76 111.3 ]
-/Subtype /Link
-/Type /Annot
+/F1 46 0 R
+/F2 47 0 R
+/F3 48 0 R
+/F4 49 0 R
+/F5 50 0 R
 >>
 endobj
 46 0 obj
-<<
-/A <<
-/S /URI
-/Type /Action
-/URI (https\072\057\057mathclass\056today\057OpenStax\055Viewer\057sections\057precalculus\0552e\0573\0556\056html)
->>
-/Border [ 0 0 0 ]
-/Rect [ 130.14 103.92 163.35 111.3 ]
-/Subtype /Link
-/Type /Annot
->>
-endobj
-47 0 obj
-<<
-/A <<
-/S /URI
-/Type /Action
-/URI (https\072\057\057mathclass\056today\057OpenStax\055Viewer\057sections\057precalculus\0552e\0573\0556\056html)
->>
-/Border [ 0 0 0 ]
-/Rect [ 48.96 95.22 133.83 102.6 ]
-/Subtype /Link
-/Type /Annot
->>
-endobj
-48 0 obj
-<<
-/A <<
-/S /URI
-/Type /Action
-/URI (https\072\057\057mathclass\056today\057OpenStax\055Viewer\057sections\057precalculus\0552e\0573\0554\056html\043using\055factoring\055to\055find\055zeros\055of\055polynomial\055functions)
->>
-/Border [ 0 0 0 ]
-/Rect [ 100.62 86.52 148.59 93.9 ]
-/Subtype /Link
-/Type /Annot
->>
-endobj
-49 0 obj
-<<
-/A <<
-/S /URI
-/Type /Action
-/URI (https\072\057\057mathclass\056today\057OpenStax\055Viewer\057sections\057precalculus\0552e\0573\0554\056html\043using\055factoring\055to\055find\055zeros\055of\055polynomial\055functions)
->>
-/Border [ 0 0 0 ]
-/Rect [ 48.96 77.82 122.76 85.2 ]
-/Subtype /Link
-/Type /Annot
->>
-endobj
-50 0 obj
-<<
-/Filter [ /ASCII85Decode /FlateDecode ]
-/Length 3370
->>
-stream
-Gb"/)=``=W&q8H9kdT);3?3W0B58S/O-@^c:0YiX5&:s.5nYM,1aHYQ;u>Ua)^)sapFbiLD'b3:$#B\!NCMt*ct$PD&!MM'']A']IX]7d=YO%[Esr:cDrH"#q.%9V8LH2Y%t'9Q(-[:.$td%F#lRE$S7#DlpMRl"`L\Zc)"h^eI])Y/C'Abd=.>oqnKuqbItcSE0`-]]r.I:=_jXmfCp/3/E+o<lW*;#"TS<UeNbaBci)2+7qQ\suPgGL<4:'Hrf;OSb15h=9;Nq/ZO(iZdIr2U+'D$Ld9E#B<j&MZu5dp/=W^M6Wiuci7]<.fG^Z\J_7IUOg*-$MlLYD2<W;f4l>KYPU"EG,Lnqk>Qi<0YIS]tShp#5Mem58.oi"BA2]mP<Ph$j1T-b)YQf4IM9OqpOFiBJE=f:1A*F>c6T14%1<N;ujq0qQU^rgLW>VdK@EPZ=Ss;'sCU1o1f8<ZIP>Rb1CVJi<R[iH=?%AiHk!AZmjoVJeoCUB9<6F.S2(#uNU!gbHM$V3l1qUte$b-3UL"UYk>e#DI_=UMWJVO_<*BCR.\"KD_67*",gWIS(rICG=5&?Q@sBEOcnrF+U(a7M!G$p2a,]%LbFlVtB#.>belq+(I<sr0U0H535jE5A\p,Rs!>[*k]%`4.%ECX3'?KS:&>(cc$++Z9sOqHJ32.AVqQ&%B%;jSVchF3t.p%1`b&7lVF/1gg'm5F)ffsh@B;6[U'3IY;2/KqWMb.3kjj5'SDef@pi``"dkZ2#aoBG[ahf_*6KB5%9AAi$pV008g;'0icV*7d.$CqPY"VmC'cgU9W)`(&tW_q<`b0H^1"=@(j9Hb[=jTI%/"hUhd>f&iQ:F&(qrUl%_A:3r9%8-otmi38qA1GMT9)"gOF\6lA+XU[El&K/G]oqU5G;!0ApR[AP91m$n`WHa]Hm'a:#TX\qnof[=/Ubo=*bT3X4'.e;O%N-AsC:B-[(f_^eSaQir0(aQ-/aQ-5.rD_b_/@sF"B17ak=.s)U:Y?Rt4+/j7EYLZGsPLJ^hDeAM4qXWeIS+j,F_opr?Y@_^e>i-T$+nW7-;LL'WlWbn%OV_DM*@g6na@PWfeT+Y^<o@B^#3%$5[@:Vr;#1<W<P2EM]Ro@=(X\C56+8Nd@Mp_3c]-NA,$u.<DJ_.+Q,YPZr(bBV:N[)<Wn>7g/0nuA(NiirU<$93*cdV]5$6u]=F#I<<HORHqQQdZ^&ST7LcVR2\*Bn,Y1I-\dB$H+NrB2h(;)3?Js7IG!`rR0.;=R<GeD2i,[W_FAddc%ekm$U**\G!LD?Cr#kJK!QmJ<]6'i>ja06a\ig_Y;+r3;Y4!jBC1$;\u!I'lK.R<V0F+LPjb*#meWB=BoS71&-T$cl8l*XcQohdd_\9LfZ@YtA#>kDL1Bngbn<u9;\:!)]]WmF6R9e3u>P)W^jC9!=5@ubF5Br+0ma'0I1*@:md1D_NJ?XRrFCuuFlAY.]+Fb-TL@q+@"gdd_IE/AF9o;V^,Jl3QHNcdB0%73b^/LH`i8&1qEV608=:hoC7Ut=MTH%pl&E;CM]H2rO@4B'--RLs<7J>$Jh:hH3>S,HsjA/NH?gMdbC&aI9D6fP.N2!W!P5`+!pYA%YNVC*Obm)2<5V]-N\h"ht/WQ*Ht9#<kM_QHiI5mLjG@:$^(G'/G'0QHb6#n*ZaBcE9>D@dKuX]4L&iKb1@-&/b`*D&1H&tWZZ4em*df;O^/D:CfZA&lU.ckFeYN<mP-eVH2>n$NTs_I\IW$-/6.fBGi81`^^aLRR^"]L.Z9?kgbc?$=XD,!1%iECNfd[#\'<$[$l88o^+D#tJNNR4S/>&V7pcBt[kt'B0n&^Noh*aPF0F*#1Cpk_uAr(mSiPNToo=Pd\oIq%>X(C6aZYb:#FB,`6hZ.<>C--@._N"Kh81/VC0ROZ8bpdbO2>+sbg#kNVAG]hWg0SOU^<OfPmP->5jT6RI)Ef$EZr6VuEX>Cc<nW%E)-D6VLE_]0YV%WLU*,kl.D\S>M)/I:5'B$G*+^ETtA#WLQbPuoC8WRQW2N-LV@Z':3Pk)79*(;jFnIS/IdokZXRrLQH(6hah!cJsf#s$S30!CVc(\N53_qH(HP=2lI9U:A>R`MA7_Re)BM/+h7LNEQL=a$pS'io2CVh1/2Do?EggYHC:9acKMe/7'T2_:?1--M92'4Nr/I><r+HpQQgoP'/nfhJ=EMT@/r44*c5s+EO1;5c*qeX^dWea!mI>'2uqXNZY#UkGj$SdYRL:*>Ns/_Fdi)VrlkqR,/U>n?<Pq$:KaFn@@uOgd3W9R0?1k]t?Kuft71VnT5O+B,-J4Y?*iL?cO;SAiNQYk[XV-46Ou(l;?";=)oo]R:h:G]]nc4,_aMS#!W`Q&,cH^^3=:mU;I4LXQ&Bg6=U`T4NLu3d;)!Wbq=]MFf>Co<CHSol<.dt3]b2Tlba9Ta.^Fs/@I`0fgfOlH@k<lYlbDphU9MR8"tNpH1I?al#Y6G%$<`-Utt@Cgr$kQJLc^A%]A1"jtVJH"!-fE'kWMB<C&a87?11#qB"(b3LFthiDSt8m)K-e*iIP__nQFH+@iBJG:l<>k3]9>d[iCH0p2l2'%%8)TiJ!.9cl\8B5#IoKKUF9n*p#)5ED.aK(+UIOTWRH;)(MT#c6Vd#t]er7Tmp@cF)UFgaQ7]d^Q&Tetk@rVdrk9jgR+4LZJD6ZppWFcdN/JIojBATElIVhn.0L"LUbl\nF3Ie4PCbj&]H)^#mLsX<Lpb),SjR.W!pN1i[(r0$@Bqob[?sNpTQiEI*6Vk4n&YRZqrNf6pqZU\1l[V:"a#<6(7\i.Q`?n]tM[)FO%XjOs)mZ,nD'6l&Yi(F,\B,VPCVFD3YaM_4)?7*]dnSg$+m3k\_Q>C?!<2.#/+f#*sYq!$SWn^RBQs2Ac#?#k(CdEpVXVgW[[j7U+cZ.J`;X+T=in`heG7D'*B)>2($a=)5ZO]%_6:r1GT=1AH&8%fdb?<&XD;XY.lO<R^G[Ssq8Gi0l5;J.Z5_1c_i2q;=rs)bE+QU3=BI.9&GfZ%nf#k"prAo3V+%NoVrs56?&AeNm-rfb1<V^c=?ilCqQh/,*>cS(sHgf6d2(p,F84=YG,(UTI9^]6<*gji%f.ZPYDEEDO>OVcY?oUT;kChj(_#VW_>_rsgV0MuVC5R\g&kWL-<5;BI?qO;<H(\mq+qn0#_lJDZN52qoVB284m60s7pF&`n#0**,LDsRdLZf[S79*NJ,3a[hPk,PC,5q.qeNg2AS[%1jBHFTH#2;311hJ[7@">;9!r:6]#FoM_^qA4::;,[g\qdpW)N"@8"L0m3R.5I?SVCX.$78gmKW@N[[a6?iOZIS!MUY)KqH8bWt\m4i//-IU%g;a-9.YDL0]cVC7jPS<8"<I~>
-endstream
-endobj
-51 0 obj
-<<
-/F1 52 0 R
-/F2 53 0 R
-/F3 54 0 R
-/F4 55 0 R
-/F5 56 0 R
->>
-endobj
-52 0 obj
 <<
 /BaseFont /Helvetica
 /Encoding /WinAnsiEncoding
@@ -649,7 +571,7 @@ endobj
 /Type /Font
 >>
 endobj
-53 0 obj
+47 0 obj
 <<
 /BaseFont /Times-Bold
 /Encoding /WinAnsiEncoding
@@ -658,7 +580,7 @@ endobj
 /Type /Font
 >>
 endobj
-54 0 obj
+48 0 obj
 <<
 /BaseFont /Helvetica-Bold
 /Encoding /WinAnsiEncoding
@@ -667,7 +589,7 @@ endobj
 /Type /Font
 >>
 endobj
-55 0 obj
+49 0 obj
 <<
 /BaseFont /Courier-Bold
 /Encoding /WinAnsiEncoding
@@ -676,7 +598,7 @@ endobj
 /Type /Font
 >>
 endobj
-56 0 obj
+50 0 obj
 <<
 /BaseFont /Courier
 /Encoding /WinAnsiEncoding
@@ -685,13 +607,13 @@ endobj
 /Type /Font
 >>
 endobj
-57 0 obj
+51 0 obj
 <<
-/Annots [ 58 0 R ]
-/Contents 59 0 R
+/Annots [ 52 0 R ]
+/Contents 53 0 R
 /MediaBox [ 0 0 612 792 ]
 /Resources <<
-/Font 51 0 R
+/Font 45 0 R
 /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
 >>
 /Rotate 0
@@ -701,7 +623,7 @@ endobj
 /Parent 2 0 R
 >>
 endobj
-58 0 obj
+52 0 obj
 <<
 /A <<
 /S /URI
@@ -709,88 +631,82 @@ endobj
 /URI (https\072\057\057mathclass\056today\057OpenStax\055Viewer\057sections\057precalculus\0552e\05711\0557\056html)
 >>
 /Border [ 0 0 0 ]
-/Rect [ 82.17 434.07 141.21 441.45 ]
+/Rect [ 100.62 508.32 159.66 515.7 ]
 /Subtype /Link
 /Type /Annot
 >>
 endobj
-59 0 obj
+53 0 obj
 <<
 /Filter [ /ASCII85Decode /FlateDecode ]
-/Length 2371
+/Length 2122
 >>
 stream
-Gb"/(a`?,q&A@B[qDM*k@0l:igVcsd4I&f&,rLH_+;1!%J,f\7?Lmd<!#I5Q9KOK<(L&1!!"#SCh>R1-8AN1TZ2`8mi7/6B^*,a(QsB[uS,d/>@58f#(m4O6+E>C57'Z':6_#oPOpM(sfY2h4HfP;Q>`C"(MgZt(*(!oX9q%Z(:M[#j2__<2(qFfX01MK\Xqepf,m\re>fTT[Li<9#qq<U-Rc0r(3A0X8fWIijW[D_"R9!Qa3)fXC95<2B1RNTCflK-H15#<ngdm]O.TYS::X53+\?&j,oiX52&q7XBL6QR#jlWLWpMQK(4t>uZh/VGCCG3+9Kt-q2jJ0M3:jX"s-jUjQL:.c6:?[8l"=-O$[V$q_UK(O*mDSN.1TR-c-#/`_KX8F)RpsmLBtJ7Ifkm("gSNa*a1H,.#PAue7i0M!0*mE0&-j3$++#9uD<aLL=T=8LT_#?E/&dN5:98?Q<[St:+$Q<HS@m_2iRL[95B*=sr:.oE6>mhTfY278!l52F0>ri0A*XPqVroj\48J4&oR-Ko]R0=tjD9#=Ab$.6^tH?am!SYT99rl3ppWuShXZI9FFlu"S=n9=Y1nO4W'MXW6#1^R'+R`ISt&/?-02F*QVd<L$5Z=t[@ef_k?Vb)/5)p7/f2<7`H97[W]UH4UuI*d.BdVa+_(o)fVtFYn2k8UHHDFqL9uq@>CS>dju!sC'h&iPchU?@FBu^fAPAaP34`KIB9hU.-k._-k(sfA>-[DY[dYBmcShL$8`[ha"uMKZ+Bm5W"JfJI4quIh6/$*TVOGhj`F%)Oh??[\"?Z+0ptcZN*<`)*l\.DYQpctl=uu:H(l_u$HHX`3fZ$XA!YQG2#s,1Cpf&CD'Eu\<?,>U"MI&ZlCfVJ^?P4>!4,68W&"(:"#%D2W`72K!H+CkB`>/d]"EDC'cB"E'?E]Fp>VaASH3Ou.f^eMKL_*Tf\kXb+Pm-SBZO/<Aqb]/;hUlhmKU)2KC:L!Z_9-2c?-i%iS()MZ+^Iu_&l6>Hh_n7^d2EA@<8M18oOP'2c-\:CZ#hF[:lCf/NKVqN%^$Ah(qRW(%HP/9N+PPn$V%1#Za.\<`^btX'nQq=(q2fG;iL.Bf>ZFH9(0t5fUERhr#2&I+8@451mcXd9IakU05klp0hpsq]9973c(O>oE2JCR-VTO3Or/WsEYc%WVW6`r9&qHQj5t+ERH/9*,nnK`g4mN'KG'7Hl2jjqQ5S2MK:h%qO/?rK1om]sR-G*^GKF^DEGCS*<ub`EF>]s8CZZ)+if/Ft9N/GTa<U"uc8:c.Sl=I<dTg&o6LCFQ[ugUq&R1S1$H$n\h+T?GcPL/m9Z0s=KM">4Uae#GqT:*!2;Z"*eWS+8-lS*MpB^ZP8@9U2$]W]"ESTk+/^T=ms$gWfF3q#YRTe9RD/+S:U[Cp/]s6aFpFkgR3*9\+fJuJoIgGcF?E6)WF+\X[1#L@86-Fj<.6]KD6SMk3Cj'lh&4]LJg=_P#0L3o&Qs`3A#=7^2A)h:OeBo>KM\@Im6Kc_jB@f*1[Z_fBSG;38TVop/.CSa^DK+o;X2R-/4omaP:II"*TJ1=,GO+`NEZ^]aLVZ0K*KXd8VcC#fCqA%7JQJko-9Q?C@BiSX12GiNB&)0.r$qPKjnBq)?@6_FQ!R:$NZQb%"AAG>m7Zj:hdT$bblPa!-;FK4L<\S-JNki4@%@o/.dpbj_6"&8VPmg?Bj0C.5&biBhIFBqnkFQ06VsiX0J<rt^__?(Nbrs!q4?cnk^k?$IEHLWG)6;QQ_I=)]KdF$"\jauNnpHc6;6B07Om_#RsTRkA?o8;$jj_LNXBb.Jq%EB\@r6D,7m,XW(`ikB(jl?W0K+K$e,nWh<in1<W_ZN`mt,1^pK@<H:(mS[16[EA,SZCbD[00)ZOQ"^[LlFhopHJ]ffc6pAeKa*`,jB1+f_TZ:1lqQ'W7"i1:i.O8Q.i\ilD5*AgL(JI`-GW/T&QTN>_Y"G.WU)I&[nKEQWfF"VYi%NHXM>EN=J3rfZ^8PbEH%h5,g%]0uai/=RPmU3mP*S]_sm=BN*I(-;K9\=R+W+!QQ=O8h^Ak+p0CjR`Imb=IQpIr)dhCrBMlk,ZTSO]l9Hl-FS6IPJaahP1(o[EWJl!?]H1g@QO?/T37"!cD-+.&FBnSKrG=fXoMRuT)UfO1sS!<tgUBj-CM_`$GMjAg']lQA*g2Y78sH:qSgaNV"Bmt1egfdUT@IQo]c<%,;%Tke^IR.>9qkkj;"?tJUfi'i.$Neb(;.!S;\?%D^991Cf=fi0&,ii/*XNqJ6Wi,.-\;Ec78&3MjKqT3'>6jGk;;MmAM&.$f$e+Q6-FePT[^q,]]1,M^:Bb>L5W[l(m51[tr?g)9CMpLN+rZ02k7fNMQUsDF~>
+Gb"/(>BALX'Ro4HS@?adW9a=lhmQbCa\F5>-FC+__?`sgbDn-/VS@S@,hiG'ERKR'V(b1O>Oo=RqMsTeMdOg.jorQd.D0umJ`jpm!FFuC0RXIql0*HS[<IA)PJn*PY*2;aAE9O@IM1:M0AhbZ0S8sgk[eJdUej=0>InN1jD]6S?i1<)Ib,grbfJnE'?2oHq"I2(9+p%$XE(s=IpfanqeVSV2?dt;5\>34oWDhFBUqdS@q#a_La'UOoF"?"kbijIn+IECqo#&i^c09SdP*pLSBT5U=1>jS@MGLn>pr1P""N=4+,,j;\WIc&,*<DM'7+)U[NiI.+)UkemAE^@l;de'cUF8g[\fO`B:1@oFaKRNgFma)mG2r$[srYSg++!VUXa&J!ZgZR8K?]Bis2"@`P%02L`I-_M%b%5F3!F"'4e)i9q2.KEq8bLq;p\^QBAXmksp(/m);`HH91W1.*c50^#s)WMQF-/'[VcFKW1.PLL69BOK,$rpeXh-V8tToBs(Pe%f5#i6757'L=mp7,!QGufPPg9nSgc5FGVkSAq]r$EB]*NP<U]Rc7e%jLY%#OrgKF.Sm2__&DW>_mTSO/@4,CJ-7K/X::i#_BP^V7>Y?)%ZIrhgs6L_G,%/]2Kuq`HHA,itQ_e4QiBY=$XrAQ!;adl0$?OE4B2F'LAU8G9o2=(12RtS@0qkPI,ZV(1oX^_?^GYVGE[0hlc*SZN:?u>f?/P1%Raa,;+^Yh\l7l7sp3hA@$GB:h,q3SBC5l@5ag.un6dL:Wq+?ma>i#s*PU9.QFG8A;@Q5oVTjTaUA?P#u:nek"CX`lNM%Lb*'dpmS->h3"'r--J?#^@TdKd)^HO<4LL#&V%r3P9s;aXF-$"rOH%/"I7:aL8Q.pWNd[r*T5`>OrYOV=Q=84cLi]]%T)gOW:",0'C>B=cXF:_S1S9fY(^[M:L+TLS*0\U^48D$K[ti9.$%,DfN#1qgb?,3S1')\a7i2:fhn'uSfIDq9#OG28f@IeFFrR_V67O(aCgPu'D.6)6rG=o#2ZV&I@Hn,sW`e.aA^[I^d\NBlB.ep45N<gCJD]Q6_P()=Yf\KSW%Mef1j9Pe:fE&P3RYd]m499'c+eVZ,honl]c6oMb6R*ZjaDPO'@:#4`)em['Vq*2=F>n.jmZ1A)*S:u.m0Fj+/J"pM8hg]/s,;Z45mNLR/"aa?SfUdr7M!m'SD\-&emdf<pcHsm'i^Y.ihGEABqDert2p-6<$&gG`Nfe-)WFjM%3hkV*5M"f%QQEW#psn-'B?>oH2On&1<Q/['R7-fl7[:U`q@(Tt+Z]3"*_HQrM7F,f@eZ;TFqbuAgS&fu#.6HF&>.O:+o$pmR6qK#V)3Eu2L*J5ZC!Fr#r/OHXi_\PB`7#UZBoT'"T(s'WWY]a%.utrFWI`\h7*GK;k_MKU)E>C=SNQU&$.X_+6=QNW0gE_#o/Rq-?S]LM)UA8[QPBHA[/@UVq@EbH^L9m-fBqH2oe,\L1`^!Gs'YO(1Tu..!gLZ/Y=4`P6,eGO%YWH9:WL>AVGAj,9]o2TXJ^N?;]+N!1F1$AOe_p"jXh[5$VScnHhaZAlUlh/QNc6[8H(#M7Ok0q]l!Yb+JjbQo^lBR'mpMBP=HA2F'r`gjLWe`10k-kkMHgh[fUo[k"(9EK=5m4[I[t%]ERf:s#tm152i-Q.6'Pi/nqLNW=!<\pZND5A=rYJN%Y%W/UHN-YmQ,NZa*iNN#^F5_T(eeWKW/-6+7sgJD<73W^*-]UgDI+#5rE'BY1tiNk.V*oOpV.GJFU:1F$<qs9ksRh#a!'O*b[RtWF9[O1D:Y^P8Dq/G6SD858Oh/^\oc*f"\_[jJ2*G!,;CE.U_/"ZZ#SQoEjJ%.I/Mc4E>mE$u;T(QB.&8YhDH+9iGglK=D[Q<8ZcXVSd-<\Ri!0&,`Q!0306auQ^Au[T`FV#NO#!E!ZhN8V8A?(!2pq`+-F:=>_?cSV#nkq#Gb!s,ubZVV\oRhDPAbHOZ'HAIa>rX[9B7WE'fS>7NR@lsRn$`'X%ptQQS%8N++8CoM0;/4HP[X@B5T-@&JJ&(WpcusU]KmMgf2QKQ61cU[0#5&]fJ#-R6u;pH7b*sUQB-0hD2jU!Zme2`X*jmH1P=))F*b*b~>
 endstream
 endobj
 xref
-0 60
+0 54
 0000000000 65535 f 
 0000000015 00000 n 
 0000000208 00000 n 
 0000000274 00000 n 
 0000000323 00000 n 
-0000000836 00000 n 
-0000001170 00000 n 
-0000001504 00000 n 
-0000001763 00000 n 
-0000002018 00000 n 
-0000002277 00000 n 
-0000002536 00000 n 
-0000002794 00000 n 
-0000003050 00000 n 
-0000003301 00000 n 
-0000003551 00000 n 
-0000003802 00000 n 
-0000004053 00000 n 
-0000004302 00000 n 
-0000004552 00000 n 
-0000004803 00000 n 
-0000005053 00000 n 
-0000005503 00000 n 
-0000005953 00000 n 
-0000006402 00000 n 
-0000006661 00000 n 
-0000006917 00000 n 
-0000007174 00000 n 
-0000007623 00000 n 
-0000008073 00000 n 
-0000008522 00000 n 
-0000008774 00000 n 
-0000009026 00000 n 
-0000009277 00000 n 
-0000009585 00000 n 
-0000009893 00000 n 
+0000000794 00000 n 
+0000001128 00000 n 
+0000001462 00000 n 
+0000001720 00000 n 
+0000001979 00000 n 
+0000002237 00000 n 
+0000002496 00000 n 
+0000002752 00000 n 
+0000003003 00000 n 
+0000003253 00000 n 
+0000003504 00000 n 
+0000003755 00000 n 
+0000004004 00000 n 
+0000004254 00000 n 
+0000004505 00000 n 
+0000004755 00000 n 
+0000005205 00000 n 
+0000005655 00000 n 
+0000006104 00000 n 
+0000006361 00000 n 
+0000006619 00000 n 
+0000006872 00000 n 
+0000007124 00000 n 
+0000007376 00000 n 
+0000007684 00000 n 
+0000007992 00000 n 
+0000008314 00000 n 
+0000008635 00000 n 
+0000008955 00000 n 
+0000009207 00000 n 
+0000009459 00000 n 
+0000009710 00000 n 
+0000009962 00000 n 
 0000010214 00000 n 
-0000010535 00000 n 
-0000010788 00000 n 
-0000011040 00000 n 
-0000011291 00000 n 
-0000011543 00000 n 
-0000011795 00000 n 
-0000012105 00000 n 
-0000012412 00000 n 
-0000012695 00000 n 
-0000012980 00000 n 
-0000013232 00000 n 
-0000013482 00000 n 
-0000013810 00000 n 
-0000014137 00000 n 
-0000017600 00000 n 
-0000017677 00000 n 
-0000017785 00000 n 
-0000017894 00000 n 
-0000018007 00000 n 
-0000018118 00000 n 
-0000018224 00000 n 
-0000018435 00000 n 
-0000018688 00000 n 
+0000010525 00000 n 
+0000010834 00000 n 
+0000011164 00000 n 
+0000011493 00000 n 
+0000011745 00000 n 
+0000011996 00000 n 
+0000015410 00000 n 
+0000015487 00000 n 
+0000015595 00000 n 
+0000015704 00000 n 
+0000015817 00000 n 
+0000015928 00000 n 
+0000016034 00000 n 
+0000016245 00000 n 
+0000016498 00000 n 
 trailer
 <<
-/Size 60
+/Size 54
 /Root 3 0 R
 /Info 1 0 R
 >>
 startxref
-21152
+18713
 %%EOF

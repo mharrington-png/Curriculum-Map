@@ -3,13 +3,28 @@
   "$id": "openstax-objective-links.schema.json",
   "title": "OpenStax objective links",
   "type": "object",
-  "required": ["schema_version", "viewer_base_url", "scope", "summary", "objectives"],
+  "required": ["schema_version", "viewer_base_url", "scope", "validation_rules", "follow_up_flags", "summary", "objectives"],
   "properties": {
     "schema_version": {"const": 2},
     "generated_on": {"type": "string", "format": "date"},
     "viewer_base_url": {"type": "string", "format": "uri"},
     "scope": {"type": "object"},
     "validation_rules": {"type": "object"},
+    "follow_up_flags": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "course_id", "status", "action", "reason"],
+        "properties": {
+          "id": {"type": "string"},
+          "course_id": {"type": "string", "pattern": "^M[0-9]+$"},
+          "status": {"enum": ["open", "complete"]},
+          "action": {"type": "string"},
+          "reason": {"type": "string"}
+        },
+        "additionalProperties": false
+      }
+    },
     "summary": {"type": "object"},
     "excluded_objective_count": {"type": "integer", "minimum": 0},
     "objectives": {
@@ -41,7 +56,7 @@
                   "section": {"type": "string", "pattern": "^[0-9]+\\.[0-9]+$"},
                   "section_title": {"type": "string"},
                   "viewer_url": {"type": "string", "format": "uri"},
-                  "role": {"enum": ["primary", "complementary"]},
+                  "role": {"enum": ["primary", "supplemental"]},
                   "alignment": {"enum": ["direct", "partial", "supporting"]},
                   "covers": {"type": "array", "items": {"type": "string"}},
                   "content_evidence": {

@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_on": "2026-07-23",
+  "generated_on": "2026-07-26",
   "viewer_base_url": "https://mathclass.today/OpenStax-Viewer",
   "scope": {
     "included_courses": [
@@ -30,12 +30,29 @@
     "in_scope_objective_count": 253
   },
   "validation_rules": {
-    "exactly_one_primary_section_when_matched": true,
-    "complementary_sections_allowed": true,
+    "exactly_one_primary_section_when_matched_courses": [
+      "M12",
+      "M21",
+      "M31",
+      "M49"
+    ],
+    "supplemental_only_courses": [
+      "M39"
+    ],
+    "supplemental_sections_allowed": true,
     "section_must_exist_in_local_viewer": true,
     "section_content_checked_not_title_only": true,
     "unmatched_objectives_are_not_given_placeholder_links": true
   },
+  "follow_up_flags": [
+    {
+      "id": "M39-AUTHORITATIVE-RESOURCES",
+      "course_id": "M39",
+      "status": "open",
+      "action": "Retrieve the Math 39 course resources and include them in the curriculum database.",
+      "reason": "OpenStax is supplemental in Math 39 and is not the authoritative course resource set."
+    }
+  ],
   "summary": {
     "matched": 234,
     "direct_single": 190,
@@ -108,7 +125,7 @@
           "section": "1.2",
           "section_title": "Integers",
           "viewer_url": "https://mathclass.today/OpenStax-Viewer/sections/intermediate-algebra-2e/1-2.html",
-          "role": "complementary",
+          "role": "supplemental",
           "alignment": "direct",
           "covers": [
             "signed-integer operations"
@@ -365,7 +382,7 @@
           "section": "2.2",
           "section_title": "Use a Problem Solving Strategy",
           "viewer_url": "https://mathclass.today/OpenStax-Viewer/sections/intermediate-algebra-2e/2-2.html#solve-number-word-problems",
-          "role": "complementary",
+          "role": "supplemental",
           "alignment": "direct",
           "covers": [
             "number problems"
@@ -1402,7 +1419,7 @@
           "section": "3.6",
           "section_title": "Graphs of Functions",
           "viewer_url": "https://mathclass.today/OpenStax-Viewer/sections/intermediate-algebra-2e/3-6.html",
-          "role": "complementary",
+          "role": "supplemental",
           "alignment": "direct",
           "covers": [
             "evaluation from graphs"
@@ -1599,7 +1616,7 @@
           "section": "3.1",
           "section_title": "Functions and Function Notation",
           "viewer_url": "https://mathclass.today/OpenStax-Viewer/sections/college-algebra-2e/3-1.html#representing-functions-using-tables",
-          "role": "complementary",
+          "role": "supplemental",
           "alignment": "supporting",
           "covers": [
             "functions in formulas, graphs, and tables"
@@ -1616,7 +1633,7 @@
           "section": "4.1",
           "section_title": "Linear Functions",
           "viewer_url": "https://mathclass.today/OpenStax-Viewer/sections/college-algebra-2e/4-1.html#representing-a-linear-function-in-graphical-form",
-          "role": "complementary",
+          "role": "supplemental",
           "alignment": "supporting",
           "covers": [
             "linear-function comparison contexts"
@@ -2113,7 +2130,7 @@
           "section": "2.6",
           "section_title": "Other Types of Equations",
           "viewer_url": "https://mathclass.today/OpenStax-Viewer/sections/college-algebra-2e/2-6.html#solving-equations-involving-rational-exponents",
-          "role": "complementary",
+          "role": "supplemental",
           "alignment": "direct",
           "covers": [
             "equations involving rational exponents"
@@ -2190,7 +2207,7 @@
           "section": "9.6",
           "section_title": "Graph Quadratic Functions Using Properties",
           "viewer_url": "https://mathclass.today/OpenStax-Viewer/sections/intermediate-algebra-2e/9-6.html#find-the-axis-of-symmetry-and-vertex-of-a-parabola",
-          "role": "complementary",
+          "role": "supplemental",
           "alignment": "direct",
           "covers": [
             "standard-form graph features"
@@ -2207,7 +2224,7 @@
           "section": "6.5",
           "section_title": "Polynomial Equations",
           "viewer_url": "https://mathclass.today/OpenStax-Viewer/sections/intermediate-algebra-2e/6-5.html#solve-quadratic-equations-by-factoring",
-          "role": "complementary",
+          "role": "supplemental",
           "alignment": "direct",
           "covers": [
             "factored form and zeros"
@@ -3634,7 +3651,7 @@
           "section": "5.3",
           "section_title": "Graphs of Polynomial Functions",
           "viewer_url": "https://mathclass.today/OpenStax-Viewer/sections/college-algebra-2e/5-3.html#objective-2-solve-a-quadratic-equation-by-factoring-ia-6-5-2",
-          "role": "complementary",
+          "role": "supplemental",
           "alignment": "direct",
           "covers": [
             "factored form, zeros, and multiplicity"
@@ -3771,7 +3788,7 @@
           "section": "5.5",
           "section_title": "Zeros of Polynomial Functions",
           "viewer_url": "https://mathclass.today/OpenStax-Viewer/sections/college-algebra-2e/5-5.html",
-          "role": "complementary",
+          "role": "supplemental",
           "alignment": "direct",
           "covers": [
             "constructing a polynomial from specified zeros"
@@ -4418,7 +4435,7 @@
           "section": "6.2",
           "section_title": "Graphs of Exponential Functions",
           "viewer_url": "https://mathclass.today/OpenStax-Viewer/sections/college-algebra-2e/6-2.html",
-          "role": "complementary",
+          "role": "supplemental",
           "alignment": "direct",
           "covers": [
             "graphical exponential intersections"
@@ -4598,7 +4615,7 @@
           "section": "3.3",
           "section_title": "Rates of Change and Behavior of Graphs",
           "viewer_url": "https://mathclass.today/OpenStax-Viewer/sections/college-algebra-2e/3-3.html#finding-the-average-rate-of-change-of-a-function",
-          "role": "primary",
+          "role": "supplemental",
           "alignment": "direct",
           "covers": [
             "Finding the Average Rate of Change of a Function"
@@ -4628,7 +4645,7 @@
           "section": "4.1",
           "section_title": "Linear Functions",
           "viewer_url": "https://mathclass.today/OpenStax-Viewer/sections/college-algebra-2e/4-1.html",
-          "role": "primary",
+          "role": "supplemental",
           "alignment": "direct",
           "covers": [
             "Linear Functions"
@@ -4658,7 +4675,7 @@
           "section": "4.3",
           "section_title": "Fitting Linear Models to Data",
           "viewer_url": "https://mathclass.today/OpenStax-Viewer/sections/college-algebra-2e/4-3.html",
-          "role": "primary",
+          "role": "supplemental",
           "alignment": "direct",
           "covers": [
             "Fitting Linear Models to Data"
@@ -4688,7 +4705,7 @@
           "section": "4.3",
           "section_title": "Fitting Linear Models to Data",
           "viewer_url": "https://mathclass.today/OpenStax-Viewer/sections/college-algebra-2e/4-3.html",
-          "role": "primary",
+          "role": "supplemental",
           "alignment": "direct",
           "covers": [
             "Fitting Linear Models to Data"
@@ -4718,7 +4735,7 @@
           "section": "4.3",
           "section_title": "Fitting Linear Models to Data",
           "viewer_url": "https://mathclass.today/OpenStax-Viewer/sections/college-algebra-2e/4-3.html",
-          "role": "primary",
+          "role": "supplemental",
           "alignment": "partial",
           "covers": [
             "Fitting Linear Models to Data"
@@ -4748,7 +4765,7 @@
           "section": "4.3",
           "section_title": "Fitting Linear Models to Data",
           "viewer_url": "https://mathclass.today/OpenStax-Viewer/sections/college-algebra-2e/4-3.html",
-          "role": "primary",
+          "role": "supplemental",
           "alignment": "direct",
           "covers": [
             "Fitting Linear Models to Data"
@@ -4778,7 +4795,7 @@
           "section": "6.1",
           "section_title": "Exponential Functions",
           "viewer_url": "https://mathclass.today/OpenStax-Viewer/sections/college-algebra-2e/6-1.html",
-          "role": "primary",
+          "role": "supplemental",
           "alignment": "direct",
           "covers": [
             "Exponential Functions"
@@ -4808,7 +4825,7 @@
           "section": "4.1",
           "section_title": "Exponential Functions",
           "viewer_url": "https://mathclass.today/OpenStax-Viewer/sections/precalculus-2e/4-1.html",
-          "role": "primary",
+          "role": "supplemental",
           "alignment": "direct",
           "covers": [
             "Exponential Functions"
@@ -4838,7 +4855,7 @@
           "section": "4.1",
           "section_title": "Exponential Functions",
           "viewer_url": "https://mathclass.today/OpenStax-Viewer/sections/precalculus-2e/4-1.html",
-          "role": "primary",
+          "role": "supplemental",
           "alignment": "direct",
           "covers": [
             "Objective 1: Find the value of a function (exponential). (IA 3.5.3)"
@@ -4868,7 +4885,7 @@
           "section": "4.7",
           "section_title": "Exponential and Logarithmic Models",
           "viewer_url": "https://mathclass.today/OpenStax-Viewer/sections/precalculus-2e/4-7.html",
-          "role": "primary",
+          "role": "supplemental",
           "alignment": "direct",
           "covers": [
             "Exponential and Logarithmic Models"
@@ -4898,7 +4915,7 @@
           "section": "4.6",
           "section_title": "Exponential and Logarithmic Equations",
           "viewer_url": "https://mathclass.today/OpenStax-Viewer/sections/precalculus-2e/4-6.html",
-          "role": "primary",
+          "role": "supplemental",
           "alignment": "direct",
           "covers": [
             "Exponential and Logarithmic Equations"
@@ -4928,7 +4945,7 @@
           "section": "4.8",
           "section_title": "Fitting Exponential Models to Data",
           "viewer_url": "https://mathclass.today/OpenStax-Viewer/sections/precalculus-2e/4-8.html#objective-2-fit-a-regression-equation-to-a-set-of-data-and-use-the-linear-or-exponential-model-to-make-predictions-ca-4-3-4",
-          "role": "primary",
+          "role": "supplemental",
           "alignment": "direct",
           "covers": [
             "Objective 2: Fit a regression equation to a set of data and use the linear (or exponential) model to make predictions. (CA 4.3.4)"
@@ -4958,7 +4975,7 @@
           "section": "4.7",
           "section_title": "Exponential and Logarithmic Models",
           "viewer_url": "https://mathclass.today/OpenStax-Viewer/sections/precalculus-2e/4-7.html#choosing-an-appropriate-model-for-data",
-          "role": "primary",
+          "role": "supplemental",
           "alignment": "partial",
           "covers": [
             "Choosing an Appropriate Model for Data"
@@ -4975,7 +4992,7 @@
           "section": "4.3",
           "section_title": "Fitting Linear Models to Data",
           "viewer_url": "https://mathclass.today/OpenStax-Viewer/sections/college-algebra-2e/4-3.html",
-          "role": "complementary",
+          "role": "supplemental",
           "alignment": "direct",
           "covers": [
             "linear regression and model fit"
@@ -4992,7 +5009,7 @@
           "section": "4.8",
           "section_title": "Fitting Exponential Models to Data",
           "viewer_url": "https://mathclass.today/OpenStax-Viewer/sections/precalculus-2e/4-8.html#objective-2-fit-a-regression-equation-to-a-set-of-data-and-use-the-linear-or-exponential-model-to-make-predictions-ca-4-3-4",
-          "role": "complementary",
+          "role": "supplemental",
           "alignment": "direct",
           "covers": [
             "exponential regression and model fit"
@@ -5022,7 +5039,7 @@
           "section": "3.3",
           "section_title": "Power Functions and Polynomial Functions",
           "viewer_url": "https://mathclass.today/OpenStax-Viewer/sections/precalculus-2e/3-3.html",
-          "role": "primary",
+          "role": "supplemental",
           "alignment": "direct",
           "covers": [
             "Power Functions and Polynomial Functions"
@@ -5052,7 +5069,7 @@
           "section": "3.9",
           "section_title": "Modeling Using Variation",
           "viewer_url": "https://mathclass.today/OpenStax-Viewer/sections/precalculus-2e/3-9.html#power-functions-and-polynomial-functions",
-          "role": "primary",
+          "role": "supplemental",
           "alignment": "direct",
           "covers": [
             "Power Functions and Polynomial Functions"
@@ -5082,7 +5099,7 @@
           "section": "3.3",
           "section_title": "Power Functions and Polynomial Functions",
           "viewer_url": "https://mathclass.today/OpenStax-Viewer/sections/precalculus-2e/3-3.html#identifying-end-behavior-of-power-functions",
-          "role": "primary",
+          "role": "supplemental",
           "alignment": "direct",
           "covers": [
             "Identifying End Behavior of Power Functions"
@@ -5112,7 +5129,7 @@
           "section": "3.9",
           "section_title": "Modeling Using Variation",
           "viewer_url": "https://mathclass.today/OpenStax-Viewer/sections/precalculus-2e/3-9.html",
-          "role": "primary",
+          "role": "supplemental",
           "alignment": "direct",
           "covers": [
             "Modeling Using Variation"
@@ -5142,7 +5159,7 @@
           "section": "2.6",
           "section_title": "Other Types of Equations",
           "viewer_url": "https://mathclass.today/OpenStax-Viewer/sections/college-algebra-2e/2-6.html#solving-equations-involving-rational-exponents",
-          "role": "primary",
+          "role": "supplemental",
           "alignment": "direct",
           "covers": [
             "Solving Equations Involving Rational Exponents"
@@ -5172,7 +5189,7 @@
           "section": "3.3",
           "section_title": "Power Functions and Polynomial Functions",
           "viewer_url": "https://mathclass.today/OpenStax-Viewer/sections/precalculus-2e/3-3.html",
-          "role": "primary",
+          "role": "supplemental",
           "alignment": "partial",
           "covers": [
             "Power Functions and Polynomial Functions"
@@ -5189,7 +5206,7 @@
           "section": "4.2",
           "section_title": "Graphs of Exponential Functions",
           "viewer_url": "https://mathclass.today/OpenStax-Viewer/sections/precalculus-2e/4-2.html",
-          "role": "complementary",
+          "role": "supplemental",
           "alignment": "supporting",
           "covers": [
             "exponential long-run behavior"
@@ -5206,7 +5223,7 @@
           "section": "4.4",
           "section_title": "Graphs of Logarithmic Functions",
           "viewer_url": "https://mathclass.today/OpenStax-Viewer/sections/precalculus-2e/4-4.html",
-          "role": "complementary",
+          "role": "supplemental",
           "alignment": "supporting",
           "covers": [
             "logarithmic long-run behavior"
@@ -5248,7 +5265,7 @@
           "section": "1.4",
           "section_title": "Composition of Functions",
           "viewer_url": "https://mathclass.today/OpenStax-Viewer/sections/precalculus-2e/1-4.html#evaluating-composite-functions-using-tables",
-          "role": "primary",
+          "role": "supplemental",
           "alignment": "direct",
           "covers": [
             "Evaluating Composite Functions Using Tables"
@@ -5278,7 +5295,7 @@
           "section": "1.4",
           "section_title": "Composition of Functions",
           "viewer_url": "https://mathclass.today/OpenStax-Viewer/sections/precalculus-2e/1-4.html#combining-functions-using-algebraic-operations",
-          "role": "primary",
+          "role": "supplemental",
           "alignment": "partial",
           "covers": [
             "Combining Functions Using Algebraic Operations"
@@ -5295,7 +5312,7 @@
           "section": "3.4",
           "section_title": "Graphs of Polynomial Functions",
           "viewer_url": "https://mathclass.today/OpenStax-Viewer/sections/precalculus-2e/3-4.html#using-factoring-to-find-zeros-of-polynomial-functions",
-          "role": "complementary",
+          "role": "supplemental",
           "alignment": "supporting",
           "covers": [
             "sign and zero behavior of polynomial components"
@@ -5325,7 +5342,7 @@
           "section": "3.4",
           "section_title": "Graphs of Polynomial Functions",
           "viewer_url": "https://mathclass.today/OpenStax-Viewer/sections/precalculus-2e/3-4.html#determining-end-behavior",
-          "role": "primary",
+          "role": "supplemental",
           "alignment": "direct",
           "covers": [
             "Determining End Behavior"
@@ -5355,7 +5372,7 @@
           "section": "3.4",
           "section_title": "Graphs of Polynomial Functions",
           "viewer_url": "https://mathclass.today/OpenStax-Viewer/sections/precalculus-2e/3-4.html#using-factoring-to-find-zeros-of-polynomial-functions",
-          "role": "primary",
+          "role": "supplemental",
           "alignment": "direct",
           "covers": [
             "Using Factoring to Find Zeros of Polynomial Functions"
@@ -5385,7 +5402,7 @@
           "section": "3.4",
           "section_title": "Graphs of Polynomial Functions",
           "viewer_url": "https://mathclass.today/OpenStax-Viewer/sections/precalculus-2e/3-4.html#understanding-the-relationship-between-degree-and-turning-points",
-          "role": "primary",
+          "role": "supplemental",
           "alignment": "partial",
           "covers": [
             "Understanding the Relationship between Degree and Turning Points"
@@ -5415,7 +5432,7 @@
           "section": "3.6",
           "section_title": "Zeros of Polynomial Functions",
           "viewer_url": "https://mathclass.today/OpenStax-Viewer/sections/precalculus-2e/3-6.html",
-          "role": "primary",
+          "role": "supplemental",
           "alignment": "direct",
           "covers": [
             "Zeros of Polynomial Functions"
@@ -5445,7 +5462,7 @@
           "section": "3.4",
           "section_title": "Graphs of Polynomial Functions",
           "viewer_url": "https://mathclass.today/OpenStax-Viewer/sections/precalculus-2e/3-4.html",
-          "role": "primary",
+          "role": "supplemental",
           "alignment": "direct",
           "covers": [
             "Graphs of Polynomial Functions"
@@ -5607,7 +5624,7 @@
           "section": "11.7",
           "section_title": "Probability",
           "viewer_url": "https://mathclass.today/OpenStax-Viewer/sections/precalculus-2e/11-7.html",
-          "role": "primary",
+          "role": "supplemental",
           "alignment": "partial",
           "covers": [
             "Probability"
@@ -5661,7 +5678,7 @@
           "section": "11.7",
           "section_title": "Probability",
           "viewer_url": "https://mathclass.today/OpenStax-Viewer/sections/precalculus-2e/11-7.html#objective-1-introduction-to-sample-spaces-and-computing-basic-probabilities",
-          "role": "primary",
+          "role": "supplemental",
           "alignment": "direct",
           "covers": [
             "Objective 1: Introduction to Sample Spaces and Computing Basic Probabilities."
@@ -5691,7 +5708,7 @@
           "section": "11.7",
           "section_title": "Probability",
           "viewer_url": "https://mathclass.today/OpenStax-Viewer/sections/precalculus-2e/11-7.html#computing-probabilities-of-equally-likely-outcomes",
-          "role": "primary",
+          "role": "supplemental",
           "alignment": "direct",
           "covers": [
             "Computing Probabilities of Equally Likely Outcomes"
@@ -5721,7 +5738,7 @@
           "section": "11.7",
           "section_title": "Probability",
           "viewer_url": "https://mathclass.today/OpenStax-Viewer/sections/precalculus-2e/11-7.html#using-the-complement-rule-to-compute-probabilities",
-          "role": "primary",
+          "role": "supplemental",
           "alignment": "direct",
           "covers": [
             "Using the Complement Rule to Compute Probabilities"
@@ -5763,7 +5780,7 @@
           "section": "11.7",
           "section_title": "Probability",
           "viewer_url": "https://mathclass.today/OpenStax-Viewer/sections/precalculus-2e/11-7.html#computing-the-probability-of-the-union-of-two-events",
-          "role": "primary",
+          "role": "supplemental",
           "alignment": "direct",
           "covers": [
             "Computing the Probability of the Union of Two Events"
@@ -5918,7 +5935,7 @@
           "section": "4.2",
           "section_title": "Graphs of Exponential Functions",
           "viewer_url": "https://mathclass.today/OpenStax-Viewer/sections/precalculus-2e/4-2.html",
-          "role": "complementary",
+          "role": "supplemental",
           "alignment": "direct",
           "covers": [
             "graphs of exponential functions"
@@ -5935,7 +5952,7 @@
           "section": "4.7",
           "section_title": "Exponential and Logarithmic Models",
           "viewer_url": "https://mathclass.today/OpenStax-Viewer/sections/precalculus-2e/4-7.html",
-          "role": "complementary",
+          "role": "supplemental",
           "alignment": "direct",
           "covers": [
             "exponential contexts and models"
@@ -5982,7 +5999,7 @@
           "section": "4.4",
           "section_title": "Graphs of Logarithmic Functions",
           "viewer_url": "https://mathclass.today/OpenStax-Viewer/sections/precalculus-2e/4-4.html",
-          "role": "complementary",
+          "role": "supplemental",
           "alignment": "direct",
           "covers": [
             "graphs of logarithmic functions"
@@ -5999,7 +6016,7 @@
           "section": "4.7",
           "section_title": "Exponential and Logarithmic Models",
           "viewer_url": "https://mathclass.today/OpenStax-Viewer/sections/precalculus-2e/4-7.html",
-          "role": "complementary",
+          "role": "supplemental",
           "alignment": "direct",
           "covers": [
             "logarithmic contexts and models"
@@ -6496,7 +6513,7 @@
           "section": "3.3",
           "section_title": "Power Functions and Polynomial Functions",
           "viewer_url": "https://mathclass.today/OpenStax-Viewer/sections/precalculus-2e/3-3.html#identifying-end-behavior-of-power-functions",
-          "role": "complementary",
+          "role": "supplemental",
           "alignment": "supporting",
           "covers": [
             "general power-function behavior"
@@ -6693,7 +6710,7 @@
           "section": "3.6",
           "section_title": "Zeros of Polynomial Functions",
           "viewer_url": "https://mathclass.today/OpenStax-Viewer/sections/precalculus-2e/3-6.html",
-          "role": "complementary",
+          "role": "supplemental",
           "alignment": "supporting",
           "covers": [
             "constructing polynomial functions and models"
@@ -6920,7 +6937,7 @@
           "section": "2.2",
           "section_title": "The Limit of a Function",
           "viewer_url": "https://mathclass.today/OpenStax-Viewer/sections/calculus-v1/2-2.html#infinite-limits",
-          "role": "complementary",
+          "role": "supplemental",
           "alignment": "supporting",
           "covers": [
             "formal limits at infinity"
@@ -6967,7 +6984,7 @@
           "section": "3.4",
           "section_title": "Graphs of Polynomial Functions",
           "viewer_url": "https://mathclass.today/OpenStax-Viewer/sections/precalculus-2e/3-4.html",
-          "role": "complementary",
+          "role": "supplemental",
           "alignment": "supporting",
           "covers": [
             "polynomial end behavior"
@@ -6984,7 +7001,7 @@
           "section": "3.7",
           "section_title": "Rational Functions",
           "viewer_url": "https://mathclass.today/OpenStax-Viewer/sections/precalculus-2e/3-7.html",
-          "role": "complementary",
+          "role": "supplemental",
           "alignment": "supporting",
           "covers": [
             "rational long-run behavior"
@@ -7001,7 +7018,7 @@
           "section": "4.4",
           "section_title": "Graphs of Logarithmic Functions",
           "viewer_url": "https://mathclass.today/OpenStax-Viewer/sections/precalculus-2e/4-4.html",
-          "role": "complementary",
+          "role": "supplemental",
           "alignment": "supporting",
           "covers": [
             "logarithmic growth"
@@ -7048,7 +7065,7 @@
           "section": "3.9",
           "section_title": "Modeling Using Variation",
           "viewer_url": "https://mathclass.today/OpenStax-Viewer/sections/precalculus-2e/3-9.html#rational-functions",
-          "role": "complementary",
+          "role": "supplemental",
           "alignment": "supporting",
           "covers": [
             "variation models and contextual parameter interpretation"
@@ -7185,7 +7202,7 @@
           "section": "11.1",
           "section_title": "Sequences and Their Notations",
           "viewer_url": "https://mathclass.today/OpenStax-Viewer/sections/precalculus-2e/11-1.html#objective-2-find-a-formula-for-the-general-term-nth-term-of-a-sequence-ia-12-1-2",
-          "role": "complementary",
+          "role": "supplemental",
           "alignment": "direct",
           "covers": [
             "other explicit and recursive sequences"
@@ -7202,7 +7219,7 @@
           "section": "11.3",
           "section_title": "Geometric Sequences",
           "viewer_url": "https://mathclass.today/OpenStax-Viewer/sections/precalculus-2e/11-3.html#using-recursive-formulas-for-geometric-sequences",
-          "role": "complementary",
+          "role": "supplemental",
           "alignment": "direct",
           "covers": [
             "geometric-sequence classification"
@@ -7249,7 +7266,7 @@
           "section": "11.2",
           "section_title": "Arithmetic Sequences",
           "viewer_url": "https://mathclass.today/OpenStax-Viewer/sections/precalculus-2e/11-2.html",
-          "role": "complementary",
+          "role": "supplemental",
           "alignment": "direct",
           "covers": [
             "arithmetic discrete-change models"
@@ -7596,7 +7613,7 @@
           "section": "10.2",
           "section_title": "The Hyperbola",
           "viewer_url": "https://mathclass.today/OpenStax-Viewer/sections/precalculus-2e/10-2.html#deriving-the-equation-of-a-hyperbola-centered-at-the-origin",
-          "role": "complementary",
+          "role": "supplemental",
           "alignment": "direct",
           "covers": [
             "hyperbola classification"
@@ -7643,7 +7660,7 @@
           "section": "10.2",
           "section_title": "The Hyperbola",
           "viewer_url": "https://mathclass.today/OpenStax-Viewer/sections/precalculus-2e/10-2.html#writing-equations-of-hyperbolas-in-standard-form",
-          "role": "complementary",
+          "role": "supplemental",
           "alignment": "direct",
           "covers": [
             "hyperbolas in standard form"
@@ -7660,7 +7677,7 @@
           "section": "10.3",
           "section_title": "The Parabola",
           "viewer_url": "https://mathclass.today/OpenStax-Viewer/sections/precalculus-2e/10-3.html#writing-equations-of-parabolas-in-standard-form",
-          "role": "complementary",
+          "role": "supplemental",
           "alignment": "direct",
           "covers": [
             "parabolas in standard form"
@@ -7707,7 +7724,7 @@
           "section": "8.6",
           "section_title": "Parametric Equations",
           "viewer_url": "https://mathclass.today/OpenStax-Viewer/sections/precalculus-2e/8-6.html",
-          "role": "complementary",
+          "role": "supplemental",
           "alignment": "direct",
           "covers": [
             "parametric circle equations"
@@ -7754,7 +7771,7 @@
           "section": "8.6",
           "section_title": "Parametric Equations",
           "viewer_url": "https://mathclass.today/OpenStax-Viewer/sections/precalculus-2e/8-6.html",
-          "role": "complementary",
+          "role": "supplemental",
           "alignment": "direct",
           "covers": [
             "parametric ellipse equations"
@@ -7801,7 +7818,7 @@
           "section": "8.6",
           "section_title": "Parametric Equations",
           "viewer_url": "https://mathclass.today/OpenStax-Viewer/sections/precalculus-2e/8-6.html",
-          "role": "complementary",
+          "role": "supplemental",
           "alignment": "direct",
           "covers": [
             "parametric hyperbola equations"
@@ -7848,7 +7865,7 @@
           "section": "10.1",
           "section_title": "The Ellipse",
           "viewer_url": "https://mathclass.today/OpenStax-Viewer/sections/precalculus-2e/10-1.html#deriving-the-equation-of-an-ellipse-centered-at-the-origin",
-          "role": "complementary",
+          "role": "supplemental",
           "alignment": "direct",
           "covers": [
             "circle and ellipse features"
@@ -7895,7 +7912,7 @@
           "section": "10.2",
           "section_title": "The Hyperbola",
           "viewer_url": "https://mathclass.today/OpenStax-Viewer/sections/precalculus-2e/10-2.html#locating-the-vertices-and-foci-of-a-hyperbola",
-          "role": "complementary",
+          "role": "supplemental",
           "alignment": "direct",
           "covers": [
             "hyperbola focal definition and distance relationship"

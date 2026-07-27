@@ -1,6 +1,6 @@
 # OpenStax Objective Link Audit
 
-The audit checks one primary Viewer section and any complementary sections per in-scope learning objective against the actual local HTML content.
+The audit checks primary and supplemental Viewer sections per in-scope learning objective against the actual local HTML content. Math 39 is supplemental-only.
 Math 22 and Math 32 are excluded because they use internal workbooks.
 
 ## Summary
@@ -13,6 +13,10 @@ Math 22 and Math 32 are excluded because they use internal workbooks.
 - Primary-course resource gaps: 0
 - Math 39 supplemental gaps: 19
 - Objectives needing specificity review: 1
+
+## Curriculum Database Follow-up
+
+- [ ] **Math 39:** Retrieve the authoritative Math 39 course resources and include them in the curriculum database. All current Math 39 OpenStax links are supplemental only.
 
 ## Primary-Course Resource Gaps
 
@@ -48,7 +52,7 @@ Math 39 does not primarily use OpenStax, so these findings are informational and
 
 ## Unresolved Section Mappings
 
-These objectives remain incomplete even after complementary Viewer sections are allowed.
+These objectives remain incomplete even after supplemental Viewer sections are allowed.
 
 | Objective | Linked sections | Alignment | Finding |
 |---|---|---|---|

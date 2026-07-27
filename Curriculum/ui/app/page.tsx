@@ -17,7 +17,7 @@ type Skill = {
 };
 type OpenStaxResource = {
   book_id: string; book_title: string; section: string; section_title: string;
-  viewer_url: string; role: "primary" | "complementary";
+  viewer_url: string; role: "primary" | "supplemental";
   alignment: "direct" | "partial" | "supporting";
 };
 type ObjectiveResources = {
