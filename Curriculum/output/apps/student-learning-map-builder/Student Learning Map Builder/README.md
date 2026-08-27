@@ -18,13 +18,25 @@ Generated PDFs are saved in `Documents\Student Learning Maps` by default. Use **
 
 The builder never edits the official curriculum. It uses the approved objective wording, supporting skills, and I/D/A/R tags packaged with the application.
 
-## Shared Google Drive distribution
+## USB and shared-drive distribution
 
-Place the complete `Student Learning Map Builder` folder in a faculty-only shared Google Drive. Teachers may open it from a locally synced Google Drive folder or copy the complete folder to their computer. The `_internal` folder must remain beside the executable.
+Copy the complete `Student Learning Map Builder` folder. Teachers may open it from a USB drive or locally synced faculty-only shared drive, or copy the complete folder to their computer. The `_internal` folder must remain beside the executable.
 
-Replace the complete application folder in Google Drive when a curriculum update is packaged.
+Replace the complete application folder when a curriculum update is packaged.
 
-The executable is not digitally signed. If institutional security software blocks it, ask IT to approve or sign the application rather than bypassing the warning.
+Internally signed builds include `Student Learning Map Builder Publisher.cer`. Before distributing the app, ask IT to verify that certificate's thumbprint and deploy it to **Local Computer > Trusted Root Certification Authorities** on the intended Windows computers. This explicitly trusts software signed by the certificate, so IT should verify the thumbprint through a separate trusted channel and limit deployment to school-managed computers. The certificate is constrained to code signing and its private key remains non-exportable on the maintainer's computer. It does not establish public trust on arbitrary computers.
+
+An administrator can install the verified public certificate on one computer with:
+
+```powershell
+Import-Certificate -FilePath ".\Student Learning Map Builder Publisher.cer" -CertStoreLocation Cert:\LocalMachine\Root
+```
+
+The executable's signature and certificate thumbprint can be checked with:
+
+```powershell
+Get-AuthenticodeSignature ".\Student Learning Map Builder.exe" | Format-List Status,StatusMessage,SignerCertificate
+```
 
 ## Mac compatibility
 
@@ -35,7 +47,7 @@ The packaged `.exe` is Windows-only and will not open on macOS. The application 
 The packaged application contains a snapshot of the course and skill-progression data at build time. Repackage it after curriculum changes:
 
 ```powershell
-./tools/package_unit_learning_map_builder.ps1 -PythonExecutable "path-to-python.exe"
+./tools/package_unit_learning_map_builder.ps1 -PythonExecutable "path-to-python.exe" -Sign
 ```
 
-The selected Python environment must contain ReportLab, pypdf, and PyInstaller. The finished distribution is written to `output/apps/student-learning-map-builder/`.
+The selected Python environment must contain ReportLab, pypdf, and PyInstaller. The first signed build creates a non-exportable self-signed certificate in the maintainer's Windows certificate store; later builds reuse it. The private key never enters the application folder. The finished distribution is written to `output/apps/student-learning-map-builder/`.

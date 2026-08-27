@@ -271,7 +271,10 @@ def format_sections(sections, include_titles=False, markup=False):
             format_section(item, include_titles, include_book, markup) for item in sections
         )
     groups = []
-    for role, label in (("primary", "Primary"), ("supplemental", "Supplemental")):
+    for role, label in (
+        ("primary", "Primary resources"),
+        ("supplemental", "Supplemental resources"),
+    ):
         role_sections = [item for item in sections if item.get("role") == role]
         if role_sections:
             entries = "; ".join(
@@ -469,11 +472,11 @@ class GlanceUnitFlowable(Flowable):
 
 
 def course_header(course, resource_data):
-    label = resource_data.get("resource_label", "Resource")
-    meta = (
-        f"{escape(course['title'])} &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; Middlesex School Mathematics"
-        f" &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; {label}: {escape(resource_data['resource'])}"
-    )
+    meta_parts = [escape(course["title"]), "Middlesex School Mathematics"]
+    if resource_data.get("resource") != "OpenStax Viewer":
+        label = resource_data.get("resource_label", "Resource")
+        meta_parts.append(f"{escape(label)}: {escape(resource_data['resource'])}")
+    meta = " &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; ".join(meta_parts)
     return [
         Paragraph(f"{escape(course['number'])} Curriculum", course_title_style),
         Paragraph(meta, course_meta_style),

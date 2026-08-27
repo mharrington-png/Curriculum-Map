@@ -109,7 +109,7 @@ Unit learning maps are written to `output/pdf/unit-learning-maps/`.
 To package the local Windows builder after curriculum or interface changes:
 
 ```powershell
-./tools/package_unit_learning_map_builder.ps1 -PythonExecutable "path-to-python.exe"
+./tools/package_unit_learning_map_builder.ps1 -PythonExecutable "path-to-python.exe" -Sign
 ```
 
 The Google Drive-ready application folder is written to

@@ -1,5 +1,7 @@
 param(
-    [string]$PythonExecutable = "python"
+    [string]$PythonExecutable = "python",
+    [switch]$Sign,
+    [string]$SigningCertificateSubject = "CN=Student Learning Map Builder Internal Publisher"
 )
 
 $ErrorActionPreference = "Stop"
@@ -16,6 +18,7 @@ $workDirectory = Join-Path $workspaceRoot "tmp\student-learning-map-builder-pack
 $courseData = Join-Path $curriculumRoot "data\courses"
 $skillData = Join-Path $curriculumRoot "generated\skill_progressions.json"
 $instructions = Join-Path $curriculumRoot "docs\STUDENT_LEARNING_MAP_BUILDER.md"
+$signingScript = Join-Path $PSScriptRoot "sign_learning_map_builder.ps1"
 
 New-Item -ItemType Directory -Force $outputDirectory | Out-Null
 New-Item -ItemType Directory -Force $workDirectory | Out-Null
@@ -51,4 +54,10 @@ if ($LASTEXITCODE -ne 0) {
 Copy-Item -LiteralPath $instructions -Destination (Join-Path $distributionDirectory "README.md") -Force
 
 $executable = Join-Path $distributionDirectory "Student Learning Map Builder.exe"
+if ($Sign) {
+    & $signingScript `
+        -CertificateSubject $SigningCertificateSubject `
+        -ApplicationDirectory $distributionDirectory
+}
+
 Write-Host "Created $executable"
